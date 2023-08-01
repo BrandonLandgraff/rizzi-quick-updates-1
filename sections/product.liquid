@@ -18,7 +18,8 @@
   @media only screen and (min-width: 750px) {
     #gsa-is-sticky {
       position: sticky;
-      top: 0;
+      top: 120px;
+      height: fit-content;
     }
   }
 {%- endstyle -%}
@@ -81,13 +82,16 @@
   {%- endstyle -%}
 
   <div class="grid product__page{% if image_size == 'stretch' %} grid--no-margin{% endif %}">
-    <div class="grid__item medium-up--one-half product__images">
+    <div id="gsa-is-sticky" class="grid__item medium-up--one-half product__images">
       {%- if product.media.size > 0 -%}
-        <div id="gsa-is-sticky" class="product__slides product-single__photos" data-product-slideshow data-product-single-media-group>
+        <div class="product__slides product-single__photos" data-product-slideshow data-product-single-media-group>
           {%- for media in product.media -%}
             {%- render 'media', media: media, featured_media: featured_media, enable_video_looping: enable_video_looping, sectionkey: unique, image_size_setting: image_size -%}
           {%- endfor -%}
-        </div>
+          {%- if product.media.size > 1 -%}
+              <div data-product-thumbs  class="product__thumbs--square"></div>
+          {%- endif -%} 
+
 
         {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
         {%- if first_3d_model -%}
@@ -103,10 +107,10 @@
         {%- endif -%}
 
         {%- if product.media.size > 1 -%}
-          <div data-product-thumbs  class="product__thumbs--square"></div>
+            <div data-product-thumbs  class="product__thumbs--square"></div>
         {%- endif -%}
       {%- else -%}
-        <div id="gsa-is-sticky" class="product__slides product-single__photos product__slides--{{ image_size }}" data-product-slideshow data-product-single-media-group>
+        <div class="product__slides product-single__photos product__slides--{{ image_size }}" data-product-slideshow data-product-single-media-group>
           <div class="product__photo product__slide">
             <div class="lazy-image" style="padding-top: 100%; background-image: url('{{ product.featured_image | img_url: '1x1' }}');">
               <img loading="lazy"
