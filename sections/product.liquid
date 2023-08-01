@@ -91,6 +91,7 @@
           {%- if product.media.size > 1 -%}
               <div data-product-thumbs  class="product__thumbs--square"></div>
           {%- endif -%} 
+        </div>
 
 
         {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
