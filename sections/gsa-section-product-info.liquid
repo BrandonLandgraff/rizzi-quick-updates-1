@@ -46,7 +46,7 @@
         transform: translateY(-50%);
     }
 
-    @media only screen and (min-width: 1025px) {
+    /* @media only screen and (min-width: 1025px) {
         .video-background {
             min-height: 400px !important;
             max-height: 600px !important;
@@ -106,7 +106,7 @@
             min-height: 100px !important;
             max-height: 200px !important; 
         }
-    }
+    } */
 
     /* SIDE IMAGE SIZING */
     #gsa-side-image {
@@ -124,6 +124,7 @@
 
   {%- endstyle -%}
   <section id="BrickSection--{{ section.id }}"
+    style="background-color: {{ section.settings.bg_color }};"
     data-section-id="{{ section.id }}"
     data-section-type="custom-content"
     {% if transparent_header %}data-overlay-header{% endif %}
@@ -391,6 +392,11 @@
     "name": "Product info",
     "max_blocks": 2,
     "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
       {
         "type": "select",
         "id": "height",
