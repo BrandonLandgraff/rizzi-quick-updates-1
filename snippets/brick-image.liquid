@@ -1,0 +1,111 @@
+{% comment %}
+    Renders image block for custom content or newsletter sections
+
+    Accepts:
+    - block: {Object} Block object
+    - animation_anchor: {String} ID of the element that will trigger animations
+
+    Usage:
+    {% render 'brick-image', block: block, animation_anchor: animation_anchor %}
+{% endcomment %}
+
+{%- liquid
+  assign title = block.settings.title
+  assign description = block.settings.description
+  assign link_text = block.settings.link_text
+  assign bg_color = block.settings.bg_color
+  assign text_color = block.settings.color
+  assign overlay_opacity = block.settings.overlay_opacity | times: 0.01
+  assign overlay_color = block.settings.overlay_color
+  assign show_overlay_text = block.settings.show_overlay_text
+  assign hero_transparent = false
+  if bg_color == 'rgba(0,0,0,0)' or bg_color == blank
+    assign hero_transparent = true
+  endif
+
+  assign show_header_backdrop = false
+  if hero_transparent and show_overlay_text
+    assign show_header_backdrop = true
+  endif
+
+  assign padding_class = ''
+  assign color_difference = bg_color | color_difference: settings.bg_color
+  assign color_brightness = text_color | color_brightness
+  assign text_color_class = ''
+
+  if color_brightness > 127
+    assign text_color_class = 'text-light'
+  else
+    assign text_color_class = 'text-dark'
+  endif
+
+  if color_difference > 10
+    assign padding_class = ' has-padding'
+  endif
+-%}
+
+{%- capture style -%}
+  {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+    --bg: {{ bg_color }};
+  {%- endunless -%}
+
+  {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+    --text: {{ text_color }};
+    --text-light: {{ text_color | color_mix: settings.bg_color, 70 }};
+    --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
+  {%- endunless -%}
+{%- endcapture -%}
+
+<div class="brick__block {{ text_color_class }}"{% if style != blank %} style="{{ style }}"{% endif %} data-overflow-frame {{ block.shopify_attributes }}>
+  <div class="brick__block__image wide-image">
+    <div class="hero__content__wrapper {{ block.settings.flex_align }}{% if show_header_backdrop %} backdrop--linear{% endif %}"{% if show_header_backdrop %} style="--header-overlay-color: {{ overlay_color }}; --header-overlay-opacity: {{ overlay_opacity }};"{% endif %}>
+      {%- if title != '' or description != '' or link_text != '' -%}
+        <div class="hero__content{% if hero_transparent %} hero__content--transparent{% endif %}{% if show_overlay_text %} backdrop--radial{% endif %} js-overflow-content" {% if show_header_backdrop %} style="--bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"{% endif %} data-overflow-content>
+          {%- unless title == '' -%}
+            {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+            <h2 class="hero__title {{ font_size_class }}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="1">{{ title | escape }}</h2>
+          {%- endunless -%}
+
+          {%- unless description == '' -%}
+            {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+            <p class="hero__description h5--body {{ font_size_class }}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="2">
+              {{ description }}
+            </p>
+          {%- endunless -%}
+
+          {%- if link_text != '' -%}
+            <a class="{{ block.settings.button_style }} {{ block.settings.button_color }}"
+              href="{{ block.settings.link }}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="3">
+              {{ link_text | escape }}
+
+              {%- if settings.show_arrow -%}
+                {% render 'icon-arrow-right-alt' %}
+              {%- endif -%}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      {%- if block.settings.link != blank -%}
+        {%- unless link_text != blank -%}
+          <a href="{{ block.settings.link }}" class="hero__content__link" aria-label="{{ link_text | strip_html | escape }}">&nbsp;</a>
+        {%- endunless -%}
+      {%- endif -%}
+    </div>
+
+    {%- unless show_overlay_text -%}
+      <div class="image-overlay" style="--bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"></div>
+    {%- endunless -%}
+
+    {%- render 'image-background', img_object: block.settings.image, frame_height_class: section.settings.height, bg_position: block.settings.bg_position -%}
+  </div>
+</div>

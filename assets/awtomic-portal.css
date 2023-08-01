@@ -1,0 +1,486 @@
+/* ---------- AWTOMIC STYLING - UPDATING BLACK ----------- */
+:root {
+--chakra-colors-black: #000 !important;
+--chakra-colors-gray-800: #0B2D4A !important;
+--chakra-colors-white: #efe7e7 !important;
+}
+
+#bundleapp-subscriptions-root {
+  padding: 12px; !important;
+}
+
+.bundleapp-btn--text {
+  color: #FF4A1C !important;
+}
+
+.bundle-button--pause {
+  color: #FF4A1C !important;
+}
+
+.bundle-button--skip {
+  color: #FF4A1C !important;
+}
+
+.chakra-button {
+  background-color: #FF4A1C !important;
+}
+
+/* ---------- TABLE STYLING ----------- */
+table {
+  border: 0px !important;
+}
+
+tfoot {
+    border-top: 1px solid black !important;
+}
+
+thead {
+    border-bottom: 1px solid black !important;
+}
+
+.bundle-img-empty-state {
+  background-color: black !important;
+}
+
+.bundle-card--next-order-date,
+.bundle-card--edit-frequency,
+.bundle-card--sms,
+.bundle-card--address,
+.bundle-card--payment-method {
+  border: 1px solid black !important;
+  border-radius: 12px !important;
+}
+
+/* ---------- AWTOMIC STYLING ----------- */
+/* Show top shipping bar */
+.bundleapp-modal {
+  margin-top: 42px;
+}
+
+@media only screen and (max-width: 433px) {
+  .bundleapp-modal {
+    margin-top: 48px;
+  }
+}
+
+/* General Button Styling */
+.bundle-button {
+    border-radius: 8px !important;
+    border: 1px solid #000000 !important;
+}
+  
+.awtomatic-plans-container label:first-child {
+    border-radius: 8px !important;
+    border: 1px solid rgba(45, 172, 243, 0.7) !important;
+}
+  
+.bundleapp-modal__container--complete-screen main:before {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0486/3282/3969/files/tile.jpg?v=1669309930);
+    background-size: cover;
+    width: 250px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 195px 120px;
+    display: none;
+}
+
+/* Product Card Desktop */
+.bundle-product-card {
+  width: 300px !important;
+}
+
+.addon-container .bundle-product-card {
+  width: 100% !important;
+}
+
+.addon-container > div {
+  justify-content: flex-start;
+}
+
+/* Quantity Selectors */
+.bundle-product-card__quantity-button-container {
+    background-color: #FF4A1C !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-color: #FF4A1C !important;
+    border-radius: 0.5rem !important;
+    line-height: 1.2rem !important;
+}
+
+.bundle-product-card__quantity-button-container--button svg {
+    fill: white !important;
+}
+
+.awtomatic-sizes-container {
+  display: none !important;
+}
+  
+.bundle-text--subheading {
+  font-weight: bold !important;
+  color: #FF4A1C !important;
+  font-size: 20px !important;
+}
+
+.bundle-text--subheading:after {
+  content: ':';
+}
+  
+/* Add To Cart */
+.bundle-container footer span {
+  color: #0B2D4A;
+}
+  
+.bundle-container footer button {
+  border: none !important;
+}
+  
+.bundle-button.button--primary:enabled {
+  background-color: #FF4A1C !important;
+}
+  
+/* Removing Progress Bar */
+.awtomatic-progress-container {
+	display: none !important;  
+}
+  
+/* Changing Header */
+.bundleapp-modal__container--complete-screen--header-container p {
+  display: none !important;  
+}
+  
+.bundleapp-modal__container--complete-screen header {
+  padding: 0.5em 2em 0em 2em !important;
+}
+
+.bundle-container {
+  padding-bottom: 125px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .bundle-container {
+  	padding-top: 0px !important;  
+    padding-bottom: 150px !important;
+  }
+}
+.bundle-container footer {
+  background-color: white;
+  padding: 0px;
+  height: 0px !important;
+}
+  
+.awtomatic-bab-options-container {
+  width: 90% !important;
+}
+  
+/* One Time Selected */
+.awtomatic-plans-container .selected label:first-child {
+	background-color: #558788 !important;  
+}
+  
+
+
+/* Mobile ---- 768px or less ---- */
+@media only screen and (max-width: 768px) {
+/* Product Card */
+  .bundle-product-card {
+    width: 100% !important;
+    padding: 4px !important;
+  } 
+  
+  .bundle-product-card div {
+    width: 100% !important; 
+  }
+  
+  #lazy-container {
+  	width: 100% !important;
+  }
+  
+  /* Two Column Grid */
+  .bundle-scrollable-section {
+  	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    row-gap: 3rem !important;
+  }
+  
+  /* Shipping Info Removed */
+  .awtomatic-bab-options-container:before {
+    display: none;
+  }
+  
+  /* Back Button */
+  .bundle-container footer .button--secondary {
+  	display: none;
+  }
+  
+  .bundle-container footer div:first-child div:first-child div:first-child{
+/*     width: 250px; */
+    font-size: 0px;
+  }
+  
+  .bundle-container footer div:first-child div:first-child div:first-child:after {
+    content: 'Delivery Options'; 
+    position: relative;
+/*     left: 8px; */
+/*     top: -12px; */
+    margin-top: 12px;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 8px 16px; !important;
+    border: 1px solid rgba(249, 102, 13, 0.6) !important;
+    border-radius: 8px;
+    color: white !important;
+    background-color: #F9660D;
+    font-size: 16px;
+  }
+  
+  .bundleapp-selectwrap {
+  	display: none !important;
+  }
+  
+  .bundle-container footer {
+  	height: 0px !important;
+  }
+  
+  /* Centering Add to Cart Button */
+  .bundle-container footer div:first-child div:nth-child(4) {
+  	margin: auto;
+    grid-gap: 12px !important;
+  }
+  
+  .bundle-container footer div:first-child div:nth-child(3) {
+  	margin: auto;
+    padding-top: 12px;
+    gap: 0.5rem;
+  }
+  
+  /* Progress Container */
+  .awtomatic-progress-container {
+  	display: none !important;
+  }
+  
+  .awtomatic-selling-plans-container label {
+    margin-top: 12px;
+  }
+  
+  /* Removing Title */
+  .bundleapp-modal__container--complete-screen--header-container:after {
+    display: none;
+  }
+  
+/* Centering Payment Options */
+  .awtomatic-bab-options-container {
+      margin: auto !important;  
+  }
+}
+  
+  
+/* Customer Portal */
+.bundle-subs-detail-layout .awtomatic-line-edit-button {
+  background-color: #FF4A1C !important;
+  color: white !important;
+  padding: 8px 20px !important;
+}
+
+.bundle-card--next-order-date .bundleapp-flex button {
+  color: #FF4A1C !important;
+}
+  
+.bundle-card--sms button {
+  color: #FF4A1C !important;
+}
+  
+.bundle-card__button  {
+  color: #FF4A1C !important;
+}
+  
+  
+#bundleapp-subscriptions-portal .bundle-action-col-layout .bundle-card {
+  max-width: 100% !important;
+  border-radius: 8px;
+}
+  
+/* Customer Portal Edit Box */
+#bundleapp-subscriptions-portal .bundleapp-modal .bundleapp-modal__container--complete-screen .bundle-container footer div div:nth-child(2) {
+  gap: 8px !important;
+  padding-bottom: 8px;
+  margin: 0px;
+}
+  
+#bundleapp-subscriptions-portal .bundleapp-modal .bundleapp-modal__container--complete-screen .bundle-container footer div:first-child .bundle-text--body {
+	display: none;
+}
+  
+  
+@media only screen and (max-width: 768px) {
+  #bundleapp-subscriptions-portal .bundle-container main {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+      row-gap: 3rem !important;
+  }
+}
+  
+/* Adjusting the header */
+.site-header .site-header__wrapper .site-header__wrapper__right {
+  	justify-content: space-around !important;
+}
+  
+.site-nav li:first-child .site-nav__link:first-child {
+  background-color: #f9660d !important;
+  border-radius: 8px !important;
+}
+  
+.site-nav__dropdown li:first-child .site-nav__link:first-child {
+  background-color: transparent !important;
+}
+  
+@media only screen and (max-width: 875px) {
+  .site-header .site-header__wrapper .site-header__wrapper__right {
+    justify-content: flex-end !important;
+  }
+  
+  .mobile-nav>.mobile-nav__item:first-child {
+  	background-color: #f9660d !important;
+  }
+
+  .mobile-nav>.mobile-nav__item:first-child a {
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+  
+  #customer_login_link {
+  	background-color: white;
+  }
+}
+  
+.bundle-button--order-now {
+  color: white !important;
+}
+
+
+/* Removing Freqency Editing */
+.bundle-card--frequency {
+	display: none !important;
+}
+
+/* My Subscriptions Page */
+#bundle-app .bundleapp-subscriptions-list__title {
+  font-size: 36px;
+  color: #1a4760;
+}
+.bundle-product-card__title {
+    color: #FF4A1C;
+    font-weight: 700 !important;
+    text-decoration: underline;
+}
+
+/* Expanding the more details */
+@media screen and (min-width: 768px) {
+  .slide-panel-container {
+    width: 768px !important;
+  }
+
+/*   Slide Out Styling */
+  .image-slider-button svg {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .awtomic-image-carousel .next {
+    right: 28px !important;
+  }
+
+  #slidepanel-title {
+    font-size: 48px !important;
+    padding-top: 24px;
+  }
+
+  .bundle-text--body {
+    font-size: 18px !important;
+  }
+
+  .bundle-text--body .mini-header {
+    font-size: 24px !important;
+    padding-top: 18px;
+    font-family: var(--body-font-stack) !important;
+  }
+
+  .mini-header {
+    font-size: 24px !important;
+  }
+}
+
+/* Slideout Mobile Adjustments */
+  .bundle-text--body {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .discounted-addons-featured-price {
+    font-size: 18px;
+  }
+
+  .bundle-text--body .mini-header {
+    font-size: 24px !important;
+    padding-top: 18px;
+    font-family: var(--body-font-stack) !important;
+  }
+
+  .mini-header {
+    font-size: 20px !important;
+  }
+
+  #slidepanel-title {
+    font-size: 26px !important;
+    padding-top: 24px;
+  }
+
+
+@media screen and (min-width: 768px) {
+  .awt-img-carousel-viewport div:first-child {
+    height: 100% !important;
+  }
+}
+
+  .awt-img-carousel-viewport div:first-child {
+    height: 100% !important;
+  }
+
+.slide-panel-container .bundle-text--heading {
+  display: none;
+}
+
+.slide-panel-container .bundle-text--body {
+  color: #0B2D4A;
+}
+
+/* ---------- BUNDLE STYLING ----------- */
+@media only screen and (max-width: 768px) {
+/*   .addon-container>div {
+    justify-content: center !important;
+  }
+  
+  .addon-container div {
+      grid-template-columns: repeat(auto-fit, 100%) !important;
+  } */
+
+/*   .bundle-product-card {
+  width: 300px !important;
+} */
+
+  .addon-container .bundle-product-card {
+    width: 142px!important;
+  }
+  
+  .addon-container div {
+      grid-template-columns: repeat(auto-fit, 142px) !important;
+  }
+  
+
+/* .addon-container > div {
+  justify-content: flex-start;
+} */
+}
+

@@ -1,0 +1,139 @@
+{% comment %}
+    Renders newsletter form from a block on newsletter, footer, popup and custom content sections
+
+    Accepts:
+    - block: {Object} Block object
+    - show_discount_message: {String} Discount message text (Optional)
+    - success_text: {String} Success message text (Optional)
+    - small_newsletter: {Boolean} Set true to hide the form
+
+    Usage:
+    {% render 'newsletter-form', block: block, show_discount_message: show_discount_message success_text: success_text, small_newsletter: small_newsletter %}
+{% endcomment %}
+
+{%- liquid
+  assign form_class = 'newsletter-form'
+  if small_newsletter
+    assign form_class = form_class | append: ' hide'
+  endif
+
+  assign placeholder_default = 'general.newsletter_form.newsletter_email' | t
+  assign placeholder_field = placeholder | default: placeholder_default
+
+  assign text_color = section.settings.text_color
+  
+  if block
+    assign text_color = block.settings.color
+  endif
+
+  if footer
+    assign text_color = settings.footer_text
+  endif
+
+  if text_color == 'rgba(0,0,0,0)' or text_color == blank
+    assign text_color = settings.text_color
+  endif
+
+  assign text_color_brightness = text_color | color_brightness
+
+  if text_color_brightness > 127
+    assign text_contrast_color = '#000'
+  else
+    assign text_contrast_color = '#fff'
+  endif
+
+  assign input_group = true
+  assign show_name = block.settings.show_name
+  if show_name
+    assign input_group = false
+  endif
+  assign form_id = 'newsletter-form-' | append: block.id
+  assign field_id = 'email-input-' | append: block.id
+  assign form_id = 'newsletter-form-' | append: block.id
+  assign button_id = 'subscribe-button-' | append: block.id
+  assign button_color = block.settings.button_color
+  assign button_text = block.settings.button_text
+  if button_text == blank
+    assign button_text = 'general.newsletter_form.submit' | t
+  endif
+
+  capture button_class
+    if small_newsletter
+      echo 'btn caps'
+    else
+      unless show_name
+        echo 'caps'
+      else
+        echo 'btn ' | append: button_color
+      endunless
+      
+      echo ' newsletter__submit'
+      
+      if input_group
+        echo ' input-group__btn'
+      endif
+    endif
+  endcapture
+-%}
+
+{%- capture style -%}
+  --text: {{ text_color }};
+  --text-a35: {{ text_color | color_modify: 'alpha', 0.35 }};
+  --text-a75: {{ text_color | color_modify: 'alpha', 0.75 }};
+{%- endcapture -%}
+
+{%- capture submit_button -%}
+  <button type="submit" class="{{ button_class }}" name="subscribe" id="{{ button_id }}">
+    {{ button_text }}
+  </button>
+{%- endcapture -%}
+
+{%- capture email_field -%}
+  <input type="email" id="{{ field_id }}" class="{% if input_group %}input-group__field{% else %}input-field{% endif %}" placeholder="{{ placeholder_field }}" aria-label="{{ placeholder_field }}" autocorrect="off" autocapitalize="off" name="contact[email]" data-newsletter-field required>
+{%- endcapture -%}
+
+{%- capture name_field -%}
+  <input type="text" name="contact[first_name]" class="input-field" aria-label="{{ 'general.newsletter_form.name' | t }}" placeholder="{{ 'general.newsletter_form.name' | t }}" value="{% if customer %}{{ customer.first_name }}{% endif %}">
+{%- endcapture -%}
+
+{%- form 'customer', class: form_class, id: form_id, data-newsletter-form: '', style: style -%}
+  {%- liquid
+    assign success_message = 'general.newsletter_form.thank_you' | t
+    assign success_message_discount = 'general.newsletter_form.thank_you_with_code_html' | t
+
+    if success_text != blank
+      assign success_message_discount = success_text | remove: '<p>' | remove: '</p>'
+    endif
+  -%}
+
+  {%- if form.posted_successfully? -%}
+    <p class="newsletter__message newsletter__message--success">
+      {%- if show_discount_message and success_message_discount != blank -%}
+        {{ success_message_discount }}
+      {%- else -%}
+        {{ success_message }}
+      {%- endif -%}
+    </p>
+  {%- endif -%}
+
+  <p class="newsletter__message newsletter__message--error">
+    <em>{{ 'general.newsletter_form.error_message' | t }}</em>
+  </p>
+
+  <input type="hidden" name="contact[accepts_marketing]" value="true">
+
+  {%- if show_name -%}
+    <div class="input-row">{{ name_field }}</div>
+    <div class="input-row">{{ email_field }}</div>
+    <div class="input-row">{{ submit_button }}</div>
+  {%- endif -%}
+
+  {%- unless show_name -%}
+    <div class="input-group">
+      {{ email_field }}
+      {{ submit_button }}
+    </div>
+  {%- else -%}
+    
+  {%- endunless -%}
+{%- endform -%}

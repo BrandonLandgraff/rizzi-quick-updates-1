@@ -1,0 +1,56 @@
+
+<div data-api-content>
+  {%- if product.media.size > 0 -%}
+    {% assign image_size = section.settings.image_size | default: 'normal' %}
+    <div class="product-quick-add__slides{% if product.media.size == 2 %} product-quick-add__slides--2{% endif %}"{% if product.media.size > 2 %} data-product-slideshow{% endif %} data-product-single-media-group>
+      {%- for media in product.media -%}
+        {%- render 'media', media: media, featured_media: featured_media, enable_video_looping: true, sectionkey: section.id -%}
+      {%- endfor -%}
+    </div>
+
+    {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
+    {%- if first_3d_model -%}
+      <button
+        class="btn btn--outline btn--neutral btn--ar product-quick-add__view-in-space"
+        data-shopify-xr
+        data-shopify-model3d-id="{{ first_3d_model.id }}"
+        data-shopify-title="{{ product.title | strip_html }}"
+        data-shopify-xr-hidden>
+        {% render 'icon-media-model' %}
+        <span class="product-quick-add__view-in-space-text">{{ 'products.general.view_space' | t }}</span>
+      </button>
+    {%- endif -%}
+  {%- else -%}
+    <div class="product-quick-add__slides" data-product-single-media-group>
+      <div class="product__slide">
+        <div class="product__photo">
+          <div class="lazy-image" style="padding-top: 100%; background-image: url('{{ product.featured_image | img_url: '1x1' }}');">
+            <img loading="lazy"
+              class="lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{- product.featured_image | img_url: '1080x' -}}"
+              alt="{{- product.title | strip_html | escape -}}">
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="product-quick-add__form">
+    <div class="product-quick-add__form__inner" data-form-wrapper>
+      {%- assign product_form_id = 'product-form-upsell-' | append: section.id | append: '-' | append: product.id -%}
+      
+      {%- render 'product-title' product: product, section_id: section.id -%}
+
+      {%- render 'product-siblings' product: product, uniq_id: product_form_id, block: block, metafields: true -%}  
+
+      {%- render 'product-form' product: product, section_id: section.id, enable_quantity_selector: false, show_product_description: true, uniq_id_form: product_form_id -%}
+    </div>
+  </div>
+
+  {% unless product == empty %}
+    <script type="application/json" data-product-json>
+      {{ product | json }}
+    </script>
+  {% endunless %}
+</div>

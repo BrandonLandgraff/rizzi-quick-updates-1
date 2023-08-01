@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Vollkorn;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n7.be19bbe45f66431264c0cea0e8bb1981ba49c070.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=cb197f30ef24080bc59cbf2169db4fa40e6d93f9e34122b63327f1a924943708") format("woff2"),
+       url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n7.e03e2fe912e19f149ed3a428befe474802b53ab1.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=034835699a8e9860c09e7434cd8b4b0732589c302cfba8a344afaf8a3889a488") format("woff");
+}
+
+@font-face {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/nunito/nunito_n4.eeda324bc2f350e5c92cf5ef4a0712035386bd19.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=83963d90525f775c4a9f4837ff9cf674b9ca85f0f70daf7041ef9fd7c43910b6") format("woff2"),
+       url("https://fonts.shopifycdn.com/nunito/nunito_n4.510d96f4fbdd1b53fb60bf060c2e23e85d391444.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=6d6db286933b5879591c678f689c010fa64e3d21c48f56df7870554327b8ad64") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: Vollkorn;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n9.f3d0464e3c09ea861f029a45500f72367690dc2d.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=dbbaed086d6e1fe6edda5cea0fab97f09ba13ee7522e266d6bf08993dae07af4") format("woff2"),
+       url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n9.efd6234fa77a7bc5db1827d2253aec877da7c854.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=660bc764f97933c618c79b1f569ec793e18d46948ccce2606c9b1eef30879c4a") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Nunito;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/nunito/nunito_n6.25fbb07676e80c0118b1a227738a6690eb775389.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=d967854cc34ed35e7ac5b33e1a9ff7571c461424076f3992266d55568e7662a5") format("woff2"),
+       url("https://fonts.shopifycdn.com/nunito/nunito_n6.aab9ccab139d7ff8b79e563298ad6f44613db3ac.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=4bc6280c03364d0ccef654d9ccc05fc92988ce52e8e4e384f0932778207a3ca3") format("woff");
+}
+
+
+
+
+
+
+
+  @font-face {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/nunito/nunito_i4.dbaca638c505ec148af97f053d848593eba2f0b4.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=40b120ba7df406dab4459812c71a602e547f82071f029d912c29602882183361") format("woff2"),
+       url("https://fonts.shopifycdn.com/nunito/nunito_i4.30fd4764a73b8d42cc49848e358ad40d27278c54.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=04ecd649296a4c7498d4f97ab7b97a899d0ae052d0ad167692a981cab6fdd279") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Nunito;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/nunito/nunito_i6.d65319172504fb7bff31b57ef44c79d4efa9b7e3.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=4aeeb39b22e607e0a24301b630101c48f6a4a8bff829cad760daccfd20d5ae72") format("woff2"),
+       url("https://fonts.shopifycdn.com/nunito/nunito_i6.8dc890848552953c4dbae21afe9299c965be25a9.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=1ccd4e740e6070fc195022f8d64b0f27fb3d9b1c9371ae068b318c8ba8479c03") format("woff");
+}
+

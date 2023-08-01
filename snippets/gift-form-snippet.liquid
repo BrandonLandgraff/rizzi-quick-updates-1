@@ -1,0 +1,45 @@
+<style>
+    .gsa-gift-section {
+        background-color: #002E4A;
+        padding: 12px;
+        margin-top: 20px;
+    }
+    .gsa-gift-section h6, .gsa-gift-section label {
+        color: #FAFAFA;
+    }
+
+    .gift-note {
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .gsa-gift-section input {
+        color: white;
+        border-color: white;
+    }
+
+    .gsa-gift-section input:-webkit-autofill,
+    .gsa-gift-section input:-webkit-autofill:focus  {
+        -webkit-text-fill-color: #ffffff;
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+    
+</style>    
+<!-- GSA Gift Section START -->
+{%- if block.settings.show_gift -%}
+<div class="gsa-gift-section cart-attribute__field">
+    <h6 class="gsa-options">GIFT INFO: Required</h6>
+    <p class="gift-note"><strong>NOTE:</strong> This will not spoil their gift! This allows the recipient to receive upcoming order emails, delay their shipment, or update their address - with all gift pricing hidden!.</p>
+    <label for="giftemail" class="form__label">Recipient's Email Address:*</label>
+    <p class="line-item-property__field">
+        <input onmouseleave="add_to_cart_validation()" onkeydown="add_to_cart_validation()" onkeyup="add_to_cart_validation()"  disabled id="giftemail" type="email" name="properties[_giftEmail]" value="{{ cart.attributes["Recipients Email Address:"] }}">
+    </p>
+    <label for="giftname" class="form__label">Recipient's Name:*</label>
+    <p class="line-item-property__field">
+        <input onmouseleave="add_to_cart_validation()" onkeydown="add_to_cart_validation()" onkeyup="add_to_cart_validation()" disabled id="giftname" type="text" name="properties[_giftFirstName]" value="{{ cart.attributes["Recipients Email Address:"] }}">
+    </p>
+</div>
+{%- endif -%}

@@ -1,0 +1,517 @@
+<style>
+    .radio__fieldset.deliver-every-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 12px;
+    } 
+
+    .radio__fieldset.plan-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    } 
+
+    #gsa-plan {
+      width: 100% !important;
+      text-align: center !important;
+    }
+
+    .plan-container .radio__button,
+    .deliver-every-container .radio__button {
+        padding: 0;
+    }
+
+    .radio__fieldset.plan-container .active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+    } 
+    .free-shipping-label {
+        font-weight: 700;
+        width: 100%;
+        height: 18px;
+        font-size: 10px;
+        line-height: 28px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    .cancel-label {
+        font-weight: 700;
+        background: transparent;
+        width: 98px;
+        height: 24px;
+        font-size: 10px;
+        line-height: 28px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    @media (max-width: 749px) {
+        .free-shipping-label {
+            font-size: 8px;
+        }
+    }
+
+    #gsa-free-shipping {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #FF4A1C;
+    }
+
+    @media only screen and (max-width: 750px) {
+        #gsa-free-shipping {
+            font-size: 14px;
+        }
+    }
+
+    #gsa-cancel-anytime {
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    {% comment %} .gsa-purchase-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 0px !important;
+    }
+
+    .gsa-purchase-options span,
+    .gsa-purchase-options label {
+        width: 100%;
+        text-align: center
+    }
+
+    .radio__fieldset.gsa-purchase-options div:first-child label.active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+        border-radius: 4px 0px 0px 4px;
+    }
+
+    .radio__fieldset.gsa-purchase-options div:last-child {
+        border-radius: 0px 4px 4px 0px;
+        border-left: none;
+    }
+
+    .radio__fieldset.gsa-purchase-options div:last-child label.active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+        border-left: 2px;
+    } {% endcomment %}
+
+    {% comment %} .radio__fieldset.gsa-purchase-options label.active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+        border-radius: 0px 4px 4px 0px;
+    } {% endcomment %}
+
+</style>  
+
+{% assign product_plans = "Subscribe & Save, One Time" | split: ", " %}
+
+{% render 'gsa-subscription-explained' %}
+
+<div id="gsa-plans-container" class="radio__fieldset plan-container gsa-purchase-options items-center">
+    {% for plan in product_plans %}
+    <div>
+        <span id="gsa-plan" class="radio__button">
+            <label onclick="purchase_options(event)" 
+                   class="plan-labels{% if forloop.first == true %} active {% endif %}" style="{% if forloop.first == true %}border-radius: 4px 4px 0px 0px;{% endif %}">{{ plan }}</label>
+        </span>
+        {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #FF4A1C;">SAVE 12% + FREE SHIPPING</span> {% endif %} 
+    </div>
+
+    {% endfor %}
+</div>
+
+<script>
+window.onload = function() {
+    purchase_options(event);
+    selectedWrapperStyle();
+    variant_dynamic_pricing();
+    gift_delivery_every_options();
+    gift_stops_after_options();
+    price_calculator("subscribe");
+}
+
+function price_calculator(purchase_options) {
+    let compare_purchase_options = purchase_options.toLowerCase();
+    let calculate_box_size = document.querySelectorAll('.radio__fieldset .radio__button input');
+
+    let calculate_deliver_every = document.querySelectorAll('.deliver-plan-labels.active')[0];
+    let calculate_gift_deliver_every = document.querySelectorAll('.gift-delivery-every.active')[0];
+    let calculate_gift_stops_after = document.querySelectorAll('.gift-stops-after.active')[0];
+
+    let calculate_box_size_value = document.getElementsByClassName("calculator_box_size")[0];
+    let calculate_deliver_every_value = document.getElementsByClassName("calculator_deliver_every")[0];
+    let calculate_order_value = document.getElementsByClassName("deliver_orders")[0];
+
+    let gsa_free_shipping = document.getElementById("gsa-free-shipping");
+    let gsa_free_shipping_label = document.getElementById("gsa-shipping-label");
+    let gsa_cancel_anytime = document.getElementById("gsa-cancel-anytime");
+
+    let current_calculate_box_size = "";
+    for (let value of calculate_box_size) {
+        if(value.checked) {
+            current_calculate_box_size = value.value;
+        }
+    }
+
+    if(compare_purchase_options.includes("gift")) {
+        calculate_box_size_value.innerHTML = current_calculate_box_size;
+        calculate_deliver_every_value.innerHTML = calculate_gift_deliver_every.innerHTML;
+        calculate_order_value.innerHTML = calculate_gift_stops_after.innerHTML;
+    } else if (compare_purchase_options.includes("subscribe")) {
+        gsa_free_shipping.innerHTML = "FREE SHIPPING";
+        gsa_free_shipping.style.color = "#FF4A1C";
+        gsa_cancel_anytime.innerHTML = "CANCEL ANYTIME";
+
+        gsa_free_shipping_label.style.color = "#FFFFFF";
+        gsa_free_shipping_label.style.backgroundColor = "#FF4A1C";
+    }else {
+        gsa_free_shipping.innerHTML = "+ SHIPPING";
+        gsa_free_shipping.style.color = "#787474";
+        gsa_cancel_anytime.innerHTML = "";
+
+        gsa_free_shipping_label.style.color = "#060606";
+        gsa_free_shipping_label.style.backgroundColor = "#888888";
+    }
+}
+
+function selectedWrapperStyle() {
+    let wrapper_color = document.querySelectorAll('[name="options[Color]"]');
+    for (let color of wrapper_color) {
+        color.addEventListener('click', function(e){
+        var selected_wrapper_style = document.getElementsByClassName('selected_wrapper_style')[0];
+        selected_wrapper_style.innerHTML = e.target.value;
+        })
+    } 
+}
+
+function subscription_pricing (variants, current_box_variant, current_wrapper_variant) {
+    for (let varaint of variants) {
+        for (let current_variant of varaint) {
+            if (current_box_variant === current_variant.option2 && current_wrapper_variant === current_variant.option1) {
+                let price_container = document.getElementsByClassName('product__price')[0];
+                let price_container_span = price_container.getElementsByTagName('span')[0];
+                let new_price = document.getElementById('new_price');
+                let gift_subscription_container = document.getElementById('gift_subscription_price');
+                
+                if(gift_subscription_container) {
+                    gift_subscription_container.style.display = "none";
+                }
+                price_container_span.style.display = "none";
+
+                if (new_price) {
+                    new_price.style.display = "none";
+                    new_price.innerHTML = "$" + (current_variant.price/100).toFixed(2);
+                }
+                
+                let check_subscription_container = document.getElementById('new_subscription_price');
+                if(!check_subscription_container) {
+                    let new_price_container = document.createElement('span');
+                    new_price_container.id = "new_subscription_price";
+                    new_price_container.style.display = "block";
+                    new_price_container.innerHTML = "$" + (current_variant.selling_plan_allocations[0].price/100).toFixed(2);
+                    price_container.appendChild(new_price_container);
+                }else {
+                    check_subscription_container.innerHTML = "$" + (current_variant.selling_plan_allocations[0].price/100).toFixed(2);
+                }
+
+                if(check_subscription_container) {
+                    if(check_subscription_container.style.display == "none") {
+                        check_subscription_container.style.display = "block";
+                    }
+                }
+            }
+        }  
+    }
+}
+
+function enable_atc() {
+    let enabled_atc = document.getElementsByClassName("product__submit__add")[0];
+    let enabled_atc_style = document.getElementsByClassName("product__submit__add")[0];
+    if(enabled_atc.disabled) {
+        enabled_atc.disabled = false;
+    }
+    if(enabled_atc_style.classList.contains("disabled")) {
+        enabled_atc_style.classList.remove("disabled");
+    }
+}
+
+function add_to_cart_validation() {
+    let disabled_atc = document.getElementsByClassName("product__submit__add")[0];
+    let disabled_atc_style = document.getElementsByClassName("product__submit__add")[0];
+    disabled_atc.disabled = true;
+    disabled_atc_style.classList.add("disabled");
+
+    let gift_email = document.getElementById('giftemail');
+    let gitt_name = document.getElementById('giftname');
+
+    if(gift_email.value != "" && gitt_name.value != "") {
+        disabled_atc.disabled = false;
+        disabled_atc_style.classList.remove("disabled");
+    }
+
+    gift_email.addEventListener("keyup", function(e){
+        if(gift_email.value != "" && gitt_name.value != "") {
+            disabled_atc.disabled = false;
+            disabled_atc_style.classList.remove("disabled");
+        }
+    });
+
+    gitt_name.addEventListener("keyup", function(e){
+        if(gift_email.value != "" && gitt_name.value != "") {
+            disabled_atc.disabled = false;
+            disabled_atc_style.classList.remove("disabled");
+        }
+    });
+}
+
+function purchase_options(event) {
+    {% comment %}  {% endcomment %}
+    let gift_section = document.getElementsByClassName("gsa-gift-section")[0];
+    if(gift_section){
+        if(event.target.innerHTML == 'Gift Subscription') {
+            document.getElementById("giftemail").disabled = false;
+            document.getElementById("giftname").disabled = false;
+            gift_section.classList.remove("hidden");
+        }else {
+            document.getElementById("giftemail").disabled = true;
+            document.getElementById("giftname").disabled = true;
+            gift_section.classList.add("hidden");
+        }
+    }
+    {% comment %}  {% endcomment %}
+    var plan_radio_buttons = document.getElementsByClassName('plan-container');
+    var labels = [].slice.call(plan_radio_buttons[0].querySelectorAll('.plan-labels'), 0);
+    
+    for (let label of labels) {
+        label.addEventListener('click', function(e) {
+            let deliverEvery = document.getElementsByClassName('deliver-every')[0];
+            let giftShopAfter = document.getElementsByClassName('gift-shop-after')[0];
+            let subscribe_input = document.getElementById("deliver-frequency");
+            let current_varriant_id_dom = document.querySelectorAll('#current_variant_id > input')[0];
+            let prepaid_variant_id = document.getElementById('prepiad_variant_id');
+            let prepaid_selling_plan = document.getElementById('prepiad_selling_plan_id');
+    
+            for (let label of labels) {
+                label.classList.remove("active");
+            }
+            e.target.classList.add('active');
+    
+            {% comment %} Purchase options Events {% endcomment %}
+            if(e.target.innerHTML == 'One Time') {
+                enable_atc();
+                price_calculator("one_time");
+                deliverEvery.classList.add('hide');
+                giftShopAfter.classList.add('hide');
+                let sellingPlan_input_value = subscribe_input.getElementsByTagName("input")[0];
+                
+                if(sellingPlan_input_value) {
+                    sellingPlan_input_value.disabled = true;    
+                }
+                if(current_varriant_id_dom) {
+                    current_varriant_id_dom.disabled = false;
+                }
+                if(prepaid_variant_id) {
+                    prepaid_variant_id.disabled = true;
+                }
+                if(prepaid_selling_plan) {
+                    prepaid_selling_plan.disabled = true;
+                }
+    
+                {% comment %} Dynamic Pricing {% endcomment %}
+                let variants = [];
+                var array = Object.entries({{ product | json }}); 
+                for (let value of array) {
+                    if(value[0] == "variants") {
+                        variants.push(value[1]);
+                    }
+                }
+    
+                {% comment %} Option events {% endcomment %}
+                let box_size_price = document.querySelectorAll('.radio__fieldset .radio__button input');
+                let wrapper_color_price = document.querySelectorAll('[name="options[Color]"]');
+    
+                let current_box_variant= "";
+                for (let value of box_size_price) {
+                    if(value.checked) {
+                        current_box_variant = value.value;
+                    }
+                }
+    
+                let current_wrapper_variant= "";
+                for (let value of wrapper_color_price) {
+                    if(value.checked) {
+                        current_wrapper_variant = value.value;
+                    }
+                }
+
+                for (let varaint of variants) {
+                    for (let current_variant of varaint) {
+                        if (current_box_variant === current_variant.option2 && current_wrapper_variant === current_variant.option1) {
+                            let price_container = document.getElementsByClassName('product__price')[0];
+                            let price_container_span = price_container.getElementsByTagName('span')[0];
+                            let subscription_price = document.getElementById('new_subscription_price');
+                            let gift_subscription_container = document.getElementById('gift_subscription_price');
+                            
+                            if(gift_subscription_container) {
+                                gift_subscription_container.style.display = "none";
+                            }
+
+                            price_container_span.style.display = "none";
+                            if(subscription_price) {
+                                subscription_price.style.display = "none";
+                                subscription_price.innerHTML = "$" + (current_variant.selling_plan_allocations[0].price/100).toFixed(2);
+                            }
+    
+                            let check_container = document.getElementById('new_price');
+                            if(!check_container) {
+                                let new_price_container = document.createElement('span');
+                                new_price_container.id = "new_price";
+                                new_price_container.style.display = "block";
+                                new_price_container.innerHTML = "$" + (current_variant.price/100).toFixed(2);
+                                price_container.appendChild(new_price_container);
+                            }else {
+                                check_container.innerHTML = "$" + (current_variant.price/100).toFixed(2);
+                            }
+    
+                            if(check_container) {
+                                if(check_container.style.display == "none") {
+                                    check_container.style.display = "block";
+                                }
+                            }
+                        }
+                    }  
+                }              
+            }
+            else if(e.target.innerHTML == 'Gift Subscription') {
+                add_to_cart_validation();
+                price_calculator("gift_subscription");
+                deliverEvery.classList.add('hide');
+                giftShopAfter.classList.remove('hide');
+                let sellingPlan_input_value = subscribe_input.getElementsByTagName("input")[0];
+                {% comment %}  {% endcomment %}                    
+                let price_container = document.getElementsByClassName('product__price')[0];
+                let price_container_span = price_container.getElementsByTagName('span')[0];
+                {% comment %} price_container_span.style.display = "none"; {% endcomment %}
+                let new_price = document.getElementById('new_price');
+                if (new_price) {
+                    new_price.style.display = "none";
+                }
+
+                let check_subscription_container = document.getElementById('new_subscription_price');
+                if(check_subscription_container) {
+                    check_subscription_container.style.display = "none";
+                }
+
+                fetchPrepaidProduct(); 
+                if(current_varriant_id_dom) {
+                    current_varriant_id_dom.disabled = true;
+                }
+                if(sellingPlan_input_value) {
+                    sellingPlan_input_value.disabled = true;    
+                } 
+                if(prepaid_variant_id) {
+                    if(prepaid_variant_id.disabled){
+                        prepaid_variant_id.disabled = false;
+                    }
+                }
+                if(prepaid_selling_plan) {
+                    if(prepaid_selling_plan.disabled) {
+                        prepaid_selling_plan.disabled = false;
+                    }
+                }
+                {% comment %}  {% endcomment %}
+                {% comment %} Option events {% endcomment %}
+                let box_size_price = document.querySelectorAll('.radio__fieldset .radio__button input');
+                let wrapper_color_price = document.querySelectorAll('[name="options[Color]"]');
+    
+                let current_box_variant= "";
+                for (let value of box_size_price) {
+                    if(value.checked) {
+                        current_box_variant = value.value;
+                    }
+                }
+    
+                let current_wrapper_variant= "";
+                for (let value of wrapper_color_price) {
+                    if(value.checked) {
+                        current_wrapper_variant = value.value;
+                    }
+                }
+            }
+            else {
+                enable_atc();
+                price_calculator("subscribe");
+                deliverEvery.classList.remove('hide');
+                giftShopAfter.classList.add('hide');
+                let sellingPlan_input_value = subscribe_input.getElementsByTagName("input")[0];
+                if(sellingPlan_input_value) {
+                    sellingPlan_input_value.disabled = false;    
+                }
+                if(current_varriant_id_dom) {
+                    current_varriant_id_dom.disabled = false;
+                }
+                if(prepaid_variant_id) {
+                    prepaid_variant_id.disabled = true;
+                }
+                if(prepaid_selling_plan) {
+                    prepaid_selling_plan.disabled = true;
+                }
+    
+                {% comment %} Option events {% endcomment %}
+                let box_size_price = document.querySelectorAll('.radio__fieldset .radio__button input');
+                let wrapper_color_price = document.querySelectorAll('[name="options[Color]"]');
+    
+                var current_box_variant= "";
+                for (var value of box_size_price) {
+                    if(value.checked) {
+                        current_box_variant = value.value;
+                    }
+                }
+    
+                var current_wrapper_variant= "";
+                for (var value of wrapper_color_price) {
+                    if(value.checked) {
+                        current_wrapper_variant = value.value;
+                    }
+                }
+    
+                {% comment %} Dynamic Pricing {% endcomment %}
+                let variants = [];
+                var array = Object.entries({{ product | json }}); 
+                for (let value of array) {
+                    if(value[0] == "variants") {
+                        variants.push(value[1]);
+                    }
+                }
+    
+                subscription_pricing (variants, current_box_variant, current_wrapper_variant); 
+            }
+        });
+    }
+    
+
+}
+
+</script>  

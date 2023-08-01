@@ -1,0 +1,92 @@
+<style>
+    .deliver-every.hide {
+        height: 0;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .radio__fieldset.deliver-every-container .active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+    }
+
+  .deliver-every-container .radio__button {
+    flex-grow: 1;
+  }
+  .gsa-suggested {
+        font-weight: 700;
+        width: 100%;
+        height: 18px;
+        font-size: 10px;
+        line-height: 28px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #FF4A1C;
+        border-radius: 0px 0px 4px 4px;
+    }
+</style> 
+<div id="deliver-frequency">
+    {% for group in product.selling_plan_groups %}
+        {% for selling_plan in group.selling_plans %}
+            {% if forloop.first == true %}
+                <input type="hidden" name="selling_plan" value="{{ selling_plan.id }}"/>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+
+<div class="deliver-every">
+    {% render 'gsa-frequency-explained' %}
+    <div class="radio__fieldset deliver-every-container">
+        {% for group in product.selling_plan_groups %}
+            {% for selling_plan in group.selling_plans %}
+            <div>
+            <span id="gsa-plan" class="radio__button">
+                <label class="deliver-plan-labels{% if forloop.first == true %} active {% endif %}" onclick="deliverPlan(this, {{ selling_plan.id }})" style="{% if forloop.index == 2 %}border-radius: 4px 4px 0px 0px;{% endif %}">
+                    {% assign sentance = selling_plan.name | split: " " %}
+                    {% if sentance[2] %}
+                        {{ sentance[2] }} {{ sentance[3] | capitalize }}
+                    {% endif %}
+                </label>
+            </span>
+            {% if forloop.index == 2 %}<span class="gsa-suggested">Suggested</span>{% endif %}
+            </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    function deliverPlan(e, id) {
+        const subscribe_input = document.getElementById("deliver-frequency");
+        while (subscribe_input.firstChild) {
+          subscribe_input.removeChild(subscribe_input.lastChild);
+        }
+        var textfield = document.createElement("input");
+        textfield.type = "hidden";
+        textfield.setAttribute("name", "selling_plan");
+        textfield.value = id;
+        subscribe_input.appendChild(textfield);
+    }
+
+    var deliver_radio_buttons = document.querySelectorAll('.deliver-every-container');
+    var labels = [].slice.call(deliver_radio_buttons[0].querySelectorAll('.deliver-plan-labels'), 0);
+
+    for (let label of labels) {
+        label.addEventListener('click', function(e) {
+            var index = labels.indexOf(e.target)
+            for (let inner_label of labels) {
+                inner_label.classList.remove("active");
+            }
+            e.target.classList.add('active');
+            {% comment %}  {% endcomment %}
+            let active_purchase_plan = document.querySelectorAll('.plan-labels.active')[0];
+            price_calculator(active_purchase_plan.innerHTML);
+        });
+    }
+
+</script>  

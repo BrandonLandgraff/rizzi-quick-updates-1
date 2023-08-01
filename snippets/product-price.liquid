@@ -1,0 +1,121 @@
+<style>
+  .calculator_box_size {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #548687; 
+  }
+
+  .calculator_deliver_every {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    
+    color: #A74482;
+  }
+
+  .product__price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+  }
+
+  .product__price__wrap {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  @media only screen and (max-width: 750px) {
+    .calculator_box_size {
+      font-size: 14px;
+    }
+  
+    .calculator_deliver_every {
+      font-size: 14px;
+    }
+  
+    .product__price {
+      font-size: 28px;
+    }
+  }
+</style>  
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<div class="product__price__wrap">
+  <div class="product__price" data-price-wrapper>
+    <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
+      {%- if current_variant.price == 0 -%}
+        {{ 'general.money.free' | t }}
+      {%- else -%}
+        {{ current_variant.price | money }}
+      {%- endif -%}
+    </span>
+
+    {% if product.compare_at_price_max > product.price %}
+      <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+      <s class="product__price--strike" data-compare-price>
+        {% if current_variant.compare_at_price > current_variant.price %}
+          {{ current_variant.compare_at_price | money }}
+        {% endif %}
+      </s>
+    {% endif %}
+
+    {% liquid
+      assign units = product.variants | map: 'unit_price'
+      if units[0]
+        assign has_units = true
+      else
+        assign has_units = false
+      endif
+    %}
+    {% if has_units %}
+      {% capture show_units %}
+        {%- unless current_variant.unit_price -%}style="display: none;"{%- endunless -%}
+      {% endcapture %}
+      {% capture unit_price_separator %}
+        <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+      {% endcapture %}
+      {% capture unit_price_base_unit %}
+        <span>
+          {% if current_variant.unit_price_measurement %}
+            {% if current_variant.unit_price_measurement.reference_value != 1 %}
+              {{ current_variant.unit_price_measurement.reference_value }}
+            {%- endif -%}
+            {{ current_variant.unit_price_measurement.reference_unit }}
+          {% endif %}
+        </span>
+      {% endcapture %}
+      <div class="product__price__meta">
+        <span data-product-unit {{ show_units }} class="product__price--unit">
+          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+          <span data-product-unit-price id="unit-price-{{ section_id }}">{{ current_variant.unit_price | money }}</span>
+          {{ unit_price_separator }}
+          <span data-product-base id="unit-price-base-{{ section_id }}">{{ unit_price_base_unit }}</span>
+        </span>
+        <span data-price-each class="product__price--unit hide">
+          {{ 'products.product.each' | t }}
+          <span data-price-each-amount></span>
+        </span>
+      </div>
+    {% endif %}
+  </div>
+  
+  <div id="gsa-free-shipping"></div>
+  <span class="calculator_box_size"></span>
+  <span class="calculator_deliver_every"></span>
+  <span class="calculator_deliver_every deliver_orders"></span>
+
+  <span class="hidden" data-price-off class="product__price--off hide">
+    <span data-price-off-amount></span>
+    {{ 'products.product.off' | t }}
+  </span> 
+</div>

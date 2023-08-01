@@ -1,0 +1,25 @@
+<div>
+    <div class="gsa-flex">
+        <h4 class="subscription-heading">Deliver Every:</h4>
+            <a onclick="document.getElementById('myFrequencyModal').showModal()" id="btn" class="gsa-underline gsa-cursor-pointer" style="padding: 12px 8px 8px 8px; color: #FF4A1C;"><span>
+            info
+            </span></a>
+    </div>
+    <dialog id="myFrequencyModal" class="gsa-w-11/12 md:gsa-w-1/2 gsa-p-5  gsa-bg-white gsa-rounded-2xl">  
+        <div class="gsa-flex gsa-flex-col gsa-w-full gsa-h-auto ">
+            <div class="gsa-flex gsa-w-full gsa-h-auto gsa-justify-between gsa-items-center">
+            <div class="gsa-flex gsa-w-10/12 gsa-h-auto gsa-justify-left gsa-items-center gsa-text-2xl gsa-font-bold">
+                    {{ section.settings.frequency_title }}
+            </div>
+            <div onclick="document.getElementById('myFrequencyModal').close();" class="gsa-flex gsa-w-1/12 gsa-h-auto gsa-justify-center gsa-cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </div>
+            </div>
+                <div class="gsa-flex gsa-py-4 gsa-justify-center gsa-items-center gsa-text-left gsa-text-gray-500">
+                <div class="column__image__wrapper gsa-w-full gsa-h-full">
+                    <p>{{ section.settings.frequency_description }}</p>
+                </div>
+            </div>
+            </div>
+    </dialog>
+</div>

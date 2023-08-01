@@ -1,0 +1,21 @@
+{% comment %}
+    Renders social icons on newsletter, custom content and footer sections
+
+    Accepts:
+    - animation_anchor: {String} ID of the element that will trigger animations
+    - animation_order: {Integer} Animation order
+
+    Usage:
+    {% render 'social-icons', block: block, animation_anchor: animation_anchor %}
+{% endcomment %}
+
+{%- assign social_accounts = 'Instagram, Facebook, Twitter, TikTok, Pinterest, Tumblr, YouTube, Vimeo, Linkedin, Snapchat, Feed' | split: ', ' -%}
+
+<ul class="socials"
+  {% if animation_anchor %}
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  {% endif %}>
+  {%- render 'social-icon' for social_accounts as social -%}
+</ul>

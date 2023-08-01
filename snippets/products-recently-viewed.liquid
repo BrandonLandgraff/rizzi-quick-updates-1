@@ -1,0 +1,27 @@
+<!-- /snippets/products-recently-viewed.liquid -->
+{% comment %}
+    Renders list of recently viewed products in grid layout
+
+    Accepts:
+    - product: {Object} product (required)
+    - grid_strings: {String} contains a string of grid classes
+    - heading_title: {String} contains a string from section settings
+
+    Usage:
+    {% render 'products-recently-viewed', product: product, grid_strings: grid_strings, heading_title: section.settings.product_recently_heading %}
+{% endcomment %}
+
+{%- assign limit = limit | default: 4 -%}
+
+<div class="recent__wrapper" id="RecentlyViewed-{{ section.id }}" data-recent-wrapper data-limit="{{ limit }}" data-minimum="{{ product_recently_minimum }}">
+  <div class="product-grid-outer">
+    <div class="recent__content product-grid product-grid--slider product-grid--slider-alt product-grid--mobile-slider{% unless settings.product_grid_outline %} product-grid--borderless{% endunless %} flickity-button-circle"
+      id="recently-viewed-products-{{ section.id }}"
+      data-slider 
+      data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
+      data-arrow-position-middle
+      data-equalize-height="true"
+      style="display:none">
+    </div>
+  </div>
+</div>

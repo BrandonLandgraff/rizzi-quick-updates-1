@@ -1,0 +1,279 @@
+<style>
+    .gift-shop-after.hide{
+        height: 0;
+        opacity: 0;
+        transition: all 2s ease-in-out;
+    }
+    .radio__fieldset.gift-delivery-every-container .active,
+    .radio__fieldset.gift-stops-after-container .active {
+        border: 2px solid var(--primary);
+        background: #002E4A;
+        color: var(--primary-opposite);
+    }
+</style>    
+{%- assign uniq_id = section_id | append: "-" | append: product.id -%}
+{% assign product_form_id = 'product-form-' | append: uniq_id %}
+
+<div class="gift-shop-after hide">
+    {% comment %} DELIVER EVERY {% endcomment %}
+    <h4 class="subscription-heading">Deliver Every:</h4>
+    <div class="radio__fieldset gift-delivery-every-container">
+        <span class="radio__button">
+            <label onclick="deliverevery('{{ block.settings.prepaid_deliverEvery_options_one }}')" class="gift-delivery-every active">{{ block.settings.prepaid_deliverEvery_options_one }}</label>
+        </span>
+        <span class="radio__button">    
+            <label onclick="deliverevery('{{ block.settings.prepaid_deliverEvery_options_two }}')" class="gift-delivery-every">{{ block.settings.prepaid_deliverEvery_options_two }}</label>
+        </span>
+        <span class="radio__button">    
+            <label onclick="deliverevery('{{ block.settings.prepaid_deliverEvery_options_three }}')" class="gift-delivery-every">{{ block.settings.prepaid_deliverEvery_options_three }}</label>
+        </span>
+    </div>
+    {% comment %} GIFT STOPS AFTER {% endcomment %}
+    <h4 class="subscription-heading">Gift Stops After:</h4>
+    <div class="radio__fieldset gift-stops-after-container">
+        <span class="radio__button">
+            <label onclick="stopsAfter('{{ block.settings.prepaid_stops_after_options_one }}')" class="gift-stops-after active">{{ block.settings.prepaid_stops_after_options_one }}</label>
+        </span>
+        <span class="radio__button">    
+            <label onclick="stopsAfter('{{ block.settings.prepaid_stops_after_options_two }}')" class="gift-stops-after">{{ block.settings.prepaid_stops_after_options_two }}</label>
+        </span>
+        <span class="radio__button">       
+            <label onclick="stopsAfter('{{ block.settings.prepaid_stops_after_options_three }}')" class="gift-stops-after">{{ block.settings.prepaid_stops_after_options_three }}</label>
+        </span>
+    </div>
+</div>
+
+<script>
+    function stopsAfter() {
+        let find_prepaid_container = document.getElementById('prepiad_container');
+        if(find_prepaid_container) {
+            find_prepaid_container.remove();
+        }
+        gift_stops_after_options();
+        setTimeout(fetchPrepaidProduct, 300);
+    }
+    function deliverevery() {
+        let find_prepaid_container = document.getElementById('prepiad_container');
+        if(find_prepaid_container) {
+            find_prepaid_container.remove();
+        }
+        gift_delivery_every_options();
+        setTimeout(fetchPrepaidProduct, 300);
+    }
+
+    function variant_dynamic_pricing() {
+    {% comment %} Pricing {% endcomment %}
+    let price_container = document.getElementsByClassName('product__price')[0];
+    let price_container_span = price_container.getElementsByTagName('span')[0];
+    let radio_price_container = document.getElementById('new_price');
+    let radio_subscription_price_container = document.getElementById('new_subscription_price');
+    let radio_gift_subscription_price_container = document.getElementById('gift_subscription_price');
+
+        if(radio_price_container) {
+            if(radio_price_container.style.display == "block" ) {
+                radio_price_container.style.display = "none";
+            }
+        }
+
+        if(radio_subscription_price_container) {
+            if(radio_subscription_price_container.style.display == "block" ) {
+                radio_subscription_price_container.style.display = "none";
+            }
+        }
+
+        if(radio_gift_subscription_price_container) {
+            if(radio_gift_subscription_price_container.style.display == "block" ) {
+                radio_gift_subscription_price_container.style.display = "none";
+            }
+        }
+
+        if(price_container_span) {
+            if(price_container_span.style.display  == "none") {
+                price_container_span.style.display = "block";
+            }
+        }
+    }
+    
+    {% comment %} Option events {% endcomment %}
+    let box_size = document.querySelectorAll('.radio__fieldset .radio__button input');
+    let wrapper_color = document.querySelectorAll('[name="options[Color]"]');
+
+    for (let box of box_size) {
+        box.addEventListener('click', function(e){
+            let gift_subscription = document.querySelectorAll('.plan-labels.active')[0];
+            if(gift_subscription.innerHTML == "Gift Subscription") {
+                setTimeout(fetchPrepaidProduct, 300);
+            }else {
+                variant_dynamic_pricing();
+            }
+            {% comment %} Calculator {% endcomment %}
+            price_calculator(gift_subscription.innerHTML);
+        })
+    } 
+
+    for (let color of wrapper_color) {
+        color.addEventListener('click', function(e){
+            let gift_subscription = document.querySelectorAll('.plan-labels.active')[0];
+            if(gift_subscription.innerHTML == "Gift Subscription") {
+                setTimeout(fetchPrepaidProduct, 300);
+            }else {
+                variant_dynamic_pricing();
+            }
+            price_calculator(gift_subscription.innerHTML);
+        })
+    } 
+
+    {% comment %} Fetch Product {% endcomment %}
+    function fetchPrepaidProduct() {
+        var current_boxsize = "";
+        var current_wrapperstyle = "";
+        let current_deliveryevery = "";
+        let current_stopsAfter = "";
+    
+        var boxSize = document.querySelectorAll('.radio__button input');
+        for (let i = 0; i < boxSize.length; i++) {
+            if(boxSize[i].checked) {
+                current_boxsize = boxSize[i].value;
+            }
+        }
+        
+        var wrapperStyle = document.querySelectorAll('.radio__fieldset .swatch__button input');
+        console.log(wrapperStyle);
+        for (let i = 0; i < wrapperStyle.length; i++) {
+            if(wrapperStyle[i].checked) {
+                current_wrapperstyle = wrapperStyle[i].value;
+            }
+        }
+    
+        var deliverEvery = document.querySelectorAll('.gift-delivery-every-container label');
+        for (let i = 0; i < deliverEvery.length; i++) {
+            if(deliverEvery[i].classList.contains("active")) {
+                current_deliveryevery = deliverEvery[i].textContent;
+            }
+        }
+
+        var stopsAfter = document.querySelectorAll('.gift-stops-after-container label');
+        for (let i = 0; i < stopsAfter.length; i++) {
+            if(stopsAfter[i].classList.contains("active")) {
+                current_stopsAfter = stopsAfter[i].textContent;
+            }
+        }
+
+        {% assign product_list = block.settings.product_list %}
+        var array = Object.entries({{ product_list | json }}); 
+        let products = [];
+        let variants = []; 
+        let selected_variant_options = [current_boxsize, current_wrapperstyle];
+
+        for (let value of Object.values(array)) {
+            products.push(value[1]);
+        }
+
+        for (let product of Object.values(products)) {
+            var product_title = (product.title).toLowerCase();
+            if(product_title.includes(current_deliveryevery.toLowerCase()) && product_title.includes(current_stopsAfter.toLowerCase())) {
+                variants.push(product.variants);
+                break;
+            }
+        }
+
+        const variant_iterator = variants.values();
+        for (const variant of variant_iterator) {
+            for (const current_variant of variant.values()) {
+                var current_variant_options = current_variant.options;
+                if(selected_variant_options.sort().join(',') === current_variant_options.sort().join(',')){
+                    let current_varriant_id = current_variant.id;
+                    let current_selling_plan_id = current_variant.selling_plan_allocations[0].selling_plan_id;
+                    {% comment %} Product Form {% endcomment %}
+                    let product_form = document.getElementById('{{ product_form_id }}');
+                    let find_prepaid_container = document.getElementById('prepiad_container');
+                    if(find_prepaid_container) {
+                        find_prepaid_container.remove();
+                    }
+
+                    let prepiad_container = document.createElement("div");
+                    prepiad_container.id= "prepiad_container";
+                    
+                    let prepiad_variant_input = document.createElement("input");
+                    prepiad_variant_input.id= "prepiad_variant_id";
+                    prepiad_variant_input.type = "hidden";
+                    prepiad_variant_input.setAttribute("name", "id");
+                    prepiad_variant_input.value = current_varriant_id;
+                    prepiad_container.appendChild(prepiad_variant_input);
+
+                    let prepiad_selling_plan_input = document.createElement("input");
+                    prepiad_selling_plan_input.id= "prepiad_selling_plan_id";
+                    prepiad_selling_plan_input.type = "hidden";
+                    prepiad_selling_plan_input.setAttribute("name", "selling_plan");
+                    prepiad_selling_plan_input.value = current_selling_plan_id;
+                    prepiad_container.appendChild(prepiad_selling_plan_input);
+
+                    product_form.appendChild(prepiad_container);
+                    
+                    {% comment %} Pricing {% endcomment %}
+                    let gift_subscription = document.querySelectorAll('.plan-labels.active')[0];
+                    if(gift_subscription.innerHTML == "Gift Subscription") {
+                        let price_container = document.getElementsByClassName('product__price')[0];
+                        let price_container_span = price_container.getElementsByTagName('span')[0];
+                        let gift_subscription_container = document.getElementById('gift_subscription_price');
+
+                        if(price_container_span) {
+                            price_container_span.style.display = "none";
+                        }
+    
+                        if(!gift_subscription_container) {
+                            let new_price_container = document.createElement('span');
+                            new_price_container.id = "gift_subscription_price";
+                            new_price_container.style.display = "block";
+                            new_price_container.innerHTML = "$" + (current_variant.selling_plan_allocations[0].price/100).toFixed(2);
+                            price_container.appendChild(new_price_container);
+                        }else {
+                            gift_subscription_container.innerHTML = "$" + (current_variant.selling_plan_allocations[0].price/100).toFixed(2);
+                        } 
+    
+                        if(gift_subscription_container) {
+                            if(gift_subscription_container.style.display == "none") {
+                                gift_subscription_container.style.display = "block";
+                            }
+                        }
+                    }
+                    break;
+                }
+            }   
+        }
+        {% comment %} Update URL {% endcomment %}       
+        {% comment %} window.history.pushState({},'', '/products/copy-of-no-2-toilet-paper-prepaid-six-month'); {% endcomment %}
+    }
+    {% comment %} Deliver Every {% endcomment %}
+    function gift_delivery_every_options() {
+        let plan_radio_buttons = document.getElementsByClassName('gift-delivery-every-container');
+        let labels = [].slice.call(plan_radio_buttons[0].querySelectorAll('.gift-delivery-every'), 0);
+
+        for (let label of labels) {
+            label.addEventListener('click', function(e) {
+                for (let inner_label of labels) {
+                    inner_label.classList.remove("active");
+                }
+                e.target.classList.add('active');
+                let active_purchase_plan = document.querySelectorAll('.plan-labels.active')[0];
+                price_calculator(active_purchase_plan.innerHTML);
+            });
+        }
+    }
+
+    {% comment %} Stops After {% endcomment %}
+    function gift_stops_after_options() {
+        let plan_radio_buttons = document.getElementsByClassName('gift-stops-after-container');
+        let labels = [].slice.call(plan_radio_buttons[0].querySelectorAll('.gift-stops-after'), 0);
+        for (let label of labels) { 
+            label.addEventListener('click', function(e) {
+                for (let inner_label of labels) {
+                    inner_label.classList.remove("active");
+                }
+                e.target.classList.add('active');
+                let active_purchase_plan = document.querySelectorAll('.plan-labels.active')[0];
+                price_calculator(active_purchase_plan.innerHTML);
+            });
+        }
+    }
+</script>

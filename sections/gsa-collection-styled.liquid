@@ -1,0 +1,454 @@
+<!-- /sections/gsa-collection-styled.liquid -->
+{%- liquid
+    assign bg_color = section.settings.bg_color
+    assign text_color = section.settings.color
+    assign animation_anchor = '#gsa-collection-styled--' | append: section.id
+  -%}
+  
+  {%- style -%}
+    #gsa-collection-styled--{{ section.id }} {
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+  
+      {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+        --bg: {{ bg_color }};
+      {%- endunless -%}
+  
+      {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+        --text: {{ text_color }};
+      {%- endunless -%}
+  
+    }
+
+    .gsa-collection-grid-lockup {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .gsa-collection-grid-lockup {
+            grid-template-columns: 1fr;
+        }    
+    }
+
+    .gsa-collection-container {
+      position: relative;
+    }
+
+    .gsa-collection-wrapper {
+      position: relative;
+      background-color: #558788;
+      color: #FAFAFA;
+      top: 0px;
+      left: 0px;
+    }
+
+    .gsa-top-blob {
+      position: absolute;
+      left: 0px;
+      top:-7em;
+      width: 8em;
+    }
+
+    .gsa-bottom-blob {
+      position: absolute;
+      right: 0px;
+      bottom: -12em;
+      width: 12em;
+    }
+
+  {%- endstyle -%}
+  
+  <section id="gsa-collection-styled--{{ section.id }}"
+    class="index-rte section-padding gsa-animal-print-left"
+    data-section-id="{{ section.id }}"
+    data-section-type="rich-text">
+    <div class="{{ section.settings.width }}">
+
+    <div class="gsa-grid gsa-collection-grid-lockup gsa-gap-6">
+
+
+        <div class="gsa-collection-container">
+
+          {%- comment -%} Top Bump {%- endcomment -%}
+          <div class="gsa-w-full gsa-z-20" style="margin-bottom: -8px;">
+            <div class="gsa-relative gsa-z-20">
+            {% render 'Top Bump' %}
+            </div>
+          </div>
+
+          {%- comment -%} TEXT WRAPPER {%- endcomment -%}
+            <div class="gsa-collection-wrapper  gsa-z-50 text__standard gsa-top-20 gsa-p-4 gsa-h-8xl {{ section.settings.align_text }}">
+
+                {%- comment -%} Animated Bubble {%- endcomment -%}
+                <div class="gsa-top-blob gsa-z-10">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg-{{ section.id }}" style="opacity: 1;" filter="blur(0px)" transform="rotate(-1)"><path id="blob" fill="{{ section.settings.top_blob_color }}" style="opacity: 1;"><animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"></animate></path></svg>
+                </div>
+
+
+                {%- if section.settings.subheading != blank -%}
+                  {%- assign font_size_class = section.settings.subheading_size | prepend: 'body-size-' -%}
+                  <p class="standard__subheading {{ font_size_class }}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="1">
+                    {{ section.settings.subheading }}
+                  </p>
+                {%- endif -%}
+                {%- if section.settings.title != blank -%}
+                  {%- assign font_size_class = section.settings.heading_size | prepend: 'heading-size-' -%}
+                  <h1 class="standard__heading {{ font_size_class }}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="2">
+                    {{ section.settings.title }}
+                  </h1>
+                {%- endif -%}
+                {%- if section.settings.text != blank -%}
+                  {%- assign font_size_class = section.settings.text_size | prepend: 'body-size-' -%}
+                  {%- assign text_columns_class = section.settings.text_columns | prepend: 'columns--' -%}
+                  <div class="standard__rte {{ font_size_class }} {{ text_columns_class }}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="3">
+                    {{ section.settings.text }}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.button_text != blank -%}
+                  <a href="{{ section.settings.button_url }}"
+                    class="standard__cta {{ section.settings.button_style }} {{ section.settings.button_color }}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="4">
+                    {{ section.settings.button_text }}
+          
+                    {%- if settings.show_arrow -%}
+                      {% render 'icon-arrow-right-alt' %}
+                    {%- endif -%}
+                  </a>
+                {%- endif -%}
+
+                {%- comment -%} Animated Bubble {%- endcomment -%}
+                <div class="gsa-bottom-blob gsa-z-10">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg-{{ section.id }}" style="opacity: 1;" filter="blur(0px)" transform="rotate(-1)"><path id="blob" fill="{{ section.settings.bottom_blob_color }}" style="opacity: 1;"><animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"></animate></path></svg>
+                </div>
+
+              </div>
+
+              {%- comment -%} Bottom Bump {%- endcomment -%}
+              <div class="gsa-w-full">
+                {% render 'Bottom Bump' %}
+              </div>
+
+              {%- comment -%} Animated Bubble {%- endcomment -%}
+
+        </div>
+
+        <div class="gsa-grid gsa-grid-cols-1 lg:gsa-grid-cols-2 gsa-gap-6">
+            {% for block in section.blocks %}  
+                {% case block.type %}
+
+                {% when 'product' %} 
+                    <div>
+                        <p class="gsa-font-bold gsa-text-center gsa-absolute gsa-z-10 gsa-text-white gsa-p-2 gsa-ml-2 gsa-rounded-lg" data-aos="hero" data-aos-anchor="{{ animation_anchor }}" data-aos-order="1" style="background-color: #b33b83;">{{ block.settings.callout }}</p>
+                        <a href="{{ block.settings.button_url }}"><img loading="lazy" class="gsa-w-full gsa-h-80 gsa-object-cover gsa-rounded-lg" data-aos="hero" data-aos-anchor="{{ animation_anchor }}" data-aos-order="1" src="{{ block.settings.image | image_url: width: 600 }}" alt=""></a>
+                        <h3 data-aos="hero" data-aos-anchor="{{ animation_anchor }}" data-aos-order="2"><a href="{{ block.settings.button_url }}">{{ block.settings.title }}</a></h3>
+                        <h5 data-aos="hero" data-aos-anchor="{{ animation_anchor }}" data-aos-order="2">{{ block.settings.price }}</h5>
+                        <div class="yotpo bottomLine"
+                          data-appkey="xBztLsB2HuruK8Yse6CpNsgEcqRgtyLxprSTEWDC"
+                          data-domain="{{shop.permanent_domain | escape }}"
+                          data-product-id="{{ block.settings.product.id }}"
+                          data-product-models="{{ block.settings.product.id }}"
+                          data-name="{{ block.settings.product.title | escape }}"
+                          data-url="{{ shop.url }}{{ block.settings.product.url }}"
+                          data-image-url="{{ block.settings.product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
+                          data-description="{{ block.settings.product.description | escape }}"
+                          data-bread-crumbs="{% for tag in block.settings.product.tags %}{{ tag | escape }};{% endfor %}">
+                        </div>
+                        <div class="gsa-description">
+                            <p data-aos="hero" data-aos-anchor="{{ animation_anchor }}" data-aos-order="3">{{ block.settings.richtext }}</p>
+                        </div>
+                        {%- if block.settings.button_text != blank -%}
+                            <a href="{{ block.settings.button_url }}"
+                              class="gsa-animated-btn gsa-my-2 gsa-p-0 gsa-w-72">
+                                <div class="hoverEffects gsa-flex gsa-justify-between gsa-items-center">
+                                  <span>{{ block.settings.button_text }}</span>
+                                </div>
+                              </a>
+                        {%- endif -%}
+                    </div>  
+
+                {% endcase %} 
+            {% endfor %}
+        </div>
+    </div>
+
+
+    </div>
+  </section>
+  
+  {% schema %}
+  {
+    "name": "Styled collection",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Blob Color"
+      },
+      {
+        "type": "color",
+        "id": "top_blob_color",
+        "label": "Top Blob"
+      },
+      {
+        "type": "color",
+        "id": "bottom_blob_color",
+        "label": "Bottom Blob"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Introducing"
+      },
+      {
+        "type":  "range",
+        "id":    "subheading_size",
+        "label": "Subheading size",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "default":3
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Rich text"
+      },
+      {
+        "type":  "range",
+        "id":    "heading_size",
+        "label": "Heading size",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "default":8
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type":  "range",
+        "id":    "text_size",
+        "label": "Text size",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "default":4
+      },
+      {
+        "type":  "range",
+        "id":    "text_columns",
+        "label": "Columns",
+        "min":    1,
+        "max":    3,
+        "step":   1,
+        "default":1,
+        "info": "Desktop only"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "text-left",
+        "options": [
+          {"value": "text-left","label": "Left"},
+          {"value": "text-center","label": "Centered"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type":"text",
+        "id":"button_text",
+        "label":"Text",
+        "default":"Learn more"
+      },
+      {
+        "type":"url",
+        "id":"button_url",
+        "label":"Link"
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          {"value": "btn--primary", "label": "Bright accent"},
+          {"value": "btn--secondary", "label": "Secondary accent"},
+          {"value": "btn--link", "label": "Link color"},
+          {"value": "btn--neutral", "label": "Text color"},
+          {"value": "btn--black", "label": "Black"},
+          {"value": "btn--white", "label": "White"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Style",
+        "default": "standard__cta caps--large",
+        "options": [
+          {"value": "standard__cta caps--large", "label": "Capitalized text"},
+          {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+          {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+          {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+          {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          {"value": "wrapper", "label": "Normal"},
+          {"value": "wrapper--narrow", "label": "Narrow"},
+          {"value": "wrapper--full", "label": "Wide"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 100
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 100
+      }
+    ],
+    "max_blocks": 8,
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "Select Product"
+                },
+                {
+                    "id": "callout",
+                    "type": "text",
+                    "label": "Callout"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Select Image"
+                },
+                {
+                    "id": "title",
+                    "type": "text",
+                    "label": "Title"
+                },
+                {
+                    "id": "price",
+                    "type": "text",
+                    "label": "Price"
+                },
+                {
+                    "type": "richtext",
+                    "id": "richtext",
+                    "label": "Description",
+                    "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+                },
+                {
+                    "type":"text",
+                    "id":"button_text",
+                    "label":"Text",
+                    "default":"Learn more"
+                },
+                {
+                    "type":"url",
+                    "id":"button_url",
+                    "label":"Link"
+                },
+                {
+                    "type": "select",
+                    "id": "button_color",
+                    "label": "Color",
+                    "default": "btn--neutral",
+                    "options": [
+                    {"value": "btn--primary", "label": "Bright accent"},
+                    {"value": "btn--secondary", "label": "Secondary accent"},
+                    {"value": "btn--link", "label": "Link color"},
+                    {"value": "btn--neutral", "label": "Text color"},
+                    {"value": "btn--black", "label": "Black"},
+                    {"value": "btn--white", "label": "White"}
+                    ]
+                },
+                {
+                    "type": "select",
+                    "id": "button_style",
+                    "label": "Style",
+                    "default": "standard__cta caps--large",
+                    "options": [
+                    {"value": "standard__cta caps--large", "label": "Capitalized text"},
+                    {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+                    {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+                    {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+                    {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"}
+                    ]
+                }                
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Styled collection",
+        "category": "Text"
+      }
+    ]
+  }
+  {% endschema %}
+  

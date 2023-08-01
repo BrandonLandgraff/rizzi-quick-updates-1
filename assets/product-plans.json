@@ -1,0 +1,13 @@
+{
+  "productPlans": [
+    {
+      "subscribe": "Subscibe"
+    },
+    {
+      "oneTime": "One Time"
+    },
+    {
+      "giftSubscription": "Gift Subscription"
+    }
+  ]
+}

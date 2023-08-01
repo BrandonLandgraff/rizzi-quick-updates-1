@@ -1,0 +1,75 @@
+<!-- /snippets/search-results-item.liquid -->
+
+{%- liquid
+  assign aos_image_delay_default = animation_delay | times: 150
+  assign animation_duration = 800
+  assign aos_image_delay = aos_image_delay | default: aos_image_delay_default
+
+  assign border_class = ''
+  if settings.product_grid_outline == false
+    assign border_class = ' product-item--borderless'
+  endif
+
+  assign alignment_class = ''
+  if settings.product_grid_center == true
+    assign alignment_class = ' product-item--centered'
+  endif
+-%}
+
+<div class="search-results-item {{ border_class }}{{ alignment_class }}" data-product-grid-item {{ additional_attributes }}>
+  <div class="search-results-item__image{% if double_img %} double__image{% endif %}" data-product-image>
+    <a class="item-link" href="{{ item.url }}" aria-label="{{ item.title | strip_html | escape }}" data-grid-link>
+      {%- if item.image -%}
+        <div class="search-results-item__bg lazyload"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ animation_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart"
+          data-bgset="{% render 'bgset', image: item.image %}">
+        </div>
+      {%- elsif item.object_type == 'article' -%}
+        {%- comment -%} Show "No image" if item has no media {%- endcomment -%}
+        {%- assign image_url_pattern = item.featured_image | img_url: '540x' | replace: '_540x.', '_{width}x.' -%}
+        {%- assign image_widths = "[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" -%}
+
+        <div class="search-results-item__bg search-results-item__bg--empty"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ animation_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart">
+            <img loading="lazy"
+              class="lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{ image_url_pattern }}"
+              data-widths= "{{ image_widths }}"
+              data-aspectratio="1"
+              data-sizes="auto"
+              width="540"
+              height="540"
+              alt="{{ item.title | strip_html | escape }}">
+        </div>
+      {% endif %}
+    </a>
+  </div>
+
+  <noscript>
+    <a class="item-link" href="{{ item.url }}" aria-label="{{ item.title | strip_html | escape }}" data-grid-link>
+      <div class="search-results-item__image no-js-image" style="background-image:url('{{ item.featured_media.preview_image | img_url: '540x' }}'); background-size: contain; background-position: center center; background-repeat: no-repeat;"></div>
+    </a>
+  </noscript>
+
+  <div class="item-information"
+    data-aos="fade"
+    data-aos-delay="{{ aos_image_delay }}"
+    data-aos-duration="{{ animation_duration }}"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-product-information>
+    <a class="item-link" href="{{ item.url }}" aria-label="{{ item.title | strip_html | escape }}" data-grid-link>
+      <p class="item__grid__title">{{ item.title | strip_html | escape }}</p>
+    </a>
+  </div>
+</div>

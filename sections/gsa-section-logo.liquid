@@ -1,0 +1,238 @@
+<!-- /sections/gsa-section-logo.liquid -->
+
+{%- liquid
+    assign text_alignment = section.settings.text_alignment
+    assign text_color = section.settings.color
+    assign bg_color = section.settings.bg_color
+  
+    case section.blocks.size
+      when 1
+        assign grid_strings = 'large-up--one-half large-up--push-one-quarter medium--one-half medium--push-one-quarter small--one-whole'
+      when 2
+        assign grid_strings = 'large-up--one-half medium--one-half small--one-whole'
+      when 3
+        assign grid_strings = 'large-up--one-third medium--one-third small--one-whole'
+      else
+        assign grid_strings = 'large-up--one-quarter medium--one-half small--one-whole'
+    endcase
+  
+    assign animation_anchor = '#TextRow--' | append: section.id
+  -%}
+  
+  {%- style -%}
+    #TextRow--{{ section.id }} {
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+  
+      {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+        --bg: {{ bg_color }};
+      {%- endunless -%}
+  
+      {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+        --text: {{ text_color }};
+      {%- endunless -%}
+    }
+  
+    #TextRow--{{ section.id }} .icon__animated {
+      --size: {{ section.settings.icon_size }}px;
+      height: 100px !important;
+    }
+  {%- endstyle -%}
+  
+  <div id="TextRow--{{ section.id }}"
+    class="text-row section-padding"
+    data-section-id="{{ section.id }}"
+    data-section-type="text-row"
+    data-text-alignment="{{ text_alignment }}">
+    <div class="wrapper--columns {{ section.settings.icon_alignment }}">
+      <div class="grid grid--uniform">
+        {%- if section.blocks.size > 0 -%}
+          {%- for block in section.blocks -%}
+            {%- assign icon_words = block.settings.icon | split: ' ' -%}
+            {%- capture icon -%}{%- for word in icon_words -%}{%- unless forloop.index == 1 -%}-{%- endunless -%}{{ word | downcase }}{%- endfor -%}{%- endcapture -%}
+              <div class="grid__item {{ grid_strings }}" {{ block.shopify_attributes }}>
+                <div class="icon__column">
+
+                    <div class="icon__animated icon__animated--{{ block.id }} icon--custom lazyload"
+                      data-aos="hero"
+                      data-aos-delay="500"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-bgset="{%- render 'bgset', image: block.settings.icon_alt -%}"
+                      data-sizes="auto"
+                      data-parent-fit="cover"
+                      data-aspectratio="{{ block.settings.icon_alt.aspect_ratio }}">
+                    </div>
+  
+                    <noscript>
+                      <div class="icon__animated icon__animated--{{ block.id }} icon--custom" style="background-image: url( {{ block.settings.icon_alt | img_url: '200x' }} );"></div>
+                    </noscript>
+
+  
+                  {%- if block.settings.title != blank or block.settings.text != blank -%}
+                    <div class="icon__column__text">
+                      {%- if block.settings.title != blank -%}
+                        <h2 class="icon__column__text__heading {{section.settings.heading_size}}"><strong>{{ block.settings.title }}</strong></h2>
+                      {%- endif -%}
+  
+                      {%- if block.settings.text != blank -%}
+                        <p>{{ block.settings.text }}</p>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+          {%- endfor -%}
+        {%- else -%}
+          {%- render 'no-blocks' -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  
+  {% schema %}
+  {
+    "name": "Logo grid",
+    "max_blocks": 4,
+    "settings": [
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "left",
+        "options": [
+          { "label": "Left", "value": "left" },
+          { "label": "Center", "value": "center" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "icon_size",
+        "label": "Icon size",
+        "unit": "px",
+        "min": 25,
+        "max": 300,
+        "step": 25,
+        "default": 200
+      },
+      {
+        "type": "select",
+        "id": "icon_alignment",
+        "label": "Icon placement",
+        "default": "icon--top",
+        "options": [
+          { "value": "icon--top", "label": "Top" },
+          { "value": "icon--left", "label": "Left" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "label": "Heading size",
+        "default": "h6",
+        "options": [
+          { "value": "h6", "label": "Normal" },
+          { "value": "h5", "label": "Large" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 100
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 100
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text-item",
+        "name": "Icon column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon_alt",
+            "label": "Alternative icon/image"
+          },
+          {
+            "type": "color",
+            "id": "icon_color",
+            "label": "Icon color",
+            "default": "#545454"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo grid",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "text-item",
+            "settings": {
+              "title": "Secure transactions",
+              "text": "<p>Transactions are handled with bank-grade security.</p>"
+            }
+          },
+          {
+            "type": "text-item",
+            "settings": {
+              "title": "Simple checkout",
+              "text": "<p>Our secure checkout is quick and easy to use.</p>"
+            }
+          },
+          {
+            "type": "text-item",
+            "settings": {
+              "title": "Get in touch",
+              "text": "<p>Have questions? Get in touch with us at any time.</p>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
+  

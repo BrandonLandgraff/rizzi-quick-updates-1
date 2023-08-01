@@ -1,0 +1,233 @@
+<!-- /sections/section-press.liquid -->
+{%- assign is_press_section = true -%}
+{%- liquid
+  assign heading = section.settings.title
+  assign logo_opacity_default = section.settings.logo_opacity | default: 100
+  assign logo_opacity = logo_opacity_default | times: 0.01
+  assign slider_text_show = false
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+-%}
+
+{%- style -%}
+  #Logos--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    --logo-opacity: {{ logo_opacity }};
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+    {%- endunless -%}
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+  }
+{%- endstyle -%}
+
+<div id="Logos--{{ section.id }}"
+  class="logos section-padding{% if is_press_section %} logos-press{% endif %}"
+  data-section-id="{{ section.id }}"
+  data-section-type="logos">
+  <div class="container">
+    <div class="logos__wrapper">
+      {%- if heading != blank -%}
+        <h2 class="h5 caps logos__title">{{ heading }}</h2>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="logos__slider">
+          <div class="logos__slider__inner" data-slider-logos data-block-scroll>
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign logo = block.settings.logo
+                assign logo_width = block.settings.logo_width
+                assign link = block.settings.link
+
+                if block.settings.description != blank
+                  assign slider_text_show = true
+                endif
+              -%}
+
+              {%- if is_press_section -%}
+                <button
+                  class="logos__slide{% if forloop.first %} is-selected{% endif %}"
+                  type="button"
+                  aria-label="{{ 'general.accessibility.scroll_to_logo' | t }}"
+                  data-slide="{{ block.id }}"
+                  data-slide-index="{{ forloop.index0 }}"
+                  {{ block.shopify_attributes }}>
+              {%- else -%}
+                <div class="logos__slide"
+                  data-slide="{{ block.id }}"
+                  {{ block.shopify_attributes }}>
+              {%- endif -%}
+
+                {%- if link != blank -%}
+                  <a class="logos__slide__link" href="{{ link }}" aria-label="{{ logo.alt | strip_html | escape }}">
+                {%- endif -%}
+
+                <div class="logos__logo">
+                  {%- if logo != blank -%}
+                    <div class="logos__img lazyload fade-in"
+                      style="width: {{ logo_width }}px; height: {{ logo_width | divided_by: logo.aspect_ratio }}px;"
+                      data-bgset="{% render 'bgset', image: logo %}"
+                      data-sizes="auto"
+                      data-parent-fit="cover"
+                      data-aspectratio="{{ logo.aspect_ratio }}">
+                    </div>
+
+                    <noscript>
+                      <div class="logos__img no-js-image" style="background-image: url( {{ logo | img_url: '180x' }} ); width: {{ logo_width }}px; height: {{ logo_width | divided_by: logo.aspect_ratio }}px;"></div>
+                    </noscript>
+                  {%- else -%}
+                    <div class="logos__img svg-placeholder" style="width: {{ logo_width }}px; height: {{ logo_width }}px;">
+                      {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  {%- endif -%}
+                </div>
+
+                {%- if link != blank -%}
+                  </a>
+                {%- endif -%}
+
+              {%- if is_press_section -%}
+                </button>
+              {%- else -%}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- else -%}
+        {%- render 'no-blocks' -%}
+      {%- endif -%}
+
+      {%- if slider_text_show -%}
+        <div class="logos__slider-text" data-slider-text id="logos__slider-text--{{ section.id }}">
+          {%- for block in section.blocks -%}
+            {%- assign text = block.settings.description -%}
+
+            <div class="logos__slide logos__slide--{{ block.id }}"
+              data-slide-index="{{ forloop.index0 }}"
+              data-slide="{{ block.id }}"
+              {{ block.shopify_attributes }}>
+              {%- if text != blank -%}
+                <div class="h6--body">{{ text }}</div>
+              {%- endif -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Press",
+  "max_blocks": 25,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Press"
+    },
+    {
+      "type": "range",
+      "id": "logo_opacity",
+      "label": "Inactive logo opacity",
+      "unit": "%",
+      "min": 5,
+      "max": 100,
+      "step": 5,
+      "default":60
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 46
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 46
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo-item",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Include a brief quote from a brand that loves your products</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "range",
+          "id": "logo_width",
+          "label": "Width",
+          "unit": "px",
+          "min": 100,
+          "max": 180,
+          "step": 10,
+          "default": 100
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Press",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "logo-item"
+        },
+        {
+          "type": "logo-item"
+        },
+        {
+          "type": "logo-item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

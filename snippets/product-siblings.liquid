@@ -1,0 +1,66 @@
+<!-- /snippets/product-siblings.liquid -->
+
+{%- liquid
+  assign metafields = metafields | default: false
+  assign show_siblings = false
+  assign sibs_collection = collections[block.settings.siblings_collection].products
+  assign cutline_default = block.settings.sibling_color | default: product.metafields.theme.sibling_color.value
+  assign hide_labels_class = ''
+
+  if metafields
+    assign sibs_collection = product.metafields.theme.sibling_products.value | default: collections[product.metafields.theme.siblings.value].products
+  endif
+
+  if metafields and sibs_collection != blank
+    assign show_siblings = true
+  elsif metafields == false and sibs_collection.size > 0
+    assign show_siblings = true
+  endif
+
+  if settings.show_labels == false
+    assign hide_labels_class = 'variant__labels--hide'
+  endif
+-%}
+
+<div class="product__siblings {{ hide_labels_class }}" {{ block.shopify_attributes }}>
+  {%- if show_siblings -%}
+    {%- assign title_down = product.title | downcase -%}
+    {%- assign cutline_down = cutline_default | downcase -%}
+    {%- unless title_down contains cutline_down -%}
+      {% comment %} Form ID must match value in product-form.liquid {% endcomment %}
+      <input type="hidden" form="{{ uniq_id }}" name="properties[{{ 'general.siblings.label' | t }}]" value="{{ cutline_default }}">
+    {%- endunless -%}
+  
+    {%- if sibs_collection -%}
+      <div class="product__page__siblings radio__fieldset">
+        <legend class="radio__legend">
+          <span class="radio__legend__label">{{ 'general.siblings.label' | t }}{% if cutline_default != blank %}<span>: {{ cutline_default }}</span>{% endif %}</span>
+        </legend>
+  
+        {%- for sib_product in sibs_collection limit: 50 -%}
+          {%- liquid
+            assign modifier_class = ''
+            if sib_product.handle == product.handle
+              assign modifier_class = ' siblings__link--current'
+            endif
+
+            if sib_product.available == false
+              assign modifier_class = modifier_class | append: ' siblings__link--sold-out'
+            endif
+
+            assign title_safe = sib_product.title | strip_html | escape
+            assign color_name = sib_product.metafields.theme.sibling_color.value | default: title_safe
+          -%}
+          <span class="swatch__button swatch__button--{{ settings.swatch_style }}" data-tooltip="{{ color_name }}">
+            <a href="{{ sib_product.url }}" class="siblings__link{{ modifier_class }}">
+              <div class="siblings__swatch">
+                <div class="sibling__image">{%- render 'image-fill', img_object: sib_product.featured_media.preview_image, aspect_ratio: 1.0 -%}</div>
+              </div>
+              <span class="visually-hidden">{{ color_name }}</span>
+            </a>
+          </span>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+</div>

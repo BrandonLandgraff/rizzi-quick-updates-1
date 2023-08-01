@@ -1,0 +1,177 @@
+{% comment %}
+    Renders section with products in grid and slider layout
+
+    Accepts:
+    - section: {Object} section (required)
+    - carousel: {Boolean} true or false
+
+    Usage:
+    {% render 'products-layout', section: section, carousel: carousel %}
+{% endcomment %}
+
+{%- liquid
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+  assign featured_collection = collections[section.settings.featured_collection]
+  assign limit_products = 50
+  assign limit_onboarding = 8
+  assign animation_anchor = '#Collection--' | append: section.id
+  assign layout_grid_classes = 'product-grid--slider flickity-button-circle'
+  assign layout_grid_attributes = 'data-slider="' | append: section.id | append: '"'
+
+  assign columns_desktop = section.settings.grid | plus: 0
+  assign columns_mobile = section.settings.layout_mobile | plus: 0
+  assign columns_tablet = 3
+  assign columns_small = 2
+  assign grid_gap = settings.gap_size | append: 'px'
+
+	if columns_desktop == 1
+    assign columns_tablet = 1
+    assign columns_small = 1
+  endif
+
+  assign mobile_class = 'small--one-whole'
+  assign mobile_slider = 'product-grid--mobile-slider'
+  case section.settings.layout_mobile
+    when '1'
+      assign mobile_slider = 'product-grid--vertical'
+    when '2'
+      assign mobile_class = 'small--one-half'
+      assign mobile_slider = 'product-grid--vertical'
+    when 'carousel'
+      assign grid_strings = grid_strings | split: 'medium' | first
+  endcase
+
+  if section.settings.grid != blank and section.settings.rows != blank
+    assign layout_grid_classes = ''
+    assign layout_grid_attributes = ''
+    assign limit_products = section.settings.grid | times: section.settings.rows
+    assign limit_onboarding = limit_products
+
+    case section.settings.grid
+      when 2
+        assign grid_strings = 'one-half medium--one-half ' | append: mobile_class
+      when 3
+        assign grid_strings = 'one-third medium--one-third ' | append: mobile_class
+      when 4
+        assign grid_strings = 'one-quarter medium--one-half ' | append: mobile_class
+      when 5
+        assign grid_strings = 'one-fifth medium--one-third ' | append: mobile_class
+      else
+        assign grid_strings = 'one-sixth medium--one-third ' | append: mobile_class
+    endcase
+  endif
+
+-%}
+
+{%- style -%}
+ #Collection--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    --grid: repeat({{ columns_desktop }}, minmax(0, 1fr));
+    --grid-tablet: repeat({{ columns_tablet }}, minmax(0, 1fr));
+    --grid-small: repeat({{ columns_small }}, minmax(0, 1fr));
+    --grid-mobile: repeat({{ columns_mobile }}, minmax(0, 1fr));
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+      --text-light: {{ text_color | color_mix: settings.bg_color, 70 }};
+      --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
+    {%- endunless -%}
+  }
+{%- endstyle -%}
+
+<section id="Collection--{{ section.id }}"
+  class="index-products section-padding {% if section.settings.text_alignment == 'left' %}layout--slider{% else %}layout--grid{% endif %}"
+  data-section-id="{{ section.id }}"
+  data-section-type="product-grid">
+
+  <div class="grid-container">
+    {%- if section.settings.heading != blank or section.settings.description != blank -%}
+      {%- liquid
+        assign text_alignment_class = 'text-center'
+        assign btn_modifier = ''
+
+        if section.settings.text_alignment == 'inline'
+          assign text_alignment_class = 'text-left'
+        else
+          assign btn_modifier = 'grid__btn-wrapper--static'
+        endif
+      -%}
+
+      <div class="grid__heading-holder {{ text_alignment_class }}">
+        {%- if section.settings.heading != blank -%}
+          <h2 class="grid__heading {{ text_alignment_class }}"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="1">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.description != blank -%}
+          <div class="grid__description {{ text_alignment_class }}"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="2">
+            {{ section.settings.description }}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.link_text != blank -%}
+          <div class = "grid__btn-wrapper {{ text_alignment_class }} {{ btn_modifier }}">
+            <a class="{{ section.settings.button_style }} {{ section.settings.button_color }}"
+              href="{% if section.settings.link_url != blank %}{{ section.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="3">
+              {{ section.settings.link_text | escape }}
+
+              {%- if settings.show_arrow -%}
+                {% render 'icon-arrow-right-alt' %}
+              {%- endif -%}
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="product-grid-outer">
+      <div 
+        class="product-grid {{ mobile_slider }} {{ layout_grid_classes }} {% unless settings.product_grid_outline %} product-grid--borderless{% endunless %}" 
+        {{ layout_grid_attributes }} 
+        data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true,  "wrapAround": false, "groupCells": true}'
+        data-arrow-position-middle>
+          {%- if featured_collection != blank -%}
+            {%- if featured_collection.products.size > 0 -%}
+              {%- for product in featured_collection.products limit: limit_products -%}
+                {%- assign animation_delay = forloop.index0 | times: 1 -%}
+
+                {%- if section.settings.grid != blank -%}
+                  {%- assign grid_int = section.settings.grid | times: 1 -%}
+                  {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
+                {%- endif -%}
+
+                {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
+
+                {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, additional_attributes: layout_slide_attributes, index: forloop.index -%}
+              {%- endfor -%}
+            {%- else -%}
+              <div class="no-results">
+                <p><strong>{{ 'collections.general.no_matches' | t }}</strong></p>
+              </div>
+            {%- endif -%}
+          {%- else -%}
+            {%- for i in (1..limit_onboarding) -%}
+              {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
+
+              {%- render 'onboarding-product-grid-item', grid_strings: grid_strings, additional_attributes: layout_slide_attributes, index: forloop.index, animation_delay: forloop.index0, placeholder_root: 'product-' -%}
+            {%- endfor -%}
+          {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>

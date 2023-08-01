@@ -1,0 +1,305 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css" />
+<style>
+.swiper1 .swiper-slide.selected{
+  color: #ff3100;
+  border-bottom: 2px solid #ff3100;
+}
+
+.swiper-container.swiper1  {
+  margin-bottom: 2rem;
+}
+
+.swiper1 .swiper-slide {
+  text-align: center;
+  font-size: 16px;
+  height:50px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  cursor:pointer;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.swiper2 .swiper-slide{
+  text-align:center;
+}
+
+.swiper-container.swiper1 {
+   display: none; 
+}
+
+.swiper2 .swiper-slide  {
+  height: 100%;
+}
+
+.swiper2 .swiper-wrapper {
+  height: auto !important;
+}
+
+.swiper-slide img.main_image {
+  width: 70%;
+  border-radius: 4px;
+}  
+
+.slide_content {
+  display: block;
+  position: relative;
+}  
+
+.mini_image {
+  position: absolute;
+  right: 0%;
+  object-fit: contain;
+  top: 45%;
+  width: 40%;
+  height: 60%;
+  border-radius: 4px;
+  transform: translateY(-45%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+.mini_image img {
+  width: 95%;
+  height: 95%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.swiper_slider_content {
+  width: 70%;
+  margin: 25px auto;
+  text-align: left;
+}
+
+.slider_heading {
+ margin: 3rem 0; 
+}
+
+@media (max-width: 1024px) {
+  .swiper-container.swiper1 {
+    display: block; 
+  }
+}  
+</style>
+
+<div style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+<div class="text-center">
+  <h3 class="slider_heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-order="1">{{ section.settings.title }}</h3>
+</div>
+
+<div class="swiper_container wrapper--full aos-init aos-animate" data-aos="hero" data-aos-order="2">
+  <!-- swiper1 -->
+  <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+              <div class="swiper-slide {% if forloop.first %} selected {% endif %}">{{ block.settings.slide_tab_text }}</div>
+          {% endfor %}
+        </div>
+  </div>
+  <!-- swiper2 -->
+  <div class="swiper-container swiper2">
+      <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <span class="slide_content">
+                <a href="{{ block.settings.featured_product.url }}">
+                  <img loading="lazy" class="main_image" src="{{ block.settings.main_image | img_url: 'master' }}" alt="Rizzi Toilet Paper" />
+                  <span style="background: {{ block.settings.mini_image_background }}" class="mini_image">
+                    <img loading="lazy" src="{{ block.settings.mini_image | img_url: 'master' }}" alt="Rizzi Toilet Paper" />
+                  </span> 
+                </a>  
+              </span>
+              <p class="swiper_slider_content">{{ block.settings.custom_description }}</p>
+              <a href="{{ block.settings.featured_product.url }}"
+                class="gsa-animated-btn gsa-m-0 gsa-mb-8 gsa-p-0 gsa-w-full"
+              style="width: 70%;">
+                  <div class="hoverEffects gsa-flex gsa-justify-between gsa-items-center">
+                    <span>{{ block.settings.button_text }}</span>
+                  </div>
+                </a>
+            </div>
+          {% endfor %}
+      </div>
+  </div>
+</div>
+</div>  
+
+<script defer>
+window.onload = function() {
+  
+  function setCurrentSlide(ele,index){
+    $(".swiper1 .swiper-slide").removeClass("selected");
+    ele.addClass("selected");
+    swiper1.initialSlide=index;
+  }
+  
+  var swiper1 = new Swiper('.swiper1', {
+        slidesPerView: 3,
+        paginationClickable: true,
+        freeMode: true,
+        loop: false,
+        onTab:function(swiper){
+          var n = swiper1.clickedIndex;
+        }
+    });
+  swiper1.slides.each(function(index,val){
+    var ele=$(this);
+    ele.on("click",function(){
+      setCurrentSlide(ele,index);
+      swiper2.slideTo(index, 500, false);
+      //mySwiper.initialSlide=index;
+    });
+  });
+  
+  
+var swiper2 = new Swiper ('.swiper2', {
+    slidesPerView: 3,
+    direction: 'horizontal',
+    spaceBetween: 10,
+    loop: false,
+    autoHeight: true,
+    breakpoints: {
+      1024: {
+        slidesPerView: 1
+      },
+      1200: {
+        slidesPerView: 3
+      }
+    },
+    onSlideChangeEnd: function(swiper){
+    
+      var n=swiper.activeIndex;
+      setCurrentSlide($(".swiper1 .swiper-slide").eq(n),n);
+      swiper1.slideTo(n, 500, false);
+    }
+  });
+
+  var Data="commentary，graphs,matchinfo，overbyover,relatedcontent";
+	$(".start").on('click',function(){
+		$(".show").html('');
+		var flag = true,j = 0;
+			//if(flag){
+				//flag = false;
+				(function Data(){
+					if(j < Data.length){
+						setTimeout(function(){
+							$(".show").html(Data.slice(0,j++));
+							Data();
+						},200);
+					}
+					else{
+						$(".show").html(Data);
+						flag = true;
+					}
+				})();
+			//}
+	});
+  
+  
+}
+</script>
+
+
+
+{% schema %}
+{
+  "name": "Rizzi Tab collections",
+  "settings": [
+    {
+      "label": "Heading",
+      "id": "title",
+      "type": "text"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks":[
+    {
+      "type": "product",
+      "name": "Product",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product"
+        },
+        {
+          "type": "product",
+          "id": "featured_product",
+          "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "slide_tab_text",
+          "label": "Slide Tab Text",
+          "default": "Toilet Papet"
+        },
+        {
+          "label": "Custom Description",
+          "id": "custom_description",
+          "type": "textarea"
+        },
+      {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "Main Product Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mini_image",
+          "label": "Mini Image"
+        },
+        {
+          "type": "color",
+          "id": "mini_image_background",
+          "label": "Mini Image Background",
+          "default": "#548687"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Collection",
+      "name": "Rizzi Tab collections"
+    }
+  ]
+}
+{% endschema %}

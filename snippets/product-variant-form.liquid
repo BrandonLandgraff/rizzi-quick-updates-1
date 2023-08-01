@@ -1,0 +1,288 @@
+<style>
+  {% comment %} #subscribe_container {
+    height: 0;
+    opacity: 0;
+  }  {% endcomment %}
+</style>
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+<div id="onetime_order">
+  <input type="hidden"  name="id" value="{{ current_variant.id }}"> 
+</div>
+<div id="subscribe"></div>
+<div id="prepaid"></div>  
+
+<div>
+  <div class="gsa-flex gsa-items-center gsa-mb-1.5">
+      <input type="radio" name="size" value="one_time" id="xs" checked>
+      <label class="gsa-text-sm gsa-ml-1.5" for="ONE-TIME ORDER">ONE-TIME ORDER</label>
+      {% comment %} <input type="hidden" name="selling_plan" value="" id="selling_plan_onetime"> {% endcomment %}
+  </div>
+  <div class="gsa-flex gsa-items-center gsa-mb-1.5">
+      <input type="radio" name="size" value="subscribe" id="s">
+      <label class="gsa-text-sm gsa-ml-1.5" for="SUBSCRIBE & SAVE 5%">SUBSCRIBE & SAVE 5%</label>
+  </div>
+  {% for group in product.selling_plan_groups %}
+    <fieldset>
+      <div id="subscribe_container" class="gsa-mb-2" style="width:250px;">
+        <select onchange="subscribe_onchange(this)">
+        {% for selling_plan in group.selling_plans %}
+            <option name="selling_plan" value="{{ selling_plan.id }}">{{ selling_plan.name }}</option>
+        {% endfor %}
+        </select>
+      </div>
+    </fieldset>
+  {% endfor %}
+  <div class="gsa-flex gsa-items-center gsa-mb-1.5">
+      <input type="radio" name="size" value="prepaid" id="m">
+      <label class="gsa-text-sm gsa-ml-1.5" for="PREPAID SUBSCRIPTION">PREPAID SUBSCRIPTION</label>
+  </div>
+</div>
+
+
+
+    {% comment %}  {% endcomment %}
+{% comment %} <script>
+  selectProductBundle();
+
+  function selectProductBundle() {
+    const formInputs = document.querySelectorAll('.js-product-input');
+    const checkedButtonId = document.querySelector(".product-form [id^='product-group-']:checked").id;
+    const selectedInput = document.querySelectorAll(`.${checkedButtonId}`);
+    
+    formInputs.forEach((element) =>{
+      element.setAttribute('disabled', '');
+      element.parentElement.closest('div').classList.remove('selected-radio-label');
+    });
+    selectedInput.forEach(( element) => {
+      element.removeAttribute('disabled');
+      element.parentElement.closest('div').classList.add('selected-radio-label');
+    });
+
+    //Update buy button pricing
+    const visibleInput = document.querySelector(".purchase-option-radio:checked");
+    const selectedPrice = visibleInput.dataset.price;
+    const selectedComparePrice = visibleInput.dataset.comparePrice;
+    const price = document.getElementById('selected-option-price');
+    const comparePrice = document.getElementById('selected-option-compare-price');
+
+    console.log("visibleInput ", visibleInput);
+
+    price.innerHTML = selectedPrice;
+    comparePrice.innerHTML = selectedComparePrice;
+
+  }
+</script> {% endcomment %}
+
+{% comment %} <script>
+    class VariantSelector extends HTMLElement {
+        constructor() {
+            super();
+            this.addEventListener("change", this.onVariantChange);
+        }
+        onVariantChange() {
+            this.getSelectedOptions();
+            this.getSelectedVariant();
+            if(this.currentVariant) {
+                this.updateURL();
+                this.updateFormID();
+                this.updatePrice();
+                this.updateUI();
+            }
+        }
+        getSelectedOptions() {
+//             this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+            const fieldsets = Array.from(this.querySelectorAll('fieldset'));
+            this.options = fieldsets.map((fieldset) => {
+                return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+          });
+            // CONSOLE LOG OPTIONS: 
+            console.log(this.options);
+            if (this.options[0] == "Individual") {
+                document.getElementById("variantlabel-2-2").style.display = "none";
+            } else {
+                document.getElementById("variantlabel-2-2").style.display = "inline-block";
+            }
+          
+        }
+        getVariantJSON() {
+            this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
+            return this.variantData;
+        }
+        getSelectedVariant() {
+          this.currentVariant = this.getVariantJSON().find(
+            (variant) => {
+              const findings = !variant.options.map(
+                (option, index) => {
+                  return this.options[index] === option;
+                }
+              ).includes(false);
+              if(findings) return variant;
+              console.log(variant);
+            }
+          );
+            console.log(this.currentVariant);
+          
+            const cb = document.querySelector('#accept');
+          
+            const rate = document.getElementById("list");
+            var sellingPlanValue = document.getElementsByName("selling_plan")[0];
+          
+         if (cb.checked) {
+//          console.log("Prepay Check");
+            this.dataset.url = "/products/no-2-toilet-paper-prepaid-test";
+           
+           // CONSOLE LOG OPTIONS: console.log("Prepay Check");
+      sellingPlanValue.value = 435978340;
+           
+            switch (this.currentVariant.id) {
+                  // Individual / Black
+                  case 39851155193956:
+                  this.currentVariant.id = 39853952860260;
+                    break;
+                  // Individual / White
+                  case 39851155226724:
+                  this.currentVariant.id = 39853952893028;
+                    break;
+                  // Friends/Family / Black
+                  case 39851155259492:
+                  this.currentVariant.id = 39853952925796;
+                    break;
+                  // Friends/Family / White
+                  case 39851155292260:
+                  this.currentVariant.id = 39853952958564;
+                    break;
+                  // Friends/Family / Mixed
+                  case 39851155325028:
+                  this.currentVariant.id = 39853952991332;
+                    break;
+              
+             }
+          } else {
+            
+            this.dataset.url = "/products/dwell-monthly-membership-prepaid-test";
+            // console.log("Not Checked");
+            sellingPlanValue.value = 435781732;
+            switch (this.currentVariant.id) {
+              // Individual / Black
+              case 39853952860260:
+              this.currentVariant.id = 39851155193956;
+                break;
+              // Individual / White
+              case 39853952893028:
+              this.currentVariant.id = 39851155226724;
+                break;
+              // Friends/Family / Black
+              case 39853952925796:
+              this.currentVariant.id = 39851155259492;
+                break;
+              // Friends/Family / White
+              case 39853952958564:
+              this.currentVariant.id = 39851155292260;
+                break;
+              // Friends/Family / Mixed
+              case 39853952991332:
+              this.currentVariant.id = 39851155325028;
+                break;
+            }
+             console.log(this.currentVariant.price);
+          }
+           // CONSOLE LOG OPTION 0: console.log(this.options[0]);
+            
+          
+        }
+        updateURL() {
+            if(!this.currentVariant) return;
+            window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
+        }
+        updateFormID() {
+            const form_input = document.querySelector("#product-form").querySelector('input[name="id"]');
+            form_input.value = this.currentVariant.id;
+        }
+        updatePrice() {
+            fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+            .then((response) => response.text())
+            .then((responseText) => {
+                const id = `price-${this.dataset.section}`;
+                const html = new DOMParser().parseFromString(responseText, 'text/html');
+                const oldPrice = document.getElementById(id);
+                const newPrice = html.getElementById(id);
+                if(oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
+              // console.log(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`);
+              // console.log(this.dataset.url);
+              // console.log(this.dataset.section);
+            });
+        }
+      
+        updateUI() {
+          const cb = document.querySelector('#accept');
+          
+          if (this.options[0] == "Individual") {
+            document.getElementById("price-change").innerHTML = "($8.96/month)";
+          } else {
+            document.getElementById("price-change").innerHTML = "($11.66/month)";
+          }
+          if (cb.checked) {
+            document.getElementById("price-frequency").innerHTML = "Every Year (Autorenews)";
+            document.getElementById("checkout-btn-text").innerHTML = "Prepay for Membership";
+          } else {
+            document.getElementById("price-frequency").innerHTML = "Every Month";
+            document.getElementById("checkout-btn-text").innerHTML = "Buy Month-to-Month"; 
+          }
+        }
+    }
+    customElements.define("variant-radios", VariantSelector);
+</script> {% endcomment %}
+
+<script>
+    class VariantSelector extends HTMLElement {
+        constructor() {
+            super();
+            this.addEventListener("change", this.onVariantChange);
+        }
+        onVariantChange() {
+            this.getSelectedOptions();
+            this.showPrepaidOptions();
+            if(this.currentVariant) {
+                this.updateURL();
+                this.updateFormID();
+                this.updatePrice();
+                this.updateUI();
+            }
+
+        console.log("THis ", this);
+        }
+
+        getSelectedOptions() {
+            const fieldsets = Array.from(this.querySelectorAll('.radio__fieldset'));
+            console.log("fieldsets ", fieldsets);
+            this.options = fieldsets.map((fieldset) => {
+            return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+            });
+            // CONSOLE LOG OPTIONS: 
+            console.log(this.options);
+        }
+
+        showPrepaidOptions() {
+            
+        }
+
+
+    }
+    customElements.define("variant-radios", VariantSelector);
+</script>   
+
+
+<script>
+    function subscribe_onchange(e) {
+      const subscribe_input = document.getElementById("subscribe");
+      while (subscribe_input.firstChild) {
+        subscribe_input.removeChild(subscribe_input.lastChild);
+      }
+      var textfield = document.createElement("input");
+      textfield.type = "hidden";
+      textfield.setAttribute("name", "selling_plan");
+      textfield.value = e.value;
+      subscribe_input.appendChild(textfield);
+    }
+</script>

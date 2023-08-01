@@ -1,0 +1,176 @@
+<!-- /templates/customers/login.liquid -->
+
+<style>
+#gsa-login-form h2 {
+  text-align: left !important;
+}
+.account .col {
+  width: 100%;
+}
+
+.gsa-login-container {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: 1fr 1fr;
+  text-align: left !important;
+}
+
+.gsa-subscribe-portal {
+  background-color: #0b2e4a;
+  padding: 0px 48px 16px 48px;
+  border-radius: 4px;
+}
+.gsa-subscribe-portal h2 {
+  text-align: left !important;
+  color: #efe7e7;
+}
+.gsa-subscribe-portal li {
+  font-size: 20px;
+  color: #efe7e7;
+  position: relative; /* Make the li element a reference point for absolute positioning of pseudo element */
+  padding-left: 15px; /* Make room for bullet point */
+}
+.gsa-subscribe-portal ul li::before {
+  content: "";
+  position: absolute;
+  left: 0; /* Align to left of li element */
+  top: 0.5em; /* Move it down half the x-height of the first line of text */
+  width: 11px;
+  height: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg width='11' height='2' viewBox='0 0 11 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='11' height='2' rx='1' fill='%23D9D9D9'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+}
+.gsa-subscribe-portal ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.gsa-subscribe-portal ul {
+  margin-left: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .gsa-login-container {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+  .gsa-subscribe-portal li {
+    font-size: 14px;
+  }
+  .gsa-subscribe-portal {
+    padding: 0px 24px 16px 24px;
+  }
+  .account .forgot-password {
+    text-align: left !important;
+  }
+}
+</style>
+
+
+{% if customer %}
+<p class="center">Redirecting...</p>
+<script type="text/javascript">
+  window.location = '{{ routes.account_url }}';
+</script>
+{% else %}
+<section data-account-form id="Login" class="account account--login {% if shop.checkout.guest_login %} just{% endif %}">
+
+  <div class="gsa-login-container">
+    
+  <div class="gsa-subscribe-portal">
+    <h2 class="theme">Subscriber Login</h2>
+    <ul>
+      <li>Updating order frequency</li>
+      <li>Editing your next order date</li>
+      <li>Updating billing and shipping information</li>
+      <li>Changing your product selection</li>
+    </ul>
+    <a class="btn" href="{% unless routes.root_url == "/" %}{{ routes.root_url }}{%  endunless %}/tools/bundle-subscriptions">Sign In</a>
+  </div>
+
+	<section class="col">
+      <div id="gsa-login-form" data-login-form class="animates login{% if shop.checkout.guest_login %} align-left{% endif %}">
+          <h2 class="theme">{{ 'customer.login.title' | t }}</h2>
+          <p>{{ 'customer.login.create_account_prompt' | t }} <span class="text-link"><a href="{{ routes.account_register_url }}">{{ 'customer.login.create_account_cta' | t }}</a></span>.</p>
+          {% form 'customer_login' %}
+          <div class="form-field">
+          {{ form.errors | default_errors }}
+          </div>
+          <div class="form-field">
+              <label for="customer_email">{{ 'customer.login.email' | t }}</label>
+              <input type="email" value="" name="customer[email]" id="customer_email"
+                class="{% if form.errors contains 'email' %}input-error{% endif %}"
+                placeholder="{{ 'customer.login.email' | t }}"
+                spellcheck="false"
+                autocomplete="off"
+                autocapitalize="off"
+                autofocus/>
+          </div>
+          {% if form.password_needed %}
+          <div class="form-field">
+              <label for="customer_password">{{ 'customer.login.password' | t }}</label>
+              <input type="password" value="" name="customer[password]" id="customer_password"
+                class="password"
+                class="{% if form.errors contains 'password' %}input-error{% endif %}"
+                placeholder="{{ 'customer.login.password' | t }}"/>
+              <div class="forgot-password">
+                  <button type="button" class="text-link small" data-show-reset>{{ 'customer.login.forgot_password' | t }}</button>
+              </div>
+          </div>
+          {% endif %}
+          <div class="form-field action-bottom">
+            <button type="submit" class="btn">
+              {{ 'customer.login.sign_in' | t }}
+
+              {%- if settings.show_arrow -%}
+                {%- render 'icon-arrow-right-alt' -%}
+              {%- endif -%}
+            </button>
+              &nbsp;
+              <span class="text-link small"><a href="{{ routes.root_url }}">{{ 'customer.login.cancel' | t }}</a></span>
+          </div>
+          {% endform %}
+      </div>
+
+      <div class="animates is-hidden" data-recover-password>
+          <h2 class="theme">{{ 'customer.recover_password.title' | t }}</h2>
+          <p>{{ 'customer.recover_password.subtext' | t }}</p>
+          {% form 'recover_customer_password' %}
+          {{ form.errors | default_errors }}
+          <div class="form-field">
+              <label for="email">{{ 'customer.login.email' | t }}</label>
+              <input type="email" value="" size="30" name="email" id="recover-email" class="large" />
+          </div>
+          <div class="form-field action-bottom">
+              <button type="submit" class="btn">
+                {{ 'customer.recover_password.submit' | t }}
+
+                {%- if settings.show_arrow -%}
+                  {%- render 'icon-arrow-right-alt' -%}
+                {%- endif -%}
+              </button>
+              <span class="note">
+                {{ 'cart.general.or' | t }}
+                <button class="text-link small" data-hide-reset>{{ 'customer.recover_password.cancel' | t }}</button>
+              </span>
+          </div>
+          {% endform %}
+      </div>
+	</section>
+
+    {% if shop.checkout.guest_login %}
+      <section class="col">
+        <div class="guest-checkout">
+          <div class="form-field">
+              <h2 class="theme">{{ 'customer.login.guest_title' | t }}</h2>
+              {% form 'guest_login' %}
+              <input class="btn" type="submit" value="{{ 'customer.login.guest_continue' | t }}" />
+              {% endform %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    </div>
+  
+</section>
+
+{% endif %}

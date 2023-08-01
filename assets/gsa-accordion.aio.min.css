@@ -1,0 +1,5 @@
+/*
+Generated time: January 16, 2023 23:25
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+details>summary{list-style:none}details>summary::-webkit-details-marker,details>summary::marker{display:none}.accordion-wrapper{margin-bottom:2rem;border-top:2px solid #000}details{color:#000;border-bottom:2px solid #000}summary{display:grid;grid-template-columns:1fr auto;align-items:center;cursor:pointer;list-style-type:none}.details-info,summary{padding:1rem}summary .icon{transition:transform .26s;color:#000}.details-info{opacity:.7}details[open] summary .icon{transform:rotate(45deg)}.icon{display:inline-block;width:24px;height:24px}
