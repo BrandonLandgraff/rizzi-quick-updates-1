@@ -617,7 +617,7 @@
         "text_columns": 1,
         "align_text": "text-center",
         "button_text": "Select Options",
-        "button_url": "#product-form",
+        "button_url": "#gsa-is-sticky",
         "button_color": "btn--primary",
         "button_style": "hero__btn btn btn--large caps",
         "width": "wrapper",
