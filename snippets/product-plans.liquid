@@ -29,6 +29,9 @@
     .radio__fieldset.plan-container:hover .plan-labels:hover {
         border: 1px solid #002E4A;
     } 
+    .radio__fieldset.plan-container:hover .active:hover {
+        border: 2px solid #002E4A;
+    }
     .free-shipping-label {
         font-weight: 700;
         width: 100%;
@@ -85,6 +88,7 @@
         font-size: 14px;
         text-align: center;
         font-weight: bold;
+        margin-bottom: 16px;
     }
 
     {% comment %} .gsa-purchase-options {
@@ -139,7 +143,7 @@
             <label onclick="purchase_options(event)" 
                    class="plan-labels{% if forloop.first == true %} active {% endif %}" style="{% if forloop.first == true %}border-radius: 4px 4px 0px 0px;{% endif %}">{{ plan }}</label>
         </span>
-        {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #FF4A1C;">SAVE 12% + FREE SHIPPING</span> {% endif %} 
+        {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #152D48;">SAVE 12% + FREE SHIPPING</span> {% endif %} 
     </div>
 
     {% endfor %}
@@ -188,11 +192,11 @@ function price_calculator(purchase_options) {
         gsa_cancel_anytime.innerHTML = "CANCEL ANYTIME";
 
         gsa_free_shipping_label.style.color = "#FFFFFF";
-        gsa_free_shipping_label.style.backgroundColor = "#FF4A1C";
+        gsa_free_shipping_label.style.backgroundColor = "#152D48";
     }else {
         gsa_free_shipping.innerHTML = "+ SHIPPING";
         gsa_free_shipping.style.color = "#787474";
-        gsa_cancel_anytime.innerHTML = "";
+        gsa_cancel_anytime.innerHTML = "SUBSCRIBE FOR FREE SHIPPING + 12% OFF";
 
         gsa_free_shipping_label.style.color = "#060606";
         gsa_free_shipping_label.style.backgroundColor = "#888888";
