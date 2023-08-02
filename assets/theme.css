@@ -14040,7 +14040,7 @@ a.review {
   border: 1px solid #6C6C6C;
   border-radius: 4px;
   font-weight: 600;
-  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  /* transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); */
 }
 .radio__fieldset .radio__button label:hover, .radio__fieldset .radio__button label:active, .radio__fieldset .radio__button label:focus {
   border: 1px solid #6C6C6C;
@@ -14064,9 +14064,13 @@ a.review {
   background-color: var(--primary);
 }
 .radio__fieldset .radio__button input:checked ~ label {
-  border: 2px solid var(--primary);
-  background: #002E4A;
-  color: var(--primary-opposite);
+  border: 2px solid #002E4A;
+  background: #EADCDC;
+  color: #002E4A;
+}
+
+.radio__fieldset .radio__button label:hover {
+  border: 1px solid #002E4A;
 }
 
 .radio__fieldset--small {
