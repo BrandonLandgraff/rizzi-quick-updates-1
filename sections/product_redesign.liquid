@@ -4,6 +4,8 @@
 {%- liquid
     assign show_cart_bar = false
     assign unique = section.id
+
+    assign img_align = section.settings.img_align
   
     if section.settings.show_cart_bar
       assign show_cart_bar = true
@@ -96,6 +98,19 @@
 
     .gsa-info-hide-2 {
       display: none;
+    }
+
+    /* Popup Image CSS */
+    #gsa-aspect-ratio-image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    .gsa-pop-img {
+      max-width: {{ section.settings.img_max_width }}px;
+      {% if img_align %}margin: 12px auto 0px auto;{% else %}margin-top: 12px;{% endif %}
+      border-radius: 4px;
     }
 
   {%- endstyle -%}
@@ -931,6 +946,11 @@
               "default": "TITLE"
         },
         {
+              "type": "image_picker",
+              "id": "carton_image",
+              "label": "Carton Popup Image"
+        },
+        {
               "type": "richtext",
               "id": "carton_size_description",
               "label": "Carton Size Info Description",
@@ -945,6 +965,11 @@
               "id": "subscription_title",
               "label": "Subscription Info Title",
               "default": "TITLE"
+        },
+        {
+              "type": "image_picker",
+              "id": "subscription_image",
+              "label": "Subscription Popup Image"
         },
         {
               "type": "richtext",
@@ -963,10 +988,36 @@
               "default": "TITLE"
         },
         {
+              "type": "image_picker",
+              "id": "frequency_image",
+              "label": "Frequency Popup Image"
+        },
+        {
               "type": "richtext",
               "id": "frequency_description",
               "label": "FrequencyInfo Description",
               "default": "<p>This is a description!</p>"
+        },
+        {
+          "type": "header",
+          "content": "Popup image",
+          "info": "Adjusts all popups"
+        },
+        {
+          "type": "range",
+          "id": "img_max_width",
+          "min": 100,
+          "max": 520,
+          "step": 20,
+          "unit": "px",
+          "label": "Image max width",
+          "default": 200
+        },
+        {
+          "type": "checkbox",
+          "id": "img_align",
+          "label": "Center align image",
+          "default": false
         }
       ],
       "blocks": [

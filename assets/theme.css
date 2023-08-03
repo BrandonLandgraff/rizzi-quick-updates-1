@@ -8095,6 +8095,7 @@ form .errors ul,
   left: 0;
   width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
 .fade-in.lazyloaded {
