@@ -17,67 +17,9 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
-    },
-    "7997ba82-2883-4c6d-a1e3-2bde9d45bba3": {
-      "type": "section-custom-content",
-      "blocks": {
-        "template--16233309536435__7997ba82-2883-4c6d-a1e3-2bde9d45bba3-image-1": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "template--16233309536435__7997ba82-2883-4c6d-a1e3-2bde9d45bba3-text-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "subheading_size": 3,
-            "title": "Custom content",
-            "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_social_links": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16233309536435__7997ba82-2883-4c6d-a1e3-2bde9d45bba3-image-1",
-        "template--16233309536435__7997ba82-2883-4c6d-a1e3-2bde9d45bba3-text-1"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "width": "wrapper--full",
-        "padding": false,
-        "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
-    "main",
-    "7997ba82-2883-4c6d-a1e3-2bde9d45bba3"
+    "main"
   ]
 }
