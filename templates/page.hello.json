@@ -179,11 +179,23 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "d656a8ef-a156-4603-ba7a-c46b37ea39f8": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_04",
+        "bg_color": "#efe7e7",
+        "wave_color": "#558788",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
-    "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8"
+    "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
+    "d656a8ef-a156-4603-ba7a-c46b37ea39f8"
   ]
 }
