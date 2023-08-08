@@ -94,10 +94,96 @@
         "padding_top": 47,
         "padding_bottom": 47
       }
+    },
+    "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-1": {
+          "type": "review",
+          "settings": {
+            "title": "Sarah L.",
+            "subheading": "Verified Buyer",
+            "review_text": "What wonder is this?! This is the second mail order bamboo tp that we’ve tried as a family. And everyone prefers this one!! The dimples are helpful (to make the paper more plush & cleaning). Highly recommend!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-2": {
+          "type": "review",
+          "settings": {
+            "title": "Brenda P.",
+            "subheading": "Verified Buyer",
+            "review_text": "The best. Exactly as described- the STRONGEST toilet paper I have come across, and SOFT.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-3": {
+          "type": "review",
+          "settings": {
+            "title": "Lulu P.",
+            "subheading": "Verified Buyer",
+            "review_text": "Surprisingly soft! Cute enough to stack without using my precious one bathroom cabinet (and no dust since they’re covered) and soft enough to keep me from going back to premium store-bought!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "9fb493d7-4e3f-4126-a0ad-648e3233dc35": {
+          "type": "review",
+          "settings": {
+            "title": "Shelley W.",
+            "subheading": "Verified Buyer",
+            "review_text": "Love this TP! I was just pleasantly surprised by the softness of this toilet paper. Also it looks so pretty in the bathroom because of all the prints and colors. We love it!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "3d3c6885-6d42-4839-b944-b2cdff3c0aed": {
+          "type": "review",
+          "settings": {
+            "title": "Rebecca M.",
+            "subheading": "Verified Buyer",
+            "review_text": "So pleased! We switched from Who Gives a Crap and have really enjoyed the lovely wrappers and feel it works better too.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "5f7246af-83ea-4a38-b71a-d8d806b2cb6a": {
+          "type": "review",
+          "settings": {
+            "title": "Lauren N.",
+            "subheading": "Verified Buyer",
+            "review_text": "Simply awesome. I switched to gono2 bamboo toilet paper during the height of the pandemic and I’ll never go back to normal toilet paper! It’s durable, easy to order and I’m helping the environment—that’s a win win.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-1",
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-2",
+        "template--16233309536435__8aa9b766-e343-4c3e-a3d8-10f0cfc908d8-review-3",
+        "9fb493d7-4e3f-4126-a0ad-648e3233dc35",
+        "3d3c6885-6d42-4839-b944-b2cdff3c0aed",
+        "5f7246af-83ea-4a38-b71a-d8d806b2cb6a"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#558788",
+        "color": "#ffffff",
+        "card_bg_color": "#558788",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20"
+    "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
+    "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8"
   ]
 }
