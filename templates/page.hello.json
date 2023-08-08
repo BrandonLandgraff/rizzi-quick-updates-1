@@ -17,9 +17,71 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "270f3e07-f627-4491-9c23-9ba0ebf39921": {
+      "type": "rizzi_hero_section",
+      "blocks": {
+        "770dfc23-7a48-45e9-8d60-981f88290e24": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 7,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "3164d12a-b57f-4bca-bf07-7b95b452eb6f": {
+          "type": "gsa-hero-text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Sustainability Meets Style",
+            "heading_size": 13,
+            "text": "<p>Premium 100% Bamboo Paper Products, better for you and Mother Earth.<\/p>",
+            "text_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "GET 20% OFF",
+            "button_url": "#our-lineup",
+            "second_button_text": "",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false,
+            "show_yotpo": false,
+            "reviews_text": "4.7 Stars out of 1,517 reviews"
+          }
+        }
+      },
+      "block_order": [
+        "770dfc23-7a48-45e9-8d60-981f88290e24",
+        "3164d12a-b57f-4bca-bf07-7b95b452eb6f"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "270f3e07-f627-4491-9c23-9ba0ebf39921"
   ]
 }
