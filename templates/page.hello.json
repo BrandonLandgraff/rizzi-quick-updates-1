@@ -190,12 +190,80 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "0801531c-4571-4f0a-a14a-68070f5124a9": {
+      "type": "gsa-section-blob",
+      "blocks": {
+        "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Choose a subscription plan (20% off)"
+          }
+        },
+        "007f797c-e702-41d4-a08d-68c688797455": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Paper products will conveniently ship to your door"
+          }
+        },
+        "eb5db945-d75c-435e-8039-2428fa0499a8": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Pause, skip or cancel anytime"
+          }
+        },
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
+        "007f797c-e702-41d4-a08d-68c688797455",
+        "eb5db945-d75c-435e-8039-2428fa0499a8",
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5"
+      ],
+      "settings": {
+        "show_right": true,
+        "dt_container_height": 600,
+        "mb_container_height": 350,
+        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
+        "image_background_height": 400,
+        "image": "shopify:\/\/shop_images\/no2photos-12_19122f85-121d-4c92-9bfe-b1a44b3b61bc.png",
+        "image_height": 600,
+        "show_animation": true,
+        "image_style": "gsa-masked-image-2",
+        "image_x_position": "pos-center",
+        "image_y_position": "pos-top",
+        "blob_x_position": "pos-left",
+        "blob_y_position": "pos-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "blob_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
     }
   },
   "order": [
     "main",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
-    "d656a8ef-a156-4603-ba7a-c46b37ea39f8"
+    "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
+    "0801531c-4571-4f0a-a14a-68070f5124a9"
   ]
 }
