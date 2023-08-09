@@ -225,7 +225,7 @@
             "text_align": "center",
             "display_options": "bl-hide-none",
             "padding_horizontal": false,
-            "padding_top": 0,
+            "padding_top": 12,
             "padding_bottom": 0
           }
         },
@@ -272,6 +272,61 @@
         "opacity": 60,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "0742403d-bcf4-4dd9-8d5e-61c569956eb1": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "1eaa4461-be0c-41c2-bdbd-cd8df3663f81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_2.png",
+            "url": ""
+          }
+        },
+        "0c0608c3-bf9b-43d5-8cb0-518370d365a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_2_77e7e318-a5de-42a3-9576-5bbf0dd352e6.png",
+            "url": ""
+          }
+        },
+        "28a51c08-6a1c-4241-af50-1826ac92265a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-11_2.png",
+            "url": ""
+          }
+        },
+        "3220257b-49d7-465a-8fc1-aa722873b99e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_2.png",
+            "url": ""
+          }
+        },
+        "35eda6cf-39fb-492d-9b8c-05a42ddfb971": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_2.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1eaa4461-be0c-41c2-bdbd-cd8df3663f81",
+        "0c0608c3-bf9b-43d5-8cb0-518370d365a5",
+        "28a51c08-6a1c-4241-af50-1826ac92265a",
+        "3220257b-49d7-465a-8fc1-aa722873b99e",
+        "35eda6cf-39fb-492d-9b8c-05a42ddfb971"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "",
+        "wave_color_bottom": ""
       }
     },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
@@ -443,6 +498,7 @@
     "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
     "57c53b56-3512-4587-8bfc-c24b9b4157d6",
+    "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
     "0801531c-4571-4f0a-a14a-68070f5124a9"
