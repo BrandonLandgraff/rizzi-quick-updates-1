@@ -616,6 +616,143 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "46512bbd-0969-4350-a794-46e0ea88ae12": {
+      "type": "gsa-lineup",
+      "blocks": {
+        "cd9652fe-5680-4850-b062-86e02380da22": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ToiletPaper.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 38,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Toilet Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo TP that <strong>provides silky and strong paper for the best Crumble free™<\/strong> wipe.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "506f542a-bbd8-4fef-a9bc-137d7e8c10c5": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PaperTowel.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 106,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Paper Towel",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>Strong and absorbent<\/strong> 100% bamboo paper towels wrapped in our stylish design, delivered right to your door.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "a73343c4-5123-4bf0-ad1e-84f62f37c394": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TissuePapers.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 144,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Tissue Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "cd9652fe-5680-4850-b062-86e02380da22",
+        "506f542a-bbd8-4fef-a9bc-137d7e8c10c5",
+        "a73343c4-5123-4bf0-ad1e-84f62f37c394"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -627,6 +764,7 @@
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
     "0801531c-4571-4f0a-a14a-68070f5124a9",
-    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54"
+    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54",
+    "46512bbd-0969-4350-a794-46e0ea88ae12"
   ]
 }
