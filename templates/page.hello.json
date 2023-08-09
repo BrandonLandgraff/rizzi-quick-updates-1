@@ -325,8 +325,8 @@
         "hide_arrows": false,
         "dot": "#828282",
         "hide_dots": false,
-        "wave_color_top": "",
-        "wave_color_bottom": ""
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#558788"
       }
     },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
