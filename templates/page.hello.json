@@ -32,7 +32,7 @@
             "display_options": "bl-hide-none",
             "padding_horizontal": false,
             "padding_top": 6,
-            "padding_bottom": 6
+            "padding_bottom": 24
           }
         },
         "193d1262-87f8-48fe-bcb6-e7d29aecc28e": {
@@ -270,7 +270,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
+        "padding_top": 12,
         "padding_bottom": 60
       }
     },
@@ -557,7 +557,7 @@
             "justify_content": "center",
             "display_options": "bl-hide-none",
             "padding_horizontal": false,
-            "padding_top": 46,
+            "padding_top": 6,
             "padding_bottom": 6
           }
         },
@@ -625,7 +625,7 @@
         "overlay_color": "#000000",
         "opacity": 60,
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 0
       }
     },
     "46512bbd-0969-4350-a794-46e0ea88ae12": {
