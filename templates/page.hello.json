@@ -454,13 +454,22 @@
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large"
           }
+        },
+        "1124f5ae-eb00-4507-ba71-026ed1a03886": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
         }
       },
       "block_order": [
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
         "007f797c-e702-41d4-a08d-68c688797455",
         "eb5db945-d75c-435e-8039-2428fa0499a8",
-        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5"
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5",
+        "1124f5ae-eb00-4507-ba71-026ed1a03886"
       ],
       "settings": {
         "show_right": true,
