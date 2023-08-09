@@ -229,6 +229,17 @@
             "padding_bottom": 0
           }
         },
+        "2bd49016-0569-4a99-875b-9f739dfc1ab8": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rizzi_Alt_Banner_-_v3_1_2.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "100% recycled, plastic free packaging",
+            "benefit_3": "Convenient home delivery & subscription",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
         "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98": {
           "type": "first_button",
           "settings": {
@@ -243,6 +254,7 @@
       "block_order": [
         "56e29e43-6cba-4d54-b652-bbcc08488073",
         "bce7101a-ef2d-41be-86ca-1127bdba9b27",
+        "2bd49016-0569-4a99-875b-9f739dfc1ab8",
         "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98"
       ],
       "settings": {
