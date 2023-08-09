@@ -18,6 +18,107 @@
         "padding_bottom": 50
       }
     },
+    "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "d08953e0-4b69-46cb-8193-64cffba36ef9": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "193d1262-87f8-48fe-bcb6-e7d29aecc28e": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 72,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Sustainability Meets Style",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "5a63eb74-0c9e-4c60-ae6c-dad241d25410": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% Bamboo Paper Products, better for you and Mother Earth<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 384,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "221c02a3-186b-4051-bc4c-9e27514ebc32": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "#our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "80b56819-6dec-4fba-91c8-0a4f2cd78c23": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "d08953e0-4b69-46cb-8193-64cffba36ef9",
+        "193d1262-87f8-48fe-bcb6-e7d29aecc28e",
+        "5a63eb74-0c9e-4c60-ae6c-dad241d25410",
+        "221c02a3-186b-4051-bc4c-9e27514ebc32",
+        "80b56819-6dec-4fba-91c8-0a4f2cd78c23"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 42,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Hero.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "#d2d6d7",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": true
+      }
+    },
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20": {
       "type": "section-logo-list",
       "blocks": {
@@ -261,6 +362,7 @@
   },
   "order": [
     "main",
+    "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
