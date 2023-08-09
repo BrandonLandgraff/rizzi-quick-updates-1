@@ -1,0 +1,46 @@
+{%- liquid
+    assign blockid = block.id
+    assign product_title = block.settings.p_product_title
+
+    assign scaled_font_size = block.settings.p_font_size | times: 0.9 | round
+    assign line_height = block.settings.p_line_height
+    assign letter_spacing  = block.settings.p_letter_spacing
+  -%}
+
+{% style %}
+.gsa-heading-block {
+  display: flex; 
+  height: 100%; 
+  width: 100%;
+}
+.gsa-header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%; /* This will make the font size the same as the parent element */
+    vertical-align: baseline;
+    color: inherit;
+    background: none;
+    text-decoration: none;
+    text-align: inherit;
+
+    font-weight: 500;
+}
+#gsa-header-{{ blockid }} {
+  font-size: {{ block.settings.p_font_size }}px;
+  color: {{ block.settings.p_font_color }};
+  line-height: {{ line_height | times: 0.01 | plus: 1 }}em;
+  letter-spacing: {{ letter_spacing | times: 0.01 }}rem;
+}
+@media (max-width: 768px) {
+  #gsa-header-{{ blockid }} {
+    font-size: {{ scaled_font_size }}px;
+  }
+}
+{% endstyle %}
+
+<div class="gsa-heading-block {{ block.settings.p_display_options }}" style="padding-top: {{ block.settings.p_padding_top }}px; padding-bottom: {{ block.settings.p_padding_bottom }}px; {% if block.settings.p_padding_horizontal %}margin: 0px 12px;{% endif %}">
+    <div class="bl--block-wrapper--{{ blockid }}" style="text-align: {{ block.settings.p_text_align }}; width: 100%;">
+        <h2 id="gsa-header-{{ blockid }}" class="gsa-header">{{ block.settings.p_heading }}</h2>
+    </div>
+</div>

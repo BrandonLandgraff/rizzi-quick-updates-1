@@ -1,0 +1,215 @@
+<!-- /sections/gsa-lifestyle-images.liquid -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+{{ 'gsa-styling.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+    assign sectionid = section.id
+-%}
+  
+{%- style -%}
+/* SECTION STYLES */
+.gsa-single-column--{{ sectionid }} {
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+.swiperImage-{{ sectionid }} {
+    width: 100%;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.bl-image-{{ sectionid }} {
+  margin: auto;
+}
+/* WAVES */
+.wave-carousel-container {
+    position: relative;
+}
+.gsa-top-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 2;
+    margin: -2px 0px;
+    transform: rotate(180deg);
+}
+.gsa-bottom-wave {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.swiperImage-{{ sectionid }} {
+    position: relative;
+    z-index: 1;
+}
+{%- endstyle -%}
+
+<section>
+
+        <div class="gsa-carousel-section">
+
+            <div class="wave-carousel-container">
+                <svg id="wave" class="gsa-top-wave" viewBox="0 0 1440 170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <path style="transform:translate(0, 0px); opacity:1" fill="{{ section.settings.wave_color_top }}" d="M0,126L120,126C240,126,480,126,720,114C960,102,1200,78,1440,84C1680,90,1920,126,2160,135C2400,144,2640,126,2880,117C3120,108,3360,108,3600,114C3840,120,4080,132,4320,132C4560,132,4800,120,5040,123C5280,126,5520,144,5760,129C6000,114,6240,66,6480,42C6720,18,6960,18,7200,18C7440,18,7680,18,7920,18C8160,18,8400,18,8640,24C8880,30,9120,42,9360,54C9600,66,9840,78,10080,75C10320,72,10560,54,10800,42C11040,30,11280,24,11520,33C11760,42,12000,66,12240,90C12480,114,12720,138,12960,129C13200,120,13440,78,13680,78C13920,78,14160,120,14400,123C14640,126,14880,90,15120,75C15360,60,15600,66,15840,66C16080,66,16320,60,16560,72C16800,84,17040,114,17160,129L17280,144L17280,180L17160,180C17040,180,16800,180,16560,180C16320,180,16080,180,15840,180C15600,180,15360,180,15120,180C14880,180,14640,180,14400,180C14160,180,13920,180,13680,180C13440,180,13200,180,12960,180C12720,180,12480,180,12240,180C12000,180,11760,180,11520,180C11280,180,11040,180,10800,180C10560,180,10320,180,10080,180C9840,180,9600,180,9360,180C9120,180,8880,180,8640,180C8400,180,8160,180,7920,180C7680,180,7440,180,7200,180C6960,180,6720,180,6480,180C6240,180,6000,180,5760,180C5520,180,5280,180,5040,180C4800,180,4560,180,4320,180C4080,180,3840,180,3600,180C3360,180,3120,180,2880,180C2640,180,2400,180,2160,180C1920,180,1680,180,1440,180C1200,180,960,180,720,180C480,180,240,180,120,180L0,180Z"></path>
+                </svg> 
+
+            <div class="bl--section-wrapper--{{ sectionid }}" style="text-align: {{ section.settings.text_align }}; max-width: 100%;">
+        
+                <!-- Slider main container -->
+                <div class="swiper swiperImage-{{ sectionid }}">
+                    <div class="swiper-wrapper">
+
+                        {% for block in section.blocks %}
+                            {% case block.type %}
+                
+                                {% when 'image' %}
+
+                                {% if block.settings.image != blank or block.settings.mb_image != blank %}
+                                    <div class="swiper-slide slide-{{ sectionid }}">
+                                      <a href="{{ block.settings.url }}">
+                                        <picture>
+                                          {% if block.settings.image != blank %}
+                                            <source media="(min-width: 769px)" srcset="{{ block.settings.image | img_url: '1440x' }}" alt="{{ block.settings.image.alt | escape }}">
+                                          {% endif %}
+                                          {% if block.settings.mb_image != blank %}
+                                            <source media="(max-width: 768px)" srcset="{{ block.settings.mb_image | img_url: '1080x' }}" alt="{{ block.settings.mb_image.alt | escape }}">
+                                          {% endif %}
+                                          <!-- Default to desktop image if available -->
+                                          {% if block.settings.image != blank %}
+                                            <img class="bl-image-{{ sectionid }}" src="{{ block.settings.image | img_url: '1080x' }}" width="" height="" style="width: 100%;" alt="{{ block.settings.image.alt | escape }}">
+                                          {% endif %}
+                                        </picture>
+                                      </a>
+                                    </div>
+                                  {% endif %}
+        
+                            {% endcase %}
+                        {% endfor %}
+                </div>
+
+              </div>
+    
+        </div>
+
+        <svg id="wave" class="gsa-bottom-wave" viewBox="0 0 1440 170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path style="transform:translate(0, 0px); opacity:1" fill="{{ section.settings.wave_color_bottom }}" d="M0,126L120,126C240,126,480,126,720,114C960,102,1200,78,1440,84C1680,90,1920,126,2160,135C2400,144,2640,126,2880,117C3120,108,3360,108,3600,114C3840,120,4080,132,4320,132C4560,132,4800,120,5040,123C5280,126,5520,144,5760,129C6000,114,6240,66,6480,42C6720,18,6960,18,7200,18C7440,18,7680,18,7920,18C8160,18,8400,18,8640,24C8880,30,9120,42,9360,54C9600,66,9840,78,10080,75C10320,72,10560,54,10800,42C11040,30,11280,24,11520,33C11760,42,12000,66,12240,90C12480,114,12720,138,12960,129C13200,120,13440,78,13680,78C13920,78,14160,120,14400,123C14640,126,14880,90,15120,75C15360,60,15600,66,15840,66C16080,66,16320,60,16560,72C16800,84,17040,114,17160,129L17280,144L17280,180L17160,180C17040,180,16800,180,16560,180C16320,180,16080,180,15840,180C15600,180,15360,180,15120,180C14880,180,14640,180,14400,180C14160,180,13920,180,13680,180C13440,180,13200,180,12960,180C12720,180,12480,180,12240,180C12000,180,11760,180,11520,180C11280,180,11040,180,10800,180C10560,180,10320,180,10080,180C9840,180,9600,180,9360,180C9120,180,8880,180,8640,180C8400,180,8160,180,7920,180C7680,180,7440,180,7200,180C6960,180,6720,180,6480,180C6240,180,6000,180,5760,180C5520,180,5280,180,5040,180C4800,180,4560,180,4320,180C4080,180,3840,180,3600,180C3360,180,3120,180,2880,180C2640,180,2400,180,2160,180C1920,180,1680,180,1440,180C1200,180,960,180,720,180C480,180,240,180,120,180L0,180Z"></path>
+        </svg> 
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Initialize Swiper -->
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('.swiperImage-{{ sectionid }}').forEach((swiperContainer) => {
+        const swiper = new Swiper(swiperContainer, {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            grabCursor: true,
+            loop: true, // Infinite loop
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2, // Set to two slides per view on small screens
+                },
+                // when window width is >= 769px
+                769: {
+                    slidesPerView: 5, // Set back to one slide per view on larger screens
+                }
+            },
+            autoplay: {
+                delay: 1000, // Auto-scroll every second
+                disableOnInteraction: false,
+            },
+        });
+    });
+  });
+</script>
+
+  {% schema %}
+    {
+      "name": "Lifestyle Images",
+      "class": "gsa-lifestyle-images",
+      "settings": [
+        {
+        "type": "header",
+        "content": "Template Settings"
+        },
+        {
+            "type": "color",
+            "id": "arrow_color",
+            "label": "Arrow color",
+            "default": "#000000"
+        },
+        {
+            "type": "checkbox",
+            "id": "hide_arrows",
+            "label": "Hide arrows",
+            "default": false
+        },
+        {
+            "type": "color",
+            "id": "dot",
+            "label": "Dot color",
+            "default": "#828282"
+        },
+        {
+            "type": "checkbox",
+            "id": "hide_dots",
+            "label": "Hide dots",
+            "default": false
+        },
+        {
+            "type": "color",
+            "id": "wave_color_top",
+            "label": "Wave color top"
+        },
+        {
+            "type": "color",
+            "id": "wave_color_bottom",
+            "label": "Wave color bottom"
+        }
+      ],
+      "max_blocks": 10,
+      "blocks": [
+        {
+            "type": "image",
+            "name": "Image",
+            "settings": [
+                    {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Desktop image"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "mb_image",
+                    "label": "Mobile image"
+                  },
+                  {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Link"
+                  }
+                ]
+          }
+      ],
+      "presets": [
+        {
+          "name": "Lifestyle images",
+          "category": "Text",
+          "blocks": []
+        }
+      ]
+    }
+  {% endschema %}

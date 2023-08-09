@@ -1,0 +1,52 @@
+{%- liquid
+    assign blockid = block.id
+    assign product_description = block.settings.product_description
+
+    assign line_height = block.settings.line_height
+    assign letter_spacing  = block.settings.letter_spacing
+-%}
+
+{% style %}
+.gsa-description-block {
+  display: flex; 
+  height: 100%; 
+  width: 100%;
+}
+
+#gsa-description-{{ block.id }} p {
+    font-size: {{ block.settings.font_size }}px;
+    color: {{ block.settings.font_color }};
+    line-height: {{ line_height | times: 0.01 | plus: 1 }}em;
+    letter-spacing: {{ letter_spacing | times: 0.01 }}rem;
+}
+
+#gsa-description-{{ block.id }} a {
+    color: {{ block.settings.accent_color }};
+    transition: opacity 0.3s ease;
+}
+#gsa-description-{{ block.id }} a:hover {
+    opacity: 0.7;
+}
+
+.bl-description-{{ block.id }} p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    color: inherit;
+    background: none;
+    text-decoration: none;
+    text-align: inherit;
+}
+
+{% endstyle %}
+
+<div class="gsa-description-block {{ block.settings.display_options }}" style="justify-content: {{ block.settings.justify_content }}; padding-top: {{ block.settings.padding_top }}px; padding-bottom: {{ block.settings.padding_bottom }}px; {% if block.settings.padding_horizontal %}margin: 0px 12px;{% endif %}">
+    <div class="bl--block-wrapper--{{ blockid }}" style="text-align: {{ block.settings.text_align }}; max-width: {{ block.settings.max_width }}px;">
+
+        <div class="bl-description-component-{{ block.id }}">
+            <span id="gsa-description-{{ block.id }}" class="bl-description-{{ block.id }}">{% if product_description %}{{ product.description }}{% else %}{{ block.settings.description }}{% endif %}</span>
+        </div>
+
+    </div>
+</div>

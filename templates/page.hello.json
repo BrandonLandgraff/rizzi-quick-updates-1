@@ -18,6 +18,107 @@
         "padding_bottom": 50
       }
     },
+    "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "d08953e0-4b69-46cb-8193-64cffba36ef9": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 24
+          }
+        },
+        "193d1262-87f8-48fe-bcb6-e7d29aecc28e": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Sustainability Meets Style",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "5a63eb74-0c9e-4c60-ae6c-dad241d25410": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% Bamboo Paper Products, better for you and Mother Earth<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 384,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "221c02a3-186b-4051-bc4c-9e27514ebc32": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "#our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "80b56819-6dec-4fba-91c8-0a4f2cd78c23": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "d08953e0-4b69-46cb-8193-64cffba36ef9",
+        "193d1262-87f8-48fe-bcb6-e7d29aecc28e",
+        "5a63eb74-0c9e-4c60-ae6c-dad241d25410",
+        "221c02a3-186b-4051-bc4c-9e27514ebc32",
+        "80b56819-6dec-4fba-91c8-0a4f2cd78c23"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "60% 40%",
+        "gap": 42,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Hero.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "#d2d6d7",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": true
+      }
+    },
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20": {
       "type": "section-logo-list",
       "blocks": {
@@ -93,6 +194,139 @@
         "color": "",
         "padding_top": 47,
         "padding_bottom": 47
+      }
+    },
+    "57c53b56-3512-4587-8bfc-c24b9b4157d6": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "56e29e43-6cba-4d54-b652-bbcc08488073": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "bce7101a-ef2d-41be-86ca-1127bdba9b27": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Premium, 100% Bamboo",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
+        "2bd49016-0569-4a99-875b-9f739dfc1ab8": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rizzi_Alt_Banner_-_v3_1_2.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "100% recycled, plastic free packaging",
+            "benefit_3": "Convenient home delivery & subscription",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
+        "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "#our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "56e29e43-6cba-4d54-b652-bbcc08488073",
+        "bce7101a-ef2d-41be-86ca-1127bdba9b27",
+        "2bd49016-0569-4a99-875b-9f739dfc1ab8",
+        "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 12,
+        "padding_bottom": 60
+      }
+    },
+    "0742403d-bcf4-4dd9-8d5e-61c569956eb1": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "1eaa4461-be0c-41c2-bdbd-cd8df3663f81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_2.png",
+            "url": ""
+          }
+        },
+        "0c0608c3-bf9b-43d5-8cb0-518370d365a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_2_77e7e318-a5de-42a3-9576-5bbf0dd352e6.png",
+            "url": ""
+          }
+        },
+        "28a51c08-6a1c-4241-af50-1826ac92265a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-11_2.png",
+            "url": ""
+          }
+        },
+        "3220257b-49d7-465a-8fc1-aa722873b99e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_2.png",
+            "url": ""
+          }
+        },
+        "35eda6cf-39fb-492d-9b8c-05a42ddfb971": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_2.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1eaa4461-be0c-41c2-bdbd-cd8df3663f81",
+        "0c0608c3-bf9b-43d5-8cb0-518370d365a5",
+        "28a51c08-6a1c-4241-af50-1826ac92265a",
+        "3220257b-49d7-465a-8fc1-aa722873b99e",
+        "35eda6cf-39fb-492d-9b8c-05a42ddfb971"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#558788"
       }
     },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
@@ -184,7 +418,7 @@
       "type": "gsa-waves-feature",
       "settings": {
         "wave_orientation": "180deg",
-        "wave_type": "wave_04",
+        "wave_type": "wave_02",
         "bg_color": "#efe7e7",
         "wave_color": "#558788",
         "padding_top": 0,
@@ -194,6 +428,36 @@
     "0801531c-4571-4f0a-a14a-68070f5124a9": {
       "type": "gsa-section-blob",
       "blocks": {
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Subscribe & Save + Free Shipping",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
           "type": "bullet",
           "settings": {
@@ -216,17 +480,28 @@
           "type": "first_button",
           "settings": {
             "button_text": "GET 20% OFF",
-            "button_url": "",
+            "button_url": "#our-lineup",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large"
+          }
+        },
+        "1124f5ae-eb00-4507-ba71-026ed1a03886": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
           }
         }
       },
       "block_order": [
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150",
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6",
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
         "007f797c-e702-41d4-a08d-68c688797455",
         "eb5db945-d75c-435e-8039-2428fa0499a8",
-        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5"
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5",
+        "1124f5ae-eb00-4507-ba71-026ed1a03886"
       ],
       "settings": {
         "show_right": true,
@@ -257,13 +532,251 @@
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
       }
+    },
+    "01fe35f0-3e3f-4410-ab6d-871c19e9c555": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"our-lineup\"><\/span>",
+        "bg_color": "",
+        "color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "6a89de93-5d82-46d1-a2dc-45a6a1faa02d": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "0cb3be3d-be62-46c8-8c24-cd7ec14ac158": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Our Lineup",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
+        "b767e033-f622-4f55-9b78-88b6c32c995a": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>Get 20% off<\/strong> your first Rizzi Home order!<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "2298ab3d-456d-4ccf-aa65-715daf6d6247": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "6a89de93-5d82-46d1-a2dc-45a6a1faa02d",
+        "0cb3be3d-be62-46c8-8c24-cd7ec14ac158",
+        "b767e033-f622-4f55-9b78-88b6c32c995a",
+        "2298ab3d-456d-4ccf-aa65-715daf6d6247"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "46512bbd-0969-4350-a794-46e0ea88ae12": {
+      "type": "gsa-lineup",
+      "blocks": {
+        "cd9652fe-5680-4850-b062-86e02380da22": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ToiletPaper.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 38,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Toilet Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo TP that <strong>provides silky and strong paper for the best Crumble free™<\/strong> wipe.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "506f542a-bbd8-4fef-a9bc-137d7e8c10c5": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PaperTowel.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 106,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Paper Towel",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>Strong and absorbent<\/strong> 100% bamboo paper towels wrapped in our stylish design, delivered right to your door.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "a73343c4-5123-4bf0-ad1e-84f62f37c394": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TissuePapers.png",
+            "blob_color": "#d2d6d7",
+            "blob_deg": 144,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Tissue Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "cd9652fe-5680-4850-b062-86e02380da22",
+        "506f542a-bbd8-4fef-a9bc-137d7e8c10c5",
+        "a73343c4-5123-4bf0-ad1e-84f62f37c394"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 42
+      }
     }
   },
   "order": [
     "main",
+    "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
+    "57c53b56-3512-4587-8bfc-c24b9b4157d6",
+    "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
-    "0801531c-4571-4f0a-a14a-68070f5124a9"
+    "0801531c-4571-4f0a-a14a-68070f5124a9",
+    "01fe35f0-3e3f-4410-ab6d-871c19e9c555",
+    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54",
+    "46512bbd-0969-4350-a794-46e0ea88ae12"
   ]
 }
