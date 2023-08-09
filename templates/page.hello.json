@@ -532,6 +532,90 @@
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
       }
+    },
+    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "6a89de93-5d82-46d1-a2dc-45a6a1faa02d": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "0cb3be3d-be62-46c8-8c24-cd7ec14ac158": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Our Lineup",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
+        "b767e033-f622-4f55-9b78-88b6c32c995a": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>Get 20% off<\/strong> your first Rizzi Home order!<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "2298ab3d-456d-4ccf-aa65-715daf6d6247": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "6a89de93-5d82-46d1-a2dc-45a6a1faa02d",
+        "0cb3be3d-be62-46c8-8c24-cd7ec14ac158",
+        "b767e033-f622-4f55-9b78-88b6c32c995a",
+        "2298ab3d-456d-4ccf-aa65-715daf6d6247"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -542,6 +626,7 @@
     "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
-    "0801531c-4571-4f0a-a14a-68070f5124a9"
+    "0801531c-4571-4f0a-a14a-68070f5124a9",
+    "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54"
   ]
 }
