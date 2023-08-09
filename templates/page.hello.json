@@ -617,6 +617,17 @@
         "padding_bottom": 60
       }
     },
+    "01fe35f0-3e3f-4410-ab6d-871c19e9c555": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"our-lineup\"><\/span>",
+        "bg_color": "",
+        "color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "46512bbd-0969-4350-a794-46e0ea88ae12": {
       "type": "gsa-lineup",
       "blocks": {
@@ -765,6 +776,7 @@
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
     "0801531c-4571-4f0a-a14a-68070f5124a9",
     "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54",
+    "01fe35f0-3e3f-4410-ab6d-871c19e9c555",
     "46512bbd-0969-4350-a794-46e0ea88ae12"
   ]
 }
