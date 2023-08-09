@@ -480,7 +480,7 @@
           "type": "first_button",
           "settings": {
             "button_text": "GET 20% OFF",
-            "button_url": "",
+            "button_url": "#our-lineup",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large"
           }
