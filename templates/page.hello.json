@@ -428,6 +428,36 @@
     "0801531c-4571-4f0a-a14a-68070f5124a9": {
       "type": "gsa-section-blob",
       "blocks": {
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Subscribe & Save + Free Shipping",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
           "type": "bullet",
           "settings": {
@@ -465,6 +495,8 @@
         }
       },
       "block_order": [
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150",
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6",
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
         "007f797c-e702-41d4-a08d-68c688797455",
         "eb5db945-d75c-435e-8039-2428fa0499a8",
