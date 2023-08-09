@@ -1,0 +1,29 @@
+{%- liquid
+    assign blockid = block.id
+  
+    assign color = block.settings.color
+    assign accent_height = block.settings.accent_height
+    assign accent_width = block.settings.accent_width
+    assign border_radius = block.settings.border_radius
+  -%}
+  
+  {% style %}
+  .gsa-accent-block {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .bl-accent-{{ blockid }} {
+    display: block !important;
+    background-color: {{ color }};
+    height: {{ accent_height }}px;
+    width: {{ accent_width }}px;
+    border-radius: {{ border_radius }}px;
+  }
+  {% endstyle %}
+  
+  <div class="gsa-accent-block {{ block.settings.display_options }}" style="justify-content: {{ block.settings.justify_content }}; padding-top: {{ block.settings.padding_top }}px; padding-bottom: {{ block.settings.padding_bottom }}px; {% if block.settings.padding_horizontal %}margin: 0px 12px;{% endif %}">
+    <div class="bl--block-wrapper--{{ blockid }}">
+      <div class="bl-accent-{{ blockid }}"></div>
+    </div>
+  </div>

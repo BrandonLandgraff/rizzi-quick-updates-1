@@ -278,6 +278,39 @@
                         <p class="gsa-mb-0">{{ block.settings.richtext }}</p>
                       </div>
 
+                    {% when 'accent' %}
+                      <div 
+                          data-aos="hero"
+                          data-aos-anchor="{{ animation_anchor }}"
+                          data-aos-order="4"
+                          class="aos-init aos-animate"
+                          {{ block.shopify_attributes }}
+                      >
+                      {%- render 'gsa-accent', block: block -%}
+                      </div>
+
+                    {% when 'reviews' %}
+                      <div 
+                          data-aos="hero"
+                          data-aos-anchor="{{ animation_anchor }}"
+                          data-aos-order="5"
+                          class="aos-init aos-animate"
+                          {{ block.shopify_attributes }}
+                      >
+                      {%- render 'gsa-reviews', block: block -%}
+                      </div>
+
+                    {% when 'heading' %}
+                      <div 
+                          data-aos="hero"
+                          data-aos-anchor="{{ animation_anchor }}"
+                          data-aos-order="2"
+                          class="aos-init aos-animate"
+                          {{ block.shopify_attributes }}
+                      >
+                          {% render 'gsa-heading', block: block %}
+                      </div>
+
                     {% when 'tooltip' %}  
                     <span class="gsa-tooltip-container">
                       <a class="gsa-tooltip-button gsa-cursor-pointer" tooltip="{{ block.settings.text_info }}"> <span class="material-symbols-outlined" style="color: #C8B8A7;">
@@ -876,6 +909,126 @@
             ]
         },
         {
+          "name": "Accent",
+          "type": "accent",
+          "settings": [
+            {
+              "type": "header",
+              "content": "Template Settings"
+            },
+            {
+              "type": "color",
+              "id": "color",
+              "label": "Color",
+              "default": "#ff4a1c"
+            },
+            {
+              "type": "range",
+              "id": "accent_height",
+              "min": 0,
+              "max": 24,
+              "step": 1,
+              "unit": "px",
+              "label": "Accent height",
+              "default": 2
+            },
+            {
+              "type": "range",
+              "id": "accent_width",
+              "min": 0,
+              "max": 200,
+              "step": 2,
+              "unit": "px",
+              "label": "Accent width",
+              "default": 48
+            },
+            {
+              "type": "range",
+              "id": "border_radius",
+              "min": 0,
+              "max": 24,
+              "step": 1,
+              "unit": "px",
+              "label": "Corner radius",
+              "default": 4
+            },
+            {
+              "type": "header",
+              "content": "Alignment & Positioning"
+            },
+            {
+              "type": "select",
+              "id": "justify_content",
+              "label": "Block left/right positon",
+              "default": "left",
+              "options": [
+                {
+                  "value": "left",
+                  "label": "Left"
+                },
+                {
+                  "value": "center",
+                  "label": "Center"
+                },
+                {
+                  "value": "right",
+                  "label": "Right"
+                }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "display_options",
+              "label": "Block display settings",
+              "default": "bl-hide-none",
+              "options": [
+                {
+                  "value": "bl-hide-none",
+                  "label": "Display everywhere"
+                },
+                {
+                  "value": "bl-hide-desktop",
+                  "label": "Hide on desktop"
+                },
+                {
+                  "value": "bl-hide-mobile",
+                  "label": "Hide on mobile"
+                }
+              ]
+            },
+            {
+              "type": "header",
+              "content": "Spacing"
+            },
+            {
+              "type": "checkbox",
+              "id": "padding_horizontal",
+              "label": "Add horizontal spacing",
+              "default": false
+            },
+            {
+              "type": "range",
+              "id": "padding_top",
+              "min": 0,
+              "max": 96,
+              "step": 2,
+              "unit": "px",
+              "label": "Top spacing",
+              "default": 6
+            },
+            {
+              "type": "range",
+              "id": "padding_bottom",
+              "min": 0,
+              "max": 96,
+              "step": 2,
+              "unit": "px",
+              "label": "Bottom spacing",
+              "default": 6
+            }
+          ]
+        },
+        {
         "type": "header",
         "name": "Header",
         "settings": [
@@ -1038,6 +1191,170 @@
                         ]
                     }
                 ]
+            },
+            {
+              "name": "Heading",
+              "type": "heading",
+              "settings": [
+                  {
+                    "type": "header",
+                    "content": "Starter Settings"
+                  },
+                  {
+                    "type": "color",
+                    "id": "font_color",
+                    "label": "Font color",
+                    "default": "#000000"
+                  },
+                  {
+                    "type": "range",
+                    "id": "font_size",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "unit": "px",
+                    "label": "Font size",
+                    "default": 42
+                  }, 
+                  {
+                    "type": "range",
+                    "id": "line_height",
+                    "min": 0,
+                    "max": 100,
+                    "step": 5,
+                    "label": "Line Height",
+                    "default": 10,
+                    "info": "Set value as percentage. Example: 150 equals to 1.5 line height."
+                  }, 
+                  {
+                    "type": "range",
+                    "id": "letter_spacing",
+                    "label": "Letter Spacing",
+                    "default": 0,
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "info": "Set value as percentage. Example: 2 equals to 0.02rem letter spacing."
+                  },
+                  {
+                    "type": "header",
+                    "content": "Heading"
+                  },
+                  {
+                    "type": "inline_richtext",
+                    "id": "heading",
+                    "label": "Heading text",
+                    "default": "Heading"
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "product_title",
+                    "label": "Display product title",
+                    "default": false,
+                    "info": "Only works in a product form."
+                  },
+                  {
+                    "type": "header",
+                    "content": "Alignment & Positioning"
+                  },
+                  {
+                    "type": "select",
+                    "id": "text_align",
+                    "label": "Text alignment",
+                    "default": "left",
+                    "options": [
+                      {
+                        "label": "Left",
+                        "value": "left"
+                      },
+                      {
+                        "label": "Center",
+                        "value": "center"
+                      },
+                      {
+                        "label": "Right",
+                        "value": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "select",
+                    "id": "display_options",
+                    "label": "Block display settings",
+                    "default": "bl-hide-none",
+                    "options": [
+                      {
+                        "value": "bl-hide-none",
+                        "label": "Display everywhere"
+                      }, 
+                      {
+                        "value": "bl-hide-desktop",
+                        "label": "Hide on desktop"
+                      }, 
+                      {
+                        "value": "bl-hide-mobile",
+                        "label": "Hide on mobile"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "header",
+                    "content": "Spacing"
+                  }, 
+                  {
+                    "type": "checkbox",
+                    "id": "padding_horizontal",
+                    "label": "Add horizontal spacing",
+                    "default": false
+                  },
+                  {
+                    "type": "range",
+                    "id": "padding_top",
+                    "min": 0,
+                    "max": 96,
+                    "step": 2,
+                    "unit": "px",
+                    "label": "Top spacing",
+                    "default": 0
+                  }, 
+                  {
+                    "type": "range",
+                    "id": "padding_bottom",
+                    "min": 0,
+                    "max": 96,
+                    "step": 2,
+                    "unit": "px",
+                    "label": "Bottom spacing",
+                    "default": 0
+                  }
+              ]
+            },
+            {
+              "name": "Reviews",
+              "type": "reviews",
+              "settings": [
+                  {
+                    "type": "header",
+                    "content": "Reviews"
+                  },
+                  {
+                      "type": "text",
+                      "id": "reviews_text",
+                      "label": "Text",
+                      "default": "4.7 Stars out of 1,517 reviews."
+                  },
+                  {
+                      "type": "url",
+                      "id": "reviews_link",
+                      "label": "Link"
+                  },
+                  {
+                      "type": "checkbox",
+                      "id": "center",
+                      "label": "Center",
+                      "default": false
+                  }
+              ]
             }
     ],
     "presets": [
