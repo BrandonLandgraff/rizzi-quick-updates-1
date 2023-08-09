@@ -196,6 +196,72 @@
         "padding_bottom": 47
       }
     },
+    "57c53b56-3512-4587-8bfc-c24b9b4157d6": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "56e29e43-6cba-4d54-b652-bbcc08488073": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 138,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "bce7101a-ef2d-41be-86ca-1127bdba9b27": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Premium, 100% Bamboo",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "#our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "56e29e43-6cba-4d54-b652-bbcc08488073",
+        "bce7101a-ef2d-41be-86ca-1127bdba9b27",
+        "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
       "type": "section-reviews",
       "blocks": {
@@ -364,6 +430,7 @@
     "main",
     "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
+    "57c53b56-3512-4587-8bfc-c24b9b4157d6",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
     "0801531c-4571-4f0a-a14a-68070f5124a9"
