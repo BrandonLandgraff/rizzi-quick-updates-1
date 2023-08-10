@@ -461,19 +461,25 @@
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
           "type": "bullet",
           "settings": {
-            "bullet": "Choose a subscription plan (20% off)"
+            "bullet": "Convenient automated delivery to your door"
           }
         },
         "007f797c-e702-41d4-a08d-68c688797455": {
           "type": "bullet",
           "settings": {
-            "bullet": "Paper products will conveniently ship to your door"
+            "bullet": "Transport email & SMS notifications"
           }
         },
         "eb5db945-d75c-435e-8039-2428fa0499a8": {
           "type": "bullet",
           "settings": {
-            "bullet": "Pause, skip or cancel anytime"
+            "bullet": "Easily, skip, snooze, cancel anytime"
+          }
+        },
+        "ec6327a2-55f3-455a-b9ac-25622a9d6028": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "BONUS: Additional 20% Off Your First Order"
           }
         },
         "25dfbd77-74f9-46e7-945c-6c6b4a758ed5": {
@@ -500,6 +506,7 @@
         "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
         "007f797c-e702-41d4-a08d-68c688797455",
         "eb5db945-d75c-435e-8039-2428fa0499a8",
+        "ec6327a2-55f3-455a-b9ac-25622a9d6028",
         "25dfbd77-74f9-46e7-945c-6c6b4a758ed5",
         "1124f5ae-eb00-4507-ba71-026ed1a03886"
       ],
