@@ -284,10 +284,10 @@
             "url": ""
           }
         },
-        "53ddb57a-c2a8-4956-b955-18e6f837f6ba": {
+        "10f25bc3-a9f7-4485-ba85-ccd03bf6896d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/No_3.png",
+            "image": "shopify:\/\/shop_images\/No_5.png",
             "url": ""
           }
         },
@@ -350,7 +350,7 @@
       },
       "block_order": [
         "3220257b-49d7-465a-8fc1-aa722873b99e",
-        "53ddb57a-c2a8-4956-b955-18e6f837f6ba",
+        "10f25bc3-a9f7-4485-ba85-ccd03bf6896d",
         "1eaa4461-be0c-41c2-bdbd-cd8df3663f81",
         "0f107bd9-b4e0-4da6-ba38-f2d19d85bf5f",
         "7e4c8154-af4c-43af-8529-371498928f72",
