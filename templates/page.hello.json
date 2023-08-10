@@ -277,10 +277,45 @@
     "0742403d-bcf4-4dd9-8d5e-61c569956eb1": {
       "type": "gsa-lifestyle-images",
       "blocks": {
+        "3220257b-49d7-465a-8fc1-aa722873b99e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_2.png",
+            "url": ""
+          }
+        },
+        "53ddb57a-c2a8-4956-b955-18e6f837f6ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_3.png",
+            "url": ""
+          }
+        },
         "1eaa4461-be0c-41c2-bdbd-cd8df3663f81": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_2.png",
+            "url": ""
+          }
+        },
+        "0f107bd9-b4e0-4da6-ba38-f2d19d85bf5f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-88_1.png",
+            "url": ""
+          }
+        },
+        "7e4c8154-af4c-43af-8529-371498928f72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1.png",
+            "url": ""
+          }
+        },
+        "507e3291-b624-43a0-8677-c8f1485eef2b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-68_1.png",
             "url": ""
           }
         },
@@ -298,10 +333,10 @@
             "url": ""
           }
         },
-        "3220257b-49d7-465a-8fc1-aa722873b99e": {
+        "b4164793-0fcb-4615-911e-f2b08555147c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_2.png",
+            "image": "shopify:\/\/shop_images\/no2photos-73_1.png",
             "url": ""
           }
         },
@@ -314,10 +349,15 @@
         }
       },
       "block_order": [
+        "3220257b-49d7-465a-8fc1-aa722873b99e",
+        "53ddb57a-c2a8-4956-b955-18e6f837f6ba",
         "1eaa4461-be0c-41c2-bdbd-cd8df3663f81",
+        "0f107bd9-b4e0-4da6-ba38-f2d19d85bf5f",
+        "7e4c8154-af4c-43af-8529-371498928f72",
+        "507e3291-b624-43a0-8677-c8f1485eef2b",
         "0c0608c3-bf9b-43d5-8cb0-518370d365a5",
         "28a51c08-6a1c-4241-af50-1826ac92265a",
-        "3220257b-49d7-465a-8fc1-aa722873b99e",
+        "b4164793-0fcb-4615-911e-f2b08555147c",
         "35eda6cf-39fb-492d-9b8c-05a42ddfb971"
       ],
       "settings": {
