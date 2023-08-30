@@ -697,6 +697,61 @@
         "padding_bottom": 0
       }
     },
+    "4a31f061-6706-4583-ba1c-68a669328cd6": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "a285f9e3-0033-4426-bc54-e5f87538c81f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4edc0393-d499-4518-b6ab-29380bd28f6d.png",
+            "url": ""
+          }
+        },
+        "3696b9da-3ad9-4bc0-94ac-bb25efc09982": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_5.png",
+            "url": ""
+          }
+        },
+        "a3c3bf91-3a83-41ab-a005-df77852e1cb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-88_1.png",
+            "url": ""
+          }
+        },
+        "b2d3389e-f7d4-44f4-ad09-7d31c15645f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-73_1.png",
+            "url": ""
+          }
+        },
+        "d970df57-9706-427e-b017-587851645f00": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-68_1.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "a285f9e3-0033-4426-bc54-e5f87538c81f",
+        "3696b9da-3ad9-4bc0-94ac-bb25efc09982",
+        "a3c3bf91-3a83-41ab-a005-df77852e1cb6",
+        "b2d3389e-f7d4-44f4-ad09-7d31c15645f5",
+        "d970df57-9706-427e-b017-587851645f00"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "",
+        "wave_color_bottom": ""
+      }
+    },
     "26392da4-715e-41b2-ae83-3ccc6893899d": {
       "type": "section-reviews",
       "blocks": {
@@ -1078,6 +1133,7 @@
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
     "7f111f48-db6a-49bf-9a04-af6ed9cda102",
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
+    "4a31f061-6706-4583-ba1c-68a669328cd6",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
     "4477bbf8-5cd4-46b1-878d-ca3496718841",
