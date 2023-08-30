@@ -768,6 +768,7 @@
         "583e1f3b-5ebd-4e0a-939d-c8cf6b205833",
         "20576042-8971-4115-b5bb-8a4a07b838bb"
       ],
+      "disabled": true,
       "settings": {
         "arrow_color": "#000000",
         "hide_arrows": true,
@@ -864,10 +865,9 @@
     },
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2": {
       "type": "gsa-waves-feature",
-      "disabled": true,
       "settings": {
         "wave_orientation": "180deg",
-        "wave_type": "wave_05",
+        "wave_type": "wave_03",
         "bg_color": "#efe7e7",
         "wave_color": "#558788",
         "padding_top": 0,
@@ -919,7 +919,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 48,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
