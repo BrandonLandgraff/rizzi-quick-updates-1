@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: Vollkorn;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
   src: url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n7.be19bbe45f66431264c0cea0e8bb1981ba49c070.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=cb197f30ef24080bc59cbf2169db4fa40e6d93f9e34122b63327f1a924943708") format("woff2"),
        url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n7.e03e2fe912e19f149ed3a428befe474802b53ab1.woff?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=034835699a8e9860c09e7434cd8b4b0732589c302cfba8a344afaf8a3889a488") format("woff");
-}
+} */
 
 @font-face {
   font-family: Nunito;
@@ -20,7 +20,7 @@
 
   @font-face {
   font-family: Vollkorn;
-  font-weight: 900;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
   src: url("https://fonts.shopifycdn.com/vollkorn/vollkorn_n9.f3d0464e3c09ea861f029a45500f72367690dc2d.woff2?h1=Z29ubzIuY29t&h2=cml6emlob21lLmNvbQ&hmac=dbbaed086d6e1fe6edda5cea0fab97f09ba13ee7522e266d6bf08993dae07af4") format("woff2"),
