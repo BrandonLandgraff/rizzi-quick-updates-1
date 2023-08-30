@@ -994,7 +994,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/ToiletPaper.png",
-            "blob_color": "",
+            "blob_color": "#c3cfd1",
             "blob_deg": 0,
             "p_font_color": "#000000",
             "p_font_size": 42,
@@ -1118,7 +1118,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
+        "padding_top": 0,
         "padding_bottom": 60
       }
     },
