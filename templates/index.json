@@ -307,7 +307,7 @@
             "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Heading",
+            "heading": "Labour Day Sale",
             "product_title": false,
             "text_align": "center",
             "display_options": "bl-hide-none",
@@ -324,6 +324,25 @@
             "accent_width": 48,
             "border_radius": 4,
             "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Subscribe today and lock in your 22% discount for the next year* on our Essentials Bundle.<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
             "display_options": "bl-hide-none",
             "padding_horizontal": false,
             "padding_top": 6,
@@ -373,6 +392,7 @@
       "block_order": [
         "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2",
         "58b48987-7e05-4161-854a-519f2787a39e",
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1",
         "3470f7f0-5e74-4559-ac57-84f5ee7d9750",
         "cfd25ed9-f6ca-4e98-9c42-f35151b34cea",
         "d8e81c3d-7a7f-4463-b08b-be8415eab9c7",
