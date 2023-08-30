@@ -506,6 +506,14 @@
             "button_color": "btn--secondary",
             "button_style": "hero__btn btn btn--input caps"
           }
+        },
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
         }
       },
       "block_order": [
@@ -515,13 +523,14 @@
         "c31b23c2-5f89-4792-99d3-31333430f483",
         "9fc65364-ff99-46f2-a19b-9ccf7c065d77",
         "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b",
-        "a297a344-97f9-4a68-95ca-f04d925bd923"
+        "a297a344-97f9-4a68-95ca-f04d925bd923",
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d"
       ],
       "settings": {
         "show_right": true,
         "dt_container_height": 600,
         "mb_container_height": 350,
-        "image_background": "shopify:\/\/shop_images\/Frame_11.png",
+        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
         "image_background_height": 400,
         "image": "shopify:\/\/shop_images\/no2photos-14.png",
         "image_height": 600,
