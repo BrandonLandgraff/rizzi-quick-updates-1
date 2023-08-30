@@ -993,6 +993,7 @@
         "64aff1b3-3827-4dc2-b6f8-8764487d5c77": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ToiletPaper.png",
             "blob_color": "",
             "blob_deg": 0,
             "p_font_color": "#000000",
