@@ -220,28 +220,6 @@
         "mobile_height": "screen-height-one-half--mobile"
       }
     },
-    "88b5736d-c994-44fd-bc2d-e3e0141ea000": {
-      "type": "section-rich-text",
-      "settings": {
-        "subheading": "LOOK WHO'S RAVING",
-        "subheading_size": 4,
-        "title": "",
-        "heading_size": 2,
-        "text": "",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "standard__cta caps--large",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
       "type": "section-logo-list",
       "blocks": {
@@ -315,7 +293,7 @@
         "title": "",
         "bg_color": "#efe7e7",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 30
       }
     },
@@ -794,7 +772,6 @@
     "25e7f8ae-339f-4a91-a04a-25d5ccff3837",
     "880a7724-7c59-41ac-8854-0867d5534924",
     "9d089490-8000-41f0-8b42-d001681f7175",
-    "88b5736d-c994-44fd-bc2d-e3e0141ea000",
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
