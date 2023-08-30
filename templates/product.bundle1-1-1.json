@@ -223,7 +223,7 @@
             "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Either add your own text here or check the box above to use the product description text added from the product page.<\/p>",
+            "description": "<p>Subscribe today and lock in your <strong>22% discount for the next year*<\/strong> on our Essentials Bundle.<\/p>",
             "product_description": false,
             "text_align": "center",
             "justify_content": "center",
@@ -328,8 +328,8 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "0110965c-e39e-4313-a30c-8b12472d9822": {
@@ -406,7 +406,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 0
       }
     },
     "311267fd-24c7-49bc-b364-c73211172433": {
