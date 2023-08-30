@@ -407,6 +407,7 @@
         "f8886502-7d70-4beb-838f-22ef4143970b",
         "ef3d1a00-3572-4c99-ac5a-2cda9b7bb442"
       ],
+      "disabled": true,
       "settings": {
         "show_right": false,
         "dt_container_height": 500,
@@ -539,6 +540,7 @@
     },
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
       "type": "gsa-waves-feature",
+      "disabled": true,
       "settings": {
         "wave_orientation": "180deg",
         "wave_type": "wave_06",
@@ -635,6 +637,7 @@
     },
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2": {
       "type": "gsa-waves-feature",
+      "disabled": true,
       "settings": {
         "wave_orientation": "180deg",
         "wave_type": "wave_05",
