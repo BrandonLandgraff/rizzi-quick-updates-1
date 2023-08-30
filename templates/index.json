@@ -1068,7 +1068,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/TissuePapers.png",
-            "blob_color": "",
+            "blob_color": "#c3cfd1",
             "blob_deg": 0,
             "p_font_color": "#000000",
             "p_font_size": 42,
