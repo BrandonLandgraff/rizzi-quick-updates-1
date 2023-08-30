@@ -353,11 +353,19 @@
               "padding_top": 6,
               "padding_bottom": 6
             }
+          },
+          "13055a61-1eab-4f98-b423-625e1d7c4253": {
+            "type": "discount",
+            "settings": {
+              "text": "USE CODE:",
+              "discount_text": "LABOR-DAY"
+            }
           }
         },
         "block_order": [
           "756402cc-de2b-405f-ba78-a367679f09f7",
-          "4cd64b7f-b851-4942-9117-cdf2bc0145df"
+          "4cd64b7f-b851-4942-9117-cdf2bc0145df",
+          "13055a61-1eab-4f98-b423-625e1d7c4253"
         ],
         "settings": {
           "dt_reverse_order": true,
