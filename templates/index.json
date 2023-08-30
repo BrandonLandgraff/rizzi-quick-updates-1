@@ -794,6 +794,55 @@
         "padding_bottom": 0
       }
     },
+    "4477bbf8-5cd4-46b1-878d-ca3496718841": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "ba849faf-c34e-4d1d-93bf-35e50616b6af": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Our Lineup",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "c6eb7dc5-e133-4a25-9767-688561453b90": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "ba849faf-c34e-4d1d-93bf-35e50616b6af",
+        "c6eb7dc5-e133-4a25-9767-688561453b90"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
     "ddc62621-f8cf-4244-b339-7fede3e35da1": {
       "type": "rizzi-tab-collections",
       "blocks": {
@@ -1031,6 +1080,7 @@
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
+    "4477bbf8-5cd4-46b1-878d-ca3496718841",
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "6b65a7f5-5e0d-4920-9f50-1b952c9b2780",
     "8c045942-dd58-4ff0-b826-bd861b1bfadb",
