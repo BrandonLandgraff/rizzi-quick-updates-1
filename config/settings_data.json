@@ -354,6 +354,24 @@
               "padding_bottom": 6
             }
           },
+          "19881e42-ed8a-445e-abde-92301eaa4f1f": {
+            "type": "bullet",
+            "settings": {
+              "bullet": "Select “Edit” beside your current product"
+            }
+          },
+          "0326551a-2637-41d2-9f6e-de5b2c750812": {
+            "type": "bullet",
+            "settings": {
+              "bullet": "Choose the essentials bundle and swap products"
+            }
+          },
+          "a929ad2d-6211-43b3-ac1f-59cc3d007c24": {
+            "type": "bullet",
+            "settings": {
+              "bullet": "Apply the coupon code in the discounts section"
+            }
+          },
           "13055a61-1eab-4f98-b423-625e1d7c4253": {
             "type": "discount",
             "settings": {
@@ -365,6 +383,9 @@
         "block_order": [
           "756402cc-de2b-405f-ba78-a367679f09f7",
           "4cd64b7f-b851-4942-9117-cdf2bc0145df",
+          "19881e42-ed8a-445e-abde-92301eaa4f1f",
+          "0326551a-2637-41d2-9f6e-de5b2c750812",
+          "a929ad2d-6211-43b3-ac1f-59cc3d007c24",
           "13055a61-1eab-4f98-b423-625e1d7c4253"
         ],
         "settings": {
@@ -377,8 +398,8 @@
           "dt_height": "height--none",
           "mb_height": "mb-height--none",
           "image": "shopify:\/\/shop_images\/labour-day-sale_96dda278-0405-4686-b8ec-65ad4fb726aa.png",
-          "wrapper_color": "#D2D6D7",
-          "bg_color": "#D2D6D7",
+          "wrapper_color": "#d2d6d7",
+          "bg_color": "#d2d6d7",
           "blob_color": "#c3cfd1",
           "blob-bottom-left": true,
           "bg_image_size": "cover",
@@ -394,7 +415,7 @@
       "gsa-divider-bottom": {
         "type": "gsa-divider-bottom",
         "settings": {
-          "color": "#D2D6D7"
+          "color": "#d2d6d7"
         }
       }
     },
