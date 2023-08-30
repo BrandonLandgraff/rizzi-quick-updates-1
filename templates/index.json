@@ -51,12 +51,23 @@
             "padding_top": 6,
             "padding_bottom": 6
           }
+        },
+        "2671c3a2-2921-4f8f-972d-966ecdb491ca": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 22% OFF",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
         }
       },
       "block_order": [
         "76fff57b-2304-4a8b-b6c2-35323988b79c",
         "6ee97a6f-9f56-472a-a36c-4a68235b9e75",
-        "92dc3329-c72a-4b5c-a8b5-0c4209bd0809"
+        "92dc3329-c72a-4b5c-a8b5-0c4209bd0809",
+        "2671c3a2-2921-4f8f-972d-966ecdb491ca"
       ],
       "settings": {
         "dt_reverse_order": true,
