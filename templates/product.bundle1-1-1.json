@@ -272,6 +272,25 @@
             "button_style": "standard__cta caps--large",
             "center": true
           }
+        },
+        "5c837c1a-75df-4528-9e46-ccc4efccaf5d": {
+          "type": "description",
+          "settings": {
+            "font_color": "#9c9c9c",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Exclusive Sale<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
@@ -283,7 +302,8 @@
         "314349a2-484c-48e5-8eef-e493ed4bfa55",
         "4da7b539-8220-40a6-b2b7-938a1524ba06",
         "0edcfe28-756c-4928-afea-bcf65cac4d76",
-        "e9c84196-9459-4755-94fd-8602f7afae0d"
+        "e9c84196-9459-4755-94fd-8602f7afae0d",
+        "5c837c1a-75df-4528-9e46-ccc4efccaf5d"
       ],
       "settings": {
         "width": 1200,
