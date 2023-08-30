@@ -318,6 +318,47 @@
       },
       "gsa-awtomic-banner": {
         "type": "gsa-awtomic-banner",
+        "blocks": {
+          "756402cc-de2b-405f-ba78-a367679f09f7": {
+            "type": "heading",
+            "settings": {
+              "font_color": "#000000",
+              "font_size": 50,
+              "line_height": 10,
+              "letter_spacing": 0,
+              "heading": "Labour Day Sale",
+              "product_title": false,
+              "text_align": "left",
+              "display_options": "bl-hide-none",
+              "padding_horizontal": false,
+              "padding_top": 0,
+              "padding_bottom": 0
+            }
+          },
+          "4cd64b7f-b851-4942-9117-cdf2bc0145df": {
+            "type": "description",
+            "settings": {
+              "font_color": "#000000",
+              "accent_color": "#000000",
+              "font_size": 18,
+              "line_height": 50,
+              "letter_spacing": 0,
+              "description": "<p>Labour Day Exclusive Sale - <strong>22% Off Essentials Bundle<\/strong><\/p>",
+              "product_description": false,
+              "text_align": "left",
+              "justify_content": "left",
+              "max_width": 576,
+              "display_options": "bl-hide-none",
+              "padding_horizontal": false,
+              "padding_top": 6,
+              "padding_bottom": 6
+            }
+          }
+        },
+        "block_order": [
+          "756402cc-de2b-405f-ba78-a367679f09f7",
+          "4cd64b7f-b851-4942-9117-cdf2bc0145df"
+        ],
         "settings": {
           "dt_reverse_order": true,
           "grid_layout": "1fr 1fr",
@@ -327,6 +368,7 @@
           "self_alignment": "center",
           "dt_height": "height--none",
           "mb_height": "mb-height--none",
+          "image": "shopify:\/\/shop_images\/labour-day-sale_96dda278-0405-4686-b8ec-65ad4fb726aa.png",
           "wrapper_color": "#D2D6D7",
           "bg_color": "#D2D6D7",
           "blob_color": "#c3cfd1",
