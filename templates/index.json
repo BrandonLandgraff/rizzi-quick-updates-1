@@ -90,14 +90,14 @@
         "image": "shopify:\/\/shop_images\/EssentialsBundle-2_fb122900-bc66-4319-b0a2-8a1b423778da.png",
         "wrapper_color": "",
         "bg_color": "",
-        "blob_color": "#d2d6d7",
+        "blob_color": "#111827",
         "bg_image_size": "cover",
         "image_alignment_x": "center",
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
         "padding_top": 24,
-        "padding_bottom": 0,
+        "padding_bottom": 24,
         "mb_reverse_order": true
       }
     },
