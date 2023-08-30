@@ -704,6 +704,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4edc0393-d499-4518-b6ab-29380bd28f6d.png",
+            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4edc0393-d499-4518-b6ab-29380bd28f6d.png",
             "url": ""
           }
         },
@@ -745,9 +746,9 @@
       ],
       "settings": {
         "arrow_color": "#000000",
-        "hide_arrows": false,
+        "hide_arrows": true,
         "dot": "#828282",
-        "hide_dots": false,
+        "hide_dots": true,
         "wave_color_top": "#efe7e7",
         "wave_color_bottom": "#548687"
       }
