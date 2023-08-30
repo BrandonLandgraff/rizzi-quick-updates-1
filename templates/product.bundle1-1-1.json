@@ -262,6 +262,16 @@
             "bullet": "Stylish soy ink printed wrappers",
             "display_options": "bl-hide-desktop"
           }
+        },
+        "e9c84196-9459-4755-94fd-8602f7afae0d": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 22% OFF",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
         }
       },
       "block_order": [
@@ -272,7 +282,8 @@
         "e5370697-31ba-4ca8-a04f-5d5dd1cd9dc3",
         "314349a2-484c-48e5-8eef-e493ed4bfa55",
         "4da7b539-8220-40a6-b2b7-938a1524ba06",
-        "0edcfe28-756c-4928-afea-bcf65cac4d76"
+        "0edcfe28-756c-4928-afea-bcf65cac4d76",
+        "e9c84196-9459-4755-94fd-8602f7afae0d"
       ],
       "settings": {
         "width": 1200,
