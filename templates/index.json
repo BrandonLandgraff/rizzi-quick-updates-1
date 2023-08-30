@@ -768,6 +768,7 @@
         "583e1f3b-5ebd-4e0a-939d-c8cf6b205833",
         "20576042-8971-4115-b5bb-8a4a07b838bb"
       ],
+      "disabled": true,
       "settings": {
         "arrow_color": "#000000",
         "hide_arrows": true,
@@ -967,7 +968,6 @@
         "dab2ddc3-a8ea-4d1f-82d1-399fd1e0b236",
         "61bf4a77-5111-447a-84f7-140bea324b6f"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "padding_top": 0,
