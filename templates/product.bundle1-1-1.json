@@ -18,6 +18,12 @@
             "product": "no-2-bamboo-toilet-paper"
           }
         },
+        "48c62f28-ec85-42fc-a3f3-0f437ca6884e": {
+          "type": "callout",
+          "settings": {
+            "text": "EXCLUSIVE LABOUR DAY SALE: GET 22% OFF"
+          }
+        },
         "553dabf8-21bf-4832-aa8a-c90ea22da019": {
           "type": "text",
           "settings": {
@@ -130,6 +136,7 @@
       "block_order": [
         "price_and_title",
         "5f540575-716e-4ed2-8361-7dbe2dfc6fd0",
+        "48c62f28-ec85-42fc-a3f3-0f437ca6884e",
         "553dabf8-21bf-4832-aa8a-c90ea22da019",
         "form",
         "e8c5ae46-c6e4-47f2-a5fa-611974028c48",
