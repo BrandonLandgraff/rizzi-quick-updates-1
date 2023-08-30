@@ -297,6 +297,105 @@
         "padding_bottom": 30
       }
     },
+    "47a5cc6e-cf30-437e-8226-107b1470e494": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Heading",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "58b48987-7e05-4161-854a-519f2787a39e": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "3470f7f0-5e74-4559-ac57-84f5ee7d9750": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EssentialsBundle-5_ffe43df2-5791-45d9-9fe1-393e65d3e57c.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "100% recycled, plastic free packaging",
+            "benefit_3": "Convenient home delivery & subscription",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
+        "cfd25ed9-f6ca-4e98-9c42-f35151b34cea": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Strong, siiiilky and absorbent paper",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "d8e81c3d-7a7f-4463-b08b-be8415eab9c7": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient home delivery & subscription",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "a1aa34d0-b862-48f4-be9c-cd219ef5e275": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "100% recycled, plastic free packaging",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "43a1552a-a832-4437-a290-3432bf8095f4": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Stylish soy ink printed wrappers",
+            "display_options": "bl-hide-desktop"
+          }
+        }
+      },
+      "block_order": [
+        "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2",
+        "58b48987-7e05-4161-854a-519f2787a39e",
+        "3470f7f0-5e74-4559-ac57-84f5ee7d9750",
+        "cfd25ed9-f6ca-4e98-9c42-f35151b34cea",
+        "d8e81c3d-7a7f-4463-b08b-be8415eab9c7",
+        "a1aa34d0-b862-48f4-be9c-cd219ef5e275",
+        "43a1552a-a832-4437-a290-3432bf8095f4"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "9a5eb472-49ee-459a-a991-3a5e485a776d": {
       "type": "section-rich-text",
       "disabled": true,
@@ -874,6 +973,7 @@
     "880a7724-7c59-41ac-8854-0867d5534924",
     "9d089490-8000-41f0-8b42-d001681f7175",
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
+    "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
     "7f111f48-db6a-49bf-9a04-af6ed9cda102",
