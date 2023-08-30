@@ -766,6 +766,107 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "6b6e032a-77d7-44a6-8608-dc5324bf7e18": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "3e5af6ba-9f35-4f2e-b039-30174296288a": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Essentials Bundle",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "86f3fc15-6fe5-4a88-8161-6a3a06ec8691": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7ba7e1fa-88e9-4d5c-9dfe-00c40ace9d44": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Labour Day Exclusive Sale - <strong>22% Off Essentials Bundle<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 22% OFF",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "84c6538a-a130-4cc4-b824-510e68a129d6": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "3e5af6ba-9f35-4f2e-b039-30174296288a",
+        "86f3fc15-6fe5-4a88-8161-6a3a06ec8691",
+        "7ba7e1fa-88e9-4d5c-9dfe-00c40ace9d44",
+        "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1",
+        "84c6538a-a130-4cc4-b824-510e68a129d6"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 32,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/EssentialsBundle-3.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "#d2d6d7",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 24,
+        "padding_bottom": 0,
+        "mb_reverse_order": true
+      }
     }
   },
   "order": [
@@ -782,6 +883,7 @@
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "6b65a7f5-5e0d-4920-9f50-1b952c9b2780",
     "8c045942-dd58-4ff0-b826-bd861b1bfadb",
-    "a2124a38-60b0-4ef4-92bd-22fe725e1db9"
+    "a2124a38-60b0-4ef4-92bd-22fe725e1db9",
+    "6b6e032a-77d7-44a6-8608-dc5324bf7e18"
   ]
 }
