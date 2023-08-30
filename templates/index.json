@@ -1093,7 +1093,7 @@
             "padding_top": 6,
             "padding_bottom": 6,
             "button_text": "Learn more",
-            "button_url": "",
+            "button_url": "shopify:\/\/products\/no-2-tissue-paper-test",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
