@@ -252,6 +252,13 @@
     <!-- CONTENT -->
     <main role="main" id="MainContent" class="main-content">
 
+      {% if request.path == '/tools/bundle-subscriptions' %}
+        <div class="custom-bundle" style="display:none;">
+          {% section 'gsa-awtomic-banner' %}
+        </div>
+        <script src="{{ 'awtomic-customizations.js' | asset_url }}"></script>
+      {% endif %}
+
       {{ content_for_layout }}
       <a href="https://www.goodsubscription.agency" style="display: none;">Good Subscription Agency</a>
 
