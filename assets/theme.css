@@ -26195,3 +26195,7 @@ input[type="radio"]:checked::before {
 #wrapperModal {
   max-width: 512px;
 }
+
+.gsa-awtomic-banner {
+  margin-top: 0px !important;
+}

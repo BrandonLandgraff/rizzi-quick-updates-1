@@ -176,6 +176,12 @@
                                 {% render 'gsa-description', block: block %}
                                 </div>
 
+                            {% when 'bullet' %}  
+                              <div class="gsa-flex gsa-items-center gsa-my-2 gsa-mb-4">
+                                {% render 'gsa-bullet' %}
+                                <p class="gsa-font-bold gsa-pl-2 gsa-m-0">{{ block.settings.bullet }}</p>
+                              </div>
+
                             {% when 'discount' %}
                               {%- style -%}
                                 .gsa-discount-code {
@@ -936,6 +942,17 @@
                   "default": 6
                 }
             ]
+          },
+          {
+            "type": "bullet",
+            "name": "Bullet",
+            "settings": [
+                    {
+                    "id": "bullet",
+                    "type": "text",
+                    "label": "Bullet"
+                    }
+                ]
           },
           {
             "name": "Heading",
