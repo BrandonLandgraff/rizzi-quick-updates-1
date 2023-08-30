@@ -387,6 +387,35 @@
             "bullet": "Stylish soy ink printed wrappers",
             "display_options": "bl-hide-desktop"
           }
+        },
+        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 22% OFF",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
+        },
+        "686494c0-a63c-4e5e-b32c-c7d47e89a6ce": {
+          "type": "description",
+          "settings": {
+            "font_color": "#b1b1b1",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Exclusive Sale<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
@@ -397,7 +426,9 @@
         "cfd25ed9-f6ca-4e98-9c42-f35151b34cea",
         "d8e81c3d-7a7f-4463-b08b-be8415eab9c7",
         "a1aa34d0-b862-48f4-be9c-cd219ef5e275",
-        "43a1552a-a832-4437-a290-3432bf8095f4"
+        "43a1552a-a832-4437-a290-3432bf8095f4",
+        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d",
+        "686494c0-a63c-4e5e-b32c-c7d47e89a6ce"
       ],
       "settings": {
         "width": 1200,
