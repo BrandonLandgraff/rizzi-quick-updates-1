@@ -12,6 +12,8 @@
     assign image = section.settings.image
 
     assign animation_anchor = '#BrickSection--' | append: section.id
+
+    assign blob-bottom-left = section.settings.blob-bottom-left
   -%}
   
 {%- style -%}
@@ -116,8 +118,13 @@
 .gsa-blob-positioning-{{ section.id }} {
     position: absolute;
     z-index: -1;
-    top: 50%;
-    left: 50%;
+    {% if blob-bottom-left %}
+      top: 70%;
+      left: 30%;
+    {% else %}
+      top: 50%;
+      left: 50%;
+    {% endif %}
     transform: translate(-50%, -50%);
     width: 75%;
     height: 75%;
@@ -509,6 +516,12 @@
             "type": "color",
             "id": "blob_color",
             "label": "Blob color"
+        },
+        {
+          "type": "checkbox",
+          "id": "blob-bottom-left",
+          "label": "Place blob bottom left",
+          "default": false
         },
           {
             "type": "header",
