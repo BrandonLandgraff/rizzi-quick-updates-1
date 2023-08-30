@@ -172,6 +172,125 @@
         "img_align": false
       }
     },
+    "5524e1ed-543b-4ba8-943e-b84d47ae8232": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "6342f4a4-e88b-4ef3-a627-cf9f0476ec53": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Labour Day Sale",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "96410ad1-1799-4c2f-b145-dfdb725b957c": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "72a397bd-7d26-437d-8f55-0053621c63de": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Either add your own text here or check the box above to use the product description text added from the product page.<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "24c29764-673f-4cb2-a8cf-46e39b4e0e8f": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "Convenient home delivery &subscription",
+            "benefit_3": "100% recycled, plastic free packaging",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
+        "e5370697-31ba-4ca8-a04f-5d5dd1cd9dc3": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Strong, siiiilky and absorbent paper",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "314349a2-484c-48e5-8eef-e493ed4bfa55": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient home delivery &subscription",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "4da7b539-8220-40a6-b2b7-938a1524ba06": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "100% recycled, plastic free packaging",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "0edcfe28-756c-4928-afea-bcf65cac4d76": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Stylish soy ink printed wrappers",
+            "display_options": "bl-hide-desktop"
+          }
+        }
+      },
+      "block_order": [
+        "6342f4a4-e88b-4ef3-a627-cf9f0476ec53",
+        "96410ad1-1799-4c2f-b145-dfdb725b957c",
+        "72a397bd-7d26-437d-8f55-0053621c63de",
+        "24c29764-673f-4cb2-a8cf-46e39b4e0e8f",
+        "e5370697-31ba-4ca8-a04f-5d5dd1cd9dc3",
+        "314349a2-484c-48e5-8eef-e493ed4bfa55",
+        "4da7b539-8220-40a6-b2b7-938a1524ba06",
+        "0edcfe28-756c-4928-afea-bcf65cac4d76"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "0110965c-e39e-4313-a30c-8b12472d9822": {
       "type": "section-logo-list",
       "blocks": {
@@ -692,6 +811,7 @@
   },
   "order": [
     "main",
+    "5524e1ed-543b-4ba8-943e-b84d47ae8232",
     "0110965c-e39e-4313-a30c-8b12472d9822",
     "311267fd-24c7-49bc-b364-c73211172433",
     "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
