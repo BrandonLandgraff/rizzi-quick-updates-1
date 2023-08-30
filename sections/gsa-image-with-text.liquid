@@ -12,6 +12,8 @@
     assign image = section.settings.image
 
     assign animation_anchor = '#BrickSection--' | append: section.id
+
+    assign blob-bottom-left = section.settings.blob-bottom-left
   -%}
   
 {%- style -%}
@@ -116,8 +118,13 @@
 .gsa-blob-positioning-{{ section.id }} {
     position: absolute;
     z-index: -1;
-    top: 50%;
-    left: 50%;
+    {% if blob-bottom-left %}
+      top: 70%;
+      left: 30%;
+    {% else %}
+      top: 50%;
+      left: 50%;
+    {% endif %}
     transform: translate(-50%, -50%);
     width: 75%;
     height: 75%;
@@ -190,6 +197,25 @@
                                 >
                                 {%- render 'gsa-reviews', block: block -%}
                                 </div>
+
+                            {% when 'discount' %}
+                              {%- style -%}
+                                .gsa-discount-code {
+                                  display: flex;
+                                  align-items: center;
+                                  gap: 6px;
+                                  font-weight: bold;
+                                }
+                                #gsa-discount-text {
+                                  background-color: #ff4a1c;
+                                  padding: 2px 10px;
+                                  border-radius: 4px;
+                                }
+                              {%- endstyle -%}
+                              <div class="gsa-discount-code">
+                                <p>{{ block.settings.text }}</p>
+                                <p id="gsa-discount-text">{{ block.settings.discount_text }}</p>
+                              </div>
     
                             {% when 'first_button' %}  
                                 <div 
@@ -490,6 +516,12 @@
             "type": "color",
             "id": "blob_color",
             "label": "Blob color"
+        },
+        {
+          "type": "checkbox",
+          "id": "blob-bottom-left",
+          "label": "Place blob bottom left",
+          "default": false
         },
           {
             "type": "header",
@@ -1090,6 +1122,7 @@
                     "label": "Center",
                     "default": false
                 }
+                
              ]
           },
           {
@@ -1116,6 +1149,28 @@
                     "id": "center",
                     "label": "Center",
                     "default": false
+                }
+            ]
+          },
+          {
+            "name": "Discount",
+            "type": "discount",
+            "settings": [
+                {
+                  "type": "header",
+                  "content": "Content"
+                },
+                {
+                  "type": "text",
+                  "id": "text",
+                  "label": "Text",
+                  "default": "Use Code"
+                },
+                {
+                  "type": "text",
+                  "id": "discount_text",
+                  "label": "Discount text",
+                  "default": "LABOUR22"
                 }
             ]
           }

@@ -255,11 +255,12 @@
       {% if request.path == '/tools/bundle-subscriptions' %}
         <div class="gsa-awtomic-banner">
           {% section 'gsa-awtomic-banner' %}
+          {% section 'gsa-divider-bottom' %}
         </div>
-        <script src="{{ 'awtomic-customizations.js' | asset_url }}"></script>
       {% endif %}
 
       {{ content_for_layout }}
+      
       <a href="https://www.goodsubscription.agency" style="display: none;">Good Subscription Agency</a>
 
     </main>

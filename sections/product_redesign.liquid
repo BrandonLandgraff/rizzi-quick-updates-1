@@ -184,6 +184,20 @@
                 {{ block.settings.title }}
               {%- endif -%}
             </div>
+          {% when 'callout' %}
+            {%- style -%}
+              #gsa-callout-text {
+                font-weight: bold;
+                color: white;
+                background-color: #ff4a1c;
+                padding: 2px 10px;
+                border-radius: 4px;
+                width: fit-content;
+              }
+            {%- endstyle -%}
+            <div class="gsa-callout-text-wrapper">
+              <p id="gsa-callout-text">{{ block.settings.text }}</p>
+            </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -244,10 +258,24 @@
                         {{ block.settings.title }}
                       {%- endif -%}
                     </div>
+                  {% when 'callout' %}
+                    {%- style -%}
+                      #gsa-callout-text {
+                        font-weight: bold;
+                        color: white;
+                        background-color: #ff4a1c;
+                        padding: 2px 10px;
+                        border-radius: 4px;
+                        width: fit-content;
+                      }
+                    {%- endstyle -%}
+                    <div class="gsa-callout-text-wrapper">
+                      <p id="gsa-callout-text">{{ block.settings.text }}</p>
+                    </div>
                   {%- when 'form' -%}
                     {% comment %} Three options {% endcomment %}
                     {% comment %} prepaid {% endcomment %}
-                    <div class="product__form__holder" data-product-form {{ block.shopify_attributes }}>
+                    <div id="view-form" class="product__form__holder" data-product-form {{ block.shopify_attributes }}>
                       {%- render 'product-redesign-form', product: product, section_id: section.id, block: block, unique: unique, uniq_id_form: product_form_id -%}
                     </div>
                   {%- when 'tab_richtext' -%}
@@ -698,6 +726,28 @@
           "id": "product_sticky_enable",
           "label": "Enable sticky form",
           "default": true
+        },
+        {
+          "type": "header",
+          "content": "Important form content"
+        },
+        {
+          "type": "text",
+          "id": "first_label",
+          "label": "First label",
+          "default": "CANCEL ANYTIME"
+        },
+        {
+          "type": "text",
+          "id": "second_label",
+          "label": "Second label",
+          "default": "SUBSCRIBE FOR FREE SHIPPING + 12% OFF"
+        },
+        {
+          "type": "text",
+          "id": "po_text",
+          "label": "Purchase options text",
+          "default": "SAVE 12% + FREE SHIPPING"
         },
         {
           "type": "header",
@@ -1291,6 +1341,22 @@
                 "default": "<p>This is a description.</p>"
               }
             ]
+        },
+        {
+          "name": "Callout",
+          "type": "callout",
+          "settings": [
+              {
+                "type": "header",
+                "content": "Content"
+              },
+              {
+                "type": "text",
+                "id": "text",
+                "label": "Text",
+                "default": "ADD SALE"
+              }
+          ]
         },
         {
           "type": "siblings",

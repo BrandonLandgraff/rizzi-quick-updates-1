@@ -6613,7 +6613,7 @@ h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog .article__image .article_
   font-family: var(--FONT-STACK-HEADING);
   font-style: var(--FONT-STYLE-HEADING);
   line-height: 1.2;
-  font-weight: var(--FONT-WEIGHT-HEADING);
+  font-weight: 500;
   margin: 0 0 0.5em 0;
   margin: 0.5em 0;
 }
@@ -26186,4 +26186,12 @@ input[type="radio"]:checked::before {
 
 .site-footer-wrapper {
   background-color: #002e4a !important;
+}
+
+/* Modal Max Width */
+#myModal,
+#myFrequencyModal,
+#cartonModal,
+#wrapperModal {
+  max-width: 512px;
 }

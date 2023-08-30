@@ -144,7 +144,7 @@
             <label onclick="purchase_options(event)" 
                    class="plan-labels{% if forloop.first == true %} active {% endif %}" style="{% if forloop.first == true %}border-radius: 4px 4px 0px 0px;{% endif %}">{{ plan }}</label>
         </span>
-        {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #152D48;">SAVE 12% + FREE SHIPPING</span> {% endif %} 
+        {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #152D48;">{{ section.settings.po_text }}</span> {% endif %} 
     </div>
 
     {% endfor %}
@@ -174,7 +174,9 @@ function price_calculator(purchase_options) {
 
     let gsa_free_shipping = document.getElementById("gsa-free-shipping");
     let gsa_free_shipping_label = document.getElementById("gsa-shipping-label");
-    let gsa_cancel_anytime = document.getElementById("gsa-cancel-anytime");
+    {% comment %} let gsa_cancel_anytime = document.getElementById("gsa-cancel-anytime"); {% endcomment %}
+    const firstObjectionBuster = document.getElementById("gsa-first-objection-buster");
+    const secondObjectionBuster = document.getElementById("gsa-second-objection-buster");
 
     let current_calculate_box_size = "";
     for (let value of calculate_box_size) {
@@ -190,14 +192,20 @@ function price_calculator(purchase_options) {
     } else if (compare_purchase_options.includes("subscribe")) {
         gsa_free_shipping.innerHTML = "FREE SHIPPING";
         gsa_free_shipping.style.color = "#FF4A1C";
-        gsa_cancel_anytime.innerHTML = "CANCEL ANYTIME";
+        if (firstObjectionBuster) {
+            firstObjectionBuster.style.display = "block";
+            secondObjectionBuster.style.display = "none";
+        }
 
         gsa_free_shipping_label.style.color = "#FFFFFF";
         gsa_free_shipping_label.style.backgroundColor = "#152D48";
     }else {
         gsa_free_shipping.innerHTML = "+ SHIPPING";
         gsa_free_shipping.style.color = "#787474";
-        gsa_cancel_anytime.innerHTML = "SUBSCRIBE FOR FREE SHIPPING + 12% OFF";
+        if (firstObjectionBuster) {
+            firstObjectionBuster.style.display = "none";
+            secondObjectionBuster.style.display = "block";
+        }
 
         gsa_free_shipping_label.style.color = "#060606";
         gsa_free_shipping_label.style.backgroundColor = "#888888";

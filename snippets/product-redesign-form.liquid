@@ -544,7 +544,11 @@
       </div>
     </div>
 
-    <div id="gsa-cancel-anytime"></div>
+    {% comment %} <div id="gsa-cancel-anytime"></div> {% endcomment %}
+    <div id="gsa-cancel-anytime" class="gsa-objection-buster">
+      <div id="gsa-first-objection-buster">{{ section.settings.first_label }}</div>
+      <div id="gsa-second-objection-buster" style="display: none;">{{ section.settings.second_label }}</div>
+    </div>
 
     {% render 'gift-form-snippet', product: product, block: block %}
   {%- endform -%}
