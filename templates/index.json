@@ -393,7 +393,7 @@
           "type": "first_button",
           "settings": {
             "button_text": "GET 22% OFF",
-            "button_url": "",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": true
