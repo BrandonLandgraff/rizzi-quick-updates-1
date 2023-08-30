@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#000000",
-            "font_size": 56,
+            "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "Sustainability Meets Style",
@@ -440,41 +440,52 @@
     "7f111f48-db6a-49bf-9a04-af6ed9cda102": {
       "type": "gsa-section-blob",
       "blocks": {
-        "b12f13d4-5ee2-4f47-9ff1-0f1e6eadf6d3": {
-          "type": "subtitle",
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c": {
+          "type": "heading",
           "settings": {
-            "subtitle": "SUBSCRIBE FOR AUTOMATED HOME DELIVERY"
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Subscribe & Save  + Free Shipping",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
           }
         },
-        "cfa37490-aebf-4fe2-b8b3-6c3a0291792c": {
-          "type": "header",
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa": {
+          "type": "accent",
           "settings": {
-            "header": "SUSTAINABILITY MEETS CONVENIENCE"
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
           }
         },
         "bb2cdaff-cf9a-4e10-a148-a01149db9cf5": {
           "type": "bullet",
           "settings": {
-            "bullet": "Ease & convenience<strong> of home delivery<\/strong>"
+            "bullet": "Choose a subscription plan"
           }
         },
         "c31b23c2-5f89-4792-99d3-31333430f483": {
           "type": "bullet",
           "settings": {
-            "bullet": "Free Shipping + 12% Savings <strong>when you subscribe<\/strong>"
+            "bullet": "Paper products will conveniently ship to your door"
           }
         },
         "9fc65364-ff99-46f2-a19b-9ccf7c065d77": {
           "type": "bullet",
           "settings": {
-            "bullet": "Truly zero risk, cancel anytime<strong> subscription<\/strong>"
-          }
-        },
-        "f6fac7d2-0023-4909-8a01-612ab68eb512": {
-          "type": "bullet",
-          "disabled": true,
-          "settings": {
-            "bullet": "Free shipping on all orders (US Mainland Only)"
+            "bullet": "Pause, skip or cancel anytime"
           }
         },
         "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b": {
@@ -498,12 +509,11 @@
         }
       },
       "block_order": [
-        "b12f13d4-5ee2-4f47-9ff1-0f1e6eadf6d3",
-        "cfa37490-aebf-4fe2-b8b3-6c3a0291792c",
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c",
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa",
         "bb2cdaff-cf9a-4e10-a148-a01149db9cf5",
         "c31b23c2-5f89-4792-99d3-31333430f483",
         "9fc65364-ff99-46f2-a19b-9ccf7c065d77",
-        "f6fac7d2-0023-4909-8a01-612ab68eb512",
         "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b",
         "a297a344-97f9-4a68-95ca-f04d925bd923"
       ],
