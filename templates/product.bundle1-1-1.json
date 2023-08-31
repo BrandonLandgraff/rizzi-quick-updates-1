@@ -21,7 +21,7 @@
         "48c62f28-ec85-42fc-a3f3-0f437ca6884e": {
           "type": "callout",
           "settings": {
-            "text": "LABOUR DAY SALE: 22% OFF"
+            "text": "22% OFF UNTIL 2025 - USE CODE \"LABORDAY\""
           }
         },
         "553dabf8-21bf-4832-aa8a-c90ea22da019": {
@@ -173,7 +173,7 @@
         "wrapper_style_4": "<p><strong>Along the Lines (24 Rolls only).<\/strong><\/p><p><strong>Styles:<\/strong><em> Along the Lines<\/em><\/p>",
         "fourth_wrapper_image_2": "shopify:\/\/shop_images\/alongTheLinesSwatches.png",
         "carton_size_title": "CARTON SIZE & SHEET COUNT",
-        "carton_size_description": "<p><strong>RIGHT AS RANDOM <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>IN FULL BLOOM BLACK <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>ALONG THE LINES<br\/><\/strong>- 370 TP Sheets<\/p><p><strong>NAKED ROLLS <br\/><\/strong>- 240 TP Sheets<strong><br\/><\/strong><\/p>",
+        "carton_size_description": "<h3><strong>BUNDLE COMES WITH:<\/strong><\/h3><p><strong><br\/><\/strong>- 24 Roll of 100% Bamboo TP<br\/>- 12 Rolls of 100% Bamboo Paper Towels<br\/>- 12 Boxes of 100% Bamboo Tissues<strong><br\/><\/strong><\/p><h3><strong><br\/>TP SHEET COUNT:<\/strong><\/h3><p><strong><br\/>TP: RIGHT AS RANDOM <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: IN FULL BLOOM BLACK <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: ALONG THE LINES<br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: NAKED ROLLS <br\/><\/strong>- 240 TP Sheets<strong><br\/><\/strong><\/p>",
         "subscription_title": "SUBSCRIPTION VS ONE TIME PURCHASE",
         "subscription_description": "<p><strong>SUBSCRIBE & GET:<\/strong><\/p><ul><li><strong>Convenient, flexible, cancel anytime subscription.<\/strong> Try automating sustainable shopping with truly zero risk.<\/li><\/ul><p><strong>PLUS:<\/strong><\/p><ul><li><strong>Save 12%<\/strong> on all orders<\/li><li><strong>Free Shipping<\/strong> on all orders (US Mainland).<\/li><li><strong>Save 12% + Free Shipping<\/strong> on all order add-ons<\/li><\/ul><p><\/p><ul><li><strong>Seamless order management<\/strong> - delay, reschedule, pause, order now, easily anytime<\/li><li><strong>Transparent notifications <\/strong>on upcoming orders via SMS\/Email<\/li><li><strong>Easily \"snooze\"<\/strong> an order by texting \"Skip\"<\/li><li><strong>Easily add-on items<\/strong> to your upcoming order<\/li><\/ul><p><br\/><strong><br\/>ONE TIME <\/strong>orders are one single purchases, without automated re-ordering.<\/p>",
         "frequency_title": "FLEXIBLE AUTO-REORDERING",
@@ -291,7 +291,7 @@
             "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Exclusive Sale<\/p>",
+            "description": "<p>THIS WEEKEND ONLY<\/p>",
             "product_description": false,
             "text_align": "center",
             "justify_content": "center",
