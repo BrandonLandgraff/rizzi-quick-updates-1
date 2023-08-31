@@ -27,7 +27,7 @@
         "553dabf8-21bf-4832-aa8a-c90ea22da019": {
           "type": "text",
           "settings": {
-            "title": "<p>We believe in having it all.<strong> <\/strong>The essentials bundle is, well, essential. You can choose your wrapper style for your toilet paper selection. This bundle comes with <strong>24 rolls of toilet paper, 12 rolls of paper towels and 12 boxes of facial tissue.<\/strong> When you need more of any one product, you can add on an additional carton of any product to your next delivery.<\/p>"
+            "title": "<p>We believe in having it all.<strong> <\/strong>The essentials bundle is, well, essential. The Bundle comes with flexible shipments of 100% bamboo: 24 rolls of toilet paper, 12 rolls of paper towels and 12 boxes of facial tissue. <strong>Simplify your life with flexible automated shipments of premium tree-free essentials.<\/strong><\/p>"
           }
         },
         "form": {
@@ -150,8 +150,8 @@
       "settings": {
         "product_sticky_enable": true,
         "first_label": "CANCEL ANYTIME",
-        "second_label": "SUBSCRIBE FOR FREE SHIPPING + 22% OFF",
-        "po_text": "SAVE 22% + FREE SHIPPING",
+        "second_label": "SALE: SUBSCRIBE FOR FREE SHIPPING + 22% OFF UNTIL 2025",
+        "po_text": "SAVE 12% + FREE SHIPPING",
         "image_layout": "thumbnails",
         "image_size": "small",
         "show_cart_bar": true,
