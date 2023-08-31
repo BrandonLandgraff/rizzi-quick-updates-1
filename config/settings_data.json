@@ -53,6 +53,7 @@
     "favicon": "shopify:\/\/shop_images\/Rizzi_Favicon_3df1147e-567c-4001-ac8a-5a5827a992b7.png",
     "enable_order_notes": false,
     "enable_gift_notes": false,
+    "enable_estimate_shipping": false,
     "enable_additional_buttons": true,
     "show_free_shipping_message": false,
     "message": "",
