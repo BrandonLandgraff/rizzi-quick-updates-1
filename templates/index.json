@@ -393,7 +393,7 @@
           "type": "first_button",
           "settings": {
             "button_text": "GET 22% OFF",
-            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": true
