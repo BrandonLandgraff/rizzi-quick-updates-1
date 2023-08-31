@@ -344,7 +344,7 @@
               "font_size": 18,
               "line_height": 50,
               "letter_spacing": 0,
-              "description": "<p>Labour Day Exclusive Sale - <strong>22% Off Essentials Bundle<\/strong><\/p>",
+              "description": "<p>This Weekend Only: <strong>22% Off UNTIL 2025<\/strong><\/p>",
               "product_description": false,
               "text_align": "left",
               "justify_content": "left",
@@ -358,19 +358,19 @@
           "19881e42-ed8a-445e-abde-92301eaa4f1f": {
             "type": "bullet",
             "settings": {
-              "bullet": "Select “Edit” beside your current product"
+              "bullet": "Add-on \/ Swap to the Essential Bundle"
             }
           },
           "0326551a-2637-41d2-9f6e-de5b2c750812": {
             "type": "bullet",
             "settings": {
-              "bullet": "Choose the essentials bundle and swap products"
+              "bullet": "Apply discount code below"
             }
           },
           "a929ad2d-6211-43b3-ac1f-59cc3d007c24": {
             "type": "bullet",
             "settings": {
-              "bullet": "Apply the coupon code in the discounts section"
+              "bullet": "Pst* refresh the page to see updated pricing"
             }
           },
           "13055a61-1eab-4f98-b423-625e1d7c4253": {
