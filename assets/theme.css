@@ -26199,3 +26199,7 @@ input[type="radio"]:checked::before {
 .gsa-awtomic-banner {
   margin-top: 0px !important;
 }
+
+.gsa-awtomic-banner svg {
+  flex-shrink: 0;
+}
