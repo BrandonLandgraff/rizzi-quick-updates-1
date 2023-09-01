@@ -344,7 +344,7 @@
               "font_size": 18,
               "line_height": 50,
               "letter_spacing": 0,
-              "description": "<p>This Weekend Only: <strong>22% Off UNTIL 2025<\/strong><\/p>",
+              "description": "<p>This Weekend Only: <strong>22% OFF UNTIL 2025<\/strong><\/p>",
               "product_description": false,
               "text_align": "left",
               "justify_content": "left",
@@ -358,13 +358,13 @@
           "19881e42-ed8a-445e-abde-92301eaa4f1f": {
             "type": "bullet",
             "settings": {
-              "bullet": "Add-on \/ Swap to the Essential Bundle"
+              "bullet": "Add-On \/ Swap to the Essential Bundle"
             }
           },
           "0326551a-2637-41d2-9f6e-de5b2c750812": {
             "type": "bullet",
             "settings": {
-              "bullet": "Apply discount code below"
+              "bullet": "Apply code in Discount Field"
             }
           },
           "a929ad2d-6211-43b3-ac1f-59cc3d007c24": {
