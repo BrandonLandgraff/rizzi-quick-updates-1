@@ -56,7 +56,7 @@
     "enable_additional_buttons": true,
     "show_free_shipping_message": true,
     "message": "Free shipping on all subscription orders.",
-    "free_shipping_limit": "0",
+    "free_shipping_limit": "",
     "cart_custom_message_text": "<h5>\"Your body, mind, landfill, and forests will thank you.\"<\/h5><p>Alexa C. - Verified Buyer<\/p>",
     "cart_cust_message_color": "#ff4a1c",
     "show_empty_cart_menu": true,
