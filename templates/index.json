@@ -41,7 +41,7 @@
             "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Labour Day Exclusive Sale - <strong>22% Off Essentials Bundle<\/strong><\/p>",
+            "description": "<p>Premium 100% Bamboo paper products, <strong>better for you and Mother Earth.<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -55,7 +55,7 @@
         "2671c3a2-2921-4f8f-972d-966ecdb491ca": {
           "type": "first_button",
           "settings": {
-            "button_text": "GET 22% OFF",
+            "button_text": "ESSENTIALS BUNDLE SALE",
             "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -392,7 +392,7 @@
         "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d": {
           "type": "first_button",
           "settings": {
-            "button_text": "GET 22% OFF",
+            "button_text": "ESSENTIALS BUNDLE SALE",
             "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -407,7 +407,7 @@
             "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Exclusive Sale<\/p>",
+            "description": "<p>Labor Day Weekend Only<\/p>",
             "product_description": false,
             "text_align": "center",
             "justify_content": "center",
@@ -1191,10 +1191,10 @@
           "type": "heading",
           "settings": {
             "font_color": "#000000",
-            "font_size": 60,
+            "font_size": 52,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Essentials Bundle",
+            "heading": "Rizzi Essentials Bundle",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -1225,7 +1225,7 @@
             "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Labour Day Exclusive Sale - <strong>22% Off Essentials Bundle<\/strong><\/p>",
+            "description": "<p>Labour Day Sale: Lock in <strong>22% OFF Essentials Bundle until 2025<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -1239,7 +1239,7 @@
         "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1": {
           "type": "first_button",
           "settings": {
-            "button_text": "GET 22% OFF",
+            "button_text": "ESSENTIALS BUNDLE SALE",
             "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",

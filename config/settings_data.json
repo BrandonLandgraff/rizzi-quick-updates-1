@@ -55,8 +55,8 @@
     "enable_gift_notes": false,
     "enable_estimate_shipping": false,
     "enable_additional_buttons": true,
-    "show_free_shipping_message": false,
-    "message": "",
+    "show_free_shipping_message": true,
+    "message": "Free Shipping on Subscription Orders",
     "free_shipping_limit": "",
     "cart_custom_message_text": "<h5>\"Your body, mind, landfill, and forests will thank you.\"<\/h5><p>Alexa C. - Verified Buyer<\/p>",
     "cart_cust_message_color": "#ff4a1c",
@@ -154,7 +154,7 @@
           "116ecad3-4bae-4958-87e7-235b1eade9a6": {
             "type": "text",
             "settings": {
-              "text": "<p><span style=\"text-decoration:underline\"><strong>CODE \"LABORDAY\": 22% OFF UNTIL 2025<\/strong><\/span><\/p>",
+              "text": "<p><strong>SALE: LOCK IN 22% OFF UNTIL 2025<\/strong><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -344,7 +344,7 @@
               "font_size": 18,
               "line_height": 50,
               "letter_spacing": 0,
-              "description": "<p>This Weekend Only: <strong>22% Off UNTIL 2025<\/strong><\/p>",
+              "description": "<p>END MONDAY: <strong>22% OFF UNTIL 2025<\/strong><\/p>",
               "product_description": false,
               "text_align": "left",
               "justify_content": "left",
@@ -358,13 +358,13 @@
           "19881e42-ed8a-445e-abde-92301eaa4f1f": {
             "type": "bullet",
             "settings": {
-              "bullet": "Add-on \/ Swap to the Essential Bundle"
+              "bullet": "Add-On \/ Swap to the Essential Bundle"
             }
           },
           "0326551a-2637-41d2-9f6e-de5b2c750812": {
             "type": "bullet",
             "settings": {
-              "bullet": "Apply discount code below"
+              "bullet": "Apply code in Discount Field"
             }
           },
           "a929ad2d-6211-43b3-ac1f-59cc3d007c24": {
