@@ -133,9 +133,9 @@
       </small> {% endcomment %}
     {% comment %}  endif {% endcomment %}
 
-    {%- if qualified_shipping_message != blank -%}
+    {% comment %} qualified_shipping_message != blank {% endcomment %}
       <span class="cart__message-success">{{ qualified_shipping_message }}</span>
-    {%- endif -%}
+    {% comment %} endif  {% endcomment %}
 
     <span class="cart__message-default">
       {{ free_shipping_message }}
