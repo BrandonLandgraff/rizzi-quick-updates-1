@@ -158,7 +158,7 @@
   endif
 -%}
 
-{%- if show_message -%}
+{% comment %} if show_message {% endcomment %}
   {%- liquid
     assign limit = settings.free_shipping_limit | plus: 0
     assign limit_currency = limit | times: 100
@@ -221,7 +221,7 @@
       {{ free_shipping_message }}
     </span>
   </p>
-{%- endif -%}
+{% comment %} endif {% endcomment %}
 
 
           <div class="cart__total{% if original_subtotal < subtotal or cart_discount_size == 0 %} is-hidden{% endif %}" data-cart-original-total>

@@ -78,7 +78,7 @@
   endif
 -%}
 
-{%- if show_message -%}
+{% comment %}  if show_message  {% endcomment %}
   {%- liquid
     assign limit = settings.free_shipping_limit | plus: 0
     assign limit_currency = limit | times: 100
@@ -117,8 +117,8 @@
       {%- assign animation_delay = animation_delay | plus: 100 -%}
     {% endif %}
     >
-    {%- if show_wheel -%}
-      <small class="cart__graph">
+    {% comment %}  if show_wheel } {% endcomment %}
+      {% comment %} <small class="cart__graph">
         <small class="cart__graph-dot cart__graph-dot--1"></small>
         <small class="cart__graph-dot cart__graph-dot--2"></small>
         <small class="cart__graph-dot cart__graph-dot--3"></small>
@@ -130,8 +130,8 @@
           <circle r="7" cx="9" cy="9" />
           <circle class="cart__graph-progress" stroke-dasharray="87.96459430051421 87.96459430051421" style="stroke-dashoffset: 87.96459430051421" data-cart-progress r="7" cx="9" cy="9" />
         </svg>
-      </small>
-    {%- endif -%}
+      </small> {% endcomment %}
+    {% comment %}  endif {% endcomment %}
 
     {%- if qualified_shipping_message != blank -%}
       <span class="cart__message-success">{{ qualified_shipping_message }}</span>
@@ -141,7 +141,7 @@
       {{ free_shipping_message }}
     </span>
   </p>
-{%- endif -%}
+{% comment %}  endif  {% endcomment %}
 
 
     <div class="cart__errors cart-drawer__errors"
