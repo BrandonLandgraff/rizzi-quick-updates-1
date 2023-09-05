@@ -301,6 +301,25 @@
     "47a5cc6e-cf30-437e-8226-107b1470e494": {
       "type": "gsa-single-column",
       "blocks": {
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>RIZZI HOME FACTS<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2": {
           "type": "heading",
           "settings": {
@@ -308,7 +327,7 @@
             "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Labour Day Sale",
+            "heading": "BETTER FOR YOU AND MOTHER EARTH",
             "product_title": false,
             "text_align": "center",
             "display_options": "bl-hide-none",
@@ -325,25 +344,6 @@
             "accent_width": 48,
             "border_radius": 4,
             "justify_content": "center",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 6
-          }
-        },
-        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1": {
-          "type": "description",
-          "settings": {
-            "font_color": "#000000",
-            "accent_color": "#000000",
-            "font_size": 18,
-            "line_height": 50,
-            "letter_spacing": 0,
-            "description": "<p>Subscribe today and lock in your <strong>22% discount for the next year*<\/strong> on our Essentials Bundle.<\/p>",
-            "product_description": false,
-            "text_align": "center",
-            "justify_content": "center",
-            "max_width": 576,
             "display_options": "bl-hide-none",
             "padding_horizontal": false,
             "padding_top": 6,
@@ -392,44 +392,24 @@
         "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d": {
           "type": "first_button",
           "settings": {
-            "button_text": "ESSENTIALS BUNDLE SALE",
-            "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
+            "button_text": "SHOP RIZZI PRODUCTS",
+            "button_url": "shopify:\/\/collections\/our-lineup",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": true
           }
-        },
-        "686494c0-a63c-4e5e-b32c-c7d47e89a6ce": {
-          "type": "description",
-          "settings": {
-            "font_color": "#b1b1b1",
-            "accent_color": "#000000",
-            "font_size": 18,
-            "line_height": 50,
-            "letter_spacing": 0,
-            "description": "<p>Labor Day Weekend Only<\/p>",
-            "product_description": false,
-            "text_align": "center",
-            "justify_content": "center",
-            "max_width": 576,
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 6
-          }
         }
       },
       "block_order": [
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1",
         "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2",
         "58b48987-7e05-4161-854a-519f2787a39e",
-        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1",
         "3470f7f0-5e74-4559-ac57-84f5ee7d9750",
         "cfd25ed9-f6ca-4e98-9c42-f35151b34cea",
         "d8e81c3d-7a7f-4463-b08b-be8415eab9c7",
         "a1aa34d0-b862-48f4-be9c-cd219ef5e275",
         "43a1552a-a832-4437-a290-3432bf8095f4",
-        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d",
-        "686494c0-a63c-4e5e-b32c-c7d47e89a6ce"
+        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d"
       ],
       "settings": {
         "width": 1200,
