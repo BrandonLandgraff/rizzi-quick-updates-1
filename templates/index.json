@@ -1038,7 +1038,7 @@
             "padding_top": 6,
             "padding_bottom": 6,
             "button_text": "SHOP PAPER TOWEL",
-            "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-paper-towels?discount=LABORDAY?variant=42201140822195&selling_plan=1524433075",
+            "button_url": "shopify:\/\/products\/rizzi-paper-towels",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
