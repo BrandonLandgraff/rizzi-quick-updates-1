@@ -57,6 +57,8 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -1221,6 +1223,8 @@
           "settings": {
             "button_text": "SHOP ESSENTIALS BUNDLE",
             "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "second_button_text": "",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
