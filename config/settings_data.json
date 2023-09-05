@@ -153,6 +153,7 @@
         "blocks": {
           "116ecad3-4bae-4958-87e7-235b1eade9a6": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><strong>SALE: LOCK IN 22% OFF UNTIL 2025<\/strong><\/p>",
               "target_url_enabled": false,
