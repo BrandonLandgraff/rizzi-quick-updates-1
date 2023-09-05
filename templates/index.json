@@ -10,7 +10,7 @@
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "",
+            "heading": "HOME OF NO.2 TOILET PAPER",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -55,8 +55,8 @@
         "2671c3a2-2921-4f8f-972d-966ecdb491ca": {
           "type": "first_button",
           "settings": {
-            "button_text": "ESSENTIALS BUNDLE SALE",
-            "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
