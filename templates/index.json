@@ -1219,8 +1219,8 @@
         "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1": {
           "type": "first_button",
           "settings": {
-            "button_text": "ESSENTIALS BUNDLE SALE",
-            "button_url": "https:\/\/www.rizzihome.com\/products\/rizzi-home-bundle?discount=LABORDAY?variant=42201184338099&selling_plan=1524433075",
+            "button_text": "SHOP ESSENTIALS BUNDLE",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
