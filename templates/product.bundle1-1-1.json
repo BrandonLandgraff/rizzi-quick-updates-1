@@ -316,6 +316,7 @@
         "e9c84196-9459-4755-94fd-8602f7afae0d",
         "5c837c1a-75df-4528-9e46-ccc4efccaf5d"
       ],
+      "disabled": true,
       "settings": {
         "width": 1200,
         "self_alignment": "center",
@@ -402,6 +403,7 @@
         "2fccecd4-9423-4ba4-ac1a-7553a5976623",
         "8a815eee-5669-41b4-b4cb-576e445ca2c2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "bg_color": "",
