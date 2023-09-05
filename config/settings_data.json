@@ -27,7 +27,11 @@
     "footer_text": "#efe7e7",
     "footer_link": "#efe7e7",
     "footer_link_hover": "#ff4a1c",
+<<<<<<< HEAD
     "type_heading_font": "vollkorn_n4",
+=======
+    "type_heading_font": "vollkorn_n7",
+>>>>>>> main
     "type_heading_size": 100,
     "type_base_font": "nunito_n4",
     "type_body_size": 100,
@@ -53,10 +57,16 @@
     "favicon": "shopify:\/\/shop_images\/Rizzi_Favicon_3df1147e-567c-4001-ac8a-5a5827a992b7.png",
     "enable_order_notes": false,
     "enable_gift_notes": false,
+<<<<<<< HEAD
     "enable_estimate_shipping": false,
     "enable_additional_buttons": true,
     "show_free_shipping_message": true,
     "message": "Free Shipping on Subscription Orders",
+=======
+    "enable_additional_buttons": true,
+    "show_free_shipping_message": true,
+    "message": "Free shipping on all subscription orders.",
+>>>>>>> main
     "free_shipping_limit": "",
     "cart_custom_message_text": "<h5>\"Your body, mind, landfill, and forests will thank you.\"<\/h5><p>Alexa C. - Verified Buyer<\/p>",
     "cart_cust_message_color": "#ff4a1c",
@@ -154,7 +164,11 @@
           "116ecad3-4bae-4958-87e7-235b1eade9a6": {
             "type": "text",
             "settings": {
+<<<<<<< HEAD
               "text": "<p><strong>SALE: LOCK IN 22% OFF UNTIL 2025<\/strong><\/p>",
+=======
+              "text": "<p><span style=\"text-decoration:underline\">Subscribe<\/span> for Free Shipping + 12% Extra Savings<\/p>",
+>>>>>>> main
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -168,10 +182,17 @@
           "116ecad3-4bae-4958-87e7-235b1eade9a6"
         ],
         "settings": {
+<<<<<<< HEAD
           "layout": "slider",
           "slider_speed": 9,
           "marquee_speed": 75,
           "bg_color": "#ff4a1c",
+=======
+          "layout": "marquee",
+          "slider_speed": 9,
+          "marquee_speed": 75,
+          "bg_color": "#0b2d4a",
+>>>>>>> main
           "color": "#ffffff"
         }
       },
