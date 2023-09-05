@@ -252,12 +252,12 @@
     <!-- CONTENT -->
     <main role="main" id="MainContent" class="main-content">
 
-      {% if request.path == '/tools/bundle-subscriptions' %}
+      {% comment %} {% if request.path == '/tools/bundle-subscriptions' %}
         <div class="gsa-awtomic-banner">
           {% section 'gsa-awtomic-banner' %}
           {% section 'gsa-divider-bottom' %}
         </div>
-      {% endif %}
+      {% endif %} {% endcomment %}
 
       {{ content_for_layout }}
 

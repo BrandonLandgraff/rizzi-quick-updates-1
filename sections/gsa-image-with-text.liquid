@@ -133,6 +133,11 @@
     fill: {{ section.settings.blob_color }};
 }
   
+#gsa-secondary-btn {
+  display: block; 
+  background-color: #a74481; 
+  margin-top: 12px;
+}
 {%- endstyle -%}
 
 <section
@@ -233,6 +238,17 @@
                                         <span>{{ block.settings.button_text }}</span>
                                         </div>
                                     </a>
+
+                                    {%- if block.settings.second_button_text != blank -%}
+                                      <a href="{{ block.settings.second_button_url }}"
+                                        id="gsa-secondary-btn"
+                                        class="gsa-animated-btn gsa-m-0 gsa-mb-2 gsa-p-0 gsa-w-72">
+                                          <div class="hoverEffects gsa-flex gsa-justify-between gsa-items-center">
+                                            <span>{{ block.settings.second_button_text }}</span>
+                                          </div>
+                                        </a>
+                                    {%- endif -%}
+
                                 </div>
                                 
                         {% endcase %}
@@ -1079,6 +1095,10 @@
             "name": "First Button",
             "settings": [
                 {
+                  "type": "header",
+                  "content": "First button"
+                },
+                {
                     "type":"text",
                     "id":"button_text",
                     "label":"Text",
@@ -1090,18 +1110,37 @@
                     "label":"Link"
                 },
                 {
-                    "type": "select",
-                    "id": "button_color",
-                    "label": "Color",
-                    "default": "btn--neutral",
-                    "options": [
-                        {"value": "btn--primary", "label": "Bright accent"},
-                        {"value": "btn--secondary", "label": "Secondary accent"},
-                        {"value": "btn--link", "label": "Link color"},
-                        {"value": "btn--neutral", "label": "Text color"},
-                        {"value": "btn--black", "label": "Black"},
-                        {"value": "btn--white", "label": "White"}
-                    ]
+                  "type": "header",
+                  "content": "Second Button"
+                },
+                {
+                  "type": "text",
+                  "id": "second_button_text",
+                  "label": "Text",
+                  "default": "Learn more"
+                },
+                {
+                  "type":"url",
+                  "id":"second_button_url",
+                  "label":"Link"
+                },
+                {
+                  "type": "header",
+                  "content": "Styling"
+                },
+                {
+                  "type": "select",
+                  "id": "button_color",
+                  "label": "Color",
+                  "default": "btn--neutral",
+                  "options": [
+                      {"value": "btn--primary", "label": "Bright accent"},
+                      {"value": "btn--secondary", "label": "Secondary accent"},
+                      {"value": "btn--link", "label": "Link color"},
+                      {"value": "btn--neutral", "label": "Text color"},
+                      {"value": "btn--black", "label": "Black"},
+                      {"value": "btn--white", "label": "White"}
+                  ]
                 },
                 {
                     "type": "select",
