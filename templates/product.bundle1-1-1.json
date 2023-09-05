@@ -20,6 +20,7 @@
         },
         "48c62f28-ec85-42fc-a3f3-0f437ca6884e": {
           "type": "callout",
+          "disabled": true,
           "settings": {
             "text": "22% OFF UNTIL 2025 - USE CODE \"LABORDAY\""
           }
