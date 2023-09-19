@@ -337,6 +337,7 @@
                       <span class="radio__button">
                         <input
                           type="radio"
+                          class="option-selector"
                           data-single-option-selector
                           data-index="option{{ option.position }}"
                           name="options[{{ option.name | escape_once }}]"
@@ -503,7 +504,7 @@
 
     {%- render 'product-price' product: product, section_id: section_id -%}
     
-    <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}">
+    <div id="gsa-buy-buttons" class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}">
       <div class="product__form__errors" data-cart-errors-container></div>
 
       <div class="product__submit__buttons">
@@ -525,7 +526,7 @@
             data-add-to-cart
             data-focus-element
             {% unless current_variant.available %}disabled="disabled"{% endunless %}>
-            <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
+            <span id="gsa_add_to_cart" class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
             <span class="btn__added">&nbsp;</span>
 
             <span class="btn__loader">
@@ -544,8 +545,86 @@
       </div>
     </div>
 
+    <div id="gsa-wish-list-klaviyo">
+      <div id="toilet-paper-wishlist" class="klaviyo-form-WzVjHS"></div>
+      <div id="tissue-paper-wishlist" class="klaviyo-form-VmgdT3"></div>
+      <div id="paper-towel-wishlist" class="klaviyo-form-YyYHjy"></div>
+      <div id="bundle-wishlist" class="klaviyo-form-TRkmBB"></div>
+    </div>
+
     <div id="gsa-cancel-anytime"></div>
 
     {% render 'gift-form-snippet', product: product, block: block %}
   {%- endform -%}
 </div>
+
+<script>
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    let productName = "{{ product.title }}";
+    console.log(productName);
+
+    // 1. Select the element you want to observe
+    const targetNode = document.querySelector('#gsa_add_to_cart');
+    const gsa_buy_buttons = document.querySelector('#gsa-buy-buttons');
+    const gsa_klaviyo_form = document.querySelector('#gsa-wish-list-klaviyo');
+    const gsa_cancel_anytime_below = document.querySelector('#gsa-cancel-anytime');
+
+    console.log(targetNode);
+    const toilet_paper_wishlist = document.querySelector('#toilet-paper-wishlist');
+    const tissue_paper_wishlist = document.querySelector('#tissue-paper-wishlist');
+    const paper_towel_wishlist = document.querySelector('#paper-towel-wishlist');
+    const bundle_wishlist = document.querySelector('#bundle-wishlist');
+
+    // 2. Create a MutationObserver
+    const observer = new MutationObserver(function(mutationsList) {
+        for(let mutation of mutationsList) {
+            // If the addedNodes property has one or more nodes
+            if (mutation.type === 'characterData' || (mutation.type === 'childList' && mutation.addedNodes.length > 0)) {
+                const textContent = targetNode.textContent.trim();
+                if (textContent === "Sold Out") {
+                  console.log("The span text has changed to 'Sold out'");
+                  // You can add any other actions you want to perform here
+                  gsa_buy_buttons.style.display = 'none';
+                  gsa_cancel_anytime_below.style.visibility = 'hidden';
+
+                  if (productName === "No.2 Toilet Paper") {
+                    toilet_paper_wishlist.style.display = 'block';  // Hide the div if product name isn't "Special Product"
+                  } else if (productName === "Rizzi Tissue Paper") {
+                    tissue_paper_wishlist.style.display = 'block';  // Assuming you have a div related to this product
+                  } else if (productName === "Rizzi Paper Towels") {
+                    paper_towel_wishlist.style.display = 'block';  // Assuming you have a div related to this product
+                  } else if (productName === "Rizzi Essentials Bundle") {
+                    bundle_wishlist.style.display = 'block';  // Assuming you have a div related to this product
+                  } else {
+                    toilet_paper_wishlist.style.display = 'none';
+                    tissue_paper_wishlist.style.display = 'none';
+                    paper_towel_wishlist.style.display = 'none';
+                    bundle_wishlist.style.display = 'none';
+                  }
+                } else {
+                  console.log("Not sold out");
+                  gsa_buy_buttons.style.display = 'block';
+                  gsa_cancel_anytime_below.style.visibility = 'visible';
+
+                  toilet_paper_wishlist.style.display = 'none';
+                  tissue_paper_wishlist.style.display = 'none';
+                  paper_towel_wishlist.style.display = 'none';
+                  bundle_wishlist.style.display = 'none';
+                }
+            }
+        }
+    });
+
+    // 3. Configure the observer
+    const config = {
+        childList: true, 
+        characterData: true, 
+        subtree: true
+    };
+
+    // 4. Start the observation
+    observer.observe(targetNode, config);
+});
+</script>
