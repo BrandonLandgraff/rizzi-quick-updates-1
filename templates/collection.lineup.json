@@ -1,1 +1,486 @@
-{"sections":{"464e7319-98a2-45c5-8aa2-cf18af3b8942":{"type":"section-rich-text","settings":{"subheading":"","subheading_size":3,"title":"OUR STYLISH LINEUP","heading_size":9,"text":"","text_size":4,"text_columns":1,"align_text":"text-center","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"standard__cta caps--large","width":"wrapper","bg_color":"#efe7e7","color":"","padding_top":50,"padding_bottom":50}},"881d3e41-d3ca-4700-a925-e100b39b403d":{"type":"gsa-collection-styled","blocks":{"82df620f-4b7b-4d17-9674-3ba4c43123f7":{"type":"product","settings":{"product":"","callout":"STRONG & SILKY","image":"shopify:\/\/shop_images\/b388b3ad-b206-4ecf-89d2-f4d69990e83a.png","title":"NO.2 TOILET PAPER","price":"from $26.00","richtext":"<p>No.2 Toilet Paper. Your favorite 3 ply and strong paper for the best butt crumble free wipe.<\/p>","button_text":"VIEW PRODUCT","button_url":"shopify:\/\/products\/no-2-toilet-paper-1","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps"}},"7afc1e32-248f-4981-860f-56ddd7da2755":{"type":"product","settings":{"product":"rizzi-paper-towels","callout":"STRONG AND ABSORBENT","image":"shopify:\/\/shop_images\/Paper_Towels_-_Mini.png","title":"PAPER TOWELS","price":"from $47.00","richtext":"<p>100% bamboo paper towels wrapped in our stylish design.<\/p>","button_text":"VIEW PRODUCT","button_url":"shopify:\/\/products\/rizzi-paper-towels","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps"}},"cd8b309e-676b-4028-a419-09ac4b9bd6cf":{"type":"product","settings":{"product":"no-2-tissue-paper-test","callout":"SOFT, YET STUDRY","image":"shopify:\/\/shop_images\/Tissues_-_Mini.png","title":"FACIAL TISSUE","price":"from $34.00","richtext":"<p>100% bamboo tissue, now available right to your doorstep.<\/p>","button_text":"VIEW PRODUCT","button_url":"shopify:\/\/products\/no-2-tissue-paper-test","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps"}},"9c1df665-b442-4a6d-9f5c-b0489b90797e":{"type":"product","settings":{"product":"rizzi-home-bundle","callout":"TP + PAPER TOWELS + TISSUES","image":"shopify:\/\/shop_images\/no2photos-14.png","title":"ESSENTIALS BUNDLE","price":"from $115.91","richtext":"<p>Bundle all 3 paper products for ease and extra savings.<\/p>","button_text":"VIEW PRODUCT","button_url":"shopify:\/\/products\/rizzi-home-bundle","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps"}}},"block_order":["82df620f-4b7b-4d17-9674-3ba4c43123f7","7afc1e32-248f-4981-860f-56ddd7da2755","cd8b309e-676b-4028-a419-09ac4b9bd6cf","9c1df665-b442-4a6d-9f5c-b0489b90797e"],"settings":{"top_blob_color":"#a74482","bottom_blob_color":"rgba(0,0,0,0)","subheading":"","subheading_size":1,"title":"Did you know that bamboo...","heading_size":7,"text":"<ul><li>Is a renewable resource that reaches maturity 8X faster than trees<\/li><li>Greatly reduces clear-cutting & deforestation<\/li><li>Releases 30% more oxygen into the atmosphere<\/li><li>BONUS: Bamboo provides a stronger, naturally silky material<\/li><\/ul>","text_size":4,"text_columns":1,"align_text":"text-left","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"standard__cta caps--large","width":"wrapper","bg_color":"","color":"#111827","padding_top":0,"padding_bottom":0}},"subcollections":{"type":"subcollections","disabled":true,"settings":{"subcollection_layout":"grid","subcollection_description":false,"select_image":"collection","padding_top":20,"padding_bottom":20}},"main":{"type":"collection","disabled":true,"blocks":{"076fa616-af38-45df-b0a8-0aad5ef506df":{"type":"featured_image","settings":{"featured_image":"shopify:\/\/shop_images\/548687.png","featured_image_bg_position":"center-center","featured_heading":"Why Us?","featured_text":"<p>Sure, its sustainable, but...<br\/><strong>Why Us?<\/strong><\/p><p>Because sustainability doesn’t need to be boring.<\/p><p>Because we max out on siiiiiilky for true textile luxury.<\/p>","featured_button_text":"","featured_button_link":"","featured_color_text":"#ffffff","featured_color_overlay":"#222222","featured_overlay_opacity":0}}},"block_order":["076fa616-af38-45df-b0a8-0aad5ef506df"],"settings":{"enable_sort":false,"enable_filters":false,"filter_layout":"inline-open","grid":3,"grid_mobile":"2","product_limit":36,"padding_top":0,"padding_bottom":0}},"7dc41386-90b4-4711-b421-e3fa1add2b9d":{"type":"section-text-row","disabled":true,"blocks":{"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0":{"type":"text-item","settings":{"icon_name":"icon-earth","icon_color":"#545454","title":"Strong & Sustainable","text":""}},"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1":{"type":"text-item","settings":{"icon_name":"icon-leaf","icon_color":"#545454","title":"Siiiiiiilky","text":""}},"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2":{"type":"text-item","settings":{"icon_name":"icon-rating","icon_color":"#545454","title":"Stylish","text":""}},"2c9b1bfc-7632-4822-8bf5-9aec8b2f3750":{"type":"text-item","settings":{"icon_name":"icon-truck","icon_color":"#545454","title":"Free Subscriber Shipping","text":""}}},"block_order":["template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0","template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1","template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2","2c9b1bfc-7632-4822-8bf5-9aec8b2f3750"],"settings":{"text_alignment":"center","icon_size":20,"icon_alignment":"icon--top","heading_size":"h6","bg_color":"#efe7e7","color":"","padding_top":50,"padding_bottom":40}},"244c6083-5fae-4971-9d00-9f5d2603e9b6":{"type":"gsa-waves-feature","settings":{"wave_orientation":"0deg","wave_type":"wave_04","bg_color":"#efe7e7","wave_color":"#0b2d4a","padding_top":100,"padding_bottom":0}},"62b0c0f9-17d7-4baa-bbde-8933695606c7":{"type":"gsa-section-blob","blocks":{"94025a95-98ce-4b43-a6c6-f4ef9e8e6e7d":{"type":"subtitle","settings":{"subtitle":"THE BEST SAVINGS"}},"c372c993-bbd6-45a1-8931-81052a051310":{"type":"header","settings":{"header":"SUBSCRIBE TO THE ESSENTIALS BUNDLE"}},"799be103-7421-4c6a-8acc-b193fd4c4eb8":{"type":"richtext","disabled":true,"settings":{"richtext":"<p>This is a description.<\/p>"}},"e9910ff5-5405-4958-8ae5-f86b854c39f5":{"type":"bullet","settings":{"bullet":"Bundle toilet paper, paper towels and tissue for best savings"}},"5753f3d4-4940-48ed-83a7-07a8bf1204d2":{"type":"bullet","settings":{"bullet":"Free shipping on all orders (US Mainland Only)"}},"bb2ff8f7-1ec4-4a16-bdcc-27a29fdd8829":{"type":"bullet","settings":{"bullet":"Easily skip, rescheule, update, cancel anytime"}},"5418c7a4-35a5-4cb0-9ae3-048fe1499cc8":{"type":"first_button","settings":{"button_text":"SUBSCRIBER & SAVE","button_url":"shopify:\/\/products\/rizzi-home-bundle","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps"}}},"block_order":["94025a95-98ce-4b43-a6c6-f4ef9e8e6e7d","c372c993-bbd6-45a1-8931-81052a051310","799be103-7421-4c6a-8acc-b193fd4c4eb8","e9910ff5-5405-4958-8ae5-f86b854c39f5","5753f3d4-4940-48ed-83a7-07a8bf1204d2","bb2ff8f7-1ec4-4a16-bdcc-27a29fdd8829","5418c7a4-35a5-4cb0-9ae3-048fe1499cc8"],"settings":{"show_right":false,"dt_container_height":100,"mb_container_height":350,"image_background_height":500,"image":"shopify:\/\/shop_images\/OjJ0lgqo.jpg","image_height":500,"show_animation":true,"image_style":"gsa-masked-image-1","image_x_position":"pos-left","image_y_position":"pos-top","blob_x_position":"pos-left","blob_y_position":"pos-top","width":"wrapper","bg_color":"#0b2d4a","color":"#ffffff","blob_color":"#a74482","padding_top":0,"padding_bottom":0,"side_image_x_position":"pos-side-image-left","side_image_height":500,"side_image_width":200,"mb_side_image_height":500,"mb_side_image_width":200,"video_link_bg":"","desktop_height":"screen-height-three-quarters","mobile_height":"screen-height-three-quarters--mobile"}},"hero":{"type":"collection-image-with-title","disabled":true,"settings":{"show_title":true,"show_description":true,"flex_align":"align--middle-left","bg_color":"","color":"","show_image":true,"banner_layout":"overlay","height":"screen-height-one-third","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"padding_top":0,"padding_bottom":0}},"4e550b20-f316-48d6-90d5-1f235e6cb522":{"type":"gsa-waves-feature","disabled":true,"settings":{"wave_orientation":"0deg","wave_type":"wave_01","bg_color":"#0b2d4a","wave_color":"#548687","padding_top":0,"padding_bottom":0}},"9a3f288a-030e-4b88-b60d-b61b8a01f5b7":{"type":"gsa-waves-feature","settings":{"wave_orientation":"0deg","wave_type":"wave_03","bg_color":"#0b2d4a","wave_color":"#efe7e7","padding_top":0,"padding_bottom":0}},"9707300e-6372-46e9-b198-1106bc1b2a1b":{"type":"section-reviews","blocks":{"template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-1":{"type":"review","settings":{"title":"Jordan H.","subheading":"Verified Buyer","review_text":"Just about the best TP ever. Soft, strong, zero crumbles. What else could you want? You want it to save trees too? Check. Only one tiny complaint - every once in a while, it doesn’t tear right. Maybe they need to up their perforating game a bit?","review_url":"","show_half_star":false}},"template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-0":{"type":"review","settings":{"title":"Cynthia L.","subheading":"Verified Buyer","review_text":"Beautiful. Great product! The packaging is so beautiful that I have used it as wrapping paper for gifts.","review_url":"","show_half_star":true}},"template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-2":{"type":"review","settings":{"title":"Dmitry M.","subheading":"Verified Buyer","review_text":"Softest bamboo TP on the market! Tried 3 top brands on the market and this is by far the softest.","review_url":"","show_half_star":false}}},"block_order":["template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-1","template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-0","template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-2"],"settings":{"show_featured_image":false,"image_aspect_ratio":1.3,"show_quotation_marks":false,"text_align":"text-left","text_size":4,"bg_color":"#efe7e7","color":"#111827","card_bg_color":"","padding_top":0,"padding_bottom":0}},"cd0bddf5-ea8d-47f0-8329-ae1faa249df1":{"type":"section-custom-content","disabled":true,"blocks":{"template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/no2photos-6.png","bg_position":"center-bottom","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"title":"","heading_size":7,"description":"","text_size":3,"flex_align":"align--middle-center","bg_color":"","color":"#ffffff","link_text":"","link":"","button_color":"btn--white","button_style":"hero__btn btn btn--large btn--outline caps"}},"template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-1":{"type":"text","settings":{"subheading":"THE BEST SAVINGS","subheading_size":3,"title":"Subscribe to the Essentials Bundle","heading_size":9,"text":"<p>When designing our products we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin. The end result is something more than you expect from a toilet paper: real tactile luxury.<\/p><p>• Real tactile luxury<\/p><p>• Max our on silkiness<\/p>","text_size":3,"text_columns":1,"align_text":"text-center","bg_color":"","color":"","button_text":"Try ESSENTIALS BUNDLE","button_url":"","button_color":"btn--primary","button_style":"hero__btn btn btn--large caps","show_social_links":false}}},"block_order":["template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-0","template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-1"],"settings":{"height":"four-fifty-height-hero","width":"wrapper","padding":false,"borders":false,"padding_top":100,"padding_bottom":100}}},"order":["464e7319-98a2-45c5-8aa2-cf18af3b8942","881d3e41-d3ca-4700-a925-e100b39b403d","subcollections","main","7dc41386-90b4-4711-b421-e3fa1add2b9d","244c6083-5fae-4971-9d00-9f5d2603e9b6","62b0c0f9-17d7-4baa-bbde-8933695606c7","hero","4e550b20-f316-48d6-90d5-1f235e6cb522","9a3f288a-030e-4b88-b60d-b61b8a01f5b7","9707300e-6372-46e9-b198-1106bc1b2a1b","cd0bddf5-ea8d-47f0-8329-ae1faa249df1"]}
+{
+  "sections": {
+    "464e7319-98a2-45c5-8aa2-cf18af3b8942": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "title": "OUR STYLISH LINEUP",
+        "heading_size": 9,
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "881d3e41-d3ca-4700-a925-e100b39b403d": {
+      "type": "gsa-collection-styled",
+      "blocks": {
+        "82df620f-4b7b-4d17-9674-3ba4c43123f7": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "callout": "STRONG & SILKY",
+            "image": "shopify:\/\/shop_images\/vibrantTPTower.png",
+            "title": "NO.2 TOILET PAPER",
+            "price": "from $26.00",
+            "richtext": "<p>No.2 Toilet Paper. Your favorite 3 ply and strong paper for the best butt crumble free wipe.<\/p>",
+            "button_text": "VIEW PRODUCT",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "7afc1e32-248f-4981-860f-56ddd7da2755": {
+          "type": "product",
+          "settings": {
+            "product": "rizzi-paper-towels",
+            "callout": "STRONG AND ABSORBENT",
+            "image": "shopify:\/\/shop_images\/vibrantPTCasual.png",
+            "title": "PAPER TOWELS",
+            "price": "from $47.00",
+            "richtext": "<p>100% bamboo paper towels wrapped in our stylish design.<\/p>",
+            "button_text": "VIEW PRODUCT",
+            "button_url": "shopify:\/\/products\/rizzi-paper-towels",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "cd8b309e-676b-4028-a419-09ac4b9bd6cf": {
+          "type": "product",
+          "settings": {
+            "product": "no-2-tissue-paper-test",
+            "callout": "SOFT, YET STUDRY",
+            "image": "shopify:\/\/shop_images\/VibrantTissuePArray.png",
+            "title": "FACIAL TISSUE",
+            "price": "from $34.00",
+            "richtext": "<p>100% bamboo tissue, now available right to your doorstep.<\/p>",
+            "button_text": "VIEW PRODUCT",
+            "button_url": "shopify:\/\/products\/no-2-tissue-paper-test",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "9c1df665-b442-4a6d-9f5c-b0489b90797e": {
+          "type": "product",
+          "settings": {
+            "product": "rizzi-home-bundle",
+            "callout": "ALL IN ONE, BEST VALUE",
+            "image": "shopify:\/\/shop_images\/EssentialsBundle-3_47ed0e80-2454-4e3e-b5d7-860682af3948.png",
+            "title": "ESSENTIALS BUNDLE",
+            "price": "from $115.91",
+            "richtext": "<p>Bundle all 3 paper products for ease and extra savings.<\/p>",
+            "button_text": "VIEW PRODUCT",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "82df620f-4b7b-4d17-9674-3ba4c43123f7",
+        "7afc1e32-248f-4981-860f-56ddd7da2755",
+        "cd8b309e-676b-4028-a419-09ac4b9bd6cf",
+        "9c1df665-b442-4a6d-9f5c-b0489b90797e"
+      ],
+      "settings": {
+        "top_blob_color": "#a74482",
+        "bottom_blob_color": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheading_size": 1,
+        "title": "Did you know that bamboo...",
+        "heading_size": 7,
+        "text": "<ul><li>Is a renewable resource that reaches maturity 8X faster than trees<\/li><li>Greatly reduces clear-cutting & deforestation<\/li><li>Releases 30% more oxygen into the atmosphere<\/li><li>BONUS: Bamboo provides a stronger, naturally silky material<\/li><\/ul>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "#111827",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "076fa616-af38-45df-b0a8-0aad5ef506df": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/548687.png",
+            "featured_image_bg_position": "center-center",
+            "featured_heading": "Why Us?",
+            "featured_text": "<p>Sure, its sustainable, but...<br\/><strong>Why Us?<\/strong><\/p><p>Because sustainability doesn’t need to be boring.<\/p><p>Because we max out on siiiiiilky for true textile luxury.<\/p>",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "076fa616-af38-45df-b0a8-0aad5ef506df"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sort": false,
+        "enable_filters": false,
+        "filter_layout": "inline-open",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 36,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7dc41386-90b4-4711-b421-e3fa1add2b9d": {
+      "type": "section-text-row",
+      "blocks": {
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#545454",
+            "title": "Strong & Sustainable",
+            "text": ""
+          }
+        },
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#545454",
+            "title": "Siiiiiiilky",
+            "text": ""
+          }
+        },
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_color": "#545454",
+            "title": "Stylish",
+            "text": ""
+          }
+        },
+        "2c9b1bfc-7632-4822-8bf5-9aec8b2f3750": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#545454",
+            "title": "Free Subscriber Shipping",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0",
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1",
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2",
+        "2c9b1bfc-7632-4822-8bf5-9aec8b2f3750"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 40
+      }
+    },
+    "244c6083-5fae-4971-9d00-9f5d2603e9b6": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_04",
+        "bg_color": "#efe7e7",
+        "wave_color": "#0b2d4a",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "62b0c0f9-17d7-4baa-bbde-8933695606c7": {
+      "type": "gsa-section-blob",
+      "blocks": {
+        "94025a95-98ce-4b43-a6c6-f4ef9e8e6e7d": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "THE BEST SAVINGS"
+          }
+        },
+        "c372c993-bbd6-45a1-8931-81052a051310": {
+          "type": "header",
+          "settings": {
+            "header": "SUBSCRIBE TO THE ESSENTIALS BUNDLE"
+          }
+        },
+        "799be103-7421-4c6a-8acc-b193fd4c4eb8": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>This is a description.<\/p>"
+          }
+        },
+        "e9910ff5-5405-4958-8ae5-f86b854c39f5": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Bundle toilet paper, paper towels and tissue for best savings"
+          }
+        },
+        "5753f3d4-4940-48ed-83a7-07a8bf1204d2": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Free shipping on all orders (US Mainland Only)"
+          }
+        },
+        "bb2ff8f7-1ec4-4a16-bdcc-27a29fdd8829": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Easily skip, rescheule, update, cancel anytime"
+          }
+        },
+        "5418c7a4-35a5-4cb0-9ae3-048fe1499cc8": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SUBSCRIBER & SAVE",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "94025a95-98ce-4b43-a6c6-f4ef9e8e6e7d",
+        "c372c993-bbd6-45a1-8931-81052a051310",
+        "799be103-7421-4c6a-8acc-b193fd4c4eb8",
+        "e9910ff5-5405-4958-8ae5-f86b854c39f5",
+        "5753f3d4-4940-48ed-83a7-07a8bf1204d2",
+        "bb2ff8f7-1ec4-4a16-bdcc-27a29fdd8829",
+        "5418c7a4-35a5-4cb0-9ae3-048fe1499cc8"
+      ],
+      "settings": {
+        "show_right": false,
+        "dt_container_height": 100,
+        "mb_container_height": 350,
+        "image_background_height": 500,
+        "image": "shopify:\/\/shop_images\/OjJ0lgqo.jpg",
+        "image_height": 500,
+        "show_animation": true,
+        "image_style": "gsa-masked-image-1",
+        "image_x_position": "pos-left",
+        "image_y_position": "pos-top",
+        "blob_x_position": "pos-left",
+        "blob_y_position": "pos-top",
+        "width": "wrapper",
+        "bg_color": "#0b2d4a",
+        "color": "#ffffff",
+        "blob_color": "#a74482",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4e550b20-f316-48d6-90d5-1f235e6cb522": {
+      "type": "gsa-waves-feature",
+      "disabled": true,
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_01",
+        "bg_color": "#0b2d4a",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9a3f288a-030e-4b88-b60d-b61b8a01f5b7": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_03",
+        "bg_color": "#0b2d4a",
+        "wave_color": "#efe7e7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9707300e-6372-46e9-b198-1106bc1b2a1b": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-1": {
+          "type": "review",
+          "settings": {
+            "title": "Jordan H.",
+            "subheading": "Verified Buyer",
+            "review_text": "Just about the best TP ever. Soft, strong, zero crumbles. What else could you want? You want it to save trees too? Check. Only one tiny complaint - every once in a while, it doesn’t tear right. Maybe they need to up their perforating game a bit?",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-0": {
+          "type": "review",
+          "settings": {
+            "title": "Cynthia L.",
+            "subheading": "Verified Buyer",
+            "review_text": "Beautiful. Great product! The packaging is so beautiful that I have used it as wrapping paper for gifts.",
+            "review_url": "",
+            "show_half_star": true
+          }
+        },
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-2": {
+          "type": "review",
+          "settings": {
+            "title": "Dmitry M.",
+            "subheading": "Verified Buyer",
+            "review_text": "Softest bamboo TP on the market! Tried 3 top brands on the market and this is by far the softest.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-1",
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-0",
+        "template--16065210908851__9707300e-6372-46e9-b198-1106bc1b2a1b-166880033848056da5-2"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#efe7e7",
+        "color": "#111827",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cd0bddf5-ea8d-47f0-8329-ae1faa249df1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-6.png",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "THE BEST SAVINGS",
+            "subheading_size": 3,
+            "title": "Subscribe to the Essentials Bundle",
+            "heading_size": 9,
+            "text": "<p>When designing our products we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin. The end result is something more than you expect from a toilet paper: real tactile luxury.<\/p><p>• Real tactile luxury<\/p><p>• Max our on silkiness<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Try ESSENTIALS BUNDLE",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-0",
+        "template--16016498131123__cd0bddf5-ea8d-47f0-8329-ae1faa249df1-1665177073d3a0dc82-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "width": "wrapper",
+        "padding": false,
+        "borders": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "464e7319-98a2-45c5-8aa2-cf18af3b8942",
+    "881d3e41-d3ca-4700-a925-e100b39b403d",
+    "subcollections",
+    "main",
+    "7dc41386-90b4-4711-b421-e3fa1add2b9d",
+    "244c6083-5fae-4971-9d00-9f5d2603e9b6",
+    "62b0c0f9-17d7-4baa-bbde-8933695606c7",
+    "hero",
+    "4e550b20-f316-48d6-90d5-1f235e6cb522",
+    "9a3f288a-030e-4b88-b60d-b61b8a01f5b7",
+    "9707300e-6372-46e9-b198-1106bc1b2a1b",
+    "cd0bddf5-ea8d-47f0-8329-ae1faa249df1"
+  ]
+}
