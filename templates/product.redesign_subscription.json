@@ -611,6 +611,7 @@
     },
     "28c088e8-aadd-430f-af0f-9d451430763d": {
       "type": "section-rich-text",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "subheading_size": 3,
