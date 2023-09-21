@@ -417,7 +417,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#efe7e7",
-            "font_size": 50,
+            "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "No.2 Facts",
@@ -434,7 +434,7 @@
           "settings": {
             "font_color": "#efe7e7",
             "accent_color": "#000000",
-            "font_size": 16,
+            "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p><strong>100% Bamboo<\/strong><\/p><p><strong>100% Recycled<\/strong> packaging<\/p><p><strong>Strong<\/strong> & Sustainable<\/p><p><strong>Silky<\/strong> touch<\/p><p><strong>Plastic<\/strong> free<\/p><p><strong>Soy Ink<\/strong> printed wrapper<\/p><p><strong>Clog and Septic<\/strong> safe<\/p><p><strong>Sustainably<\/strong> sourced<\/p>",
@@ -487,7 +487,7 @@
         "opacity": 60,
         "padding_top": 60,
         "padding_bottom": 60,
-        "mb_reverse_order": false
+        "mb_reverse_order": true
       }
     },
     "db455023-5ec6-43b5-a385-7ae3e52f42c5": {
