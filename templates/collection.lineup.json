@@ -471,6 +471,17 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "67f383b1-96b3-432a-b961-5b11e43e13ad": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nfooter svg {\nbackground-color: #0C2D4B !important;\n}\n<\/style>",
+        "bg_color": "#0c2d4b",
+        "color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -485,6 +496,7 @@
     "4e550b20-f316-48d6-90d5-1f235e6cb522",
     "9a3f288a-030e-4b88-b60d-b61b8a01f5b7",
     "9707300e-6372-46e9-b198-1106bc1b2a1b",
-    "cd0bddf5-ea8d-47f0-8329-ae1faa249df1"
+    "cd0bddf5-ea8d-47f0-8329-ae1faa249df1",
+    "67f383b1-96b3-432a-b961-5b11e43e13ad"
   ]
 }
