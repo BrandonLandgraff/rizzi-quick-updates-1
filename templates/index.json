@@ -490,182 +490,6 @@
         "mb_reverse_order": true
       }
     },
-    "db455023-5ec6-43b5-a385-7ae3e52f42c5": {
-      "type": "gsa-section-blob",
-      "blocks": {
-        "84b233b1-48ad-432b-af59-5473c2fc68d4": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "RIZZI HOME FACTS"
-          }
-        },
-        "c9f78452-c689-4e7f-8324-298dd7a4d9d9": {
-          "type": "header",
-          "settings": {
-            "header": "BETTER FOR YOU AND MOTHER EARTH"
-          }
-        },
-        "aa7034be-2dd0-49f8-9f79-67bf02569b8f": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "100% Bamboo <strong>premium paper products<\/strong>"
-          }
-        },
-        "9923fe28-5fcd-4b3f-873d-70ca2ddf37b0": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "100% recycled, plastic free<strong> packaging<\/strong>"
-          }
-        },
-        "36e0b465-29ad-4b2b-ad65-edfe5aae3a3a": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Strong, siiiilky and absorbent<strong> paper<\/strong>"
-          }
-        },
-        "8d714949-4595-42e4-8275-a5bc94656fda": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Stylish soy ink printed<strong> wrappers<\/strong>"
-          }
-        },
-        "f8886502-7d70-4beb-838f-22ef4143970b": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Convenient <strong>home delivery & subscription<\/strong>"
-          }
-        },
-        "ef3d1a00-3572-4c99-ac5a-2cda9b7bb442": {
-          "type": "first_button",
-          "settings": {
-            "button_text": "SHOP RIZZI PRODUCTS",
-            "button_url": "shopify:\/\/collections\/our-lineup",
-            "button_color": "btn--primary",
-            "button_style": "hero__btn btn btn--input caps"
-          }
-        }
-      },
-      "block_order": [
-        "84b233b1-48ad-432b-af59-5473c2fc68d4",
-        "c9f78452-c689-4e7f-8324-298dd7a4d9d9",
-        "aa7034be-2dd0-49f8-9f79-67bf02569b8f",
-        "9923fe28-5fcd-4b3f-873d-70ca2ddf37b0",
-        "36e0b465-29ad-4b2b-ad65-edfe5aae3a3a",
-        "8d714949-4595-42e4-8275-a5bc94656fda",
-        "f8886502-7d70-4beb-838f-22ef4143970b",
-        "ef3d1a00-3572-4c99-ac5a-2cda9b7bb442"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_right": false,
-        "dt_container_height": 500,
-        "mb_container_height": 400,
-        "image_background_height": 350,
-        "image": "shopify:\/\/shop_images\/other-unwrapping-loop.webp",
-        "image_height": 350,
-        "show_animation": false,
-        "image_style": "no-style",
-        "image_x_position": "pos-left",
-        "image_y_position": "pos-bottom",
-        "blob_x_position": "pos-far-left",
-        "blob_y_position": "pos-below-middle",
-        "width": "wrapper",
-        "bg_color": "#efe7e7",
-        "color": "#212121",
-        "blob_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 52,
-        "side_image_x_position": "pos-side-image-right",
-        "side_image_height": 300,
-        "side_image_width": 225,
-        "mb_side_image_height": 400,
-        "mb_side_image_width": 200,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile"
-      }
-    },
-    "4a31f061-6706-4583-ba1c-68a669328cd6": {
-      "type": "gsa-lifestyle-images",
-      "blocks": {
-        "a285f9e3-0033-4426-bc54-e5f87538c81f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4edc0393-d499-4518-b6ab-29380bd28f6d.png",
-            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4edc0393-d499-4518-b6ab-29380bd28f6d.png",
-            "url": ""
-          }
-        },
-        "3696b9da-3ad9-4bc0-94ac-bb25efc09982": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/No_5.png",
-            "url": ""
-          }
-        },
-        "8d875761-ed0d-4ff6-a066-7d516ade51d7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_2_77e7e318-a5de-42a3-9576-5bbf0dd352e6.png",
-            "url": ""
-          }
-        },
-        "b2d3389e-f7d4-44f4-ad09-7d31c15645f5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no2photos-73_1.png",
-            "url": ""
-          }
-        },
-        "d970df57-9706-427e-b017-587851645f00": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no2photos-68_1.png",
-            "url": ""
-          }
-        },
-        "583e1f3b-5ebd-4e0a-939d-c8cf6b205833": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_2.png",
-            "url": ""
-          }
-        },
-        "a3c3bf91-3a83-41ab-a005-df77852e1cb6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no2photos-88_1.png",
-            "url": ""
-          }
-        },
-        "20576042-8971-4115-b5bb-8a4a07b838bb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/No2_Jan_2020-11_2.png",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "a285f9e3-0033-4426-bc54-e5f87538c81f",
-        "3696b9da-3ad9-4bc0-94ac-bb25efc09982",
-        "8d875761-ed0d-4ff6-a066-7d516ade51d7",
-        "b2d3389e-f7d4-44f4-ad09-7d31c15645f5",
-        "d970df57-9706-427e-b017-587851645f00",
-        "583e1f3b-5ebd-4e0a-939d-c8cf6b205833",
-        "a3c3bf91-3a83-41ab-a005-df77852e1cb6",
-        "20576042-8971-4115-b5bb-8a4a07b838bb"
-      ],
-      "disabled": true,
-      "settings": {
-        "arrow_color": "#000000",
-        "hide_arrows": true,
-        "dot": "#828282",
-        "hide_dots": true,
-        "wave_color_top": "#efe7e7",
-        "wave_color_bottom": "#548687"
-      }
-    },
     "26392da4-715e-41b2-ae83-3ccc6893899d": {
       "type": "section-reviews",
       "blocks": {
@@ -761,6 +585,101 @@
         "wave_color": "#0b2d4a",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "ddd79b87-3310-4e6f-8557-48cd3368fcec": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "95f6957f-495a-44a4-9ca4-7e114b348463": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "95% Less Butt Crumble",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "c524bdbf-9503-4e24-a985-994ae37592f9": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "05e0fe6a-e88c-4b8f-8087-031852104b54": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "cddae023-150a-47a7-ba57-916a9da4ca93": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "95f6957f-495a-44a4-9ca4-7e114b348463",
+        "c524bdbf-9503-4e24-a985-994ae37592f9",
+        "05e0fe6a-e88c-4b8f-8087-031852104b54",
+        "cddae023-150a-47a7-ba57-916a9da4ca93"
+      ],
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Video.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false
       }
     },
     "4477bbf8-5cd4-46b1-878d-ca3496718841": {
@@ -1342,10 +1261,9 @@
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "fe55f302-37b6-484d-8082-4735fd7cb5b0",
-    "db455023-5ec6-43b5-a385-7ae3e52f42c5",
-    "4a31f061-6706-4583-ba1c-68a669328cd6",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
+    "ddd79b87-3310-4e6f-8557-48cd3368fcec",
     "4477bbf8-5cd4-46b1-878d-ca3496718841",
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "6b65a7f5-5e0d-4920-9f50-1b952c9b2780",
