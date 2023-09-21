@@ -549,126 +549,6 @@
         "mobile_height": "screen-height-three-quarters--mobile"
       }
     },
-    "7f111f48-db6a-49bf-9a04-af6ed9cda102": {
-      "type": "gsa-section-blob",
-      "blocks": {
-        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c": {
-          "type": "heading",
-          "settings": {
-            "font_color": "#000000",
-            "font_size": 50,
-            "line_height": 10,
-            "letter_spacing": 0,
-            "heading": "Sustainability Meets Convenience",
-            "product_title": false,
-            "text_align": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 0,
-            "padding_bottom": 0
-          }
-        },
-        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa": {
-          "type": "accent",
-          "settings": {
-            "color": "#ff4a1c",
-            "accent_height": 3,
-            "accent_width": 48,
-            "border_radius": 4,
-            "justify_content": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 6
-          }
-        },
-        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Choose a subscription plan"
-          }
-        },
-        "c31b23c2-5f89-4792-99d3-31333430f483": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Paper products will conveniently ship to your door"
-          }
-        },
-        "9fc65364-ff99-46f2-a19b-9ccf7c065d77": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Pause, skip or cancel anytime"
-          }
-        },
-        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b": {
-          "type": "first_button",
-          "settings": {
-            "button_text": "SUBSCRIBE & SAVE",
-            "button_url": "shopify:\/\/collections\/our-lineup",
-            "button_color": "btn--primary",
-            "button_style": "hero__btn btn btn--input caps"
-          }
-        },
-        "a297a344-97f9-4a68-95ca-f04d925bd923": {
-          "type": "second_button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--secondary",
-            "button_style": "hero__btn btn btn--input caps"
-          }
-        },
-        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d": {
-          "type": "reviews",
-          "settings": {
-            "reviews_text": "4.7 Stars out of 1,572 reviews.",
-            "reviews_link": "",
-            "center": false
-          }
-        }
-      },
-      "block_order": [
-        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c",
-        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa",
-        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5",
-        "c31b23c2-5f89-4792-99d3-31333430f483",
-        "9fc65364-ff99-46f2-a19b-9ccf7c065d77",
-        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b",
-        "a297a344-97f9-4a68-95ca-f04d925bd923",
-        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d"
-      ],
-      "settings": {
-        "show_right": true,
-        "dt_container_height": 600,
-        "mb_container_height": 350,
-        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
-        "image_background_height": 400,
-        "image": "shopify:\/\/shop_images\/no2photos-14.png",
-        "image_height": 600,
-        "show_animation": true,
-        "image_style": "gsa-masked-image-1",
-        "image_x_position": "pos-left",
-        "image_y_position": "pos-top",
-        "blob_x_position": "pos-far-right",
-        "blob_y_position": "pos-top",
-        "width": "wrapper",
-        "bg_color": "#efe7e7",
-        "color": "#111827",
-        "blob_color": "#558788",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "side_image": "shopify:\/\/shop_images\/squiggle_917ea66a-ec18-4009-9884-15fe61464559.png",
-        "side_image_x_position": "pos-side-image-left",
-        "side_image_height": 700,
-        "side_image_width": 75,
-        "mb_side_image_height": 300,
-        "mb_side_image_width": 50,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile"
-      }
-    },
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
       "type": "gsa-waves-feature",
       "disabled": true,
@@ -834,6 +714,7 @@
         "0adf90a6-efc6-4c1a-9f3d-a75f3437187e",
         "d6da4605-a3c1-46dd-b7be-c940f120ee8d"
       ],
+      "disabled": true,
       "settings": {
         "show_featured_image": false,
         "image_aspect_ratio": 0.5,
@@ -1307,6 +1188,126 @@
         "padding_bottom": 0,
         "mb_reverse_order": true
       }
+    },
+    "7f111f48-db6a-49bf-9a04-af6ed9cda102": {
+      "type": "gsa-section-blob",
+      "blocks": {
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Sustainability Meets Convenience",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Choose a subscription plan"
+          }
+        },
+        "c31b23c2-5f89-4792-99d3-31333430f483": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Paper products will conveniently ship to your door"
+          }
+        },
+        "9fc65364-ff99-46f2-a19b-9ccf7c065d77": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Pause, skip or cancel anytime"
+          }
+        },
+        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SUBSCRIBE & SAVE",
+            "button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "a297a344-97f9-4a68-95ca-f04d925bd923": {
+          "type": "second_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c",
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa",
+        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5",
+        "c31b23c2-5f89-4792-99d3-31333430f483",
+        "9fc65364-ff99-46f2-a19b-9ccf7c065d77",
+        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b",
+        "a297a344-97f9-4a68-95ca-f04d925bd923",
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d"
+      ],
+      "settings": {
+        "show_right": true,
+        "dt_container_height": 600,
+        "mb_container_height": 350,
+        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
+        "image_background_height": 400,
+        "image": "shopify:\/\/shop_images\/no2photos-14.png",
+        "image_height": 600,
+        "show_animation": true,
+        "image_style": "gsa-masked-image-1",
+        "image_x_position": "pos-left",
+        "image_y_position": "pos-top",
+        "blob_x_position": "pos-far-right",
+        "blob_y_position": "pos-top",
+        "width": "wrapper",
+        "bg_color": "#efe7e7",
+        "color": "#111827",
+        "blob_color": "#558788",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "side_image": "shopify:\/\/shop_images\/squiggle_917ea66a-ec18-4009-9884-15fe61464559.png",
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 700,
+        "side_image_width": 75,
+        "mb_side_image_height": 300,
+        "mb_side_image_width": 50,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
     }
   },
   "order": [
@@ -1317,7 +1318,6 @@
     "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
-    "7f111f48-db6a-49bf-9a04-af6ed9cda102",
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "4a31f061-6706-4583-ba1c-68a669328cd6",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
@@ -1328,6 +1328,7 @@
     "511212a6-c012-4e60-8995-3769fb7e3091",
     "8c045942-dd58-4ff0-b826-bd861b1bfadb",
     "a2124a38-60b0-4ef4-92bd-22fe725e1db9",
-    "6b6e032a-77d7-44a6-8608-dc5324bf7e18"
+    "6b6e032a-77d7-44a6-8608-dc5324bf7e18",
+    "7f111f48-db6a-49bf-9a04-af6ed9cda102"
   ]
 }
