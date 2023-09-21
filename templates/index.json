@@ -692,7 +692,7 @@
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "95% Less Butt Crumble",
+            "heading": "Strong & Sustainable",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -737,11 +737,11 @@
         "00ad46f7-ea9c-4404-845d-3ca4c057a3cc": {
           "type": "first_button",
           "settings": {
-            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_text": "MORE ON BAMBOO",
             "button_url": "",
-            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_text": "",
             "second_button_url": "",
-            "button_color": "btn--neutral",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "center": false
           }
