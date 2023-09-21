@@ -518,6 +518,42 @@
     },
     "47774553-e9e3-4b31-a2f5-e4ce48ad0324": {
       "type": "gsa-image-with-text",
+      "blocks": {
+        "4dfbae30-eccf-49ea-b9e0-e4c8a8f21104": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#efe7e7",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Subscribe & Save",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "74584073-e7a9-430f-bc5b-e8aabc3c7c57": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "4dfbae30-eccf-49ea-b9e0-e4c8a8f21104",
+        "74584073-e7a9-430f-bc5b-e8aabc3c7c57"
+      ],
       "settings": {
         "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
