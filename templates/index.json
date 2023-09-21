@@ -23,7 +23,7 @@
           "type": "accent",
           "settings": {
             "color": "#ff4a1c",
-            "accent_height": 2,
+            "accent_height": 3,
             "accent_width": 48,
             "border_radius": 4,
             "justify_content": "left",
