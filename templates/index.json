@@ -447,11 +447,24 @@
             "padding_top": 6,
             "padding_bottom": 6
           }
+        },
+        "fa1cac8f-0885-4c17-9ecb-65bef1b3c56e": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
         }
       },
       "block_order": [
         "38eaf982-1331-436b-9eb4-8c6491388c23",
-        "91e9bb2b-d76b-4f79-8706-83d3da5727d2"
+        "91e9bb2b-d76b-4f79-8706-83d3da5727d2",
+        "fa1cac8f-0885-4c17-9ecb-65bef1b3c56e"
       ],
       "settings": {
         "dt_reverse_order": false,
