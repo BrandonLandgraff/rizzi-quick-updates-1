@@ -168,61 +168,6 @@
         "padding_bottom": 100
       }
     },
-    "9d089490-8000-41f0-8b42-d001681f7175": {
-      "type": "gsa-section-blob",
-      "blocks": {
-        "8ca34bd0-c311-447b-b3f9-9ea93c4c07a7": {
-          "type": "custom_hero_text",
-          "settings": {
-            "title": "HOME OF NO.2 TOILET PAPER",
-            "heading_size": 9,
-            "description": "Premium 100% Bamboo paper products, with a <strong>superior feel that's better for you and Mother Earth.<\/strong>",
-            "text_size": 5,
-            "button_text": "",
-            "button_url": "",
-            "second_button_text": "SHOP NO.2 TP",
-            "second_button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
-            "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_yotpo": false,
-            "reviews_text": "4.7 Stars out of 1,517 reviews"
-          }
-        }
-      },
-      "block_order": [
-        "8ca34bd0-c311-447b-b3f9-9ea93c4c07a7"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_right": false,
-        "dt_container_height": 500,
-        "mb_container_height": 300,
-        "image_background": "shopify:\/\/shop_images\/background-print.png",
-        "image_background_height": 500,
-        "image": "shopify:\/\/shop_images\/b388b3ad-b206-4ecf-89d2-f4d69990e83a.png",
-        "image_height": 600,
-        "show_animation": false,
-        "image_style": "no-style",
-        "image_x_position": "pos-far-left",
-        "image_y_position": "pos-top",
-        "blob_x_position": "pos-far-left",
-        "blob_y_position": "pos-bottom",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "blob_color": "#548687",
-        "padding_top": 30,
-        "padding_bottom": 60,
-        "side_image_x_position": "pos-side-image-left",
-        "side_image_height": 500,
-        "side_image_width": 200,
-        "mb_side_image_height": 500,
-        "mb_side_image_width": 200,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile"
-      }
-    },
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
       "type": "section-logo-list",
       "blocks": {
@@ -1338,7 +1283,6 @@
   "order": [
     "25e7f8ae-339f-4a91-a04a-25d5ccff3837",
     "880a7724-7c59-41ac-8854-0867d5534924",
-    "9d089490-8000-41f0-8b42-d001681f7175",
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
