@@ -26203,3 +26203,13 @@ input[type="radio"]:checked::before {
 .gsa-awtomic-banner svg {
   flex-shrink: 0;
 }
+
+.material-symbols-outlined {
+  color: #FFCB00;
+  margin: 2px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
