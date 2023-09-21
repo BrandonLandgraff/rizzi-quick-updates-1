@@ -558,11 +558,42 @@
             "padding_top": 0,
             "padding_bottom": 0
           }
+        },
+        "00e5821d-bca8-4b9e-8a6b-1ae3df62d4ba": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "f42994c0-8072-41db-ad10-fbbe3f6514cb": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "",
+            "center": false
+          }
         }
       },
       "block_order": [
         "153e1e02-3a2e-4b96-a9a3-4bf1259926f1",
-        "18e9bc8d-d427-4735-a230-801e1fa3b4d7"
+        "18e9bc8d-d427-4735-a230-801e1fa3b4d7",
+        "00e5821d-bca8-4b9e-8a6b-1ae3df62d4ba",
+        "f42994c0-8072-41db-ad10-fbbe3f6514cb"
       ],
       "settings": {
         "dt_reverse_order": false,
