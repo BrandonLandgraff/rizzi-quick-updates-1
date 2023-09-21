@@ -413,6 +413,7 @@
         "43a1552a-a832-4437-a290-3432bf8095f4",
         "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d"
       ],
+      "disabled": true,
       "settings": {
         "width": 1200,
         "self_alignment": "center",
@@ -751,6 +752,7 @@
         "a3c3bf91-3a83-41ab-a005-df77852e1cb6",
         "20576042-8971-4115-b5bb-8a4a07b838bb"
       ],
+      "disabled": true,
       "settings": {
         "arrow_color": "#000000",
         "hide_arrows": true,
@@ -950,7 +952,6 @@
         "dab2ddc3-a8ea-4d1f-82d1-399fd1e0b236",
         "61bf4a77-5111-447a-84f7-140bea324b6f"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "padding_top": 0,
@@ -1089,6 +1090,7 @@
         "28bde089-2784-4846-8bd1-ad8dea9d87b9",
         "e9b4270a-f28d-4a3d-8ca3-4e46201961cf"
       ],
+      "disabled": true,
       "settings": {
         "width": 1200,
         "self_alignment": "center",
@@ -1246,6 +1248,7 @@
         "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1",
         "84c6538a-a130-4cc4-b824-510e68a129d6"
       ],
+      "disabled": true,
       "settings": {
         "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
