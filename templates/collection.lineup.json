@@ -1,5 +1,60 @@
 {
   "sections": {
+    "18324093-13b8-498a-8064-f0ee702d034a": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "e62d498c-d5a7-4257-a181-a80e1ed17e4f": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 42,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Heading",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "eb49a727-9570-4e76-9cd1-605686e3b93a": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "e62d498c-d5a7-4257-a181-a80e1ed17e4f",
+        "eb49a727-9570-4e76-9cd1-605686e3b93a"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "881d3e41-d3ca-4700-a925-e100b39b403d": {
       "type": "gsa-collection-styled",
       "blocks": {
@@ -491,6 +546,7 @@
     }
   },
   "order": [
+    "18324093-13b8-498a-8064-f0ee702d034a",
     "881d3e41-d3ca-4700-a925-e100b39b403d",
     "4e550b20-f316-48d6-90d5-1f235e6cb522",
     "subcollections",
