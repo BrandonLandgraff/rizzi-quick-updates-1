@@ -454,6 +454,31 @@
         "padding_bottom": 0
       }
     },
+    "fe55f302-37b6-484d-8082-4735fd7cb5b0": {
+      "type": "gsa-image-with-text",
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false
+      }
+    },
     "db455023-5ec6-43b5-a385-7ae3e52f42c5": {
       "type": "gsa-section-blob",
       "blocks": {
@@ -1317,6 +1342,7 @@
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
+    "fe55f302-37b6-484d-8082-4735fd7cb5b0",
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "4a31f061-6706-4583-ba1c-68a669328cd6",
