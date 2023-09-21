@@ -481,6 +481,34 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "47774553-e9e3-4b31-a2f5-e4ce48ad0324": {
+      "type": "gsa-image-with-text",
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "#0c2d4b",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": false,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
     }
   },
   "order": [
@@ -496,6 +524,7 @@
     "9a3f288a-030e-4b88-b60d-b61b8a01f5b7",
     "9707300e-6372-46e9-b198-1106bc1b2a1b",
     "cd0bddf5-ea8d-47f0-8329-ae1faa249df1",
-    "67f383b1-96b3-432a-b961-5b11e43e13ad"
+    "67f383b1-96b3-432a-b961-5b11e43e13ad",
+    "47774553-e9e3-4b31-a2f5-e4ce48ad0324"
   ]
 }
