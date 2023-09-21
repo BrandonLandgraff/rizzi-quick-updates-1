@@ -1,27 +1,5 @@
 {
   "sections": {
-    "464e7319-98a2-45c5-8aa2-cf18af3b8942": {
-      "type": "section-rich-text",
-      "settings": {
-        "subheading": "",
-        "subheading_size": 3,
-        "title": "OUR STYLISH LINEUP",
-        "heading_size": 9,
-        "text": "",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "standard__cta caps--large",
-        "width": "wrapper",
-        "bg_color": "#efe7e7",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "881d3e41-d3ca-4700-a925-e100b39b403d": {
       "type": "gsa-collection-styled",
       "blocks": {
@@ -513,7 +491,6 @@
     }
   },
   "order": [
-    "464e7319-98a2-45c5-8aa2-cf18af3b8942",
     "881d3e41-d3ca-4700-a925-e100b39b403d",
     "4e550b20-f316-48d6-90d5-1f235e6cb522",
     "subcollections",
