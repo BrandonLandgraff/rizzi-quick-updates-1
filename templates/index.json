@@ -799,6 +799,101 @@
         "padding_bottom": 0
       }
     },
+    "31d9a266-6b42-4147-8434-39c7887fabf0": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "19972b52-7ff6-4bdb-b89a-5f70a69b1722": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "95% Less Butt Crumble",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "d737b3ac-504b-4e27-8bbb-fd141ffe9e43": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "d90ac6e9-3cd4-4cb8-ad95-1da37a16ea0a": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7fc87933-6851-4760-8588-0f4baa1bbb66": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "19972b52-7ff6-4bdb-b89a-5f70a69b1722",
+        "d737b3ac-504b-4e27-8bbb-fd141ffe9e43",
+        "d90ac6e9-3cd4-4cb8-ad95-1da37a16ea0a",
+        "7fc87933-6851-4760-8588-0f4baa1bbb66"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Video.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": false
+      }
+    },
     "4477bbf8-5cd4-46b1-878d-ca3496718841": {
       "type": "gsa-single-column",
       "blocks": {
@@ -1313,6 +1408,7 @@
     "068888ff-1df2-45dc-9973-38710d74a0d7",
     "59d68671-452f-4d84-a955-9bb0f77b0a6e",
     "8bdc79e3-8463-4d03-ac0a-2c29d81b0f11",
+    "31d9a266-6b42-4147-8434-39c7887fabf0",
     "4477bbf8-5cd4-46b1-878d-ca3496718841",
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "511212a6-c012-4e60-8995-3769fb7e3091",
