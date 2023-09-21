@@ -528,7 +528,7 @@
             "blob_color_1": "#d2d6d7",
             "blob_color_2": "#d2d6d7",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 7,
@@ -536,7 +536,7 @@
             "text_size": 3,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
@@ -808,6 +808,63 @@
         "padding_bottom": 0
       }
     },
+    "80917f7c-db45-42b9-9414-95a00efaccd7": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "972e4fd4-2dab-4087-9016-817a592a6b32": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "",
+            "video_link": "",
+            "bg_position": "center-center",
+            "blob_color_1": "#000000",
+            "blob_color_2": "#000000",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 7,
+            "description": "Tell your brand's story through images.",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "972e4fd4-2dab-4087-9016-817a592a6b32"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "#548687",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
     "59d68671-452f-4d84-a955-9bb0f77b0a6e": {
       "type": "gsa-image-with-text",
       "blocks": {
@@ -879,6 +936,7 @@
         "be67a71c-b44c-49be-8e09-b8536a3ad418",
         "00ad46f7-ea9c-4404-845d-3ca4c057a3cc"
       ],
+      "disabled": true,
       "settings": {
         "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
@@ -1531,6 +1589,7 @@
     "ddd79b87-3310-4e6f-8557-48cd3368fcec",
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "068888ff-1df2-45dc-9973-38710d74a0d7",
+    "80917f7c-db45-42b9-9414-95a00efaccd7",
     "59d68671-452f-4d84-a955-9bb0f77b0a6e",
     "8bdc79e3-8463-4d03-ac0a-2c29d81b0f11",
     "31d9a266-6b42-4147-8434-39c7887fabf0",
