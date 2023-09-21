@@ -412,6 +412,27 @@
     },
     "fe55f302-37b6-484d-8082-4735fd7cb5b0": {
       "type": "gsa-image-with-text",
+      "blocks": {
+        "38eaf982-1331-436b-9eb4-8c6491388c23": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#efe7e7",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "No.2 Facts",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "38eaf982-1331-436b-9eb4-8c6491388c23"
+      ],
       "settings": {
         "dt_reverse_order": false,
         "grid_layout": "1fr 1fr",
