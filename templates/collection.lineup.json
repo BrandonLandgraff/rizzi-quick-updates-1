@@ -114,6 +114,17 @@
         "padding_bottom": 0
       }
     },
+    "4e550b20-f316-48d6-90d5-1f235e6cb522": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_05",
+        "bg_color": "#0b2d4a",
+        "wave_color": "#efe7e7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "subcollections": {
       "type": "subcollections",
       "disabled": true,
@@ -336,18 +347,6 @@
         "padding_bottom": 0
       }
     },
-    "4e550b20-f316-48d6-90d5-1f235e6cb522": {
-      "type": "gsa-waves-feature",
-      "disabled": true,
-      "settings": {
-        "wave_orientation": "0deg",
-        "wave_type": "wave_01",
-        "bg_color": "#0b2d4a",
-        "wave_color": "#548687",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "9a3f288a-030e-4b88-b60d-b61b8a01f5b7": {
       "type": "gsa-waves-feature",
       "disabled": true,
@@ -487,13 +486,13 @@
   "order": [
     "464e7319-98a2-45c5-8aa2-cf18af3b8942",
     "881d3e41-d3ca-4700-a925-e100b39b403d",
+    "4e550b20-f316-48d6-90d5-1f235e6cb522",
     "subcollections",
     "main",
     "7dc41386-90b4-4711-b421-e3fa1add2b9d",
     "244c6083-5fae-4971-9d00-9f5d2603e9b6",
     "62b0c0f9-17d7-4baa-bbde-8933695606c7",
     "hero",
-    "4e550b20-f316-48d6-90d5-1f235e6cb522",
     "9a3f288a-030e-4b88-b60d-b61b8a01f5b7",
     "9707300e-6372-46e9-b198-1106bc1b2a1b",
     "cd0bddf5-ea8d-47f0-8329-ae1faa249df1",
