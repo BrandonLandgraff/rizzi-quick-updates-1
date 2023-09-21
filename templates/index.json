@@ -522,22 +522,22 @@
         "153e1e02-3a2e-4b96-a9a3-4bf1259926f1": {
           "type": "video",
           "settings": {
-            "video_link_bg": "",
-            "video_link": "",
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
             "bg_position": "center-center",
             "blob_color_1": "#d2d6d7",
             "blob_color_2": "#d2d6d7",
             "overlay_opacity": 0,
             "overlay_color": "#000",
             "show_overlay_text": false,
-            "title": "Video",
+            "title": "",
             "heading_size": 7,
-            "description": "Tell your brand's story through images.",
+            "description": "",
             "text_size": 3,
             "flex_align": "align--middle-center",
             "bg_color": "",
             "color": "#FFFFFF",
-            "link_text": "View products",
+            "link_text": "",
             "link": "",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
@@ -692,6 +692,7 @@
         "05e0fe6a-e88c-4b8f-8087-031852104b54",
         "cddae023-150a-47a7-ba57-916a9da4ca93"
       ],
+      "disabled": true,
       "settings": {
         "dt_reverse_order": false,
         "grid_layout": "1fr 1fr",
