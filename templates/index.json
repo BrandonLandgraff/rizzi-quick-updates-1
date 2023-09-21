@@ -428,10 +428,30 @@
             "padding_top": 0,
             "padding_bottom": 0
           }
+        },
+        "91e9bb2b-d76b-4f79-8706-83d3da5727d2": {
+          "type": "description",
+          "settings": {
+            "font_color": "#efe7e7",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>100% Bamboo<\/strong><\/p><p><strong>100% Recycled<\/strong> packaging<\/p><p><strong>Strong<\/strong> & Sustainable<\/p><p><strong>Silky<\/strong> touch<\/p><p><strong>Plastic<\/strong> free<\/p><p><strong>Soy Ink<\/strong> printed wrapper<\/p><p><strong>Clog and Septic<\/strong> safe<\/p><p><strong>Sustainably<\/strong> sourced<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
-        "38eaf982-1331-436b-9eb4-8c6491388c23"
+        "38eaf982-1331-436b-9eb4-8c6491388c23",
+        "91e9bb2b-d76b-4f79-8706-83d3da5727d2"
       ],
       "settings": {
         "dt_reverse_order": false,
