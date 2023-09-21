@@ -688,7 +688,7 @@
         "612c64cb-44df-439d-a1d0-0c20ac3a069a": {
           "type": "heading",
           "settings": {
-            "font_color": "#000000",
+            "font_color": "#efe7e7",
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
@@ -718,7 +718,7 @@
         "be67a71c-b44c-49be-8e09-b8536a3ad418": {
           "type": "description",
           "settings": {
-            "font_color": "#000000",
+            "font_color": "#efe7e7",
             "accent_color": "#000000",
             "font_size": 14,
             "line_height": 50,
@@ -764,7 +764,7 @@
         "mb_height": "mb-height--none",
         "image": "shopify:\/\/shop_images\/Rizzi_-_Video_-_2.png",
         "wrapper_color": "",
-        "bg_color": "",
+        "bg_color": "#548687",
         "blob_color": "",
         "blob-bottom-left": false,
         "bg_image_size": "cover",
