@@ -38,6 +38,7 @@
         "e62d498c-d5a7-4257-a181-a80e1ed17e4f",
         "eb49a727-9570-4e76-9cd1-605686e3b93a"
       ],
+      "disabled": true,
       "settings": {
         "width": 1200,
         "self_alignment": "center",
