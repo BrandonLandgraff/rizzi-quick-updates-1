@@ -887,9 +887,9 @@
         "f975e903-f71e-477f-bb21-c78871322f62": {
           "type": "button",
           "settings": {
-            "button_text": "Learn more",
+            "button_text": "MORE ON BAMBOO",
             "button_url": "",
-            "second_button_text": "Learn more",
+            "second_button_text": "",
             "second_button_url": "",
             "center": false
           }
