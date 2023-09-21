@@ -877,6 +877,25 @@
             "padding_bottom": 0
           }
         },
+        "9da91c21-cc7c-434e-ab56-5180e4806889": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Sustainability Meets Style<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "c6eb7dc5-e133-4a25-9767-688561453b90": {
           "type": "reviews",
           "settings": {
@@ -888,6 +907,7 @@
       },
       "block_order": [
         "ba849faf-c34e-4d1d-93bf-35e50616b6af",
+        "9da91c21-cc7c-434e-ab56-5180e4806889",
         "c6eb7dc5-e133-4a25-9767-688561453b90"
       ],
       "settings": {
