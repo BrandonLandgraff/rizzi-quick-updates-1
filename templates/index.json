@@ -168,83 +168,6 @@
         "padding_bottom": 100
       }
     },
-    "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
-      "type": "section-logo-list",
-      "blocks": {
-        "771325e4-d2fb-47b4-b58a-b48b336636af": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/todayShowLogo.png",
-            "logo_width": 100,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/goop.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/betterHomesLogo.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/mbg_64a8c8b7-c824-44b0-b0ce-2a57811e7c2a.png",
-            "logo_width": 150,
-            "link": ""
-          }
-        },
-        "56f351c3-d44f-4177-830a-300440980aeb": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        },
-        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "38661ee2-cf4a-4829-b8df-8b005bf3b283": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/UsaTodayLogo.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "771325e4-d2fb-47b4-b58a-b48b336636af",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2",
-        "56f351c3-d44f-4177-830a-300440980aeb",
-        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6",
-        "38661ee2-cf4a-4829-b8df-8b005bf3b283"
-      ],
-      "settings": {
-        "title": "",
-        "bg_color": "#efe7e7",
-        "color": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "47a5cc6e-cf30-437e-8226-107b1470e494": {
       "type": "gsa-single-column",
       "blocks": {
@@ -677,9 +600,86 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "mb_reverse_order": false
+      }
+    },
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
+      "type": "section-logo-list",
+      "blocks": {
+        "771325e4-d2fb-47b4-b58a-b48b336636af": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/todayShowLogo.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/goop.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/betterHomesLogo.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mbg_64a8c8b7-c824-44b0-b0ce-2a57811e7c2a.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "56f351c3-d44f-4177-830a-300440980aeb": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/UsaTodayLogo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "771325e4-d2fb-47b4-b58a-b48b336636af",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2",
+        "56f351c3-d44f-4177-830a-300440980aeb",
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6",
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "4477bbf8-5cd4-46b1-878d-ca3496718841": {
@@ -1256,7 +1256,6 @@
   "order": [
     "25e7f8ae-339f-4a91-a04a-25d5ccff3837",
     "880a7724-7c59-41ac-8854-0867d5534924",
-    "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
@@ -1264,6 +1263,7 @@
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
     "ddd79b87-3310-4e6f-8557-48cd3368fcec",
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "4477bbf8-5cd4-46b1-878d-ca3496718841",
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "6b65a7f5-5e0d-4920-9f50-1b952c9b2780",
