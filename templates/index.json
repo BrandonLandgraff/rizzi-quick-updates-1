@@ -834,10 +834,73 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "ac458034-5f1f-443a-9126-139e4c1d055b": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#efe7e7",
+            "font_size": 42,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Strong & Sustainable",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "43459839-1493-4c8d-af51-970b0243176b": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "8f6c92db-3a4f-4f24-8e81-fa53bcf95597": {
+          "type": "description",
+          "settings": {
+            "font_color": "#efe7e7",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "f975e903-f71e-477f-bb21-c78871322f62": {
+          "type": "button",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
+            "center": false
+          }
         }
       },
       "block_order": [
-        "972e4fd4-2dab-4087-9016-817a592a6b32"
+        "972e4fd4-2dab-4087-9016-817a592a6b32",
+        "ac458034-5f1f-443a-9126-139e4c1d055b",
+        "43459839-1493-4c8d-af51-970b0243176b",
+        "8f6c92db-3a4f-4f24-8e81-fa53bcf95597",
+        "f975e903-f71e-477f-bb21-c78871322f62"
       ],
       "settings": {
         "dt_reverse_order": true,
