@@ -896,6 +896,20 @@
             "padding_bottom": 6
           }
         },
+        "7a8275e7-ab0a-4063-a6ec-bfa105eeb8af": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 96,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "c6eb7dc5-e133-4a25-9767-688561453b90": {
           "type": "reviews",
           "settings": {
@@ -908,6 +922,7 @@
       "block_order": [
         "ba849faf-c34e-4d1d-93bf-35e50616b6af",
         "9da91c21-cc7c-434e-ab56-5180e4806889",
+        "7a8275e7-ab0a-4063-a6ec-bfa105eeb8af",
         "c6eb7dc5-e133-4a25-9767-688561453b90"
       ],
       "settings": {
