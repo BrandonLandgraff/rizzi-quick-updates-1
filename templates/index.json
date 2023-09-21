@@ -542,10 +542,27 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "18e9bc8d-d427-4735-a230-801e1fa3b4d7": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "95% Less Butt Crumble",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
         }
       },
       "block_order": [
-        "153e1e02-3a2e-4b96-a9a3-4bf1259926f1"
+        "153e1e02-3a2e-4b96-a9a3-4bf1259926f1",
+        "18e9bc8d-d427-4735-a230-801e1fa3b4d7"
       ],
       "settings": {
         "dt_reverse_order": false,
