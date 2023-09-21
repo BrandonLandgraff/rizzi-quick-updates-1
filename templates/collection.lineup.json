@@ -51,8 +51,8 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "881d3e41-d3ca-4700-a925-e100b39b403d": {
