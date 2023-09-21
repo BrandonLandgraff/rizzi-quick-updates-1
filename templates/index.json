@@ -934,18 +934,6 @@
         "padding_bottom": 50
       }
     },
-    "6b65a7f5-5e0d-4920-9f50-1b952c9b2780": {
-      "type": "gsa-waves-feature",
-      "disabled": true,
-      "settings": {
-        "wave_orientation": "0deg",
-        "wave_type": "wave_03",
-        "bg_color": "#efe7e7",
-        "wave_color": "#0b2d4a",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "511212a6-c012-4e60-8995-3769fb7e3091": {
       "type": "gsa-lineup",
       "blocks": {
@@ -1082,66 +1070,6 @@
         "opacity": 60,
         "padding_top": 0,
         "padding_bottom": 24
-      }
-    },
-    "8c045942-dd58-4ff0-b826-bd861b1bfadb": {
-      "type": "gsa-waves-feature",
-      "disabled": true,
-      "settings": {
-        "wave_orientation": "0deg",
-        "wave_type": "wave_01",
-        "bg_color": "#0b2d4a",
-        "wave_color": "#0b2d4a",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "a2124a38-60b0-4ef4-92bd-22fe725e1db9": {
-      "type": "section-accordion",
-      "blocks": {
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-0": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
-          }
-        },
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-1": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
-          }
-        },
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-2": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
-          }
-        },
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-3": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-0",
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-1",
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-2",
-        "template--16148601012403__a2124a38-60b0-4ef4-92bd-22fe725e1db9-167882029404986e94-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "FAQ",
-        "bg_color": "",
-        "color": "",
-        "border_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "6b6e032a-77d7-44a6-8608-dc5324bf7e18": {
@@ -1338,6 +1266,7 @@
         "a297a344-97f9-4a68-95ca-f04d925bd923",
         "563b091f-6a0a-4b44-a43e-0cc0a9775e0d"
       ],
+      "disabled": true,
       "settings": {
         "show_right": true,
         "dt_container_height": 600,
@@ -1386,10 +1315,7 @@
     "8bdc79e3-8463-4d03-ac0a-2c29d81b0f11",
     "4477bbf8-5cd4-46b1-878d-ca3496718841",
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
-    "6b65a7f5-5e0d-4920-9f50-1b952c9b2780",
     "511212a6-c012-4e60-8995-3769fb7e3091",
-    "8c045942-dd58-4ff0-b826-bd861b1bfadb",
-    "a2124a38-60b0-4ef4-92bd-22fe725e1db9",
     "6b6e032a-77d7-44a6-8608-dc5324bf7e18",
     "7f111f48-db6a-49bf-9a04-af6ed9cda102"
   ]
