@@ -549,6 +549,25 @@
             "padding_bottom": 6
           }
         },
+        "04d4f6c1-3682-4faf-8830-a94c62abfaf5": {
+          "type": "description",
+          "settings": {
+            "font_color": "#efe7e7",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 95,
+            "letter_spacing": 0,
+            "description": "<p>Free Shipping + 12% OFF on all orders  <\/p><p>Ease & convenience of home delivery  <\/p><p>Cancel anytime, fully customizable<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "90dd4228-879a-4b55-ba7e-8b0a9482a27f": {
           "type": "reviews",
           "settings": {
@@ -561,6 +580,7 @@
       "block_order": [
         "4dfbae30-eccf-49ea-b9e0-e4c8a8f21104",
         "74584073-e7a9-430f-bc5b-e8aabc3c7c57",
+        "04d4f6c1-3682-4faf-8830-a94c62abfaf5",
         "90dd4228-879a-4b55-ba7e-8b0a9482a27f"
       ],
       "settings": {
