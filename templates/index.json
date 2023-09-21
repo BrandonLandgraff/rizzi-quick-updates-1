@@ -454,6 +454,17 @@
         "padding_bottom": 0
       }
     },
+    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_01",
+        "bg_color": "#efe7e7",
+        "wave_color": "#0b2d4a",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "fe55f302-37b6-484d-8082-4735fd7cb5b0": {
       "type": "gsa-image-with-text",
       "settings": {
@@ -573,18 +584,6 @@
         "video_link_bg": "",
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
-      }
-    },
-    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
-      "type": "gsa-waves-feature",
-      "disabled": true,
-      "settings": {
-        "wave_orientation": "180deg",
-        "wave_type": "wave_06",
-        "bg_color": "#548687",
-        "wave_color": "#efe7e7",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "4a31f061-6706-4583-ba1c-68a669328cd6": {
@@ -760,7 +759,7 @@
         "wave_orientation": "180deg",
         "wave_type": "wave_03",
         "bg_color": "#efe7e7",
-        "wave_color": "#558788",
+        "wave_color": "#0b2d4a",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1343,9 +1342,9 @@
     "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "47a5cc6e-cf30-437e-8226-107b1470e494",
     "9a5eb472-49ee-459a-a991-3a5e485a776d",
+    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "fe55f302-37b6-484d-8082-4735fd7cb5b0",
     "db455023-5ec6-43b5-a385-7ae3e52f42c5",
-    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
     "4a31f061-6706-4583-ba1c-68a669328cd6",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
