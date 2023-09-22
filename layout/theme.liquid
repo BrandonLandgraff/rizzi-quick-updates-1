@@ -39,6 +39,44 @@
   <link rel="preload" href="{{ 'theme.aio.min.css' | asset_url }}" as="style">
   {{ 'tailwind.aio.min.css' | asset_url | stylesheet_tag }}
 
+  <style>
+    #gsa-loading-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #EFE7E7;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 1; /* Initial opacity */
+      transition: opacity 0.5s ease-in-out; /* Add transition */
+    }
+  
+    #gsa-loading-text h2 {
+      font-size: 2rem;
+      color: #000;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var loadingOverlay = document.getElementById("gsa-loading-overlay");
+      
+      setTimeout(function() {
+        loadingOverlay.style.opacity = "0"; // Start fading out
+        
+        // Wait for the transition to complete before hiding the overlay
+        loadingOverlay.addEventListener("transitionend", function() {
+          loadingOverlay.style.display = "none";
+          document.body.style.overflow = "";
+        }, { once: true });
+        
+      }, 500); // Start fading out after 1 second
+    });
+  </script>  
+
   {%- assign images_size = settings.loading_image_width | append: 'x' | append: settings.loading_image_width -%}
 {%- if settings.loading_image_1 != blank -%}
   <link rel="preload" as="image" href="{{ settings.loading_image_1 | img_url: images_size }}">
@@ -242,6 +280,11 @@
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}{% if customer %} customer-logged-in{% endif %}{% if settings.show_button_animation %} show-button-animation{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}" data-animations="{{ settings.animations_enable }}">
   {%- render 'loading' -%}
+  <div id="gsa-loading-overlay">
+    <div id="gsa-loading-text">
+      <h2>Sustainability Meets Quality</h2>
+    </div>
+  </div>
 
   <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 

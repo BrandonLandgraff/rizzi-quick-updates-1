@@ -22,18 +22,18 @@
     }
 
     .radio__fieldset.plan-container .active {
-        border: 2px solid #002E4A;
-        background: #EADCDC;
+        border: 1px solid #002E4A;
+        {% comment %} background: #EADCDC; {% endcomment %}
         color: #002E4A;
     } 
     .radio__fieldset.plan-container:hover .plan-labels:hover {
         border: 1px solid #002E4A;
     } 
     .radio__fieldset.plan-container:hover .active:hover {
-        border: 2px solid #002E4A;
+        border: 1px solid #002E4A;
     }
     .free-shipping-label {
-        font-weight: 700;
+        font-weight: regular;
         width: 100%;
         height: 18px;
         font-size: 10px;
@@ -44,7 +44,7 @@
         align-items: center;
         text-align: center;
         color: #FFFFFF;
-        border-radius: 0px 0px 4px 4px;
+        border-radius: 0px 0px 16px 16px;
     }
 
     .cancel-label {
@@ -70,7 +70,7 @@
 
     #gsa-free-shipping {
         font-style: normal;
-        font-weight: 700;
+        font-weight: regular;
         font-size: 16px;
         line-height: 33px;
         display: flex;
@@ -142,7 +142,7 @@
     <div>
         <span id="gsa-plan" class="radio__button">
             <label onclick="purchase_options(event)" 
-                   class="plan-labels{% if forloop.first == true %} active {% endif %}" style="{% if forloop.first == true %}border-radius: 4px 4px 0px 0px;{% endif %}">{{ plan }}</label>
+                   class="plan-labels{% if forloop.first == true %} active {% endif %}" style="{% if forloop.first == true %}border-radius: 16px 16px 0px 0px;{% endif %}">{{ plan }}</label>
         </span>
         {% if forloop.first == true %} <span id="gsa-shipping-label" class="free-shipping-label" style="background: #152D48;">{{ section.settings.po_text }}</span> {% endif %} 
     </div>

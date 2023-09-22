@@ -5,8 +5,8 @@
         transition: all 1s ease-in-out;
     }
     .radio__fieldset.deliver-every-container .active {
-        border: 2px solid #002E4A;
-        background: #EADCDC;
+        border: 1px solid #002E4A;
+        {% comment %} background: #EADCDC; {% endcomment %}
         color: #002E4A;
     }
     .radio__fieldset.deliver-every-container:hover .deliver-plan-labels:hover {
@@ -14,14 +14,14 @@
     }
 
     .radio__fieldset.deliver-every-container:hover .active:hover {
-        border: 2px solid #002E4A;
+        border: 1px solid #002E4A;
     }
 
   .deliver-every-container .radio__button {
     flex-grow: 1;
   }
   .gsa-suggested {
-        font-weight: 700;
+        font-weight: regular;
         width: 100%;
         height: 18px;
         font-size: 10px;
@@ -33,7 +33,7 @@
         text-align: center;
         color: #FFFFFF;
         background-color: #152D48;
-        border-radius: 0px 0px 4px 4px;
+        border-radius: 0px 0px 16px 16px;
     }
 </style> 
 <div id="deliver-frequency">
@@ -53,7 +53,7 @@
             {% for selling_plan in group.selling_plans %}
             <div>
             <span id="gsa-plan" class="radio__button">
-                <label class="deliver-plan-labels{% if forloop.first == true %} active {% endif %}" onclick="deliverPlan(this, {{ selling_plan.id }})" style="{% if forloop.index == 2 %}border-radius: 4px 4px 0px 0px;{% endif %}">
+                <label class="deliver-plan-labels{% if forloop.first == true %} active {% endif %}" onclick="deliverPlan(this, {{ selling_plan.id }})" style="{% if forloop.index == 2 %}border-radius: 16px 16px 0px 0px;{% endif %}">
                     {% assign sentance = selling_plan.name | split: " " %}
                     {% if sentance[2] %}
                         {{ sentance[2] }} {{ sentance[3] | capitalize }}

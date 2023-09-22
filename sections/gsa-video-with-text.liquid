@@ -138,7 +138,25 @@
   background-color: #a74481; 
   margin-top: 12px;
 }
+
+/* SIDE IMAGE SIZING */
+#gsa-side-image {
+  position: absolute;
+  height: {{ section.settings.side_image_height }}px; 
+  width: {{ section.settings.side_image_width }}px; 
+}
+
+@media only screen and (max-width: 768px) {
+  #gsa-side-image {
+    height: {{ section.settings.mb_side_image_height }}px; 
+    width: {{ section.settings.mb_side_image_width }}px; 
+  }
+}
 {%- endstyle -%}
+
+{%- if section.settings.side_image != blank -%}
+  <img loading="lazy" id="gsa-side-image" style="right: 0;" class="{{ section.settings.side_image_x_position }}" src="{{ section.settings.side_image | image_url: width: 1080 }}" alt="">
+{%- endif -%}
 
 <section
     id="BrickSection--{{ section.id }}"
@@ -234,7 +252,7 @@
                                     <a id="gsa-blob-buttons" href="{{ block.settings.button_url }}"
                                     class="gsa-animated-btn gsa-m-0 gsa-p-0 gsa-w-72"
                                     style="margin-top: 12px;">
-                                        <div class="hoverEffects gsa-flex gsa-justify-between gsa-items-center">
+                                        <div class="gsa-flex gsa-justify-between gsa-items-center">
                                         <span>{{ block.settings.button_text }}</span>
                                         </div>
                                     </a>
@@ -243,7 +261,7 @@
                                       <a href="{{ block.settings.second_button_url }}"
                                         id="gsa-secondary-btn"
                                         class="gsa-animated-btn gsa-m-0 gsa-mb-2 gsa-p-0 gsa-w-72">
-                                          <div class="hoverEffects gsa-flex gsa-justify-between gsa-items-center">
+                                          <div class="gsa-flex gsa-justify-between gsa-items-center">
                                             <span>{{ block.settings.second_button_text }}</span>
                                           </div>
                                         </a>
@@ -261,10 +279,14 @@
                       {%- style -%}
                         .gsa-video-container {
                           height: 400px;
+                          border-radius: 16px
                         }
                         @media only screen and (max-width: 600px) {
                           .gsa-video-container {
-                            height: 280px;
+                            height: 200px;
+                          }
+                          .gsa-video-container .video-background {
+                            height: 200px;
                           }
                         }
                       {%- endstyle -%}
@@ -669,49 +691,62 @@
         },
         {
           "type": "header",
-          "content": "Video"
+          "content": "Side Graphic"
         },
         {
-        "type": "text",
-        "id": "video_link_bg",
-        "label": "Video background link",
-        "info": "MP4 video link from [files](/admin/settings/files)."
+          "type": "image_picker",
+          "id": "side_image",
+          "label": "Select Image"
         },
         {
-          "type": "select",
-          "id": "desktop_height",
-          "label": "Desktop height",
-          "default": "screen-height-three-quarters",
-          "options": [
-            { "value": "screen-height-full", "label": "Full screen height"},
-            { "value": "screen-height-three-quarters", "label": "3/4 of screen"},
-            { "value": "screen-height-two-thirds", "label": "2/3 of screen"},
-            { "value": "screen-height-one-half", "label": "1/2 of screen"},
-            { "value": "screen-height-one-third", "label": "1/3 of screen"},
-            { "value": "seven-fifty-height-hero", "label": "750px" },
-            { "value": "sixty-fifty-height-hero", "label": "650px" },
-            { "value": "five-fifty-height-hero ", "label": "550px" },
-            { "value": "four-fifty-height-hero", "label": "450px" },
-            { "value": "image-height", "label": "Image height" }
+          "type": "select", 
+          "id": "side_image_x_position", 
+          "label": "Image horizontal position", 
+          "default": "pos-side-image-left", 
+          "options": [ 
+            {"value": "pos-side-image-left", "label": "Left"},
+            {"value": "pos-side-image-right", "label": "Right"}
           ]
         },
         {
-          "type": "select",
-          "id": "mobile_height",
-          "label": "Mobile height",
-          "default": "screen-height-three-quarters--mobile",
-          "options": [
-            { "value": "screen-height-full--mobile", "label": "Full screen height"},
-            { "value": "screen-height-three-quarters--mobile", "label": "3/4 of screen"},
-            { "value": "screen-height-two-thirds--mobile", "label": "2/3 of screen"},
-            { "value": "screen-height-one-half--mobile", "label": "1/2 of screen"},
-            { "value": "screen-height-one-third--mobile", "label": "1/3 of screen"},
-            { "value": "seven-fifty-height-hero--mobile", "label": "750px" },
-            { "value": "sixty-fifty-height-hero--mobile", "label": "650px" },
-            { "value": "five-fifty-height-hero--mobile", "label": "550px" },
-            { "value": "four-fifty-height-hero--mobile", "label": "450px" },
-            { "value": "image-height--mobile", "label": "Image height" }
-          ]
+          "type": "range",
+          "id": "side_image_height",
+          "min": 200,
+          "max": 1000,
+          "step": 100,
+          "unit": "px",
+          "label": "Side image height",
+          "default": 500
+        },
+        {
+          "type": "range",
+          "id": "side_image_width",
+          "min": 25,
+          "max": 400,
+          "step": 25,
+          "unit": "px",
+          "label": "Side image width",
+          "default": 200
+        },
+        {
+          "type": "range",
+          "id": "mb_side_image_height",
+          "min": 200,
+          "max": 1000,
+          "step": 100,
+          "unit": "px",
+          "label": "Mobile side image height",
+          "default": 500
+        },
+        {
+          "type": "range",
+          "id": "mb_side_image_width",
+          "min": 25,
+          "max": 400,
+          "step": 25,
+          "unit": "px",
+          "label": "Mobile side image width",
+          "default": 200
         }
       ],
       "max_blocks": 10,

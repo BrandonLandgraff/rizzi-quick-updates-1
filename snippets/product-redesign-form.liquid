@@ -337,6 +337,7 @@
                       <span class="radio__button">
                         <input
                           type="radio"
+                          class="option-selector"
                           data-single-option-selector
                           data-index="option{{ option.position }}"
                           name="options[{{ option.name | escape_once }}]"
@@ -503,7 +504,7 @@
 
     {%- render 'product-price' product: product, section_id: section_id -%}
     
-    <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}">
+    <div id="gsa-buy-buttons" class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}">
       <div class="product__form__errors" data-cart-errors-container></div>
 
       <div class="product__submit__buttons">
@@ -525,7 +526,7 @@
             data-add-to-cart
             data-focus-element
             {% unless current_variant.available %}disabled="disabled"{% endunless %}>
-            <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
+            <span id="gsa_add_to_cart" class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
             <span class="btn__added">&nbsp;</span>
 
             <span class="btn__loader">
@@ -558,6 +559,7 @@
 </div>
 
 <script>
+
 
   document.addEventListener("DOMContentLoaded", function() {
     let productName = "{{ product.title }}";
