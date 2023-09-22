@@ -328,10 +328,10 @@
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
       "type": "gsa-waves-feature",
       "settings": {
-        "wave_orientation": "0deg",
+        "wave_orientation": "180deg",
         "wave_type": "wave_01",
-        "bg_color": "#efe7e7",
-        "wave_color": "#0b2d4a",
+        "bg_color": "#0b2d4a",
+        "wave_color": "#efe7e7",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -411,8 +411,8 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 4,
+        "padding_bottom": 20,
         "mb_reverse_order": true,
         "video_link_bg": "",
         "desktop_height": "screen-height-three-quarters",
@@ -616,9 +616,11 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "mb_reverse_order": false,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile"
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
       }
     },
     "ddd79b87-3310-4e6f-8557-48cd3368fcec": {
@@ -820,7 +822,7 @@
             "blob_color_1": "#d2d6d7",
             "blob_color_2": "#d2d6d7",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 7,
@@ -828,7 +830,7 @@
             "text_size": 3,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
@@ -923,9 +925,11 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "mb_reverse_order": false,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile"
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
       }
     },
     "59d68671-452f-4d84-a955-9bb0f77b0a6e": {
