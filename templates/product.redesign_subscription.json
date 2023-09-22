@@ -611,28 +611,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "28c088e8-aadd-430f-af0f-9d451430763d": {
-      "type": "section-rich-text",
-      "settings": {
-        "subheading": "",
-        "subheading_size": 3,
-        "title": "",
-        "heading_size": 8,
-        "text": "",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "Select Options",
-        "button_url": "#current_variant_id",
-        "button_color": "btn--primary",
-        "button_style": "hero__btn btn btn--large caps",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -648,7 +626,6 @@
     "b81d71ea-c963-41e7-a81f-802c6d939e70",
     "reviews",
     "related",
-    "311267fd-24c7-49bc-b364-c73211172433",
-    "28c088e8-aadd-430f-af0f-9d451430763d"
+    "311267fd-24c7-49bc-b364-c73211172433"
   ]
 }
