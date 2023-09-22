@@ -172,6 +172,83 @@
         "img_align": false
       }
     },
+    "3c2b9368-b341-45ba-91a4-2611799b4336": {
+      "type": "section-logo-list",
+      "blocks": {
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/todayShowLogo_1.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/goop_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-3": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/betterHomesLogo_1.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "4740f6c9-b80d-4ab8-930a-37e954100806": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mbg_961e930b-0b9a-486b-9326-7792788d782e.png",
+            "logo_width": 110,
+            "link": ""
+          }
+        },
+        "d4bf0fdd-ca13-4949-b788-1e994428d7b9": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512_f9a5f253-5834-4596-b1b3-6778179c8faf.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "d8410a74-a7e0-4502-9d14-f1feb118bc16": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a_1.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "cacc95a5-bb23-4cc0-be3e-43fd549e8f36": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/UsaTodayLogo_aa04af9c-680d-497d-ab7e-29a9480ff8a0.png",
+            "logo_width": 110,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-1",
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-2",
+        "template--16247428645043__3c2b9368-b341-45ba-91a4-2611799b4336-logo-item-3",
+        "4740f6c9-b80d-4ab8-930a-37e954100806",
+        "d4bf0fdd-ca13-4949-b788-1e994428d7b9",
+        "d8410a74-a7e0-4502-9d14-f1feb118bc16",
+        "cacc95a5-bb23-4cc0-be3e-43fd549e8f36"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 47,
+        "padding_bottom": 47
+      }
+    },
     "166741667658a4499b": {
       "type": "apps",
       "blocks": {
@@ -615,6 +692,7 @@
   },
   "order": [
     "main",
+    "3c2b9368-b341-45ba-91a4-2611799b4336",
     "166741667658a4499b",
     "7eb5d854-c0c1-49f4-be09-07f464598753",
     "b8f987f7-b465-4a23-877a-a80fdd4ce038",
