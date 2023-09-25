@@ -1647,6 +1647,34 @@
     },
     "4c7c4bdb-6cf7-433c-9921-e7ee5f200154": {
       "type": "gsa-lifestyle-static-images",
+      "blocks": {
+        "840ef17c-3d29-4fe3-8496-81958ed691ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_40_f5bb7aa7-a6c4-4aeb-991a-09c20f6f14cf.png",
+            "url": ""
+          }
+        },
+        "a2a1b052-484c-4447-9f9d-a94871288b36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_f4672b2c-3402-4e97-add8-41a0351bae2c.png",
+            "url": ""
+          }
+        },
+        "4c6b841e-dd89-415c-b866-3e04f1ce2859": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_5_b144b576-073b-4778-88eb-f1e60b335304.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "840ef17c-3d29-4fe3-8496-81958ed691ad",
+        "a2a1b052-484c-4447-9f9d-a94871288b36",
+        "4c6b841e-dd89-415c-b866-3e04f1ce2859"
+      ],
       "settings": {
         "arrow_color": "#efe7e7",
         "hide_arrows": false,
