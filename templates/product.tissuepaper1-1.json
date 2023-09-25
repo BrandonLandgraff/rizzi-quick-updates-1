@@ -184,14 +184,16 @@
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-1": {
           "type": "logo-item",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/BetterHomes_4264761d-cc76-4f56-aff8-791ac46d15e6.png",
+            "logo_width": 130,
             "link": ""
           }
         },
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-2": {
           "type": "logo-item",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/Goop_ccfcd64c-63f9-4d25-afc3-9b73caa66226.png",
+            "logo_width": 130,
             "link": ""
           }
         },
