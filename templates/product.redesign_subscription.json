@@ -765,6 +765,34 @@
         "mb_side_image_height": 500,
         "mb_side_image_width": 200
       }
+    },
+    "1056dd8a-ce15-4b74-b525-20fd172904b9": {
+      "type": "gsa-image-with-text",
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
     }
   },
   "order": [
@@ -780,6 +808,7 @@
     "d5715a10-7609-472d-8360-092d122af094",
     "reviews",
     "related",
-    "dcf13bf9-249c-407f-be9d-d18a6489fa83"
+    "dcf13bf9-249c-407f-be9d-d18a6489fa83",
+    "1056dd8a-ce15-4b74-b525-20fd172904b9"
   ]
 }
