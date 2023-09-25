@@ -200,7 +200,8 @@
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-3": {
           "type": "logo-item",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/mbg_f38bf244-37af-4388-bc49-482ad0ee5350.png",
+            "logo_width": 130,
             "link": ""
           }
         }
