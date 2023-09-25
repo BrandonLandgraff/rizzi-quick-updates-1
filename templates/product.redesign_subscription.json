@@ -285,6 +285,17 @@
         "padding_bottom": 0
       }
     },
+    "311267fd-24c7-49bc-b364-c73211172433": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_05",
+        "bg_color": "",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "b8f987f7-b465-4a23-877a-a80fdd4ce038": {
       "type": "gsa-section-product-info",
       "blocks": {
@@ -335,6 +346,7 @@
         "2d4f6a47-895d-4188-970b-1113fded1a1c",
         "template--16148601634995__b8f987f7-b465-4a23-877a-a80fdd4ce038-16789993124b0d81a7-1"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#538687",
         "height": "screen-height-one-half",
@@ -401,6 +413,7 @@
         "template--16039160414387__e83aa8a0-9585-4a4a-a49e-e4c770be6411-16696768781db4e704-1",
         "5f8a498e-9daf-43ff-9a99-d5813bfc249d"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#538687",
         "height": "five-fifty-height-hero",
@@ -467,6 +480,7 @@
         "75fe3fac-79eb-4834-b1c0-e77e27409b23",
         "template--16148601634995__d5715a10-7609-472d-8360-092d122af094-16789993124b0d81a7-1"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#538687",
         "height": "five-fifty-height-hero",
@@ -481,174 +495,6 @@
         "side_image_width": 200,
         "mb_side_image_height": 500,
         "mb_side_image_width": 200
-      }
-    },
-    "82429c81-5633-4859-9164-6bdb04651a33": {
-      "type": "gsa-waves-feature",
-      "disabled": true,
-      "settings": {
-        "wave_orientation": "180deg",
-        "wave_type": "wave_04",
-        "bg_color": "",
-        "wave_color": "#548687",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom": {
-      "type": "section-custom-content",
-      "blocks": {
-        "custom-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2022-11-02_141954.png",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "custom-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "subheading_size": 3,
-            "title": "95% Less Butt Crumble",
-            "heading_size": 7,
-            "text": "<p><strong>This is serious. <\/strong>What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free. You’ll find yourself equipped with a light, clean feeling and more pep in your step.<br\/><\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "#f7f7f7",
-            "color": "",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_social_links": false
-          }
-        }
-      },
-      "block_order": [
-        "custom-0",
-        "custom-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "screen-height-one-half",
-        "width": "wrapper--full",
-        "padding": true,
-        "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "06c98e2f-ab5b-46a1-9d3b-2dc4a9169e30": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "subheading_size": 3,
-        "title": "RFREQUENTLY ASKED QUESTIONS",
-        "heading_size": 8,
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-left",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "standard__cta caps--large",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "b81d71ea-c963-41e7-a81f-802c6d939e70": {
-      "type": "section-sidebar",
-      "blocks": {
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-0": {
-          "type": "header",
-          "settings": {
-            "title": "SUBSCRIPTION DETAILS"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-3": {
-          "type": "header",
-          "settings": {
-            "title": "SHIPPING DETAILS"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-1": {
-          "type": "accordion",
-          "settings": {
-            "title": "How much is shipping?",
-            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.<\/p>"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-4": {
-          "type": "accordion",
-          "settings": {
-            "title": "Can I use more than one discount code?",
-            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.<\/p>"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-5": {
-          "type": "header",
-          "settings": {
-            "title": "REFUND & RETURS  DETAILS"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-2": {
-          "type": "accordion",
-          "settings": {
-            "title": "What is your return policy?",
-            "content": "<p>We accept returns within 30 days of the purchase date.<\/p>"
-          }
-        },
-        "49352a6e-e3d5-4c13-b743-f8b0ee6cf180": {
-          "type": "header",
-          "settings": {
-            "title": "CONTACT"
-          }
-        },
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-0",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-3",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-1",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-4",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-5",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-2",
-        "49352a6e-e3d5-4c13-b743-f8b0ee6cf180",
-        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-6"
-      ],
-      "disabled": true,
-      "settings": {
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 20,
-        "padding_bottom": 100
       }
     },
     "reviews": {
@@ -677,17 +523,6 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
-    },
-    "311267fd-24c7-49bc-b364-c73211172433": {
-      "type": "gsa-waves-feature",
-      "settings": {
-        "wave_orientation": "180deg",
-        "wave_type": "wave_05",
-        "bg_color": "",
-        "wave_color": "#548687",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -695,15 +530,11 @@
     "3c2b9368-b341-45ba-91a4-2611799b4336",
     "166741667658a4499b",
     "7eb5d854-c0c1-49f4-be09-07f464598753",
+    "311267fd-24c7-49bc-b364-c73211172433",
     "b8f987f7-b465-4a23-877a-a80fdd4ce038",
     "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
     "d5715a10-7609-472d-8360-092d122af094",
-    "82429c81-5633-4859-9164-6bdb04651a33",
-    "custom",
-    "06c98e2f-ab5b-46a1-9d3b-2dc4a9169e30",
-    "b81d71ea-c963-41e7-a81f-802c6d939e70",
     "reviews",
-    "related",
-    "311267fd-24c7-49bc-b364-c73211172433"
+    "related"
   ]
 }
