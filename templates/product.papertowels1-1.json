@@ -192,14 +192,16 @@
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-2": {
           "type": "logo-item",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/Goop_4f5eaf17-aa84-437b-b2de-9a3eb87bb5ba.png",
+            "logo_width": 130,
             "link": ""
           }
         },
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-3": {
           "type": "logo-item",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/mbg_2699b10f-7260-45af-8415-790262d97132.png",
+            "logo_width": 130,
             "link": ""
           }
         }
