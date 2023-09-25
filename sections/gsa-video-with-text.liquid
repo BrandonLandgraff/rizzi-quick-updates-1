@@ -209,6 +209,9 @@
                                 >
                                 {%- render 'gsa-accent', block: block -%}
                                 </div>
+
+                            {% when 'more-info' %}
+                                {% render 'gsa-more-info', block: block %}
     
                             {% when 'reviews' %}
                                 <div 
@@ -1453,6 +1456,39 @@
                     "label": "Center",
                     "default": false
                 }
+            ]
+          },
+          {
+            "name": "More info",
+            "type": "more-info",
+            "settings": [
+              {
+                  "type": "header",
+                  "content": "More Info"
+              },
+              {
+                  "type": "text",
+                  "id": "btn_text",
+                  "label": "Button text",
+                  "default": "BAMBOO INFO"
+              },
+              {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "TITLE"
+              },
+              {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+              },
+              {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "<p>This is a description!</p>"
+              }
             ]
           },
           {

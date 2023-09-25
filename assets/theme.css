@@ -26217,7 +26217,8 @@ input[type="radio"]:checked::before {
 #myModal,
 #myFrequencyModal,
 #cartonModal,
-#wrapperModal {
+#wrapperModal,
+#moreInfo {
   max-width: 512px;
 }
 
