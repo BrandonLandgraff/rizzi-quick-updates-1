@@ -379,7 +379,7 @@
           "type": "first_button",
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
-            "button_url": "",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
             "second_button_text": "SHOP ALL RIZZI PRODUCTS",
             "second_button_url": "shopify:\/\/collections\/our-lineup",
             "button_color": "btn--neutral",
