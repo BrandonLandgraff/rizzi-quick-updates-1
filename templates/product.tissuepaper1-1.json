@@ -204,12 +204,30 @@
             "logo_width": 130,
             "link": ""
           }
+        },
+        "ee39dea4-0158-4e60-ab28-898be2af7dda": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Prevention_7bcaafe3-2043-4d6e-82c3-680fd2bc6a8c.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "35bba37a-7c57-4b4d-b41a-f863e248777c": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/self_6b539856-0117-4849-860e-2892c7a2b659.png",
+            "logo_width": 130,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-1",
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-2",
-        "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-3"
+        "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-3",
+        "ee39dea4-0158-4e60-ab28-898be2af7dda",
+        "35bba37a-7c57-4b4d-b41a-f863e248777c"
       ],
       "settings": {
         "title": "",
