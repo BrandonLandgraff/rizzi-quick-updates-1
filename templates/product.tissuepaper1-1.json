@@ -255,6 +255,40 @@
         "padding_bottom": 0
       }
     },
+    "08f6cf8b-9f24-4eb4-8edb-15a95ef493f6": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "559865db-a11d-4a3f-bd18-8da43960b54d": {
+          "type": "benefits",
+          "settings": {
+            "blob_color": "",
+            "benefit_1": "Stylish soy ink printed wrappers",
+            "benefit_2": "Stylish soy ink printed wrappers",
+            "benefit_3": "Stylish soy ink printed wrappers",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        }
+      },
+      "block_order": [
+        "559865db-a11d-4a3f-bd18-8da43960b54d"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "311267fd-24c7-49bc-b364-c73211172433": {
       "type": "gsa-waves-feature",
       "disabled": true,
@@ -805,6 +839,7 @@
   "order": [
     "main",
     "f1d7b172-977b-452a-b453-84a7ca8e3fd7",
+    "08f6cf8b-9f24-4eb4-8edb-15a95ef493f6",
     "311267fd-24c7-49bc-b364-c73211172433",
     "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
     "82429c81-5633-4859-9164-6bdb04651a33",
