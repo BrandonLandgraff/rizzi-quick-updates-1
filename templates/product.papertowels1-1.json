@@ -737,6 +737,12 @@
             "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_6ffb1601-68e8-434d-b151-624ded1eae09.png",
             "url": ""
           }
+        },
+        "3d05c758-fe78-43e7-8544-1d47d3ffc03e": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -744,7 +750,8 @@
         "587c9335-9224-44db-a323-a112e9303bc6",
         "7199343c-b3e2-4920-8e32-baf384873c20",
         "0888eeb6-38b2-4428-8be2-4951286d8be5",
-        "18a31f86-43d8-4bd3-a725-f29c86555fd7"
+        "18a31f86-43d8-4bd3-a725-f29c86555fd7",
+        "3d05c758-fe78-43e7-8544-1d47d3ffc03e"
       ],
       "settings": {
         "arrow_color": "#000000",
