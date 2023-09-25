@@ -220,6 +220,22 @@
             "logo_width": 130,
             "link": ""
           }
+        },
+        "37a6e7dd-e386-498f-9d97-30a4e88361a7": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Today.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "869db2cc-8131-4798-8f6c-4b478a8d48a8": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/USAToday_9239df9d-bce6-4b2c-a72a-09ab4af19f9e.png",
+            "logo_width": 130,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -227,7 +243,9 @@
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-2",
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-3",
         "567f3c7b-6ca1-4276-8f0e-ec03055ffdc2",
-        "bbc82cd6-790f-4453-a8fe-8f908e324741"
+        "bbc82cd6-790f-4453-a8fe-8f908e324741",
+        "37a6e7dd-e386-498f-9d97-30a4e88361a7",
+        "869db2cc-8131-4798-8f6c-4b478a8d48a8"
       ],
       "settings": {
         "title": "",
