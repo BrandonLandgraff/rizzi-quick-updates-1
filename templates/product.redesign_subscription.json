@@ -311,10 +311,42 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "26aa813e-b12d-4b74-b2c4-e561a9c46b9a": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#efe7e7",
+            "font_size": 52,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Strong & Sustainable",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "6f6674b1-3dc9-4b92-9494-9dfaab74d3ab": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 112,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
-        "d5a614f3-0b22-4057-9dd1-da287b89f2f3"
+        "d5a614f3-0b22-4057-9dd1-da287b89f2f3",
+        "26aa813e-b12d-4b74-b2c4-e561a9c46b9a",
+        "6f6674b1-3dc9-4b92-9494-9dfaab74d3ab"
       ],
       "settings": {
         "dt_reverse_order": true,
