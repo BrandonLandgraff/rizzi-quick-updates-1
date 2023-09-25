@@ -287,8 +287,37 @@
     },
     "2ebcde0f-15d5-41df-921e-c81cbb588b0f": {
       "type": "gsa-video-with-text",
+      "blocks": {
+        "d5a614f3-0b22-4057-9dd1-da287b89f2f3": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "",
+            "video_link": "",
+            "bg_position": "center-center",
+            "blob_color_1": "#000000",
+            "blob_color_2": "#000000",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "d5a614f3-0b22-4057-9dd1-da287b89f2f3"
+      ],
       "settings": {
-        "dt_reverse_order": false,
+        "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
         "gap": 12,
         "border_radius": 4,
