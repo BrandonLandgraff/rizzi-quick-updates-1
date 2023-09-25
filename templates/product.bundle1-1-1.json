@@ -319,7 +319,7 @@
             "image": "shopify:\/\/shop_images\/Hero.png",
             "blob_color": "#d2d6d7",
             "benefit_1": "Strong, siiiilky and absorbent paper",
-            "benefit_2": "Convenient home delivery &subscription",
+            "benefit_2": "Convenient home delivery & subscription",
             "benefit_3": "100% recycled, plastic free packaging",
             "benefit_4": "Stylish soy ink printed wrappers"
           }
@@ -334,7 +334,7 @@
         "314349a2-484c-48e5-8eef-e493ed4bfa55": {
           "type": "bullet",
           "settings": {
-            "bullet": "Convenient home delivery &subscription",
+            "bullet": "Convenient home delivery & subscription",
             "display_options": "bl-hide-desktop"
           }
         },
