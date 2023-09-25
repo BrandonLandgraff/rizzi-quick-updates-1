@@ -228,6 +228,14 @@
             "logo_width": 130,
             "link": ""
           }
+        },
+        "2163d66d-3213-400b-aa78-5e118cc21812": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/USAToday_d7ee1634-6e98-4ddf-becb-2e9f035c1264.png",
+            "logo_width": 130,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -236,7 +244,8 @@
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-3",
         "ee39dea4-0158-4e60-ab28-898be2af7dda",
         "35bba37a-7c57-4b4d-b41a-f863e248777c",
-        "c6896294-8265-432e-b94a-6a95df0da899"
+        "c6896294-8265-432e-b94a-6a95df0da899",
+        "2163d66d-3213-400b-aa78-5e118cc21812"
       ],
       "settings": {
         "title": "",
@@ -686,6 +695,17 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "b44b2577-a1c6-4003-9cfa-dc3d960a4dd3": {
+      "type": "gsa-lifestyle-images",
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0b2d4a"
+      }
     }
   },
   "order": [
@@ -702,6 +722,7 @@
     "about",
     "166741667658a4499b",
     "reviews",
-    "related"
+    "related",
+    "b44b2577-a1c6-4003-9cfa-dc3d960a4dd3"
   ]
 }
