@@ -694,6 +694,30 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "eb7132d6-0977-40a0-8288-76fd7702dcd2": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "88d66d96-f7ed-4122-9472-4903e7cd0bae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_40_99b160af-b89f-4da5-981a-f42f60962e09.png",
+            "mb_image": "shopify:\/\/shop_images\/image_40_33ef988e-40a0-4e74-b253-08929a64a4a4.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "88d66d96-f7ed-4122-9472-4903e7cd0bae"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "",
+        "wave_color_bottom": ""
+      }
     }
   },
   "order": [
@@ -710,6 +734,7 @@
     "about",
     "166741667658a4499b",
     "reviews",
-    "related"
+    "related",
+    "eb7132d6-0977-40a0-8288-76fd7702dcd2"
   ]
 }
