@@ -770,6 +770,14 @@
             "mb_image": "shopify:\/\/shop_images\/no2photos-73_1_076e8dd8-71ef-4262-b5db-ff9ea5f92d95.png",
             "url": ""
           }
+        },
+        "10aaaa6f-af43-4f3a-9e8b-24f6ae16b1de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-88_1_ac1b4190-c933-4ab5-959b-55c65ed0cf69.png",
+            "mb_image": "shopify:\/\/shop_images\/no2photos-88_1_161f1dc3-36d1-42d9-be32-1be7e0c44066.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -781,7 +789,8 @@
         "2e8048e4-8624-4083-a5bd-559b7b261d27",
         "82dfa28c-81ea-447a-87d8-ec2437b67a80",
         "69583bbd-7e28-4702-8ca0-76eabe30ff38",
-        "eda89487-8f06-4f93-913e-9d04d85ffee8"
+        "eda89487-8f06-4f93-913e-9d04d85ffee8",
+        "10aaaa6f-af43-4f3a-9e8b-24f6ae16b1de"
       ],
       "settings": {
         "arrow_color": "#000000",
