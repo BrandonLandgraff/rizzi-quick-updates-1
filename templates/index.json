@@ -343,7 +343,7 @@
         "38eaf982-1331-436b-9eb4-8c6491388c23": {
           "type": "heading",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
@@ -359,7 +359,7 @@
         "91e9bb2b-d76b-4f79-8706-83d3da5727d2": {
           "type": "description",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "accent_color": "#000000",
             "font_size": 18,
             "line_height": 50,
