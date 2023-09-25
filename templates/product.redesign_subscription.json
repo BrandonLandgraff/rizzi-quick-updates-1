@@ -882,6 +882,15 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/No_2_October_2019-20_5.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_October_2019-20_5_49174e92-6f8c-4421-851c-f447730f0e54.png",
+            "url": ""
+          }
+        },
+        "5f5a8453-8193-4162-8914-cca1f3cde54f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5.png",
+            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_0d838b57-858d-4399-acc8-d2f9759e4616.png",
             "url": ""
           }
         }
@@ -890,7 +899,8 @@
         "9212485a-4fc8-4fb6-8ba4-a83d300d9b9c",
         "a3344b57-36b4-4d16-a4b8-7b0f13858816",
         "745da13e-af79-44d7-996e-ce169fc2ef93",
-        "bdb727a7-6490-47a5-af37-6b6c2c6d4b96"
+        "bdb727a7-6490-47a5-af37-6b6c2c6d4b96",
+        "5f5a8453-8193-4162-8914-cca1f3cde54f"
       ],
       "settings": {
         "arrow_color": "#000000",
