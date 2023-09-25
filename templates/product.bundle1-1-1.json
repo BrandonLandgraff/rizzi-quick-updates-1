@@ -887,13 +887,22 @@
             "mb_image": "shopify:\/\/shop_images\/No_2_October_2019-20_5_773e6ac2-b730-4a79-812c-41abd38350f9.png",
             "url": ""
           }
+        },
+        "fdd01942-d3c7-49e3-8132-962bc09b4941": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_182ab357-ba43-4d0f-a30d-2cc906af614a.png",
+            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_3ab97f69-2f0a-4b04-b0df-74aa3a6b40ed.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "9305f0ea-c458-4d49-afbe-95697e082205",
         "1a4e66a4-0c03-4600-9689-f8c3f7877783",
         "e7bebc6e-1851-4376-aac1-7b1ef471d36e",
-        "39724040-4a41-4e30-bde9-289249b02a49"
+        "39724040-4a41-4e30-bde9-289249b02a49",
+        "fdd01942-d3c7-49e3-8132-962bc09b4941"
       ],
       "settings": {
         "arrow_color": "#000000",
