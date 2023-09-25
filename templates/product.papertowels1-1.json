@@ -258,6 +258,22 @@
     "66bb4ba7-7640-483e-bb9a-d379cc9d8668": {
       "type": "gsa-single-column",
       "blocks": {
+        "33d0d168-f53c-4454-a800-d280318c4a59": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 42,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Soft & Sustainable",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
         "7f83e968-cd58-4c24-9391-c609ea4a03f7": {
           "type": "accent",
           "settings": {
@@ -313,6 +329,7 @@
         }
       },
       "block_order": [
+        "33d0d168-f53c-4454-a800-d280318c4a59",
         "7f83e968-cd58-4c24-9391-c609ea4a03f7",
         "27b38fff-fd9a-4fc7-a38d-6ef8b00c5cc7",
         "5c4c2020-ec31-4b07-b391-75d3d1320191",
@@ -333,7 +350,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
