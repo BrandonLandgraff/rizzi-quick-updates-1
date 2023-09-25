@@ -341,12 +341,44 @@
             "padding_top": 6,
             "padding_bottom": 6
           }
+        },
+        "b7272845-e998-47fe-ae29-bd9227f0a433": {
+          "type": "description",
+          "settings": {
+            "font_color": "#efe7e7",
+            "accent_color": "#000000",
+            "font_size": 15,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "e18aa13d-a080-47a5-beb9-eceafab7766f": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "second_button_text": "",
+            "second_button_url": "",
+            "center": false
+          }
         }
       },
       "block_order": [
         "d5a614f3-0b22-4057-9dd1-da287b89f2f3",
         "26aa813e-b12d-4b74-b2c4-e561a9c46b9a",
-        "6f6674b1-3dc9-4b92-9494-9dfaab74d3ab"
+        "6f6674b1-3dc9-4b92-9494-9dfaab74d3ab",
+        "b7272845-e998-47fe-ae29-bd9227f0a433",
+        "e18aa13d-a080-47a5-beb9-eceafab7766f"
       ],
       "settings": {
         "dt_reverse_order": true,
