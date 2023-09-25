@@ -897,8 +897,7 @@
         "dot": "#828282",
         "hide_dots": false,
         "wave_color_top": "#efe7e7",
-        "wave_color_bottom": "#0b2d4a",
-        "hide_footer_svg": true
+        "wave_color_bottom": "#0b2d4a"
       }
     }
   },
