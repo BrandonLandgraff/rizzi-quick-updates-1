@@ -681,10 +681,42 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "95% Less Butt Crumble",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 96,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
-        "3904036d-02ba-4c10-a085-7e08e63c1aeb"
+        "3904036d-02ba-4c10-a085-7e08e63c1aeb",
+        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3",
+        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d"
       ],
       "settings": {
         "dt_reverse_order": false,
