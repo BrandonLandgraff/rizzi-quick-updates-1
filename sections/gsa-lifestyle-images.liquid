@@ -6,6 +6,7 @@
 
 {%- liquid
     assign sectionid = section.id
+    assign hide_footer_svg = section.settings.hide_footer_svg
 -%}
   
 {%- style -%}
@@ -50,6 +51,13 @@
     position: relative;
     z-index: 1;
 }
+
+{% if hide_footer_svg %}
+  /* HIDE FOOTER SVG */
+  #gsa-footer-divider {
+    display: none !important;
+  }
+{% endif %}
 {%- endstyle -%}
 
 <section>
@@ -178,6 +186,16 @@
             "type": "color",
             "id": "wave_color_bottom",
             "label": "Wave color bottom"
+        },
+        {
+          "type": "header",
+          "content": "Hide Footer"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_footer_svg",
+          "label": "Hide Footer SVG",
+          "default": false
         }
       ],
       "max_blocks": 10,

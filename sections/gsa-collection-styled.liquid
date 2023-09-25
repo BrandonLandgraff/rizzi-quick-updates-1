@@ -56,6 +56,31 @@
       width: 12em;
     }
 
+
+  /* TITLE AND ACCENT */
+  .gsa-collection-page-header {
+    text-align: center;
+    padding-bottom: 48px;
+  }
+
+  .gsa-collection-page-header h1 {
+    margin-bottom: 4px;
+  }
+
+  #collection-accent {
+    display: block !important;
+    background-color: #ff4a1c;
+    height: 2px;
+    width: 112px;
+    border-radius: 4px;
+    margin: auto;
+  }
+
+  /* HIDE FOOTER SVG */
+  #gsa-footer-divider {
+    display: none !important;
+  }
+
   {%- endstyle -%}
   
   <section id="gsa-collection-styled--{{ section.id }}"
@@ -63,6 +88,13 @@
     data-section-id="{{ section.id }}"
     data-section-type="rich-text">
     <div class="{{ section.settings.width }}">
+
+      {% if section.settings.title != blank %}
+        <div class="gsa-collection-page-header">
+          <h1>{{ section.settings.top_title }}</h1>
+          <div id="collection-accent"></div>
+        </div>
+      {% endif %}
 
     <div class="gsa-grid gsa-collection-grid-lockup gsa-gap-6">
 
@@ -190,6 +222,16 @@
   {
     "name": "Styled collection",
     "settings": [
+      {
+        "type": "header",
+        "content": "Top Text"
+      },
+      {
+        "type": "text",
+        "id": "top_title",
+        "label": "Top heading",
+        "default": "Collection"
+      },
       {
         "type": "header",
         "content": "Blob Color"
