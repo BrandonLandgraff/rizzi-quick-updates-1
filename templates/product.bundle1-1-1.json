@@ -852,6 +852,17 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "ad38d840-cd42-4361-9fed-f5ac73e127a9": {
+      "type": "gsa-lifestyle-images",
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0b2d4a"
+      }
     }
   },
   "order": [
@@ -869,6 +880,7 @@
     "about",
     "166741667658a4499b",
     "reviews",
-    "related"
+    "related",
+    "ad38d840-cd42-4361-9fed-f5ac73e127a9"
   ]
 }
