@@ -258,6 +258,20 @@
     "66bb4ba7-7640-483e-bb9a-d379cc9d8668": {
       "type": "gsa-single-column",
       "blocks": {
+        "7f83e968-cd58-4c24-9391-c609ea4a03f7": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 112,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "27b38fff-fd9a-4fc7-a38d-6ef8b00c5cc7": {
           "type": "benefits",
           "settings": {
@@ -299,6 +313,7 @@
         }
       },
       "block_order": [
+        "7f83e968-cd58-4c24-9391-c609ea4a03f7",
         "27b38fff-fd9a-4fc7-a38d-6ef8b00c5cc7",
         "5c4c2020-ec31-4b07-b391-75d3d1320191",
         "ae24bade-ea7b-422a-9c90-59d182bd9dc3",
