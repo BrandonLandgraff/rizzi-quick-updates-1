@@ -911,6 +911,14 @@
             "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_58007f45-77a6-4560-93a7-22a4f3603599.png",
             "url": ""
           }
+        },
+        "67eb1666-e1c5-42cb-b75f-6d37d615276f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-68_1_b04a037c-c41f-4f0a-8e61-3694e2c703e1.png",
+            "mb_image": "shopify:\/\/shop_images\/no2photos-68_1_6ef98977-c80a-4fff-8e8e-943e49b03a8a.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -920,7 +928,8 @@
         "39724040-4a41-4e30-bde9-289249b02a49",
         "fdd01942-d3c7-49e3-8132-962bc09b4941",
         "f57bcf18-7224-4ab8-a768-65af1cba1ac7",
-        "b4439434-6bb7-459c-b47c-d222671f6ab1"
+        "b4439434-6bb7-459c-b47c-d222671f6ab1",
+        "67eb1666-e1c5-42cb-b75f-6d37d615276f"
       ],
       "settings": {
         "arrow_color": "#000000",
