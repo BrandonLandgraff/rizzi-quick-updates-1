@@ -261,7 +261,8 @@
         "559865db-a11d-4a3f-bd18-8da43960b54d": {
           "type": "benefits",
           "settings": {
-            "blob_color": "",
+            "image": "shopify:\/\/shop_images\/Tissues-Square_2.png",
+            "blob_color": "#d2d6d7",
             "benefit_1": "Stylish soy ink printed wrappers",
             "benefit_2": "Stylish soy ink printed wrappers",
             "benefit_3": "Stylish soy ink printed wrappers",
