@@ -212,13 +212,22 @@
             "logo_width": 130,
             "link": ""
           }
+        },
+        "bbc82cd6-790f-4453-a8fe-8f908e324741": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/self.png",
+            "logo_width": 130,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-1",
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-2",
         "template--16247427563699__7e04ed92-bb4d-44ca-add3-7d2cb5c1b48e-logo-item-3",
-        "567f3c7b-6ca1-4276-8f0e-ec03055ffdc2"
+        "567f3c7b-6ca1-4276-8f0e-ec03055ffdc2",
+        "bbc82cd6-790f-4453-a8fe-8f908e324741"
       ],
       "settings": {
         "title": "",
