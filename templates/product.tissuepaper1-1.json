@@ -268,10 +268,42 @@
             "benefit_3": "Stylish soy ink printed wrappers",
             "benefit_4": "Stylish soy ink printed wrappers"
           }
+        },
+        "d346b511-4776-49df-bac9-a0ef4697e0ba": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Strong, siiiilky and absorbent paper",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "2e16b928-786c-48b6-9138-b8a0cf597b1f": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient home delivery & subscription",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "53e7706e-c786-49f8-a119-a4ffa31b4114": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "100% recycled, plastic free packaging",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "5461f7e1-0613-4869-9adf-5c1633a0d02e": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Stylish soy ink printed wrappers",
+            "display_options": "bl-hide-desktop"
+          }
         }
       },
       "block_order": [
-        "559865db-a11d-4a3f-bd18-8da43960b54d"
+        "559865db-a11d-4a3f-bd18-8da43960b54d",
+        "d346b511-4776-49df-bac9-a0ef4697e0ba",
+        "2e16b928-786c-48b6-9138-b8a0cf597b1f",
+        "53e7706e-c786-49f8-a119-a4ffa31b4114",
+        "5461f7e1-0613-4869-9adf-5c1633a0d02e"
       ],
       "settings": {
         "width": 1200,
