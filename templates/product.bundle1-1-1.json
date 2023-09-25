@@ -871,11 +871,20 @@
             "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-9_5_96082e12-ead6-4a36-ac7c-0ca0b2863263.png",
             "url": ""
           }
+        },
+        "e7bebc6e-1851-4376-aac1-7b1ef471d36e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_e04f63e1-c3cf-4ddd-8ce1-eb257b35c60a.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_0a6754a4-1125-4187-9e2e-927a7c44ecaf.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "9305f0ea-c458-4d49-afbe-95697e082205",
-        "1a4e66a4-0c03-4600-9689-f8c3f7877783"
+        "1a4e66a4-0c03-4600-9689-f8c3f7877783",
+        "e7bebc6e-1851-4376-aac1-7b1ef471d36e"
       ],
       "settings": {
         "arrow_color": "#000000",
