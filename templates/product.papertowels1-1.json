@@ -772,6 +772,8 @@
         "68bec3d0-d700-4be6-8644-947629438cbb": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-88_1_93d316aa-4730-48d5-809a-d0cf1d25f003.png",
+            "mb_image": "shopify:\/\/shop_images\/no2photos-88_1_eaa052d9-1c6e-462d-888b-bc27e2d28bf0.png",
             "url": ""
           }
         }
@@ -793,8 +795,8 @@
         "hide_arrows": false,
         "dot": "#828282",
         "hide_dots": false,
-        "wave_color_top": "",
-        "wave_color_bottom": ""
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0b2d4a"
       }
     }
   },
