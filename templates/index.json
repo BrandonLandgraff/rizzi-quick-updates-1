@@ -889,12 +889,21 @@
         },
         "f975e903-f71e-477f-bb21-c78871322f62": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_text": "MORE ON BAMBOO",
             "button_url": "",
             "second_button_text": "",
             "second_button_url": "",
             "center": false
+          }
+        },
+        "79d566e5-ad7d-4a80-9d24-964959087d36": {
+          "type": "more-info",
+          "settings": {
+            "btn_text": "BAMBOO INFO",
+            "title": "TITLE",
+            "description": "<p>This is a description!<\/p>"
           }
         }
       },
@@ -903,7 +912,8 @@
         "ac458034-5f1f-443a-9126-139e4c1d055b",
         "43459839-1493-4c8d-af51-970b0243176b",
         "8f6c92db-3a4f-4f24-8e81-fa53bcf95597",
-        "f975e903-f71e-477f-bb21-c78871322f62"
+        "f975e903-f71e-477f-bb21-c78871322f62",
+        "79d566e5-ad7d-4a80-9d24-964959087d36"
       ],
       "settings": {
         "dt_reverse_order": true,
