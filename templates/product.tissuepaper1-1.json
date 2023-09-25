@@ -220,6 +220,14 @@
             "logo_width": 130,
             "link": ""
           }
+        },
+        "c6896294-8265-432e-b94a-6a95df0da899": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Today_c904bcea-f8ba-4c99-820c-f5aa454d5643.png",
+            "logo_width": 130,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -227,7 +235,8 @@
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-2",
         "template--16247427760307__f1d7b172-977b-452a-b453-84a7ca8e3fd7-logo-item-3",
         "ee39dea4-0158-4e60-ab28-898be2af7dda",
-        "35bba37a-7c57-4b4d-b41a-f863e248777c"
+        "35bba37a-7c57-4b4d-b41a-f863e248777c",
+        "c6896294-8265-432e-b94a-6a95df0da899"
       ],
       "settings": {
         "title": "",
