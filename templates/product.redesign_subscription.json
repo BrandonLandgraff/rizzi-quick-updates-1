@@ -877,12 +877,20 @@
             "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_dcf1ecf7-5191-435a-838d-4a17df5c34ca.png",
             "url": ""
           }
+        },
+        "bdb727a7-6490-47a5-af37-6b6c2c6d4b96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_5.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "9212485a-4fc8-4fb6-8ba4-a83d300d9b9c",
         "a3344b57-36b4-4d16-a4b8-7b0f13858816",
-        "745da13e-af79-44d7-996e-ce169fc2ef93"
+        "745da13e-af79-44d7-996e-ce169fc2ef93",
+        "bdb727a7-6490-47a5-af37-6b6c2c6d4b96"
       ],
       "settings": {
         "arrow_color": "#000000",
