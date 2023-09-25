@@ -785,6 +785,20 @@
             "padding_bottom": 0
           }
         },
+        "a3d99636-db00-4e7f-8e40-b0620211984d": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 112,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "8648eb89-e1c9-4dbe-879d-90618160fb24": {
           "type": "description",
           "settings": {
@@ -807,6 +821,7 @@
       },
       "block_order": [
         "55528326-566c-42f8-8c7c-8abed9d1665b",
+        "a3d99636-db00-4e7f-8e40-b0620211984d",
         "8648eb89-e1c9-4dbe-879d-90618160fb24"
       ],
       "settings": {
@@ -830,7 +845,7 @@
         "opacity": 60,
         "padding_top": 16,
         "padding_bottom": 16,
-        "mb_reverse_order": false,
+        "mb_reverse_order": true,
         "video_link_bg": "",
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
