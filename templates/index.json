@@ -406,7 +406,7 @@
         "wrapper_color": "",
         "bg_color": "#0b2d4a",
         "blob_color": "#c3cfd1",
-        "blob-bottom-left": false,
+        "blob-bottom-left": true,
         "bg_image_size": "cover",
         "image_alignment_x": "center",
         "image_alignment_y": "center",
