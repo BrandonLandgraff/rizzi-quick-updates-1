@@ -768,6 +768,27 @@
     },
     "1056dd8a-ce15-4b74-b525-20fd172904b9": {
       "type": "gsa-image-with-text",
+      "blocks": {
+        "55528326-566c-42f8-8c7c-8abed9d1665b": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Siiiiilky.",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "55528326-566c-42f8-8c7c-8abed9d1665b"
+      ],
       "settings": {
         "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
