@@ -258,6 +258,36 @@
     "08f6cf8b-9f24-4eb4-8edb-15a95ef493f6": {
       "type": "gsa-single-column",
       "blocks": {
+        "0339c3d4-6459-470c-8587-49265b6b04a5": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 42,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Soft & Sustainable",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "0995d32c-4e0e-4857-bc82-189ce0d6033e": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 112,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
         "559865db-a11d-4a3f-bd18-8da43960b54d": {
           "type": "benefits",
           "settings": {
@@ -299,6 +329,8 @@
         }
       },
       "block_order": [
+        "0339c3d4-6459-470c-8587-49265b6b04a5",
+        "0995d32c-4e0e-4857-bc82-189ce0d6033e",
         "559865db-a11d-4a3f-bd18-8da43960b54d",
         "d346b511-4776-49df-bac9-a0ef4697e0ba",
         "2e16b928-786c-48b6-9138-b8a0cf597b1f",
@@ -318,7 +350,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
