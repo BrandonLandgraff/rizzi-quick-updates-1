@@ -1644,6 +1644,18 @@
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
       }
+    },
+    "4c7c4bdb-6cf7-433c-9921-e7ee5f200154": {
+      "type": "gsa-lifestyle-static-images",
+      "settings": {
+        "arrow_color": "#efe7e7",
+        "hide_arrows": false,
+        "dot": "#0c2d4b",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0c2d4b",
+        "hide_footer_svg": true
+      }
     }
   },
   "order": [
@@ -1667,6 +1679,7 @@
     "ddc62621-f8cf-4244-b339-7fede3e35da1",
     "511212a6-c012-4e60-8995-3769fb7e3091",
     "6b6e032a-77d7-44a6-8608-dc5324bf7e18",
-    "7f111f48-db6a-49bf-9a04-af6ed9cda102"
+    "7f111f48-db6a-49bf-9a04-af6ed9cda102",
+    "4c7c4bdb-6cf7-433c-9921-e7ee5f200154"
   ]
 }
