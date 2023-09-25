@@ -523,6 +523,12 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "b0f973bc-0fc5-453e-9976-07d98a5a5e18": {
+      "type": "gsa-divider-bottom",
+      "settings": {
+        "color": "#548687"
+      }
     }
   },
   "order": [
@@ -535,6 +541,7 @@
     "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
     "d5715a10-7609-472d-8360-092d122af094",
     "reviews",
-    "related"
+    "related",
+    "b0f973bc-0fc5-453e-9976-07d98a5a5e18"
   ]
 }
