@@ -850,6 +850,30 @@
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
       }
+    },
+    "e54f8912-fb0b-43a1-b9ac-92c9dfebc2d6": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "9212485a-4fc8-4fb6-8ba4-a83d300d9b9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_40.png",
+            "mb_image": "shopify:\/\/shop_images\/image_40_56cbf8c2-0e6b-48ab-85c5-b4468efbdb64.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9212485a-4fc8-4fb6-8ba4-a83d300d9b9c"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "",
+        "wave_color_bottom": ""
+      }
     }
   },
   "order": [
@@ -866,6 +890,7 @@
     "reviews",
     "related",
     "dcf13bf9-249c-407f-be9d-d18a6489fa83",
-    "1056dd8a-ce15-4b74-b525-20fd172904b9"
+    "1056dd8a-ce15-4b74-b525-20fd172904b9",
+    "e54f8912-fb0b-43a1-b9ac-92c9dfebc2d6"
   ]
 }
