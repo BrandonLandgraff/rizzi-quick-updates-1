@@ -784,10 +784,30 @@
             "padding_top": 0,
             "padding_bottom": 0
           }
+        },
+        "8648eb89-e1c9-4dbe-879d-90618160fb24": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>When designing No. 2, we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
-        "55528326-566c-42f8-8c7c-8abed9d1665b"
+        "55528326-566c-42f8-8c7c-8abed9d1665b",
+        "8648eb89-e1c9-4dbe-879d-90618160fb24"
       ],
       "settings": {
         "dt_reverse_order": true,
