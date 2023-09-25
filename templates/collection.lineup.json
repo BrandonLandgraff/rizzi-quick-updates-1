@@ -127,6 +127,7 @@
         "9c1df665-b442-4a6d-9f5c-b0489b90797e"
       ],
       "settings": {
+        "top_title": "Rollin’ In Style",
         "top_blob_color": "#a74482",
         "bottom_blob_color": "rgba(0,0,0,0)",
         "subheading": "",
@@ -573,6 +574,7 @@
           "settings": {
             "reviews_text": "4.7 Stars out of 1,517 reviews.",
             "reviews_link": "",
+            "color": "#0c2d4b",
             "center": false
           }
         }
