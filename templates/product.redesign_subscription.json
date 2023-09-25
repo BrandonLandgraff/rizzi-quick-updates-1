@@ -249,31 +249,6 @@
         "padding_bottom": 12
       }
     },
-    "166741667658a4499b": {
-      "type": "apps",
-      "blocks": {
-        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "no-2-toilet-paper-1"
-          }
-        },
-        "700ec589-026f-4301-93b5-8c3fa4f310cf": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf",
-        "700ec589-026f-4301-93b5-8c3fa4f310cf"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "7eb5d854-c0c1-49f4-be09-07f464598753": {
       "type": "gsa-waves-feature",
       "settings": {
@@ -851,6 +826,31 @@
         "mobile_height": "screen-height-three-quarters--mobile"
       }
     },
+    "166741667658a4499b": {
+      "type": "apps",
+      "blocks": {
+        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "no-2-toilet-paper-1"
+          }
+        },
+        "700ec589-026f-4301-93b5-8c3fa4f310cf": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf",
+        "700ec589-026f-4301-93b5-8c3fa4f310cf"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "e54f8912-fb0b-43a1-b9ac-92c9dfebc2d6": {
       "type": "gsa-lifestyle-images",
       "blocks": {
@@ -934,7 +934,6 @@
   "order": [
     "main",
     "3c2b9368-b341-45ba-91a4-2611799b4336",
-    "166741667658a4499b",
     "7eb5d854-c0c1-49f4-be09-07f464598753",
     "2ebcde0f-15d5-41df-921e-c81cbb588b0f",
     "b0f973bc-0fc5-453e-9976-07d98a5a5e18",
@@ -946,6 +945,7 @@
     "related",
     "dcf13bf9-249c-407f-be9d-d18a6489fa83",
     "1056dd8a-ce15-4b74-b525-20fd172904b9",
+    "166741667658a4499b",
     "e54f8912-fb0b-43a1-b9ac-92c9dfebc2d6"
   ]
 }
