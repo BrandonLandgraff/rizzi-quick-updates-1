@@ -295,6 +295,7 @@
         },
         "72a397bd-7d26-437d-8f55-0053621c63de": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
@@ -353,6 +354,7 @@
         },
         "e9c84196-9459-4755-94fd-8602f7afae0d": {
           "type": "first_button",
+          "disabled": true,
           "settings": {
             "button_text": "GET 22% OFF",
             "button_url": "#current_variant_id",
@@ -363,6 +365,7 @@
         },
         "5c837c1a-75df-4528-9e46-ccc4efccaf5d": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "font_color": "#9c9c9c",
             "accent_color": "#000000",
