@@ -285,8 +285,45 @@
         "padding_bottom": 0
       }
     },
+    "2ebcde0f-15d5-41df-921e-c81cbb588b0f": {
+      "type": "gsa-video-with-text",
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
+    "b0f973bc-0fc5-453e-9976-07d98a5a5e18": {
+      "type": "gsa-divider-bottom",
+      "settings": {
+        "color": "#548687"
+      }
+    },
     "311267fd-24c7-49bc-b364-c73211172433": {
       "type": "gsa-waves-feature",
+      "disabled": true,
       "settings": {
         "wave_orientation": "180deg",
         "wave_type": "wave_05",
@@ -523,12 +560,6 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
-    },
-    "b0f973bc-0fc5-453e-9976-07d98a5a5e18": {
-      "type": "gsa-divider-bottom",
-      "settings": {
-        "color": "#548687"
-      }
     }
   },
   "order": [
@@ -536,12 +567,13 @@
     "3c2b9368-b341-45ba-91a4-2611799b4336",
     "166741667658a4499b",
     "7eb5d854-c0c1-49f4-be09-07f464598753",
+    "2ebcde0f-15d5-41df-921e-c81cbb588b0f",
+    "b0f973bc-0fc5-453e-9976-07d98a5a5e18",
     "311267fd-24c7-49bc-b364-c73211172433",
     "b8f987f7-b465-4a23-877a-a80fdd4ce038",
     "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
     "d5715a10-7609-472d-8360-092d122af094",
     "reviews",
-    "related",
-    "b0f973bc-0fc5-453e-9976-07d98a5a5e18"
+    "related"
   ]
 }
