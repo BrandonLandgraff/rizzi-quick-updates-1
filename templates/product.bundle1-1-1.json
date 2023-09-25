@@ -283,8 +283,8 @@
           "type": "accent",
           "settings": {
             "color": "#ff4a1c",
-            "accent_height": 3,
-            "accent_width": 48,
+            "accent_height": 2,
+            "accent_width": 112,
             "border_radius": 4,
             "justify_content": "center",
             "display_options": "bl-hide-none",
@@ -409,8 +409,8 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "311267fd-24c7-49bc-b364-c73211172433": {
