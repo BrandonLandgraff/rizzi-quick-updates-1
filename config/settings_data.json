@@ -153,8 +153,21 @@
         "blocks": {
           "116ecad3-4bae-4958-87e7-235b1eade9a6": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><strong>SALE: LOCK IN 22% OFF UNTIL 2025<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "84561679-7300-4e47-9090-e30b0ecdc13c": {
+            "type": "text",
+            "settings": {
+              "text": "<p><strong>100% Bamboo<\/strong><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -165,7 +178,8 @@
           }
         },
         "block_order": [
-          "116ecad3-4bae-4958-87e7-235b1eade9a6"
+          "116ecad3-4bae-4958-87e7-235b1eade9a6",
+          "84561679-7300-4e47-9090-e30b0ecdc13c"
         ],
         "settings": {
           "layout": "marquee",
