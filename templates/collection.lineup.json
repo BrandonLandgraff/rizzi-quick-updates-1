@@ -64,7 +64,7 @@
           "settings": {
             "product": "",
             "callout": "STRONG & SILKY",
-            "image": "shopify:\/\/shop_images\/b388b3ad-b206-4ecf-89d2-f4d69990e83a.png",
+            "image": "shopify:\/\/shop_images\/vibrantTPTower.png",
             "title": "NO.2 TOILET PAPER",
             "price": "from $26.00",
             "richtext": "<p>No.2 Toilet Paper. Your favorite 3 ply and strong paper for the best butt crumble free wipe.<\/p>",
@@ -79,7 +79,7 @@
           "settings": {
             "product": "rizzi-paper-towels",
             "callout": "STRONG AND ABSORBENT",
-            "image": "shopify:\/\/shop_images\/Paper_Towels_-_Mini.png",
+            "image": "shopify:\/\/shop_images\/vibrantPTPDP_1.png",
             "title": "PAPER TOWELS",
             "price": "from $47.00",
             "richtext": "<p>100% bamboo paper towels wrapped in our stylish design.<\/p>",
@@ -94,7 +94,7 @@
           "settings": {
             "product": "no-2-tissue-paper-test",
             "callout": "SOFT, YET STUDRY",
-            "image": "shopify:\/\/shop_images\/Tissues_-_Mini.png",
+            "image": "shopify:\/\/shop_images\/VibrantTissuePStack.png",
             "title": "FACIAL TISSUE",
             "price": "from $34.00",
             "richtext": "<p>100% bamboo tissue, now available right to your doorstep.<\/p>",
@@ -108,8 +108,8 @@
           "type": "product",
           "settings": {
             "product": "rizzi-home-bundle",
-            "callout": "TP + PAPER TOWELS + TISSUES",
-            "image": "shopify:\/\/shop_images\/no2photos-14.png",
+            "callout": "ALL IN ONE",
+            "image": "shopify:\/\/shop_images\/Frame_3.png",
             "title": "ESSENTIALS BUNDLE",
             "price": "from $115.91",
             "richtext": "<p>Bundle all 3 paper products for ease and extra savings.<\/p>",
@@ -523,11 +523,11 @@
         "4dfbae30-eccf-49ea-b9e0-e4c8a8f21104": {
           "type": "heading",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Subscribe & Save",
+            "heading": "<strong>Subscribe & Save<\/strong>",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -558,7 +558,7 @@
             "font_size": 18,
             "line_height": 95,
             "letter_spacing": 0,
-            "description": "<p>Free Shipping + 12% OFF on all orders  <\/p><p>Ease & convenience of home delivery  <\/p><p>Cancel anytime, fully customizable<\/p>",
+            "description": "<p><strong>Free Shipping + 12% OFF<\/strong> on all orders<\/p><p>Ease & convenience of home delivery  <\/p><p>Cancel anytime, fully customizable<\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
