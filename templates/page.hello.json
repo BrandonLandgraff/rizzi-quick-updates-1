@@ -75,6 +75,8 @@
           "settings": {
             "button_text": "GET 20% OFF",
             "button_url": "#our-lineup",
+            "second_button_text": "",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -85,6 +87,7 @@
           "settings": {
             "reviews_text": "4.7 Stars out of 1,572 reviews.",
             "reviews_link": "",
+            "color": "#0c2d4b",
             "center": false
           }
         }
@@ -109,6 +112,7 @@
         "wrapper_color": "",
         "bg_color": "",
         "blob_color": "#d2d6d7",
+        "blob-bottom-left": false,
         "bg_image_size": "cover",
         "image_alignment_x": "center",
         "image_alignment_y": "center",
@@ -116,7 +120,10 @@
         "opacity": 60,
         "padding_top": 60,
         "padding_bottom": 60,
-        "mb_reverse_order": true
+        "mb_reverse_order": true,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
       }
     },
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20": {
@@ -366,7 +373,8 @@
         "dot": "#828282",
         "hide_dots": false,
         "wave_color_top": "#efe7e7",
-        "wave_color_bottom": "#558788"
+        "wave_color_bottom": "#558788",
+        "hide_footer_svg": false
       }
     },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
