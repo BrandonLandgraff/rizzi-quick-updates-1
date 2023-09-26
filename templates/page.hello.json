@@ -534,7 +534,7 @@
           "type": "first_button",
           "settings": {
             "button_text": "GET 20% OFF",
-            "button_url": "#our-lineup",
+            "button_url": "https:\/\/www.rizzihome.com\/products\/no-2-toilet-paper-1?discount=HELLO20?variant=42203449819315&selling_plan=1524433075",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large"
           }
