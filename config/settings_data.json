@@ -263,7 +263,7 @@
           "layout": "marquee",
           "slider_speed": 9,
           "marquee_speed": 75,
-          "bg_color": "#0b2d4a",
+          "bg_color": "#ff4a1c",
           "color": "#ffffff"
         }
       },
