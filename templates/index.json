@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#000000",
-            "font_size": 60,
+            "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "<strong>Sustainability Meets Tactile Luxury<\/strong>",
@@ -38,7 +38,7 @@
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
-            "font_size": 28,
+            "font_size": 22,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p>Premium bamboo paper products, <strong>better for you and Mother Earth.<\/strong><\/p>",
@@ -344,7 +344,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#ffffff",
-            "font_size": 60,
+            "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "<strong>TP Facts<\/strong>",
@@ -361,7 +361,7 @@
           "settings": {
             "font_color": "#ffffff",
             "accent_color": "#000000",
-            "font_size": 24,
+            "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p><strong>100% Bamboo<\/strong><\/p><p><strong>100% Recycled<\/strong> packaging<\/p><p><strong>Plastic<\/strong> Free<\/p><p><strong>Sustainably<\/strong> Sourced<\/p><p><strong>Strong<\/strong> & Sustainable<\/p><p><strong>Siiiiilky<\/strong> Smooth<\/p><p><strong>Clog and Septic<\/strong> safe<\/p><p><\/p>",
@@ -548,7 +548,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#000000",
-            "font_size": 60,
+            "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "<strong>95% Less Butt Crumble<\/strong>™",
@@ -565,7 +565,7 @@
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
-            "font_size": 18,
+            "font_size": 16,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a <strong>smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free.<\/strong><\/p>",
@@ -597,7 +597,7 @@
         "f42994c0-8072-41db-ad10-fbbe3f6514cb"
       ],
       "settings": {
-        "dt_reverse_order": false,
+        "dt_reverse_order": true,
         "grid_layout": "1fr 1fr",
         "gap": 12,
         "border_radius": 4,
@@ -616,7 +616,7 @@
         "opacity": 60,
         "padding_top": 60,
         "padding_bottom": 60,
-        "mb_reverse_order": false,
+        "mb_reverse_order": true,
         "side_image_x_position": "pos-side-image-left",
         "side_image_height": 500,
         "side_image_width": 200,
@@ -873,7 +873,7 @@
           "settings": {
             "font_color": "#ffffff",
             "accent_color": "#000000",
-            "font_size": 18,
+            "font_size": 16,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, <strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
@@ -935,7 +935,7 @@
         "opacity": 60,
         "padding_top": 0,
         "padding_bottom": 0,
-        "mb_reverse_order": false,
+        "mb_reverse_order": true,
         "side_image": "shopify:\/\/shop_images\/Bamboo_Image_554ca356-4bfe-4c4e-981c-c371b07023f8.png",
         "side_image_x_position": "pos-side-image-left",
         "side_image_height": 500,
@@ -1061,7 +1061,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#000000",
-            "font_size": 60,
+            "font_size": 50,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "<strong>Siiiiilky.<\/strong>",
@@ -1146,7 +1146,7 @@
         "opacity": 60,
         "padding_top": 0,
         "padding_bottom": 0,
-        "mb_reverse_order": false,
+        "mb_reverse_order": true,
         "video_link_bg": "",
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile"
