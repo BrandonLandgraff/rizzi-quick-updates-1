@@ -1244,6 +1244,7 @@
           "settings": {
             "featured_product": "no-2-toilet-paper-1",
             "slide_tab_text": "Toilet Paper",
+            "title": "Toilet Paper",
             "custom_description": "Premium 100% bamboo TP that provides <strong>silky and strong paper for the best Butt Crumble free™ wipe.<\/strong>",
             "main_image": "shopify:\/\/shop_images\/No._2_June_2019-14_a14f443b-ef41-4a99-a12c-bba195c78d2b.webp",
             "mini_image": "shopify:\/\/shop_images\/vibrantEssentialsStack.png",
@@ -1256,6 +1257,7 @@
           "settings": {
             "featured_product": "rizzi-paper-towels",
             "slide_tab_text": "Paper Towels",
+            "title": "Paper Towels",
             "custom_description": "<strong>Strong and absorbent <\/strong>100% bamboo paper towels wrapped in our stylish design, delivered right to your door.",
             "main_image": "shopify:\/\/shop_images\/Paper_Towels.png",
             "mini_image": "shopify:\/\/shop_images\/vibrantPTPDP_1.png",
@@ -1268,6 +1270,7 @@
           "settings": {
             "featured_product": "no-2-tissue-paper-test",
             "slide_tab_text": "Tissues",
+            "title": "Tissues",
             "custom_description": "Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong>",
             "main_image": "shopify:\/\/shop_images\/VibrantTissuePBlueTin.png",
             "mini_image": "shopify:\/\/shop_images\/VibrantTissuePStack.png",
