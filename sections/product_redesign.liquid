@@ -347,7 +347,7 @@
                   {%- when 'accordion' -%}
                       <section class="accordion-wrapper gsa-inline-block gsa-w-full" data-accordion>
                         {% if block.settings.question_1 != '' %}
-                        <details open>
+                        <details {% if product.title != 'No.2 Toilet Paper' %}open{% endif %}>
                           <summary>
                             {{ block.settings.question_1 }}
                             <span class="material-symbols-outlined icon">

@@ -55,11 +55,16 @@
       transition: opacity 0.5s ease-in-out; /* Add transition */
     }
   
-    #gsa-loading-text h2 {
+    {% comment %} #gsa-loading-text h2 {
       font-size: 2rem;
       color: #000;
       text-align: center;
       padding: 12px;
+    } {% endcomment %}
+    #gsa-loading-text img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
     }
   </style>
   <script>
@@ -284,7 +289,7 @@
   {%- render 'loading' -%}
   <div id="gsa-loading-overlay">
     <div id="gsa-loading-text">
-      <h2>Sustainability Meets Quality</h2>
+        <img src="https://cdn.shopify.com/s/files/1/0133/6872/1472/files/load-logo.png?v=1695757910" alt="Loading Logo">
     </div>
   </div>
 

@@ -94,6 +94,10 @@
     display: block; 
   }
 }  
+
+.swiper_slider_content h4 {
+  margin: 0px;
+}
 </style>
 
 <div style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
@@ -123,7 +127,10 @@
                   </span> 
                 </a>  
               </span>
-              <p class="swiper_slider_content">{{ block.settings.custom_description }}</p>
+              <div class="swiper_slider_content">
+                <h4>{{ block.settings.title }}</h4>
+                {{ block.settings.custom_description }}
+              </div>
               <a href="{{ block.settings.featured_product.url }}"
                 class="gsa-animated-btn gsa-m-0 gsa-mb-8 gsa-p-0 gsa-w-full"
               style="width: 70%;">
@@ -265,6 +272,12 @@ var swiper2 = new Swiper ('.swiper2', {
           "id": "slide_tab_text",
           "label": "Slide Tab Text",
           "default": "Toilet Papet"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Product Title"
         },
         {
           "label": "Custom Description",
