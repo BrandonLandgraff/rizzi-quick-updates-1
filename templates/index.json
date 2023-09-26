@@ -395,7 +395,7 @@
       ],
       "settings": {
         "dt_reverse_order": false,
-        "grid_layout": "1fr 1fr",
+        "grid_layout": "40% 60%",
         "gap": 12,
         "border_radius": 4,
         "width": 1100,
