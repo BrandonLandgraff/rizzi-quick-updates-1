@@ -336,6 +336,14 @@
             "padding_bottom": 6
           }
         },
+        "7fab5c31-9944-41ac-ac10-1953b3657959": {
+          "type": "more-info",
+          "settings": {
+            "btn_text": "BAMBOO INFO",
+            "title": "TITLE",
+            "description": "<p>This is a description!<\/p>"
+          }
+        },
         "e18aa13d-a080-47a5-beb9-eceafab7766f": {
           "type": "button",
           "disabled": true,
@@ -353,6 +361,7 @@
         "26aa813e-b12d-4b74-b2c4-e561a9c46b9a",
         "6f6674b1-3dc9-4b92-9494-9dfaab74d3ab",
         "b7272845-e998-47fe-ae29-bd9227f0a433",
+        "7fab5c31-9944-41ac-ac10-1953b3657959",
         "e18aa13d-a080-47a5-beb9-eceafab7766f"
       ],
       "settings": {
