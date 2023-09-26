@@ -84,7 +84,7 @@
       "settings": {
         "dt_reverse_order": true,
         "grid_layout": "60% 40%",
-        "gap": 32,
+        "gap": 24,
         "border_radius": 4,
         "width": 1200,
         "self_alignment": "center",
