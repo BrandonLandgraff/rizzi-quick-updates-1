@@ -179,31 +179,7 @@
           "4cf9de78-0120-43b4-86c0-0eb7110ef0fa": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>100% Recycled packaging<\/strong><\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
-          },
-          "bfb96f84-c5cf-44e3-92c5-f7790d11bf14": {
-            "type": "text",
-            "settings": {
-              "text": "<p><strong>Strong & sustainable<\/strong><\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
-          },
-          "0ed28e6f-0a77-4958-833d-ec4971e65d7a": {
-            "type": "text",
-            "settings": {
-              "text": "<p><strong>Silky touch<\/strong><\/p>",
+              "text": "<p><strong>100% Recycled Packaging<\/strong><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -215,7 +191,7 @@
           "0fa80e6d-ff09-4875-88c2-576e9700221f": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Plastic free<\/strong><\/p>",
+              "text": "<p><strong>Plastic Free<\/strong><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -224,10 +200,34 @@
               "target_device": "mobile"
             }
           },
-          "c70f1deb-6e87-4522-aac4-8a3d6867e5eb": {
+          "0d37d2c2-24e6-439d-9a5c-3e7998c6d1a2": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Soy Ink printed wrapper<\/strong><\/p>",
+              "text": "<p><strong>Sustainably Sourced<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "bfb96f84-c5cf-44e3-92c5-f7790d11bf14": {
+            "type": "text",
+            "settings": {
+              "text": "<p><strong>Strong, Premium Paper<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "0ed28e6f-0a77-4958-833d-ec4971e65d7a": {
+            "type": "text",
+            "settings": {
+              "text": "<p><strong>Silky Smooth<\/strong><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -247,30 +247,17 @@
               "target_device_enabled": false,
               "target_device": "mobile"
             }
-          },
-          "0d37d2c2-24e6-439d-9a5c-3e7998c6d1a2": {
-            "type": "text",
-            "settings": {
-              "text": "<p><strong>Sustainably sourced<\/strong><\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
           }
         },
         "block_order": [
           "116ecad3-4bae-4958-87e7-235b1eade9a6",
           "84561679-7300-4e47-9090-e30b0ecdc13c",
           "4cf9de78-0120-43b4-86c0-0eb7110ef0fa",
+          "0fa80e6d-ff09-4875-88c2-576e9700221f",
+          "0d37d2c2-24e6-439d-9a5c-3e7998c6d1a2",
           "bfb96f84-c5cf-44e3-92c5-f7790d11bf14",
           "0ed28e6f-0a77-4958-833d-ec4971e65d7a",
-          "0fa80e6d-ff09-4875-88c2-576e9700221f",
-          "c70f1deb-6e87-4522-aac4-8a3d6867e5eb",
-          "ca85f7d8-726f-48e8-bbbb-e43cc641ef73",
-          "0d37d2c2-24e6-439d-9a5c-3e7998c6d1a2"
+          "ca85f7d8-726f-48e8-bbbb-e43cc641ef73"
         ],
         "settings": {
           "layout": "marquee",
