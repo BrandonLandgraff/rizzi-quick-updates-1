@@ -83,7 +83,7 @@
       ],
       "settings": {
         "dt_reverse_order": true,
-        "grid_layout": "1fr 1fr",
+        "grid_layout": "60% 40%",
         "gap": 32,
         "border_radius": 4,
         "width": 1200,
@@ -329,10 +329,10 @@
     "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
       "type": "gsa-waves-feature",
       "settings": {
-        "wave_orientation": "180deg",
+        "wave_orientation": "0deg",
         "wave_type": "wave_01",
-        "bg_color": "#0b2d4a",
-        "wave_color": "#efe7e7",
+        "bg_color": "#efe7e7",
+        "wave_color": "#0b2d4a",
         "padding_top": 0,
         "padding_bottom": 0
       }
