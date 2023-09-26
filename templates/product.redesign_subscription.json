@@ -21,7 +21,7 @@
         "553dabf8-21bf-4832-aa8a-c90ea22da019": {
           "type": "text",
           "settings": {
-            "title": "<p>Our popular butt-crumble free™, bamboo toilet paper that customers rave about. This 3-ply toilet paper gives you a smooth texture and a strong, clean wipe. The toilet paper is white, free of ink, dyes and scents.<\/p><ul><li>100% Bamboo <\/li><li>100% Recycled packaging<\/li><li>Strong & sustainable<\/li><li>Silky touch<\/li><li>Plastic free<\/li><li>Soy Ink printed wrapper<\/li><li>Clog and Septic safe<\/li><li>Sustainably sourced<\/li><\/ul>"
+            "title": "<p><strong>Our popular butt-crumble free™, bamboo toilet paper that customers rave about.<\/strong> This 3-ply toilet paper gives you a smooth texture and a strong, clean wipe. The toilet paper is white, free of ink, dyes and scents. What you get:<\/p><ul><li><strong>100% Bamboo<\/strong> <\/li><li><strong>100% Recycled <\/strong>packaging<\/li><li><strong>Strong & Silky<\/strong> smooth<\/li><li><strong>Plastic free<\/strong><\/li><li><strong>Soy Ink<\/strong> printed wrapper<\/li><li><strong>Clog and Septic<\/strong> safe<\/li><li><strong>Sustainably<\/strong> sourced<\/li><\/ul>"
           }
         },
         "79b75110-033d-4730-b889-d68729b4c0c5": {
@@ -294,7 +294,7 @@
             "font_size": 52,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Strong & Sustainable",
+            "heading": "<strong>Strong & Sustainable<\/strong>",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -325,7 +325,7 @@
             "font_size": 15,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -339,7 +339,7 @@
         "7fab5c31-9944-41ac-ac10-1953b3657959": {
           "type": "more-info",
           "settings": {
-            "btn_text": "BAMBOO INFO",
+            "btn_text": "MORE ABOUT BAMBOO",
             "title": "Bamboo Information",
             "description": "<p>Bamboo is one of the fastest growing, strongest and most useful plants on the planet. With the ability to grow more than a meter a day, bamboo is a renewable resource that reaches maturity in 4-6 years or less; in sharp contrast, trees require decades (20 to 50 years) to recover from harvesting.<br\/><br\/>Truly a wonder of nature, bamboo grows easily, even in environmentally stressed areas and unique settings like mountainsides and steep slopes, where other crops cannot. The plant thrives in depleted soil and when it is cut, the stem is left in the soil to sprout a new shoot and start the growing process again. Releasing 30% more oxygen into the atmosphere and absorbing more carbon dioxide in comparison to other plants, bamboo protects the environment as it grows and even helps to reduce soil erosion.<br\/><br\/>Bamboo paper is recyclable. Just like paper made from wood pulp, bamboo paper can be recycled to lessen our impact on the environment and further reduce our reliance on trees and the catastrophic environmental effects of clear-cutting and deforestation.<br\/><br\/>Overall, bamboo offers us strength, sustainability, versatility, and an environmentally responsible alternative. Some tree free products use fillers like sugar cane and recycled material or even virgin tree pulp fibers, No. 2 toilet paper is 100% bamboo.<\/p>"
           }
@@ -673,7 +673,7 @@
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "95% Less Butt Crumble",
+            "heading": "<strong>95% Less Butt Crumble™<\/strong>",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -704,7 +704,7 @@
             "font_size": 16,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe.<\/p>",
+            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free. You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -760,7 +760,7 @@
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "Siiiiilky.",
+            "heading": "<strong>Siiiiilky.<\/strong>",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
