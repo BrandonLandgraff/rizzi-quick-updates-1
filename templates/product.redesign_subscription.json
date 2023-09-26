@@ -290,7 +290,7 @@
         "26aa813e-b12d-4b74-b2c4-e561a9c46b9a": {
           "type": "heading",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "font_size": 52,
             "line_height": 10,
             "letter_spacing": 0,
@@ -320,7 +320,7 @@
         "b7272845-e998-47fe-ae29-bd9227f0a433": {
           "type": "description",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "accent_color": "#000000",
             "font_size": 15,
             "line_height": 50,
