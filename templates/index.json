@@ -38,7 +38,7 @@
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
-            "font_size": 24,
+            "font_size": 28,
             "line_height": 50,
             "letter_spacing": 0,
             "description": "<p>Premium bamboo paper products, <strong>better for you and Mother Earth.<\/strong><\/p>",
@@ -347,7 +347,7 @@
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
-            "heading": "<strong>No.2 Facts<\/strong>",
+            "heading": "<strong>TP Facts<\/strong>",
             "product_title": false,
             "text_align": "left",
             "display_options": "bl-hide-none",
@@ -402,10 +402,10 @@
         "self_alignment": "center",
         "dt_height": "height--none",
         "mb_height": "mb-height--none",
-        "image": "shopify:\/\/shop_images\/Rizzi_-_Facts_1a8f5fca-8975-4b4e-880a-0204bbd5ea41.png",
+        "image": "shopify:\/\/shop_images\/Rizzi_Alt_Banner_-_v3_1_2.png",
         "wrapper_color": "",
         "bg_color": "#0b2d4a",
-        "blob_color": "#c3cfd1",
+        "blob_color": "#548687",
         "blob-bottom-left": true,
         "bg_image_size": "cover",
         "image_alignment_x": "center",
@@ -841,7 +841,7 @@
         "ac458034-5f1f-443a-9126-139e4c1d055b": {
           "type": "heading",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
@@ -871,7 +871,7 @@
         "8f6c92db-3a4f-4f24-8e81-fa53bcf95597": {
           "type": "description",
           "settings": {
-            "font_color": "#efe7e7",
+            "font_color": "#ffffff",
             "accent_color": "#000000",
             "font_size": 18,
             "line_height": 50,
