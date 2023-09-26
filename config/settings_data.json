@@ -175,11 +175,24 @@
               "target_device_enabled": false,
               "target_device": "mobile"
             }
+          },
+          "4cf9de78-0120-43b4-86c0-0eb7110ef0fa": {
+            "type": "text",
+            "settings": {
+              "text": "<p><strong>100% Recycled packaging<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
           }
         },
         "block_order": [
           "116ecad3-4bae-4958-87e7-235b1eade9a6",
-          "84561679-7300-4e47-9090-e30b0ecdc13c"
+          "84561679-7300-4e47-9090-e30b0ecdc13c",
+          "4cf9de78-0120-43b4-86c0-0eb7110ef0fa"
         ],
         "settings": {
           "layout": "marquee",
