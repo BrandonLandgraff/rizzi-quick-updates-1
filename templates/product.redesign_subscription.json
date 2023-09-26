@@ -21,7 +21,7 @@
         "553dabf8-21bf-4832-aa8a-c90ea22da019": {
           "type": "text",
           "settings": {
-            "title": "<p><strong>Our popular butt-crumble free™, bamboo toilet paper that customers rave about.<\/strong> This 3-ply toilet paper gives you a smooth texture and a strong, clean wipe. The toilet paper is white, free of ink, dyes and scents. What you get:<\/p><ul><li><strong>100% Bamboo<\/strong> <\/li><li><strong>100% Recycled <\/strong>packaging<\/li><li><strong>Strong & Silky<\/strong> smooth<\/li><li><strong>Plastic free<\/strong><\/li><li><strong>Soy Ink<\/strong> printed wrapper<\/li><li><strong>Clog and Septic<\/strong> safe<\/li><li><strong>Sustainably<\/strong> sourced<\/li><\/ul>"
+            "title": "<h6><strong>Our popular butt-crumble free™, bamboo toilet paper that customers rave about.<\/strong> This 3-ply toilet paper gives you a smooth texture and a strong, clean wipe. The toilet paper is white, free of ink, dyes and scents. What you get:<\/h6><ul><li><h6><strong>100% Bamboo<\/strong> <\/h6><\/li><li><h6><strong>100% Recycled <\/strong>packaging<\/h6><\/li><li><h6><strong>Strong & Silky<\/strong> smooth<\/h6><\/li><li><h6><strong>Plastic free<\/strong><\/h6><\/li><li><h6><strong>Soy Ink<\/strong> printed wrapper<\/h6><\/li><li><h6><strong>Clog and Septic<\/strong> safe<\/h6><\/li><li><h6><strong>Sustainably<\/strong> sourced<\/h6><\/li><\/ul>"
           }
         },
         "79b75110-033d-4730-b889-d68729b4c0c5": {
@@ -291,7 +291,7 @@
           "type": "heading",
           "settings": {
             "font_color": "#ffffff",
-            "font_size": 52,
+            "font_size": 60,
             "line_height": 10,
             "letter_spacing": 0,
             "heading": "<strong>Strong & Sustainable<\/strong>",
@@ -322,10 +322,10 @@
           "settings": {
             "font_color": "#ffffff",
             "accent_color": "#000000",
-            "font_size": 15,
+            "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/p>",
+            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, bamboo toilet paper is also <strong>nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -701,10 +701,10 @@
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
-            "font_size": 16,
+            "font_size": 18,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free. You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/p>",
+            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free. <strong>You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -788,10 +788,10 @@
           "settings": {
             "font_color": "#000000",
             "accent_color": "#000000",
-            "font_size": 16,
+            "font_size": 20,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>When designing No. 2, we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin.<\/p>",
+            "description": "<p>When designing No. 2, we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin. <strong>The end result is something more than you expect from a toilet paper: real tactile luxury.<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
