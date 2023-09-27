@@ -33,10 +33,10 @@
   <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
   <link rel="preconnect" href="https://monorail-edge.shopifysvc.com" crossorigin>
 
-  <link rel="preload" href="{{ 'lazysizes.aio.min.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'vendor.aio.min.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.aio.min.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.aio.min.css' | asset_url }}" as="style">
+  <link rel="preload" href="{{ 'lazysizes.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'vendor.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
   {{ 'tailwind.aio.min.css' | asset_url | stylesheet_tag }}
 
   <style>
@@ -146,7 +146,7 @@
 
   <!-- CSS ================================================================== -->
 
-  {{ 'font-settings.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'font-settings.css' | asset_url | stylesheet_tag }}
 
   {% render 'css-variables' %}
 
