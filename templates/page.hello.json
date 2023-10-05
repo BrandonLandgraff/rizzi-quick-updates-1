@@ -582,121 +582,6 @@
         "padding_bottom": 0
       }
     },
-    "0801531c-4571-4f0a-a14a-68070f5124a9": {
-      "type": "gsa-section-blob",
-      "blocks": {
-        "785f267b-9df0-49d9-bbfa-eabd4860a7f6": {
-          "type": "heading",
-          "settings": {
-            "font_color": "#000000",
-            "font_size": 50,
-            "line_height": 10,
-            "letter_spacing": 0,
-            "heading": "<strong>Subscribe & Save + Free Shipping<\/strong>",
-            "product_title": false,
-            "text_align": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 12,
-            "padding_bottom": 0
-          }
-        },
-        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150": {
-          "type": "accent",
-          "settings": {
-            "color": "#ff4a1c",
-            "accent_height": 3,
-            "accent_width": 100,
-            "border_radius": 4,
-            "justify_content": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 12
-          }
-        },
-        "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Convenient automated delivery to your door"
-          }
-        },
-        "007f797c-e702-41d4-a08d-68c688797455": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Transport email & SMS notifications"
-          }
-        },
-        "eb5db945-d75c-435e-8039-2428fa0499a8": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "Easily, skip, snooze, cancel anytime"
-          }
-        },
-        "ec6327a2-55f3-455a-b9ac-25622a9d6028": {
-          "type": "bullet",
-          "settings": {
-            "bullet": "BONUS: Additional 20% Off Your First Order"
-          }
-        },
-        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5": {
-          "type": "first_button",
-          "settings": {
-            "button_text": "GET 20% OFF",
-            "button_url": "https:\/\/www.rizzihome.com\/products\/no-2-toilet-paper-1?discount=HELLO20?variant=42203449819315&selling_plan=1524433075",
-            "button_color": "btn--neutral",
-            "button_style": "standard__cta caps--large"
-          }
-        },
-        "1124f5ae-eb00-4507-ba71-026ed1a03886": {
-          "type": "reviews",
-          "settings": {
-            "reviews_text": "4.7 Stars out of 1,572 reviews.",
-            "reviews_link": "",
-            "center": false
-          }
-        }
-      },
-      "block_order": [
-        "785f267b-9df0-49d9-bbfa-eabd4860a7f6",
-        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150",
-        "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
-        "007f797c-e702-41d4-a08d-68c688797455",
-        "eb5db945-d75c-435e-8039-2428fa0499a8",
-        "ec6327a2-55f3-455a-b9ac-25622a9d6028",
-        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5",
-        "1124f5ae-eb00-4507-ba71-026ed1a03886"
-      ],
-      "settings": {
-        "show_right": true,
-        "dt_container_height": 600,
-        "mb_container_height": 350,
-        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
-        "image_background_height": 400,
-        "image": "shopify:\/\/shop_images\/no2photos-12_19122f85-121d-4c92-9bfe-b1a44b3b61bc.png",
-        "image_height": 600,
-        "show_animation": true,
-        "image_style": "gsa-masked-image-2",
-        "image_x_position": "pos-center",
-        "image_y_position": "pos-top",
-        "blob_x_position": "pos-left",
-        "blob_y_position": "pos-top",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "blob_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "side_image_x_position": "pos-side-image-left",
-        "side_image_height": 500,
-        "side_image_width": 200,
-        "mb_side_image_height": 500,
-        "mb_side_image_width": 200,
-        "video_link_bg": "",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile"
-      }
-    },
     "01fe35f0-3e3f-4410-ab6d-871c19e9c555": {
       "type": "section-liquid",
       "settings": {
@@ -788,7 +673,7 @@
         "image_alignment_y": "center",
         "overlay_color": "#000000",
         "opacity": 60,
-        "padding_top": 60,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -928,6 +813,121 @@
         "padding_top": 0,
         "padding_bottom": 42
       }
+    },
+    "0801531c-4571-4f0a-a14a-68070f5124a9": {
+      "type": "gsa-section-blob",
+      "blocks": {
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Subscribe & Save + Free Shipping<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 12,
+            "padding_bottom": 0
+          }
+        },
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 100,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 12
+          }
+        },
+        "39d016d9-1b1d-46dc-a427-d4b9d50f289d": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient automated delivery to your door"
+          }
+        },
+        "007f797c-e702-41d4-a08d-68c688797455": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Transport email & SMS notifications"
+          }
+        },
+        "eb5db945-d75c-435e-8039-2428fa0499a8": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Easily, skip, snooze, cancel anytime"
+          }
+        },
+        "ec6327a2-55f3-455a-b9ac-25622a9d6028": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "BONUS: Additional 20% Off Your First Order"
+          }
+        },
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "GET 20% OFF",
+            "button_url": "https:\/\/www.rizzihome.com\/products\/no-2-toilet-paper-1?discount=HELLO20?variant=42203449819315&selling_plan=1524433075",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        },
+        "1124f5ae-eb00-4507-ba71-026ed1a03886": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "785f267b-9df0-49d9-bbfa-eabd4860a7f6",
+        "3e4a491d-301a-4d2f-8c1d-a6aa51cce150",
+        "39d016d9-1b1d-46dc-a427-d4b9d50f289d",
+        "007f797c-e702-41d4-a08d-68c688797455",
+        "eb5db945-d75c-435e-8039-2428fa0499a8",
+        "ec6327a2-55f3-455a-b9ac-25622a9d6028",
+        "25dfbd77-74f9-46e7-945c-6c6b4a758ed5",
+        "1124f5ae-eb00-4507-ba71-026ed1a03886"
+      ],
+      "settings": {
+        "show_right": true,
+        "dt_container_height": 600,
+        "mb_container_height": 350,
+        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
+        "image_background_height": 400,
+        "image": "shopify:\/\/shop_images\/no2photos-12_19122f85-121d-4c92-9bfe-b1a44b3b61bc.png",
+        "image_height": 600,
+        "show_animation": true,
+        "image_style": "gsa-masked-image-2",
+        "image_x_position": "pos-center",
+        "image_y_position": "pos-top",
+        "blob_x_position": "pos-left",
+        "blob_y_position": "pos-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "blob_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
     }
   },
   "order": [
@@ -939,9 +939,9 @@
     "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
-    "0801531c-4571-4f0a-a14a-68070f5124a9",
     "01fe35f0-3e3f-4410-ab6d-871c19e9c555",
     "2e47ebce-b548-4cf6-9c7f-8c9a63ff2a54",
-    "46512bbd-0969-4350-a794-46e0ea88ae12"
+    "46512bbd-0969-4350-a794-46e0ea88ae12",
+    "0801531c-4571-4f0a-a14a-68070f5124a9"
   ]
 }
