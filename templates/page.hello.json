@@ -203,6 +203,113 @@
         "padding_bottom": 47
       }
     },
+    "1757a7e2-3765-4979-8afc-09bfed7977ab": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "5d4ba579-b193-459c-9e7d-738a902a2c79": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "bg_position": "center-center",
+            "blob_color_1": "#c3cfd1",
+            "blob_color_2": "#c3cfd1",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "d7089985-bab0-437b-8de1-8798ec19beb8": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>95% Less Butt Crumble<\/strong>™",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "83ba78d4-0ad5-42d6-9175-3deae0e43048": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a <strong>smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "9328064d-c288-42c0-887b-23de71834146": {
+          "type": "button",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "5d4ba579-b193-459c-9e7d-738a902a2c79",
+        "d7089985-bab0-437b-8de1-8798ec19beb8",
+        "83ba78d4-0ad5-42d6-9175-3deae0e43048",
+        "9328064d-c288-42c0-887b-23de71834146"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mb_reverse_order": false,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
     "57c53b56-3512-4587-8bfc-c24b9b4157d6": {
       "type": "gsa-single-column",
       "blocks": {
@@ -827,6 +934,7 @@
     "main",
     "c6d77ea8-b3da-45c0-9a98-f3c62a2bad1d",
     "ccf66edd-f1a5-4db0-b1f5-5c41ebb42c20",
+    "1757a7e2-3765-4979-8afc-09bfed7977ab",
     "57c53b56-3512-4587-8bfc-c24b9b4157d6",
     "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
