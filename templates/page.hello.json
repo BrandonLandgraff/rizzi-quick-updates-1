@@ -537,6 +537,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "mb_reverse_order": false,
+        "side_image": "shopify:\/\/shop_images\/image_45.png",
         "side_image_x_position": "pos-side-image-left",
         "side_image_height": 500,
         "side_image_width": 200,
