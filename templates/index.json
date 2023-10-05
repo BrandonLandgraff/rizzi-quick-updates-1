@@ -57,8 +57,8 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
-            "second_button_text": "SHOP RIZZI PRODUCTS",
-            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -105,7 +105,7 @@
         "mb_reverse_order": true,
         "video_link_bg": "",
         "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile"
+        "mobile_height": "screen-height-three-quarters--mobile"
       }
     },
     "880a7724-7c59-41ac-8854-0867d5534924": {
@@ -380,8 +380,8 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
-            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
-            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -681,7 +681,7 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "",
-            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_text": "Learn more",
             "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -1001,7 +1001,7 @@
           "settings": {
             "button_text": "MORE ON BAMBOO",
             "button_url": "",
-            "second_button_text": "",
+            "second_button_text": "Learn more",
             "second_button_url": "",
             "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
@@ -1111,8 +1111,8 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
-            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
-            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -1244,7 +1244,7 @@
           "settings": {
             "featured_product": "no-2-toilet-paper-1",
             "slide_tab_text": "Toilet Paper",
-            "title": "Product Title",
+            "title": "No.2 Toilet Paper",
             "custom_description": "Premium 100% bamboo TP that provides <strong>silky and strong paper for the best Butt Crumble free™ wipe.<\/strong>",
             "main_image": "shopify:\/\/shop_images\/No._2_June_2019-14_a14f443b-ef41-4a99-a12c-bba195c78d2b.webp",
             "mini_image": "shopify:\/\/shop_images\/vibrantEssentialsStack.png",
@@ -1257,7 +1257,7 @@
           "settings": {
             "featured_product": "rizzi-paper-towels",
             "slide_tab_text": "Paper Towels",
-            "title": "Product Title",
+            "title": "Paper Towels",
             "custom_description": "<strong>Strong and absorbent <\/strong>100% bamboo paper towels wrapped in our stylish design, delivered right to your door.",
             "main_image": "shopify:\/\/shop_images\/Paper_Towels.png",
             "mini_image": "shopify:\/\/shop_images\/vibrantPTPDP_1.png",
@@ -1270,7 +1270,7 @@
           "settings": {
             "featured_product": "no-2-tissue-paper-test",
             "slide_tab_text": "Tissues",
-            "title": "Product Title",
+            "title": "Tissues",
             "custom_description": "Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong>",
             "main_image": "shopify:\/\/shop_images\/VibrantTissuePBlueTin.png",
             "mini_image": "shopify:\/\/shop_images\/VibrantTissuePStack.png",
@@ -1485,7 +1485,7 @@
           "settings": {
             "button_text": "SHOP ESSENTIALS BUNDLE",
             "button_url": "shopify:\/\/products\/rizzi-home-bundle",
-            "second_button_text": "",
+            "second_button_text": "Learn more",
             "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
