@@ -268,10 +268,10 @@
         "9328064d-c288-42c0-887b-23de71834146": {
           "type": "button",
           "settings": {
-            "button_text": "Learn more",
+            "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "",
-            "second_button_text": "Learn more",
-            "second_button_url": "",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
             "center": false
           }
         }
