@@ -485,6 +485,65 @@
         "hide_footer_svg": false
       }
     },
+    "ce828ca2-a7e0-4966-8f28-d9d10d9b82b1": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "4aa78e11-ba59-4813-9655-df9ae98fe112": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0133\/6872\/1472\/files\/strong-r2.mp4?17966",
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0133\/6872\/1472\/files\/strong-r2.mp4?17966",
+            "bg_position": "center-center",
+            "blob_color_1": "#efe7e7",
+            "blob_color_2": "#efe7e7",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "4aa78e11-ba59-4813-9655-df9ae98fe112"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "#548687",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": false,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8": {
       "type": "section-reviews",
       "blocks": {
@@ -937,6 +996,7 @@
     "1757a7e2-3765-4979-8afc-09bfed7977ab",
     "57c53b56-3512-4587-8bfc-c24b9b4157d6",
     "0742403d-bcf4-4dd9-8d5e-61c569956eb1",
+    "ce828ca2-a7e0-4966-8f28-d9d10d9b82b1",
     "8aa9b766-e343-4c3e-a3d8-10f0cfc908d8",
     "d656a8ef-a156-4603-ba7a-c46b37ea39f8",
     "01fe35f0-3e3f-4410-ab6d-871c19e9c555",
