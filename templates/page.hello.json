@@ -511,10 +511,62 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "eee69410-53cc-4dc1-97fd-295e947cea48": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#ffffff",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Strong & Sustainable<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "932fc662-0490-4088-a3b3-2701ea4fb257": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "adf762a5-a2ee-426e-b9b0-7369ecda23c0": {
+          "type": "description",
+          "settings": {
+            "font_color": "#ffffff",
+            "accent_color": "#ffffff",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, <strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
         }
       },
       "block_order": [
-        "4aa78e11-ba59-4813-9655-df9ae98fe112"
+        "4aa78e11-ba59-4813-9655-df9ae98fe112",
+        "eee69410-53cc-4dc1-97fd-295e947cea48",
+        "932fc662-0490-4088-a3b3-2701ea4fb257",
+        "adf762a5-a2ee-426e-b9b0-7369ecda23c0"
       ],
       "settings": {
         "dt_reverse_order": true,
