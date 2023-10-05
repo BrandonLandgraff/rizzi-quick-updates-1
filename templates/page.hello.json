@@ -75,8 +75,8 @@
           "settings": {
             "button_text": "GET 20% OFF",
             "button_url": "https:\/\/www.rizzihome.com\/products\/no-2-toilet-paper-1?discount=HELLO20?variant=42203449819315&selling_plan=1524433075",
-            "second_button_text": "SHOP RIZZI PRODUCTS",
-            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
@@ -264,6 +264,7 @@
         "2bd49016-0569-4a99-875b-9f739dfc1ab8",
         "f2d3877a-6386-4c7b-8ad5-c74f6a6b4a98"
       ],
+      "disabled": true,
       "settings": {
         "width": 1200,
         "self_alignment": "center",
@@ -449,6 +450,7 @@
         "3d3c6885-6d42-4839-b944-b2cdff3c0aed",
         "5f7246af-83ea-4a38-b71a-d8d806b2cb6a"
       ],
+      "disabled": true,
       "settings": {
         "show_featured_image": false,
         "image_aspect_ratio": 1.3,
