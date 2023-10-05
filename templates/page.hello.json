@@ -706,7 +706,7 @@
     "01fe35f0-3e3f-4410-ab6d-871c19e9c555": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<span id=\"our-lineup\"><\/span>\n<style>\n.video-background {\nwidth: 100% !important;\n}\n<\/style>",
+        "custom_liquid": "<span id=\"our-lineup\"><\/span>\n<style>\n.video-background {\nwidth: 100% !important;\n}\n.gsa-video-position {\nz-index: 100;\n}\n<\/style>",
         "bg_color": "",
         "color": "",
         "width": "wrapper",
