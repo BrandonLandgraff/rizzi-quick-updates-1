@@ -57,8 +57,8 @@
           "settings": {
             "button_text": "SHOP NO.2 TOILET PAPER",
             "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
-            "second_button_text": "Learn more",
-            "second_button_url": "",
+            "second_button_text": "SHOP ALL PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "center": false
