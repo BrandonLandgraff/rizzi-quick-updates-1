@@ -1,0 +1,972 @@
+{
+  "sections": {
+    "main": {
+      "type": "product_redesign",
+      "blocks": {
+        "price_and_title": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "none",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "5f540575-716e-4ed2-8361-7dbe2dfc6fd0": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "no-2-bamboo-toilet-paper"
+          }
+        },
+        "48c62f28-ec85-42fc-a3f3-0f437ca6884e": {
+          "type": "callout",
+          "disabled": true,
+          "settings": {
+            "text": "22% OFF UNTIL 2025 - USE CODE \"LABORDAY\""
+          }
+        },
+        "553dabf8-21bf-4832-aa8a-c90ea22da019": {
+          "type": "text",
+          "settings": {
+            "title": "<p>We believe in having it all.<strong> <\/strong>The essentials bundle is, well, essential. The Bundle comes with flexible shipments of 100% bamboo: 24 rolls of toilet paper, 12 rolls of paper towels and 12 boxes of facial tissue. <strong>Simplify your life with flexible automated shipments of premium tree-free essentials.<\/strong><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_gift": true,
+            "hide_wrapper_style": false,
+            "product_list": [
+              "rizzi-essentials-bundle-prepaid-subscription-12-weeks-12-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-12-weeks-3-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-12-weeks-6-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-4-weeks-12-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-4-weeks-3-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-4-weeks-6-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-8-weeks-12-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-8-weeks-3-orders-7296564625587",
+              "rizzi-essentials-bundle-prepaid-subscription-8-weeks-6-orders-7296564625587"
+            ],
+            "prepaid_deliverEvery_options_one": "4 Weeks",
+            "prepaid_deliverEvery_options_two": "8 Weeks",
+            "prepaid_deliverEvery_options_three": "12 Weeks",
+            "prepaid_stops_after_options_one": "3 Shipments",
+            "prepaid_stops_after_options_two": "6 Shipments",
+            "prepaid_stops_after_options_three": "12 Shipments",
+            "info_page": "",
+            "show_quantity": true,
+            "show_remaining": false,
+            "show_payment_button": true,
+            "subscriptions_enable_selectors": false
+          }
+        },
+        "e8c5ae46-c6e4-47f2-a5fa-611974028c48": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>PAUSE OR CANCEL ANYTIME<\/strong><\/p>"
+          }
+        },
+        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d": {
+          "type": "accordion",
+          "settings": {
+            "question_1": "Product Details",
+            "answer_1": "<h6><strong>Includes, 100% Bamboo:<\/strong><\/h6><p><strong>1 x toilet paper carton 24 rolls,<\/strong> 3 ply<br\/><strong>1 x paper towel carton 12 rolls<\/strong>, 2 ply, 160 sheets, sheet size approx 8.5 x 5.5 in.<br\/><strong>1 x facial tissue carton 12 boxes<\/strong>, 3 ply, 65 sheets, sheet size approx 7.4 x 7.8 in.<br\/><br\/><\/p><h6><strong>Our Packaging:<\/strong><\/h6><p>Paper towels and toilet paper are white, and individually wrapped in recycled paper printed on with soy ink.<br\/>100% bamboo packaged in recycled paper packaging<br\/>Sustainably sourced<br\/>Plastic free<br\/><br\/>*Note that if you are bundling with Naked Rolls for your toilet paper selection, the Naked rolls are 340 sheets, 2 ply and are not individually wrapped<\/p>",
+            "question_2": "Cancel or change my subscription anytime?",
+            "answer_2": "<p>Yes, absolutely! You can <strong>cancel, pause, or delay an upcoming order anytime. <\/strong>You can also add individual add-ons of TP, Tissues or Paper Towels if you're running low on one of them.<\/p>",
+            "question_3": "",
+            "answer_3": "",
+            "question_4": "Why bamboo?",
+            "answer_4": "<p><strong>Global toilet paper production consumes 27,000 trees daily<\/strong>. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet,<strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
+            "question_5": "Will I be notified about upcoming shipments?",
+            "answer_5": "<p>Yes! You will get <strong>email\/sms 5 days prior<\/strong> to your upcoming order with an easy link to your Manage Subscription page!<\/p>",
+            "question_6": "",
+            "answer_6": ""
+          }
+        },
+        "b18a8ad0-cc6b-4324-b1d6-6c13debb33f3": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "header1": "Tab 1",
+            "richtext1": "<p>This is a description.<\/p>",
+            "header2": "Tab 12",
+            "richtext2": "<p>This is a description.<\/p>"
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "disabled": true,
+          "settings": {
+            "show_read_more": false,
+            "style": "accordions",
+            "title_1": "Can I later change my shipment frequency?",
+            "raw_content_1": "<p><strong>100% Bamboo<\/strong> toilet paper<\/p><p><strong>Strong<\/strong> for a clean wipe <\/p><p><strong>Silky<\/strong> touch<\/p><p><strong>Plastic <\/strong>free<\/p><p><strong>Soy Ink <\/strong>printed wrapper<\/p><p><strong>100% Recycled<\/strong> packaging<\/p><p><strong>Clog and Septic <\/strong>safe<\/p><p><strong>Sustainably <\/strong>sourced<\/p>",
+            "title_2": "Can I easily later change products I'm subscribed to?",
+            "raw_content_2": "<p>  <\/p>",
+            "title_3": "How much & how often to order?",
+            "raw_content_3": "<p>  <\/p>",
+            "title_4": "Will I be notified about upcoming shipments?",
+            "raw_content_4": "<p> <\/p>",
+            "title_5": "Can I cancel anytime?",
+            "raw_content_5": "<p> <\/p>"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "9386bf00-d03d-434e-be80-8cef549a22a1": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "no-2-bamboo-toilet-paper"
+          }
+        },
+        "1720f57d-4f71-40f5-b0d5-35633bfd4e22": {
+          "type": "siblings",
+          "disabled": true,
+          "settings": {
+            "siblings_collection": "",
+            "sibling_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "price_and_title",
+        "5f540575-716e-4ed2-8361-7dbe2dfc6fd0",
+        "48c62f28-ec85-42fc-a3f3-0f437ca6884e",
+        "553dabf8-21bf-4832-aa8a-c90ea22da019",
+        "form",
+        "e8c5ae46-c6e4-47f2-a5fa-611974028c48",
+        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d",
+        "b18a8ad0-cc6b-4324-b1d6-6c13debb33f3",
+        "tabs",
+        "pickup",
+        "9386bf00-d03d-434e-be80-8cef549a22a1",
+        "1720f57d-4f71-40f5-b0d5-35633bfd4e22"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "first_label": "CANCEL ANYTIME",
+        "second_label": "SUBSCRIBE FOR FREE SHIPPING + 12% OFF",
+        "po_text": "SAVE 12% + FREE SHIPPING",
+        "image_layout": "thumbnails",
+        "image_size": "small",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "block_padding": 5,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "wrapper_title": "WRAPPER STYLES EXPLAINED",
+        "wrapper_style_1": "<p><strong>RIGHT AS RANDOM <\/strong>(370 Sheets)<\/p><p><strong>Styles:<\/strong><em><strong> <\/strong><\/em><em>Along the Lines, Black, Cool Cat, Green Palm Leaf, In Full Bloom Black, In Full Bloom White, Leopard, Vacation Blues<\/em><\/p>",
+        "first_wrapper_image_1": "shopify:\/\/shop_images\/right-as-random.webp",
+        "first_wrapper_image_2": "shopify:\/\/shop_images\/InFullBloomWhite_96x_7e860c91-d806-4e76-a33f-a1b0566b6c49.webp",
+        "first_wrapper_image_3": "shopify:\/\/shop_images\/GreenPalmLeaf_96x_6723739d-f25d-40a1-ba0f-42f211ae6590.webp",
+        "first_wrapper_image_4": "shopify:\/\/shop_images\/AlongtheLines_96x_9f237d3d-be35-47ce-b264-98645903c918.webp",
+        "first_wrapper_image_5": "shopify:\/\/shop_images\/inFullBloomSwatch.png",
+        "wrapper_style_2": "<p><strong>NAKED ROLLS - UNWRAPPED <\/strong>(340 Sheets)<\/p><p>Naked Roll to the Rescue. Our economical edition. Each roll is just naked - not individually wrapped. Comes in a box ready to use.<\/p>",
+        "wrapper_style_3": "<p><strong>IN FULL BLOOM BLACK <\/strong>(370 Sheets)<\/p>",
+        "third_wrapper_image_2": "shopify:\/\/shop_images\/inFullBloomSwatch.png",
+        "wrapper_style_4": "<p><strong>ALONG THE LINES <\/strong>(370 Sheets)<\/p>",
+        "fourth_wrapper_image_2": "shopify:\/\/shop_images\/alongTheLinesSwatches.png",
+        "carton_size_title": "CARTON SIZE & SHEET COUNT",
+        "carton_size_description": "<h3><strong>BUNDLE COMES WITH:<\/strong><\/h3><p><strong><br\/><\/strong>- 24 Roll of 100% Bamboo TP<br\/>- 12 Rolls of 100% Bamboo Paper Towels<br\/>- 12 Boxes of 100% Bamboo Tissues<strong><br\/><\/strong><\/p><h3><strong><br\/>TP SHEET COUNT:<\/strong><\/h3><p><strong><br\/>TP: RIGHT AS RANDOM <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: IN FULL BLOOM BLACK <br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: ALONG THE LINES<br\/><\/strong>- 370 TP Sheets<\/p><p><strong>TP: NAKED ROLLS <br\/><\/strong>- 340 TP Sheets<strong><br\/><\/strong><\/p>",
+        "subscription_title": "SUBSCRIPTION VS ONE TIME PURCHASE",
+        "subscription_description": "<p><strong>SUBSCRIBE & GET:<\/strong><\/p><ul><li><strong>Convenient, flexible, cancel anytime subscription.<\/strong> Try automating sustainable shopping with truly zero risk.<\/li><\/ul><p><strong>PLUS:<\/strong><\/p><ul><li><strong>Save 12%<\/strong> on all orders<\/li><li><strong>Free Shipping<\/strong> on all orders (US Mainland).<\/li><li><strong>Transparent notifications <\/strong>on upcoming orders via SMS\/Email<\/li><li><strong>Easily \"snooze\"<\/strong> an order by texting \"Skip\"<\/li><li><strong>Easily add-on items<\/strong> to your upcoming order<\/li><\/ul><p><br\/><strong><br\/>ONE TIME <\/strong>orders are one single purchases, without automated re-ordering.<\/p>",
+        "frequency_title": "FLEXIBLE SHIPPING",
+        "frequency_description": "<ul><li><strong>Easily \"snooze\" an order<\/strong> via with clicks or by texting \"Skip\"<br\/><\/li><li><strong>Every 6 weeks? <\/strong>Sure thing.<\/li><li><strong>Every 43 days? <\/strong>No problem.<strong><br\/><\/strong><\/li><li><strong>Need to pause?<\/strong> You got it.<\/li><li><strong>Order now?<\/strong> Anytime.<br\/><\/li><li>Upcoming order <strong>notifications via SMS\/Email<\/strong> get sent 5 days prior to order<\/li><\/ul>",
+        "img_max_width": 200,
+        "img_align": false
+      }
+    },
+    "0110965c-e39e-4313-a30c-8b12472d9822": {
+      "type": "section-logo-list",
+      "blocks": {
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_7.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_6.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-3": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_5.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "8b089d40-74f4-4632-988a-37b823d92f31": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_4.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "1680c83f-5ad5-4cfd-935c-ac14d1541ab1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_3.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "2fccecd4-9423-4ba4-ac1a-7553a5976623": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_2.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "8a815eee-5669-41b4-b4cb-576e445ca2c2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_1.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-1",
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-2",
+        "template--16229368365235__0110965c-e39e-4313-a30c-8b12472d9822-logo-item-3",
+        "8b089d40-74f4-4632-988a-37b823d92f31",
+        "1680c83f-5ad5-4cfd-935c-ac14d1541ab1",
+        "2fccecd4-9423-4ba4-ac1a-7553a5976623",
+        "8a815eee-5669-41b4-b4cb-576e445ca2c2"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5524e1ed-543b-4ba8-943e-b84d47ae8232": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "6342f4a4-e88b-4ef3-a627-cf9f0476ec53": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 42,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Strong & Sustainable",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "96410ad1-1799-4c2f-b145-dfdb725b957c": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 112,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "72a397bd-7d26-437d-8f55-0053621c63de": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Subscribe today and lock in your <strong>22% discount for the next year*<\/strong> on our Essentials Bundle.<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "24c29764-673f-4cb2-a8cf-46e39b4e0e8f": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "Convenient home delivery & subscription",
+            "benefit_3": "100% recycled, plastic free packaging",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
+        "e5370697-31ba-4ca8-a04f-5d5dd1cd9dc3": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Strong, siiiilky and absorbent paper",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "314349a2-484c-48e5-8eef-e493ed4bfa55": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient home delivery & subscription",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "4da7b539-8220-40a6-b2b7-938a1524ba06": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "100% recycled, plastic free packaging",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "0edcfe28-756c-4928-afea-bcf65cac4d76": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Stylish soy ink printed wrappers",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "e9c84196-9459-4755-94fd-8602f7afae0d": {
+          "type": "first_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "GET 22% OFF",
+            "button_url": "#current_variant_id",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
+        },
+        "5c837c1a-75df-4528-9e46-ccc4efccaf5d": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "font_color": "#9c9c9c",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>THIS WEEKEND ONLY<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "6342f4a4-e88b-4ef3-a627-cf9f0476ec53",
+        "96410ad1-1799-4c2f-b145-dfdb725b957c",
+        "72a397bd-7d26-437d-8f55-0053621c63de",
+        "24c29764-673f-4cb2-a8cf-46e39b4e0e8f",
+        "e5370697-31ba-4ca8-a04f-5d5dd1cd9dc3",
+        "314349a2-484c-48e5-8eef-e493ed4bfa55",
+        "4da7b539-8220-40a6-b2b7-938a1524ba06",
+        "0edcfe28-756c-4928-afea-bcf65cac4d76",
+        "e9c84196-9459-4755-94fd-8602f7afae0d",
+        "5c837c1a-75df-4528-9e46-ccc4efccaf5d"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "311267fd-24c7-49bc-b364-c73211172433": {
+      "type": "gsa-waves-feature",
+      "disabled": true,
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_05",
+        "bg_color": "",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e83aa8a0-9585-4a4a-a49e-e4c770be6411": {
+      "type": "gsa-section-product-info",
+      "blocks": {
+        "5f8a498e-9daf-43ff-9a99-d5813bfc249d": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--16039160414387__e83aa8a0-9585-4a4a-a49e-e4c770be6411-16696768781db4e704-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "95% Less Butt Crumble",
+            "heading_size": 7,
+            "text": "<p><strong>This is serious. <\/strong>What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free. You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#548687",
+            "color": "#efe7e7",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "5f8a498e-9daf-43ff-9a99-d5813bfc249d",
+        "template--16039160414387__e83aa8a0-9585-4a4a-a49e-e4c770be6411-16696768781db4e704-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "height": "five-fifty-height-hero",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "blob_color_1": "#a84583",
+        "blob_color_2": "#a84583",
+        "side_image": "shopify:\/\/shop_images\/Side_Image.png",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 300,
+        "mb_side_image_width": 75
+      }
+    },
+    "82429c81-5633-4859-9164-6bdb04651a33": {
+      "type": "gsa-waves-feature",
+      "disabled": true,
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_04",
+        "bg_color": "",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-11-02_141954.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "custom-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "95% Less Butt Crumble",
+            "heading_size": 7,
+            "text": "<p><strong>This is serious. <\/strong>What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free. You’ll find yourself equipped with a light, clean feeling and more pep in your step.<br\/><\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "custom-0",
+        "custom-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": true,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "06c98e2f-ab5b-46a1-9d3b-2dc4a9169e30": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "title": "RFREQUENTLY ASKED QUESTIONS",
+        "heading_size": 8,
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "b81d71ea-c963-41e7-a81f-802c6d939e70": {
+      "type": "section-sidebar",
+      "blocks": {
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-0": {
+          "type": "header",
+          "settings": {
+            "title": "SUBSCRIPTION DETAILS"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-3": {
+          "type": "header",
+          "settings": {
+            "title": "SHIPPING DETAILS"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.<\/p>"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use more than one discount code?",
+            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.<\/p>"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-5": {
+          "type": "header",
+          "settings": {
+            "title": "REFUND & RETURS  DETAILS"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.<\/p>"
+          }
+        },
+        "49352a6e-e3d5-4c13-b743-f8b0ee6cf180": {
+          "type": "header",
+          "settings": {
+            "title": "CONTACT"
+          }
+        },
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-0",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-3",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-1",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-4",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-5",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-2",
+        "49352a6e-e3d5-4c13-b743-f8b0ee6cf180",
+        "template--16042764239027__b81d71ea-c963-41e7-a81f-802c6d939e70-1667416901711d245f-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 100
+      }
+    },
+    "faq": {
+      "type": "section-accordion",
+      "blocks": {
+        "faq-1": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "faq-3": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "faq-4": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "FAQ",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "shipping": {
+      "type": "section-accordion",
+      "blocks": {
+        "shipping-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "icon_color": "#aaaaaa",
+            "title": "Fast shipping",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "shipping-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#aaaaaa",
+            "title": "Order tracking",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "shipping-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#aaaaaa",
+            "title": "Get in touch",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "shipping-0",
+        "shipping-1",
+        "shipping-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shipping",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "about": {
+      "type": "section-accordion",
+      "blocks": {
+        "about-0": {
+          "type": "image",
+          "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.6
+          }
+        },
+        "about-1": {
+          "type": "image",
+          "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.6
+          }
+        },
+        "about-2": {
+          "type": "image",
+          "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.6
+          }
+        }
+      },
+      "block_order": [
+        "about-0",
+        "about-1",
+        "about-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "About us",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "166741667658a4499b": {
+      "type": "apps",
+      "blocks": {
+        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "no-2-bamboo-toilet-paper"
+          }
+        },
+        "700ec589-026f-4301-93b5-8c3fa4f310cf": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "d70d1252-5cc7-491e-9f01-f22d3bb2ebbf",
+        "700ec589-026f-4301-93b5-8c3fa4f310cf"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Recently viewed",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "ad38d840-cd42-4361-9fed-f5ac73e127a9": {
+      "type": "gsa-lifestyle-images",
+      "blocks": {
+        "9305f0ea-c458-4d49-afbe-95697e082205": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_40_3668667f-1d83-4eb7-b830-7e8a43bfd9bc.png",
+            "mb_image": "shopify:\/\/shop_images\/image_40_73b29207-c20d-49c2-bb94-5fe61e7f8d11.png",
+            "url": ""
+          }
+        },
+        "1a4e66a4-0c03-4600-9689-f8c3f7877783": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_5_f3a81080-9df6-4ebe-8ae1-e19be0999b1e.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-9_5_96082e12-ead6-4a36-ac7c-0ca0b2863263.png",
+            "url": ""
+          }
+        },
+        "e7bebc6e-1851-4376-aac1-7b1ef471d36e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_e04f63e1-c3cf-4ddd-8ce1-eb257b35c60a.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_0a6754a4-1125-4187-9e2e-927a7c44ecaf.png",
+            "url": ""
+          }
+        },
+        "39724040-4a41-4e30-bde9-289249b02a49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_October_2019-20_5_b7f0a471-c628-4eaa-94c8-bc2b5c0b6dac.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_October_2019-20_5_773e6ac2-b730-4a79-812c-41abd38350f9.png",
+            "url": ""
+          }
+        },
+        "fdd01942-d3c7-49e3-8132-962bc09b4941": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_182ab357-ba43-4d0f-a30d-2cc906af614a.png",
+            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-38_5_3ab97f69-2f0a-4b04-b0df-74aa3a6b40ed.png",
+            "url": ""
+          }
+        },
+        "f57bcf18-7224-4ab8-a768-65af1cba1ac7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_2_325f3816-6048-4618-a689-fbcee8580af5.png",
+            "mb_image": "shopify:\/\/shop_images\/No_2_December_2019-29_2_074518fe-0bc8-473a-b9ec-63aab000d1bd.png",
+            "url": ""
+          }
+        },
+        "b4439434-6bb7-459c-b47c-d222671f6ab1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_4cfd9220-3233-485c-80bd-26a299a1a44c.png",
+            "mb_image": "shopify:\/\/shop_images\/No2_Jan_2020-30_1_58007f45-77a6-4560-93a7-22a4f3603599.png",
+            "url": ""
+          }
+        },
+        "67eb1666-e1c5-42cb-b75f-6d37d615276f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-68_1_b04a037c-c41f-4f0a-8e61-3694e2c703e1.png",
+            "mb_image": "shopify:\/\/shop_images\/no2photos-68_1_6ef98977-c80a-4fff-8e8e-943e49b03a8a.png",
+            "url": ""
+          }
+        },
+        "9dcc201a-4b9c-40b8-add5-d5afea732e3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no2photos-73_1_8f34327d-7b05-4f55-864a-ac0d88f3909c.png",
+            "mb_image": "shopify:\/\/shop_images\/no2photos-73_1_9791e119-c0d8-4dd2-8ccc-58e44470d59b.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9305f0ea-c458-4d49-afbe-95697e082205",
+        "1a4e66a4-0c03-4600-9689-f8c3f7877783",
+        "e7bebc6e-1851-4376-aac1-7b1ef471d36e",
+        "39724040-4a41-4e30-bde9-289249b02a49",
+        "fdd01942-d3c7-49e3-8132-962bc09b4941",
+        "f57bcf18-7224-4ab8-a768-65af1cba1ac7",
+        "b4439434-6bb7-459c-b47c-d222671f6ab1",
+        "67eb1666-e1c5-42cb-b75f-6d37d615276f",
+        "9dcc201a-4b9c-40b8-add5-d5afea732e3a"
+      ],
+      "settings": {
+        "arrow_color": "#000000",
+        "hide_arrows": false,
+        "dot": "#828282",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0b2d4a",
+        "hide_footer_svg": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0110965c-e39e-4313-a30c-8b12472d9822",
+    "5524e1ed-543b-4ba8-943e-b84d47ae8232",
+    "311267fd-24c7-49bc-b364-c73211172433",
+    "e83aa8a0-9585-4a4a-a49e-e4c770be6411",
+    "82429c81-5633-4859-9164-6bdb04651a33",
+    "custom",
+    "06c98e2f-ab5b-46a1-9d3b-2dc4a9169e30",
+    "b81d71ea-c963-41e7-a81f-802c6d939e70",
+    "faq",
+    "shipping",
+    "about",
+    "166741667658a4499b",
+    "reviews",
+    "related",
+    "ad38d840-cd42-4361-9fed-f5ac73e127a9"
+  ]
+}
