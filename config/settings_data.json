@@ -41,7 +41,9 @@
     "show_scroll_top_button": false,
     "swatch_style": "circle",
     "loading_image_width": 180,
-    "instagram_link": "https:\/\/www.instagram.com\/gono.2\/",
+    "instagram_link": "https:\/\/www.instagram.com\/rizzi.home\/",
+    "facebook_link": "https:\/\/www.facebook.com\/rizziathome\/",
+    "pinterest_link": "https:\/\/www.pinterest.com\/rizziathome\/",
     "product_grid_center": true,
     "product_grid_aspect_ratio": 1.2,
     "sale_bg_color": "#f18080",
@@ -351,9 +353,8 @@
           },
           "footer-1": {
             "type": "social",
-            "disabled": true,
             "settings": {
-              "title": "FOLLOW US",
+              "title": "OUR SOCIALS",
               "text": ""
             }
           },
