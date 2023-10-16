@@ -12,6 +12,23 @@
             "show_rating_count": false
           }
         },
+        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d": {
+          "type": "accordion",
+          "settings": {
+            "question_1": "Product Details",
+            "answer_1": "<h6><strong>Includes, 100% Bamboo:<\/strong><\/h6><p><strong>1 x toilet paper carton 24 rolls,<\/strong> 3 ply<br\/><strong>1 x paper towel carton 12 rolls<\/strong>, 2 ply, 160 sheets, sheet size approx 8.5 x 5.5 in.<br\/><strong>1 x facial tissue carton 12 boxes<\/strong>, 3 ply, 65 sheets, sheet size approx 7.4 x 7.8 in.<br\/><br\/><\/p><h6><strong>Our Packaging:<\/strong><\/h6><p>Paper towels and toilet paper are white, and individually wrapped in recycled paper printed on with soy ink.<br\/>100% bamboo packaged in recycled paper packaging<br\/>Sustainably sourced<br\/>Plastic free<br\/><br\/>*Note that if you are bundling with Naked Rolls for your toilet paper selection, the Naked rolls are 340 sheets, 2 ply and are not individually wrapped<\/p>",
+            "question_2": "Cancel or change my subscription anytime?",
+            "answer_2": "<p>Yes, absolutely! You can <strong>cancel, pause, or delay an upcoming order anytime. <\/strong>You can also add individual add-ons of TP, Tissues or Paper Towels if you're running low on one of them.<\/p>",
+            "question_3": "",
+            "answer_3": "",
+            "question_4": "Why bamboo?",
+            "answer_4": "<p><strong>Global toilet paper production consumes 27,000 trees daily<\/strong>. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet,<strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
+            "question_5": "Will I be notified about upcoming shipments?",
+            "answer_5": "<p>Yes! You will get <strong>email\/sms 5 days prior<\/strong> to your upcoming order with an easy link to your Manage Subscription page!<\/p>",
+            "question_6": "",
+            "answer_6": ""
+          }
+        },
         "5f540575-716e-4ed2-8361-7dbe2dfc6fd0": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
@@ -67,23 +84,6 @@
             "title": "<p><strong>PAUSE OR CANCEL ANYTIME<\/strong><\/p>"
           }
         },
-        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d": {
-          "type": "accordion",
-          "settings": {
-            "question_1": "Product Details",
-            "answer_1": "<h6><strong>Includes, 100% Bamboo:<\/strong><\/h6><p><strong>1 x toilet paper carton 24 rolls,<\/strong> 3 ply<br\/><strong>1 x paper towel carton 12 rolls<\/strong>, 2 ply, 160 sheets, sheet size approx 8.5 x 5.5 in.<br\/><strong>1 x facial tissue carton 12 boxes<\/strong>, 3 ply, 65 sheets, sheet size approx 7.4 x 7.8 in.<br\/><br\/><\/p><h6><strong>Our Packaging:<\/strong><\/h6><p>Paper towels and toilet paper are white, and individually wrapped in recycled paper printed on with soy ink.<br\/>100% bamboo packaged in recycled paper packaging<br\/>Sustainably sourced<br\/>Plastic free<br\/><br\/>*Note that if you are bundling with Naked Rolls for your toilet paper selection, the Naked rolls are 340 sheets, 2 ply and are not individually wrapped<\/p>",
-            "question_2": "Cancel or change my subscription anytime?",
-            "answer_2": "<p>Yes, absolutely! You can <strong>cancel, pause, or delay an upcoming order anytime. <\/strong>You can also add individual add-ons of TP, Tissues or Paper Towels if you're running low on one of them.<\/p>",
-            "question_3": "",
-            "answer_3": "",
-            "question_4": "Why bamboo?",
-            "answer_4": "<p><strong>Global toilet paper production consumes 27,000 trees daily<\/strong>. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet,<strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
-            "question_5": "Will I be notified about upcoming shipments?",
-            "answer_5": "<p>Yes! You will get <strong>email\/sms 5 days prior<\/strong> to your upcoming order with an easy link to your Manage Subscription page!<\/p>",
-            "question_6": "",
-            "answer_6": ""
-          }
-        },
         "b18a8ad0-cc6b-4324-b1d6-6c13debb33f3": {
           "type": "tabs",
           "disabled": true,
@@ -136,12 +136,12 @@
       },
       "block_order": [
         "price_and_title",
+        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d",
         "5f540575-716e-4ed2-8361-7dbe2dfc6fd0",
         "48c62f28-ec85-42fc-a3f3-0f437ca6884e",
         "553dabf8-21bf-4832-aa8a-c90ea22da019",
         "form",
         "e8c5ae46-c6e4-47f2-a5fa-611974028c48",
-        "0b2b4e0e-4231-4bd1-b8f3-533b751ad61d",
         "b18a8ad0-cc6b-4324-b1d6-6c13debb33f3",
         "tabs",
         "pickup",
