@@ -1,0 +1,1726 @@
+{
+  "sections": {
+    "25e7f8ae-339f-4a91-a04a-25d5ccff3837": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "76fff57b-2304-4a8b-b6c2-35323988b79c": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Sustainability Meets Tactile Luxury<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "6ee97a6f-9f56-472a-a36c-4a68235b9e75": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "92dc3329-c72a-4b5c-a8b5-0c4209bd0809": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 22,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium bamboo paper products, <strong>better for you and Mother Earth.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "2671c3a2-2921-4f8f-972d-966ecdb491ca": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "SHOP ALL PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "e6212e04-bd13-45a1-9abd-6d88205bfaaf": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "color": "#0c2d4b",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "76fff57b-2304-4a8b-b6c2-35323988b79c",
+        "6ee97a6f-9f56-472a-a36c-4a68235b9e75",
+        "92dc3329-c72a-4b5c-a8b5-0c4209bd0809",
+        "2671c3a2-2921-4f8f-972d-966ecdb491ca",
+        "e6212e04-bd13-45a1-9abd-6d88205bfaaf"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "60% 40%",
+        "gap": 24,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Home_Page.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "#c3cfd1",
+        "blob-bottom-left": true,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": true,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "880a7724-7c59-41ac-8854-0867d5534924": {
+      "type": "rizzi_hero_section",
+      "blocks": {
+        "template--16063923060915__880a7724-7c59-41ac-8854-0867d5534924-1668721112c974141b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Toilet_Paper_91c6dfc3-51a9-47a6-9480-a9068d822916_resized.png",
+            "banner_mobile_image": "shopify:\/\/shop_images\/Toilet_Paper_91c6dfc3-51a9-47a6-9480-a9068d822916_resized_mobile.png",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "f5b045d1-4c78-444c-a006-ec8aae6128a8": {
+          "type": "gsa-hero-text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 2,
+            "title": "HOME OF NO.2 TOILET PAPER",
+            "heading_size": 11,
+            "text": "<p>Premium 100% Bamboo paper products that are <strong>better for you and Mother Earth.<\/strong><\/p>",
+            "text_size": 6,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "SHOP ALL RIZZI PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false,
+            "show_yotpo": false,
+            "reviews_text": "4.7 Stars out of 1,517 reviews"
+          }
+        }
+      },
+      "block_order": [
+        "template--16063923060915__880a7724-7c59-41ac-8854-0867d5534924-1668721112c974141b-0",
+        "f5b045d1-4c78-444c-a006-ec8aae6128a8"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
+    "47a5cc6e-cf30-437e-8226-107b1470e494": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>RIZZI HOME FACTS<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Better for You and Mother Earth",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "58b48987-7e05-4161-854a-519f2787a39e": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "3470f7f0-5e74-4559-ac57-84f5ee7d9750": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EssentialsBundle-5_ffe43df2-5791-45d9-9fe1-393e65d3e57c.png",
+            "blob_color": "#d2d6d7",
+            "benefit_1": "Strong, siiiilky and absorbent paper",
+            "benefit_2": "100% recycled, plastic free packaging",
+            "benefit_3": "Convenient home delivery & subscription",
+            "benefit_4": "Stylish soy ink printed wrappers"
+          }
+        },
+        "cfd25ed9-f6ca-4e98-9c42-f35151b34cea": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Strong, siiiilky and absorbent paper",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "d8e81c3d-7a7f-4463-b08b-be8415eab9c7": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Convenient home delivery & subscription",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "a1aa34d0-b862-48f4-be9c-cd219ef5e275": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "100% recycled, plastic free packaging",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "43a1552a-a832-4437-a290-3432bf8095f4": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Stylish soy ink printed wrappers",
+            "display_options": "bl-hide-desktop"
+          }
+        },
+        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP RIZZI PRODUCTS",
+            "button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "681f39c8-fc27-459d-9c62-3d35c5b0e0d1",
+        "7ef0d37e-35c0-4956-a1a4-65cc37fd2cf2",
+        "58b48987-7e05-4161-854a-519f2787a39e",
+        "3470f7f0-5e74-4559-ac57-84f5ee7d9750",
+        "cfd25ed9-f6ca-4e98-9c42-f35151b34cea",
+        "d8e81c3d-7a7f-4463-b08b-be8415eab9c7",
+        "a1aa34d0-b862-48f4-be9c-cd219ef5e275",
+        "43a1552a-a832-4437-a290-3432bf8095f4",
+        "ca1f9a31-3ac5-43a2-b6bb-88f1a0edac8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
+    },
+    "9a5eb472-49ee-459a-a991-3a5e485a776d": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "SUSTAINABILITY MEETS STYLE",
+        "subheading_size": 3,
+        "title": "",
+        "heading_size": 8,
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_01",
+        "bg_color": "#efe7e7",
+        "wave_color": "#0b2d4a",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fe55f302-37b6-484d-8082-4735fd7cb5b0": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "38eaf982-1331-436b-9eb4-8c6491388c23": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#ffffff",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Our TP Facts<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "91e9bb2b-d76b-4f79-8706-83d3da5727d2": {
+          "type": "description",
+          "settings": {
+            "font_color": "#ffffff",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>100% Bamboo<\/strong><\/p><p><strong>100% Recycled<\/strong> packaging<\/p><p><strong>Plastic<\/strong> Free<\/p><p><strong>Sustainably<\/strong> Sourced<\/p><p><strong>Strong<\/strong> & Sustainable<\/p><p><strong>Siiiiilky<\/strong> Smooth<\/p><p><strong>Clog and Septic<\/strong> safe<\/p><p><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "fa1cac8f-0885-4c17-9ecb-65bef1b3c56e": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "SHOP ALL PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "38eaf982-1331-436b-9eb4-8c6491388c23",
+        "91e9bb2b-d76b-4f79-8706-83d3da5727d2",
+        "fa1cac8f-0885-4c17-9ecb-65bef1b3c56e"
+      ],
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "40% 60%",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1100,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/vibrantEssentialsStack.png",
+        "wrapper_color": "",
+        "bg_color": "#0b2d4a",
+        "blob_color": "#548687",
+        "blob-bottom-left": true,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 4,
+        "padding_bottom": 32,
+        "mb_reverse_order": true,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "26392da4-715e-41b2-ae83-3ccc6893899d": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-0": {
+          "type": "review",
+          "settings": {
+            "title": "Sarah L.",
+            "subheading": "Verified Buyer",
+            "review_text": "What wonder is this?! This is the second mail order bamboo tp that we’ve tried as a family. And everyone prefers this one!! The dimples are helpful (to make the paper more plush & cleaning). Highly recommend!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-1": {
+          "type": "review",
+          "settings": {
+            "title": "Brenda P.",
+            "subheading": "Verified Buyer",
+            "review_text": "The best. Exactly as described- the STRONGEST toilet paper I have come across, and SOFT.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "29e1fc1b-8dfa-41f5-963b-0a78aea2b5ba": {
+          "type": "review",
+          "settings": {
+            "title": "Lulu P.",
+            "subheading": "Verified Buyer",
+            "review_text": "Surprisingly soft! Cute enough to stack without using my precious one bathroom cabinet (and no dust since they’re covered) and soft enough to keep me from going back to premium store-bought!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-2": {
+          "type": "review",
+          "settings": {
+            "title": "Shelley W.",
+            "subheading": "Verified Buyer",
+            "review_text": "Love this TP! I was just pleasantly surprised by the softness of this toilet paper. Also it looks so pretty in the bathroom because of all the prints and colors. We love it!",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "0adf90a6-efc6-4c1a-9f3d-a75f3437187e": {
+          "type": "review",
+          "settings": {
+            "title": "Rebecca M.",
+            "subheading": "Verified Buyer",
+            "review_text": "So pleased! We switched from Who Gives a Crap and have really enjoyed the lovely wrappers and feel it works better too.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        },
+        "d6da4605-a3c1-46dd-b7be-c940f120ee8d": {
+          "type": "review",
+          "settings": {
+            "title": "Lauren N.",
+            "subheading": "Verified Buyer",
+            "review_text": "Simply awesome. I switched to gono2 bamboo toilet paper during the height of the pandemic and I’ll never go back to normal toilet paper! It’s durable, easy to order and I’m helping the environment—that’s a win win.",
+            "review_url": "",
+            "show_half_star": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-0",
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-1",
+        "29e1fc1b-8dfa-41f5-963b-0a78aea2b5ba",
+        "template--16042764304563__26392da4-715e-41b2-ae83-3ccc6893899d-1667413257feba50ec-2",
+        "0adf90a6-efc6-4c1a-9f3d-a75f3437187e",
+        "d6da4605-a3c1-46dd-b7be-c940f120ee8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 0.5,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#558788",
+        "color": "#ffffff",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cbc43f3f-552d-451b-92c6-df0a218c4ab2": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_03",
+        "bg_color": "#efe7e7",
+        "wave_color": "#0b2d4a",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4f45e461-5b0c-4f85-abc1-e8d0dab0020c": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "153e1e02-3a2e-4b96-a9a3-4bf1259926f1": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "bg_position": "center-center",
+            "blob_color_1": "#d2d6d7",
+            "blob_color_2": "#d2d6d7",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "18e9bc8d-d427-4735-a230-801e1fa3b4d7": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>95% Less Butt Crumble<\/strong>™",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "00e5821d-bca8-4b9e-8a6b-1ae3df62d4ba": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a <strong>smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "f42994c0-8072-41db-ad10-fbbe3f6514cb": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "SHOP ALL PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "153e1e02-3a2e-4b96-a9a3-4bf1259926f1",
+        "18e9bc8d-d427-4735-a230-801e1fa3b4d7",
+        "00e5821d-bca8-4b9e-8a6b-1ae3df62d4ba",
+        "f42994c0-8072-41db-ad10-fbbe3f6514cb"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "mb_reverse_order": true,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
+    "ddd79b87-3310-4e6f-8557-48cd3368fcec": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "95f6957f-495a-44a4-9ca4-7e114b348463": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "95% Less Butt Crumble",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "c524bdbf-9503-4e24-a985-994ae37592f9": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "05e0fe6a-e88c-4b8f-8087-031852104b54": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "cddae023-150a-47a7-ba57-916a9da4ca93": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "95f6957f-495a-44a4-9ca4-7e114b348463",
+        "c524bdbf-9503-4e24-a985-994ae37592f9",
+        "05e0fe6a-e88c-4b8f-8087-031852104b54",
+        "cddae023-150a-47a7-ba57-916a9da4ca93"
+      ],
+      "disabled": true,
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Video.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": false,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
+      "type": "section-logo-list",
+      "blocks": {
+        "771325e4-d2fb-47b4-b58a-b48b336636af": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/todayShowLogo.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/goop.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/betterHomesLogo.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mbg_64a8c8b7-c824-44b0-b0ce-2a57811e7c2a.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "56f351c3-d44f-4177-830a-300440980aeb": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/UsaTodayLogo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "771325e4-d2fb-47b4-b58a-b48b336636af",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2",
+        "56f351c3-d44f-4177-830a-300440980aeb",
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6",
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "068888ff-1df2-45dc-9973-38710d74a0d7": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "0deg",
+        "wave_type": "wave_02",
+        "bg_color": "#efe7e7",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "80917f7c-db45-42b9-9414-95a00efaccd7": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "972e4fd4-2dab-4087-9016-817a592a6b32": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0133\/6872\/1472\/files\/strong-r2.mp4?17966",
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0133\/6872\/1472\/files\/strong-r2.mp4?17966",
+            "bg_position": "center-center",
+            "blob_color_1": "#c3cfd1",
+            "blob_color_2": "#c3cfd1",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "ac458034-5f1f-443a-9126-139e4c1d055b": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#ffffff",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Strong & Sustainable<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "43459839-1493-4c8d-af51-970b0243176b": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "8f6c92db-3a4f-4f24-8e81-fa53bcf95597": {
+          "type": "description",
+          "settings": {
+            "font_color": "#ffffff",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, <strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "f975e903-f71e-477f-bb21-c78871322f62": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "MORE ON BAMBOO",
+            "button_url": "",
+            "second_button_text": "",
+            "second_button_url": "",
+            "center": false
+          }
+        },
+        "79d566e5-ad7d-4a80-9d24-964959087d36": {
+          "type": "more-info",
+          "settings": {
+            "btn_text": "MORE ABOUT BAMBOO",
+            "title": "Bamboo Information",
+            "description": "<p>Bamboo is one of the fastest growing, strongest and most useful plants on the planet. With the ability to grow more than a meter a day, bamboo is a renewable resource that reaches maturity in 4-6 years or less; in sharp contrast, trees require decades (20 to 50 years) to recover from harvesting.<br\/><br\/>Truly a wonder of nature, bamboo grows easily, even in environmentally stressed areas and unique settings like mountainsides and steep slopes, where other crops cannot. The plant thrives in depleted soil and when it is cut, the stem is left in the soil to sprout a new shoot and start the growing process again. Releasing 30% more oxygen into the atmosphere and absorbing more carbon dioxide in comparison to other plants, bamboo protects the environment as it grows and even helps to reduce soil erosion.<br\/><br\/>Bamboo paper is recyclable. Just like paper made from wood pulp, bamboo paper can be recycled to lessen our impact on the environment and further reduce our reliance on trees and the catastrophic environmental effects of clear-cutting and deforestation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "972e4fd4-2dab-4087-9016-817a592a6b32",
+        "ac458034-5f1f-443a-9126-139e4c1d055b",
+        "43459839-1493-4c8d-af51-970b0243176b",
+        "8f6c92db-3a4f-4f24-8e81-fa53bcf95597",
+        "f975e903-f71e-477f-bb21-c78871322f62",
+        "79d566e5-ad7d-4a80-9d24-964959087d36"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "#548687",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": true,
+        "side_image": "shopify:\/\/shop_images\/Bamboo_Image_554ca356-4bfe-4c4e-981c-c371b07023f8.png",
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
+    "59d68671-452f-4d84-a955-9bb0f77b0a6e": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "612c64cb-44df-439d-a1d0-0c20ac3a069a": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#efe7e7",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Strong & Sustainable",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "d17c25b9-0d18-4196-a4cd-cdd5841259db": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "be67a71c-b44c-49be-8e09-b8536a3ad418": {
+          "type": "description",
+          "settings": {
+            "font_color": "#efe7e7",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumbleTM ? We think this video says it all! Butt crumbleTM is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumbleTM free.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "00ad46f7-ea9c-4404-845d-3ca4c057a3cc": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "MORE ON BAMBOO",
+            "button_url": "",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "612c64cb-44df-439d-a1d0-0c20ac3a069a",
+        "d17c25b9-0d18-4196-a4cd-cdd5841259db",
+        "be67a71c-b44c-49be-8e09-b8536a3ad418",
+        "00ad46f7-ea9c-4404-845d-3ca4c057a3cc"
+      ],
+      "disabled": true,
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Video_-_2.png",
+        "wrapper_color": "",
+        "bg_color": "#548687",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": false,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "8bdc79e3-8463-4d03-ac0a-2c29d81b0f11": {
+      "type": "gsa-waves-feature",
+      "settings": {
+        "wave_orientation": "180deg",
+        "wave_type": "wave_04",
+        "bg_color": "#efe7e7",
+        "wave_color": "#548687",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "31d9a266-6b42-4147-8434-39c7887fabf0": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "19972b52-7ff6-4bdb-b89a-5f70a69b1722": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Siiiiilky.<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "d737b3ac-504b-4e27-8bbb-fd141ffe9e43": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "d90ac6e9-3cd4-4cb8-ad95-1da37a16ea0a": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>When designing No. 2, we decided to max out the silkiness. What does that mean? Well, while it’s certainly soft to the touch and strong, you’ll find our unique texture unbelievably smooth and gentle on your skin. <strong>The end result is something more than you expect from a toilet paper: real tactile luxury.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7fc87933-6851-4760-8588-0f4baa1bbb66": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP NO.2 TOILET PAPER",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "second_button_text": "SHOP ALL PRODUCTS",
+            "second_button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "19972b52-7ff6-4bdb-b89a-5f70a69b1722",
+        "d737b3ac-504b-4e27-8bbb-fd141ffe9e43",
+        "d90ac6e9-3cd4-4cb8-ad95-1da37a16ea0a",
+        "7fc87933-6851-4760-8588-0f4baa1bbb66"
+      ],
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/Rizzi_-_Silllky.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": true,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "4477bbf8-5cd4-46b1-878d-ca3496718841": {
+      "type": "gsa-single-column",
+      "blocks": {
+        "ba849faf-c34e-4d1d-93bf-35e50616b6af": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>Rollin' In Style<\/strong>",
+            "product_title": false,
+            "text_align": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "9da91c21-cc7c-434e-ab56-5180e4806889": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 14,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Sustainability Meets Style<\/p>",
+            "product_description": false,
+            "text_align": "center",
+            "justify_content": "center",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7a8275e7-ab0a-4063-a6ec-bfa105eeb8af": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 96,
+            "border_radius": 4,
+            "justify_content": "center",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "c6eb7dc5-e133-4a25-9767-688561453b90": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": true
+          }
+        }
+      },
+      "block_order": [
+        "ba849faf-c34e-4d1d-93bf-35e50616b6af",
+        "9da91c21-cc7c-434e-ab56-5180e4806889",
+        "7a8275e7-ab0a-4063-a6ec-bfa105eeb8af",
+        "c6eb7dc5-e133-4a25-9767-688561453b90"
+      ],
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ddc62621-f8cf-4244-b339-7fede3e35da1": {
+      "type": "rizzi-tab-collections",
+      "blocks": {
+        "521f4d8c-9b2c-49aa-aeb2-0e1836f78835": {
+          "type": "product",
+          "settings": {
+            "featured_product": "no-2-toilet-paper-1",
+            "slide_tab_text": "Toilet Paper",
+            "title": "No.2 Toilet Paper",
+            "custom_description": "Premium 100% bamboo TP that provides <strong>silky and strong paper for the best Butt Crumble free™ wipe.<\/strong>",
+            "main_image": "shopify:\/\/shop_images\/No._2_June_2019-14_a14f443b-ef41-4a99-a12c-bba195c78d2b.webp",
+            "mini_image": "shopify:\/\/shop_images\/vibrantEssentialsStack.png",
+            "mini_image_background": "#0c2d4b",
+            "button_text": "SHOP NO.2 TP"
+          }
+        },
+        "dab2ddc3-a8ea-4d1f-82d1-399fd1e0b236": {
+          "type": "product",
+          "settings": {
+            "featured_product": "rizzi-paper-towels",
+            "slide_tab_text": "Paper Towels",
+            "title": "Paper Towels",
+            "custom_description": "<strong>Strong and absorbent <\/strong>100% bamboo paper towels wrapped in our stylish design, delivered right to your door.",
+            "main_image": "shopify:\/\/shop_images\/Paper_Towels.png",
+            "mini_image": "shopify:\/\/shop_images\/vibrantPTPDP_1.png",
+            "mini_image_background": "#548687",
+            "button_text": "SHOP PAPER TOWELS"
+          }
+        },
+        "61bf4a77-5111-447a-84f7-140bea324b6f": {
+          "type": "product",
+          "settings": {
+            "featured_product": "no-2-tissue-paper-test",
+            "slide_tab_text": "Tissues",
+            "title": "Tissues",
+            "custom_description": "Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong>",
+            "main_image": "shopify:\/\/shop_images\/VibrantTissuePBlueTin.png",
+            "mini_image": "shopify:\/\/shop_images\/VibrantTissuePStack.png",
+            "mini_image_background": "#e4d6d6",
+            "button_text": "SHOP FACIAL TISSUE"
+          }
+        }
+      },
+      "block_order": [
+        "521f4d8c-9b2c-49aa-aeb2-0e1836f78835",
+        "dab2ddc3-a8ea-4d1f-82d1-399fd1e0b236",
+        "61bf4a77-5111-447a-84f7-140bea324b6f"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "511212a6-c012-4e60-8995-3769fb7e3091": {
+      "type": "gsa-lineup",
+      "blocks": {
+        "64aff1b3-3827-4dc2-b6f8-8764487d5c77": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ToiletPaper.png",
+            "blob_color": "#c3cfd1",
+            "blob_deg": 0,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Toilet Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo TP that <strong>provides silky and strong paper for the best Crumble free™ <\/strong>wipe.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "SHOP NO.2 TP",
+            "button_url": "shopify:\/\/products\/no-2-toilet-paper-1",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "28bde089-2784-4846-8bd1-ad8dea9d87b9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PaperTowel.png",
+            "blob_color": "#c3cfd1",
+            "blob_deg": 0,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Paper Towel",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p><strong>Strong and absorbent <\/strong>100% bamboo paper towels wrapped in our stylish design, delivered right to your door.<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "SHOP PAPER TOWEL",
+            "button_url": "shopify:\/\/products\/rizzi-paper-towels",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "e9b4270a-f28d-4a3d-8ca3-4e46201961cf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TissuePapers.png",
+            "blob_color": "#c3cfd1",
+            "blob_deg": 0,
+            "p_font_color": "#000000",
+            "p_font_size": 42,
+            "p_line_height": 10,
+            "p_letter_spacing": 0,
+            "p_heading": "Tissue Paper",
+            "p_text_align": "left",
+            "p_display_options": "bl-hide-none",
+            "p_padding_horizontal": false,
+            "p_padding_top": 0,
+            "p_padding_bottom": 0,
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 16,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>Premium 100% bamboo tissue, <strong>free from dyes, scents, BPA and irritating additives.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6,
+            "button_text": "SHOP FACIAL TISSUE",
+            "button_url": "shopify:\/\/products\/no-2-tissue-paper-test",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "64aff1b3-3827-4dc2-b6f8-8764487d5c77",
+        "28bde089-2784-4846-8bd1-ad8dea9d87b9",
+        "e9b4270a-f28d-4a3d-8ca3-4e46201961cf"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "border_radius": 4,
+        "bg_color": "",
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "6b6e032a-77d7-44a6-8608-dc5324bf7e18": {
+      "type": "gsa-image-with-text",
+      "blocks": {
+        "3e5af6ba-9f35-4f2e-b039-30174296288a": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 52,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Rizzi Essentials Bundle",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "86f3fc15-6fe5-4a88-8161-6a3a06ec8691": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "7ba7e1fa-88e9-4d5c-9dfe-00c40ace9d44": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>24 rolls of toilet paper, 12 rolls of paper towels and 12 boxes of facial tissues bundled together!<\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SHOP ESSENTIALS BUNDLE",
+            "button_url": "shopify:\/\/products\/rizzi-home-bundle",
+            "second_button_text": "Learn more",
+            "second_button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "center": false
+          }
+        },
+        "84c6538a-a130-4cc4-b824-510e68a129d6": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "color": "#0c2d4b",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "3e5af6ba-9f35-4f2e-b039-30174296288a",
+        "86f3fc15-6fe5-4a88-8161-6a3a06ec8691",
+        "7ba7e1fa-88e9-4d5c-9dfe-00c40ace9d44",
+        "a52ea7d6-4457-4eb3-9c75-e3c7500aa7d1",
+        "84c6538a-a130-4cc4-b824-510e68a129d6"
+      ],
+      "disabled": true,
+      "settings": {
+        "dt_reverse_order": true,
+        "grid_layout": "1fr 1fr",
+        "gap": 32,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "image": "shopify:\/\/shop_images\/EssentialsBundle-3_47ed0e80-2454-4e3e-b5d7-860682af3948.png",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "#c3cfd1",
+        "blob-bottom-left": true,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mb_reverse_order": true,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "7f111f48-db6a-49bf-9a04-af6ed9cda102": {
+      "type": "gsa-section-blob",
+      "blocks": {
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 50,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "Sustainability Meets Convenience",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 3,
+            "accent_width": 48,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Choose a subscription plan"
+          }
+        },
+        "c31b23c2-5f89-4792-99d3-31333430f483": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Paper products will conveniently ship to your door"
+          }
+        },
+        "9fc65364-ff99-46f2-a19b-9ccf7c065d77": {
+          "type": "bullet",
+          "settings": {
+            "bullet": "Pause, skip or cancel anytime"
+          }
+        },
+        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b": {
+          "type": "first_button",
+          "settings": {
+            "button_text": "SUBSCRIBE & SAVE",
+            "button_url": "shopify:\/\/collections\/our-lineup",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "a297a344-97f9-4a68-95ca-f04d925bd923": {
+          "type": "second_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d": {
+          "type": "reviews",
+          "settings": {
+            "reviews_text": "4.7 Stars out of 1,572 reviews.",
+            "reviews_link": "",
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "19c04776-2e1c-4aac-8ee5-015f2f4ea15c",
+        "8b32ef0a-a3f0-4507-95c4-042ff2d2a0fa",
+        "bb2cdaff-cf9a-4e10-a148-a01149db9cf5",
+        "c31b23c2-5f89-4792-99d3-31333430f483",
+        "9fc65364-ff99-46f2-a19b-9ccf7c065d77",
+        "2eb7b64d-cd4d-4da3-ab73-0a270fb0677b",
+        "a297a344-97f9-4a68-95ca-f04d925bd923",
+        "563b091f-6a0a-4b44-a43e-0cc0a9775e0d"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_right": true,
+        "dt_container_height": 600,
+        "mb_container_height": 350,
+        "image_background": "shopify:\/\/shop_images\/Rectangle_744.png",
+        "image_background_height": 400,
+        "image": "shopify:\/\/shop_images\/no2photos-14.png",
+        "image_height": 600,
+        "show_animation": true,
+        "image_style": "gsa-masked-image-1",
+        "image_x_position": "pos-left",
+        "image_y_position": "pos-top",
+        "blob_x_position": "pos-far-right",
+        "blob_y_position": "pos-top",
+        "width": "wrapper",
+        "bg_color": "#efe7e7",
+        "color": "#111827",
+        "blob_color": "#558788",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "side_image": "shopify:\/\/shop_images\/squiggle_917ea66a-ec18-4009-9884-15fe61464559.png",
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 700,
+        "side_image_width": 75,
+        "mb_side_image_height": 300,
+        "mb_side_image_width": 50,
+        "video_link_bg": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile"
+      }
+    },
+    "4c7c4bdb-6cf7-433c-9921-e7ee5f200154": {
+      "type": "gsa-lifestyle-static-images",
+      "blocks": {
+        "840ef17c-3d29-4fe3-8496-81958ed691ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_40_f5bb7aa7-a6c4-4aeb-991a-09c20f6f14cf.png",
+            "url": ""
+          }
+        },
+        "a2a1b052-484c-4447-9f9d-a94871288b36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-29_5_f4672b2c-3402-4e97-add8-41a0351bae2c.png",
+            "url": ""
+          }
+        },
+        "4c6b841e-dd89-415c-b866-3e04f1ce2859": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No_2_December_2019-9_5_b144b576-073b-4778-88eb-f1e60b335304.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "840ef17c-3d29-4fe3-8496-81958ed691ad",
+        "a2a1b052-484c-4447-9f9d-a94871288b36",
+        "4c6b841e-dd89-415c-b866-3e04f1ce2859"
+      ],
+      "settings": {
+        "arrow_color": "#efe7e7",
+        "hide_arrows": false,
+        "dot": "#0c2d4b",
+        "hide_dots": false,
+        "wave_color_top": "#efe7e7",
+        "wave_color_bottom": "#0c2d4b",
+        "hide_footer_svg": true
+      }
+    }
+  },
+  "order": [
+    "25e7f8ae-339f-4a91-a04a-25d5ccff3837",
+    "880a7724-7c59-41ac-8854-0867d5534924",
+    "47a5cc6e-cf30-437e-8226-107b1470e494",
+    "9a5eb472-49ee-459a-a991-3a5e485a776d",
+    "b5d0fa1f-3c15-4b0a-976a-049da8ca1323",
+    "fe55f302-37b6-484d-8082-4735fd7cb5b0",
+    "26392da4-715e-41b2-ae83-3ccc6893899d",
+    "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
+    "4f45e461-5b0c-4f85-abc1-e8d0dab0020c",
+    "ddd79b87-3310-4e6f-8557-48cd3368fcec",
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
+    "068888ff-1df2-45dc-9973-38710d74a0d7",
+    "80917f7c-db45-42b9-9414-95a00efaccd7",
+    "59d68671-452f-4d84-a955-9bb0f77b0a6e",
+    "8bdc79e3-8463-4d03-ac0a-2c29d81b0f11",
+    "31d9a266-6b42-4147-8434-39c7887fabf0",
+    "4477bbf8-5cd4-46b1-878d-ca3496718841",
+    "ddc62621-f8cf-4244-b339-7fede3e35da1",
+    "511212a6-c012-4e60-8995-3769fb7e3091",
+    "6b6e032a-77d7-44a6-8608-dc5324bf7e18",
+    "7f111f48-db6a-49bf-9a04-af6ed9cda102",
+    "4c7c4bdb-6cf7-433c-9921-e7ee5f200154"
+  ]
+}
