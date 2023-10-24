@@ -249,6 +249,117 @@
         "padding_bottom": 12
       }
     },
+    "dcf13bf9-249c-407f-be9d-d18a6489fa83": {
+      "type": "gsa-video-with-text",
+      "blocks": {
+        "3904036d-02ba-4c10-a085-7e08e63c1aeb": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
+            "bg_position": "center-center",
+            "blob_color_1": "#d2d6d7",
+            "blob_color_2": "#d2d6d7",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3": {
+          "type": "heading",
+          "settings": {
+            "font_color": "#000000",
+            "font_size": 60,
+            "line_height": 10,
+            "letter_spacing": 0,
+            "heading": "<strong>95% Less Butt Crumble™<\/strong>",
+            "product_title": false,
+            "text_align": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d": {
+          "type": "accent",
+          "settings": {
+            "color": "#ff4a1c",
+            "accent_height": 2,
+            "accent_width": 96,
+            "border_radius": 4,
+            "justify_content": "left",
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        },
+        "8617c937-08e5-453d-9a7f-cd972fc43cee": {
+          "type": "description",
+          "settings": {
+            "font_color": "#000000",
+            "accent_color": "#000000",
+            "font_size": 18,
+            "line_height": 50,
+            "letter_spacing": 0,
+            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free. <strong>You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/strong><\/p>",
+            "product_description": false,
+            "text_align": "left",
+            "justify_content": "left",
+            "max_width": 576,
+            "display_options": "bl-hide-none",
+            "padding_horizontal": false,
+            "padding_top": 6,
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "3904036d-02ba-4c10-a085-7e08e63c1aeb",
+        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3",
+        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d",
+        "8617c937-08e5-453d-9a7f-cd972fc43cee"
+      ],
+      "settings": {
+        "dt_reverse_order": false,
+        "grid_layout": "1fr 1fr",
+        "gap": 12,
+        "border_radius": 4,
+        "width": 1200,
+        "self_alignment": "center",
+        "dt_height": "height--none",
+        "mb_height": "mb-height--none",
+        "wrapper_color": "",
+        "bg_color": "",
+        "blob_color": "",
+        "blob-bottom-left": false,
+        "bg_image_size": "cover",
+        "image_alignment_x": "center",
+        "image_alignment_y": "center",
+        "overlay_color": "#000000",
+        "opacity": 60,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "mb_reverse_order": true,
+        "side_image_x_position": "pos-side-image-left",
+        "side_image_height": 500,
+        "side_image_width": 200,
+        "mb_side_image_height": 500,
+        "mb_side_image_width": 200
+      }
+    },
     "7eb5d854-c0c1-49f4-be09-07f464598753": {
       "type": "gsa-waves-feature",
       "settings": {
@@ -639,117 +750,6 @@
         "padding_bottom": 0
       }
     },
-    "dcf13bf9-249c-407f-be9d-d18a6489fa83": {
-      "type": "gsa-video-with-text",
-      "blocks": {
-        "3904036d-02ba-4c10-a085-7e08e63c1aeb": {
-          "type": "video",
-          "settings": {
-            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08d7200ba2794cb4975f16ebf657387b.mp4",
-            "bg_position": "center-center",
-            "blob_color_1": "#d2d6d7",
-            "blob_color_2": "#d2d6d7",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3": {
-          "type": "heading",
-          "settings": {
-            "font_color": "#000000",
-            "font_size": 60,
-            "line_height": 10,
-            "letter_spacing": 0,
-            "heading": "<strong>95% Less Butt Crumble™<\/strong>",
-            "product_title": false,
-            "text_align": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 0,
-            "padding_bottom": 0
-          }
-        },
-        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d": {
-          "type": "accent",
-          "settings": {
-            "color": "#ff4a1c",
-            "accent_height": 2,
-            "accent_width": 96,
-            "border_radius": 4,
-            "justify_content": "left",
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 6
-          }
-        },
-        "8617c937-08e5-453d-9a7f-cd972fc43cee": {
-          "type": "description",
-          "settings": {
-            "font_color": "#000000",
-            "accent_color": "#000000",
-            "font_size": 18,
-            "line_height": 50,
-            "letter_spacing": 0,
-            "description": "<p>This is serious. What is butt crumble™? We think this video says it all! Butt crumble™ is essentially the unwanted gifts those other papers leave behind when you wipe. No, thank you! In fact, we decided to personally test a whole lot of different paper materials to create a smooth and silky toilet paper that’ll have you exiting the bathroom butt crumble™ free. <strong>You’ll find yourself equipped with a light, clean feeling and more pep in your step.<\/strong><\/p>",
-            "product_description": false,
-            "text_align": "left",
-            "justify_content": "left",
-            "max_width": 576,
-            "display_options": "bl-hide-none",
-            "padding_horizontal": false,
-            "padding_top": 6,
-            "padding_bottom": 6
-          }
-        }
-      },
-      "block_order": [
-        "3904036d-02ba-4c10-a085-7e08e63c1aeb",
-        "04e95c4a-aabe-4aa4-ac94-9b60caabd5e3",
-        "2ba04d6b-8a4b-4f19-ab90-3fce769ed31d",
-        "8617c937-08e5-453d-9a7f-cd972fc43cee"
-      ],
-      "settings": {
-        "dt_reverse_order": false,
-        "grid_layout": "1fr 1fr",
-        "gap": 12,
-        "border_radius": 4,
-        "width": 1200,
-        "self_alignment": "center",
-        "dt_height": "height--none",
-        "mb_height": "mb-height--none",
-        "wrapper_color": "",
-        "bg_color": "",
-        "blob_color": "",
-        "blob-bottom-left": false,
-        "bg_image_size": "cover",
-        "image_alignment_x": "center",
-        "image_alignment_y": "center",
-        "overlay_color": "#000000",
-        "opacity": 60,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "mb_reverse_order": true,
-        "side_image_x_position": "pos-side-image-left",
-        "side_image_height": 500,
-        "side_image_width": 200,
-        "mb_side_image_height": 500,
-        "mb_side_image_width": 200
-      }
-    },
     "1056dd8a-ce15-4b74-b525-20fd172904b9": {
       "type": "gsa-image-with-text",
       "blocks": {
@@ -943,6 +943,7 @@
   "order": [
     "main",
     "3c2b9368-b341-45ba-91a4-2611799b4336",
+    "dcf13bf9-249c-407f-be9d-d18a6489fa83",
     "7eb5d854-c0c1-49f4-be09-07f464598753",
     "2ebcde0f-15d5-41df-921e-c81cbb588b0f",
     "b0f973bc-0fc5-453e-9976-07d98a5a5e18",
@@ -952,7 +953,6 @@
     "d5715a10-7609-472d-8360-092d122af094",
     "reviews",
     "related",
-    "dcf13bf9-249c-407f-be9d-d18a6489fa83",
     "1056dd8a-ce15-4b74-b525-20fd172904b9",
     "166741667658a4499b",
     "e54f8912-fb0b-43a1-b9ac-92c9dfebc2d6"
