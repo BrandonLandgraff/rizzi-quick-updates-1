@@ -517,6 +517,83 @@
         "padding_bottom": 0
       }
     },
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
+      "type": "section-logo-list",
+      "blocks": {
+        "771325e4-d2fb-47b4-b58a-b48b336636af": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/todayShowLogo.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/goop.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/betterHomesLogo.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mbg_64a8c8b7-c824-44b0-b0ce-2a57811e7c2a.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "56f351c3-d44f-4177-830a-300440980aeb": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a.png",
+            "logo_width": 180,
+            "link": ""
+          }
+        },
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/UsaTodayLogo.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "771325e4-d2fb-47b4-b58a-b48b336636af",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0",
+        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2",
+        "56f351c3-d44f-4177-830a-300440980aeb",
+        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6",
+        "38661ee2-cf4a-4829-b8df-8b005bf3b283"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "4f45e461-5b0c-4f85-abc1-e8d0dab0020c": {
       "type": "gsa-video-with-text",
       "blocks": {
@@ -723,83 +800,6 @@
         "mobile_height": "screen-height-three-quarters--mobile"
       }
     },
-    "557f6911-0dd5-4f9f-b012-a8aedfb2178e": {
-      "type": "section-logo-list",
-      "blocks": {
-        "771325e4-d2fb-47b4-b58a-b48b336636af": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/todayShowLogo.png",
-            "logo_width": 100,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/goop.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/betterHomesLogo.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/mbg_64a8c8b7-c824-44b0-b0ce-2a57811e7c2a.png",
-            "logo_width": 150,
-            "link": ""
-          }
-        },
-        "56f351c3-d44f-4177-830a-300440980aeb": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/pinpng.com-magazine-png-2371512.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        },
-        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/pvn_logo_960x166_4fa80f5b-3319-426a-b36b-b497e6beba3a.png",
-            "logo_width": 180,
-            "link": ""
-          }
-        },
-        "38661ee2-cf4a-4829-b8df-8b005bf3b283": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/UsaTodayLogo.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "771325e4-d2fb-47b4-b58a-b48b336636af",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-1",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-0",
-        "template--16016498196659__557f6911-0dd5-4f9f-b012-a8aedfb2178e-1665173332342fc34d-2",
-        "56f351c3-d44f-4177-830a-300440980aeb",
-        "c9c4ae55-b18f-4f6d-9306-ba7619adb8e6",
-        "38661ee2-cf4a-4829-b8df-8b005bf3b283"
-      ],
-      "settings": {
-        "title": "",
-        "bg_color": "#efe7e7",
-        "color": "",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "068888ff-1df2-45dc-9973-38710d74a0d7": {
       "type": "gsa-waves-feature",
       "settings": {
@@ -876,7 +876,7 @@
             "font_size": 16,
             "line_height": 50,
             "letter_spacing": 0,
-            "description": "<p>Why use bamboo toilet paper? Global toilet paper production consumes 27,000 trees daily. Yep - Daily! Bamboo can be harvested yearly compared to trees which are harvested every 20 to 50 years (or more!). Besides being a better choice for our planet, <strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
+            "description": "<p><strong>Because of bamboo's fast growth cycle, it can be harvested every 4-6 years, <\/strong>compared to regular trees which are harvested every 20 to 50 years or more! Besides being a better choice for our planet, <strong>bamboo toilet paper is also nice and strong, creating an amazing wiping experience.<\/strong><\/p>",
             "product_description": false,
             "text_align": "left",
             "justify_content": "left",
@@ -901,9 +901,9 @@
         "79d566e5-ad7d-4a80-9d24-964959087d36": {
           "type": "more-info",
           "settings": {
-            "btn_text": "MORE ABOUT BAMBOO",
+            "btn_text": "WHY BAMBOO?",
             "title": "Bamboo Information",
-            "description": "<p>Bamboo is one of the fastest growing, strongest and most useful plants on the planet. With the ability to grow more than a meter a day, bamboo is a renewable resource that reaches maturity in 4-6 years or less; in sharp contrast, trees require decades (20 to 50 years) to recover from harvesting.<br\/><br\/>Truly a wonder of nature, bamboo grows easily, even in environmentally stressed areas and unique settings like mountainsides and steep slopes, where other crops cannot. The plant thrives in depleted soil and when it is cut, the stem is left in the soil to sprout a new shoot and start the growing process again. Releasing 30% more oxygen into the atmosphere and absorbing more carbon dioxide in comparison to other plants, bamboo protects the environment as it grows and even helps to reduce soil erosion.<br\/><br\/>Bamboo paper is recyclable. Just like paper made from wood pulp, bamboo paper can be recycled to lessen our impact on the environment and further reduce our reliance on trees and the catastrophic environmental effects of clear-cutting and deforestation.<\/p>"
+            "description": "<p>Bamboo is one of the fastest growing, strongest and most useful plants on the planet. With the ability to grow more than a meter a day, bamboo is a renewable resource that reaches maturity in 4-6 years or less; in sharp contrast, trees require decades (20 to 50 years) to recover from harvesting. <strong>This makes bamboo up to 7x more renewable than regular tree pulp.<\/strong><br\/><br\/>Truly a wonder of nature, bamboo grows easily, even in environmentally stressed areas and unique settings like mountainsides and steep slopes, where other crops cannot. The plant thrives in depleted soil and when it is cut, the stem is left in the soil to sprout a new shoot and start the growing process again. <strong>Releasing 30% more oxygen into the atmosphere<\/strong> and <strong>absorbing more carbon dioxide<\/strong> in comparison to other plants, bamboo protects the environment as it grows and even helps to reduce soil erosion.<br\/><br\/><strong>Bamboo paper is recyclable.<\/strong> Just like paper made from wood pulp, bamboo paper can be recycled to lessen our impact on the environment and further reduce our reliance on trees and the catastrophic environmental effects of clear-cutting and deforestation.<\/p>"
           }
         }
       },
@@ -1708,9 +1708,9 @@
     "fe55f302-37b6-484d-8082-4735fd7cb5b0",
     "26392da4-715e-41b2-ae83-3ccc6893899d",
     "cbc43f3f-552d-451b-92c6-df0a218c4ab2",
+    "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "4f45e461-5b0c-4f85-abc1-e8d0dab0020c",
     "ddd79b87-3310-4e6f-8557-48cd3368fcec",
-    "557f6911-0dd5-4f9f-b012-a8aedfb2178e",
     "068888ff-1df2-45dc-9973-38710d74a0d7",
     "80917f7c-db45-42b9-9414-95a00efaccd7",
     "59d68671-452f-4d84-a955-9bb0f77b0a6e",
