@@ -62,7 +62,7 @@
     "464e7319-98a2-45c5-8aa2-cf18af3b8942": {
       "type": "section-rich-text",
       "settings": {
-        "subheading": "The ELVAN Collection",
+        "subheading": "The Elvan Collection",
         "subheading_size": 3,
         "title": "INTRODUCING...",
         "heading_size": 9,
@@ -244,6 +244,7 @@
         "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-2",
         "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-1"
       ],
+      "disabled": true,
       "settings": {
         "home_product": "popup-shop-test-product-3",
         "image_layout": "thumbnails-left",
