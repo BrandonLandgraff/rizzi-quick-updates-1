@@ -1,1 +1,350 @@
-{"sections":{"fded3abd-2d7b-4818-9f97-973e065a3c33":{"type":"rizzi_hero_section","blocks":{"template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/hi_res-1c-Rizi_Home_r1_0660_540x_1.png","banner_mobile_image":"shopify:\/\/shop_images\/hi_res-1c-Rizi_Home_r1_0660_540x_1.png","bg_position":"center-center","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"title":"","heading_size":7,"description":"","text_size":3,"flex_align":"align--middle-center","bg_color":"","color":"#ffffff","link_text":"","link":"","button_color":"btn--white","button_style":"hero__btn btn btn--large btn--outline caps"}},"template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-1":{"type":"text","settings":{"subheading":"Introducing","subheading_size":3,"title":"The Elvan Collection","heading_size":10,"text":"<p>A collection of bowls and salad servers. Each piece is crafted from resin, which is delightfully shatter proof. Due to the nature of this product, variation in pattern and curvature is to be expected. Items from this collection can be mixed with any table setting and are meant to be statement pieces that will spark a joyful conversation over every meal. An entertaining gift.<\/p>","text_size":3,"text_columns":1,"align_text":"text-left","bg_color":"","color":"","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"hero__btn btn btn--large btn--outline caps","show_social_links":false}}},"block_order":["template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-0","template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-1"],"settings":{"height":"image-height","width":"wrapper--full","padding":false,"borders":false,"padding_top":0,"padding_bottom":0}},"464e7319-98a2-45c5-8aa2-cf18af3b8942":{"type":"section-rich-text","settings":{"subheading":"The ELVAN Collection","subheading_size":3,"title":"INTRODUCING...","heading_size":9,"text":"","text_size":4,"text_columns":1,"align_text":"text-center","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"standard__cta caps--large","width":"wrapper","bg_color":"#efe7e7","color":"","padding_top":50,"padding_bottom":0}},"main":{"type":"collection","blocks":{"076fa616-af38-45df-b0a8-0aad5ef506df":{"type":"featured_image","disabled":true,"settings":{"featured_image":"shopify:\/\/shop_images\/custom_resized_265dbc19-1948-4bac-b326-2f176af60f03.png","featured_image_bg_position":"center-center","featured_heading":"","featured_text":"","featured_button_text":"","featured_button_link":"","featured_color_text":"#ffffff","featured_color_overlay":"#222222","featured_overlay_opacity":0}}},"block_order":["076fa616-af38-45df-b0a8-0aad5ef506df"],"settings":{"enable_sort":false,"enable_filters":false,"filter_layout":"inline-open","grid":5,"grid_mobile":"2","product_limit":14,"padding_top":0,"padding_bottom":0}},"7dc41386-90b4-4711-b421-e3fa1add2b9d":{"type":"section-text-row","disabled":true,"blocks":{"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0":{"type":"text-item","settings":{"icon_name":"icon-earth","icon_color":"#545454","title":"Strong & Sustainable","text":""}},"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1":{"type":"text-item","settings":{"icon_name":"icon-leaf","icon_color":"#545454","title":"Siiiiiiilky","text":""}},"template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2":{"type":"text-item","settings":{"icon_name":"icon-rating","icon_color":"#545454","title":"Stylish","text":""}},"2c9b1bfc-7632-4822-8bf5-9aec8b2f3750":{"type":"text-item","settings":{"icon_name":"icon-truck","icon_color":"#545454","title":"Free Subscriber Shipping","text":""}}},"block_order":["template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0","template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1","template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2","2c9b1bfc-7632-4822-8bf5-9aec8b2f3750"],"settings":{"text_alignment":"center","icon_size":50,"icon_alignment":"icon--top","heading_size":"h6","bg_color":"#efe7e7","color":"","padding_top":50,"padding_bottom":40}},"e16a7ea6-ce71-4f55-b7f4-88e64becab98":{"type":"section-rich-text","settings":{"subheading":"","subheading_size":3,"title":"FEATURED PRODUCT","heading_size":8,"text":"","text_size":4,"text_columns":1,"align_text":"text-center","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"standard__cta caps--large","width":"wrapper","bg_color":"","color":"","padding_top":30,"padding_bottom":0}},"75345c8b-5b01-47f9-9de5-fbc93062d6e9":{"type":"section-product","blocks":{"template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-0":{"type":"price_and_title","settings":{"subheading_option":"none","show_rating":true,"enable_star_rating":true,"show_rating_count":false}},"a4f3f295-5332-405b-a32d-ba99d0d77454":{"type":"product_price","settings":{}},"template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-2":{"type":"tab_richtext","settings":{"show_read_more":true,"style":"inline","title_1":"Tab","raw_content_1":"<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>","title_2":"Info","raw_content_2":"<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>","title_3":"","raw_content_3":"","title_4":"","raw_content_4":"","title_5":"","raw_content_5":""}},"template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-1":{"type":"form","settings":{"info_page":"","show_quantity":true,"show_payment_button":false,"subscriptions_enable_selectors":false}}},"block_order":["template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-0","a4f3f295-5332-405b-a32d-ba99d0d77454","template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-2","template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-1"],"settings":{"home_product":"popup-shop-test-product-3","image_layout":"thumbnails-left","enable_zoom":true,"enable_video_looping":false,"bg_color":"rgba(0,0,0,0)","color":"","border_color":"","block_padding":10,"padding_top":20,"padding_bottom":50}},"f684c8b1-a93f-4716-a0dc-7970f4771438":{"type":"section-look","disabled":true,"blocks":{"template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-0":{"type":"product","settings":{"product":"no-2-toilet-paper-1","position_x":14,"position_y":37}},"template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-1":{"type":"product","settings":{"product":"rizzi-home-bundle","position_x":45,"position_y":60}},"ad969474-cbb1-4710-88d9-359f4121e3ed":{"type":"product","settings":{"product":"rizzi-paper-towels","position_x":29,"position_y":79}}},"block_order":["template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-0","template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-1","ad969474-cbb1-4710-88d9-359f4121e3ed"],"settings":{"image":"shopify:\/\/shop_images\/ezgif.com-gif-maker.gif","bg_position":"center-center","title":"Shop the look","bg_color":"","color":"","dot_color":"","dot_background":"","padding_top":0,"padding_bottom":0}},"hero":{"type":"collection-image-with-title","disabled":true,"settings":{"show_title":true,"show_description":true,"flex_align":"align--middle-left","bg_color":"","color":"","show_image":true,"banner_layout":"overlay","height":"screen-height-one-third","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"padding_top":0,"padding_bottom":0}},"subcollections":{"type":"subcollections","disabled":true,"settings":{"subcollection_layout":"grid","subcollection_description":false,"select_image":"collection","padding_top":20,"padding_bottom":20}}},"order":["fded3abd-2d7b-4818-9f97-973e065a3c33","464e7319-98a2-45c5-8aa2-cf18af3b8942","main","7dc41386-90b4-4711-b421-e3fa1add2b9d","e16a7ea6-ce71-4f55-b7f4-88e64becab98","75345c8b-5b01-47f9-9de5-fbc93062d6e9","f684c8b1-a93f-4716-a0dc-7970f4771438","hero","subcollections"]}
+{
+  "sections": {
+    "fded3abd-2d7b-4818-9f97-973e065a3c33": {
+      "type": "rizzi_hero_section",
+      "blocks": {
+        "template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hi_res-1c-Rizi_Home_r1_0660_540x_1.png",
+            "banner_mobile_image": "shopify:\/\/shop_images\/hi_res-1c-Rizi_Home_r1_0660_540x_1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Elvan Collection Sale",
+            "heading_size": 12,
+            "text": "<p>Each piece is crafted from resin, which is delightfully shatter proof. <strong>Spark a joyful conversation over every meal. <\/strong><\/p>",
+            "text_size": 6,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-0",
+        "template--16152699666611__fded3abd-2d7b-4818-9f97-973e065a3c33-167935221436136a51-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "464e7319-98a2-45c5-8aa2-cf18af3b8942": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "Nov 1-6th",
+        "subheading_size": 3,
+        "title": "Get 30% Off",
+        "heading_size": 11,
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "076fa616-af38-45df-b0a8-0aad5ef506df": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/custom_resized_265dbc19-1948-4bac-b326-2f176af60f03.png",
+            "featured_image_bg_position": "center-center",
+            "featured_heading": "",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "076fa616-af38-45df-b0a8-0aad5ef506df"
+      ],
+      "settings": {
+        "enable_sort": false,
+        "enable_filters": false,
+        "filter_layout": "inline-open",
+        "grid": 5,
+        "grid_mobile": "2",
+        "product_limit": 14,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7dc41386-90b4-4711-b421-e3fa1add2b9d": {
+      "type": "section-text-row",
+      "blocks": {
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#545454",
+            "title": "Strong & Sustainable",
+            "text": ""
+          }
+        },
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#545454",
+            "title": "Siiiiiiilky",
+            "text": ""
+          }
+        },
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_color": "#545454",
+            "title": "Stylish",
+            "text": ""
+          }
+        },
+        "2c9b1bfc-7632-4822-8bf5-9aec8b2f3750": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#545454",
+            "title": "Free Subscriber Shipping",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-0",
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-1",
+        "template--16016498131123__7dc41386-90b4-4711-b421-e3fa1add2b9d-16651763441c2224eb-2",
+        "2c9b1bfc-7632-4822-8bf5-9aec8b2f3750"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_size": 50,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "#efe7e7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 40
+      }
+    },
+    "e16a7ea6-ce71-4f55-b7f4-88e64becab98": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "title": "FEATURED PRODUCT",
+        "heading_size": 8,
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "standard__cta caps--large",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "75345c8b-5b01-47f9-9de5-fbc93062d6e9": {
+      "type": "section-product",
+      "blocks": {
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-0": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "none",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "a4f3f295-5332-405b-a32d-ba99d0d77454": {
+          "type": "product_price",
+          "settings": {
+          }
+        },
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-2": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "inline",
+            "title_1": "Tab",
+            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-1": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_quantity": true,
+            "show_payment_button": false,
+            "subscriptions_enable_selectors": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-0",
+        "a4f3f295-5332-405b-a32d-ba99d0d77454",
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-2",
+        "template--16152699666611__75345c8b-5b01-47f9-9de5-fbc93062d6e9-16794136659546e98d-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "home_product": "popup-shop-test-product-3",
+        "image_layout": "thumbnails-left",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "border_color": "",
+        "block_padding": 10,
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "f684c8b1-a93f-4716-a0dc-7970f4771438": {
+      "type": "section-look",
+      "blocks": {
+        "template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-0": {
+          "type": "product",
+          "settings": {
+            "product": "no-2-toilet-paper-1",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-1": {
+          "type": "product",
+          "settings": {
+            "product": "rizzi-home-bundle",
+            "position_x": 45,
+            "position_y": 60
+          }
+        },
+        "ad969474-cbb1-4710-88d9-359f4121e3ed": {
+          "type": "product",
+          "settings": {
+            "product": "rizzi-paper-towels",
+            "position_x": 29,
+            "position_y": 79
+          }
+        }
+      },
+      "block_order": [
+        "template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-0",
+        "template--16152699666611__f684c8b1-a93f-4716-a0dc-7970f4771438-1679352386e0e8ed47-1",
+        "ad969474-cbb1-4710-88d9-359f4121e3ed"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.gif",
+        "bg_position": "center-center",
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "fded3abd-2d7b-4818-9f97-973e065a3c33",
+    "464e7319-98a2-45c5-8aa2-cf18af3b8942",
+    "main",
+    "7dc41386-90b4-4711-b421-e3fa1add2b9d",
+    "e16a7ea6-ce71-4f55-b7f4-88e64becab98",
+    "75345c8b-5b01-47f9-9de5-fbc93062d6e9",
+    "f684c8b1-a93f-4716-a0dc-7970f4771438",
+    "hero",
+    "subcollections"
+  ]
+}
