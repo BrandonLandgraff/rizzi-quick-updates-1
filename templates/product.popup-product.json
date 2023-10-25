@@ -68,8 +68,8 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "thumbnails",
-        "image_size": "small",
+        "image_layout": "grid-1",
+        "image_size": "stretch",
         "show_cart_bar": true,
         "enable_zoom": true,
         "enable_video_looping": false,
@@ -106,7 +106,6 @@
     },
     "9a33c331-8a75-4ff9-a5d8-8aa7a3651013": {
       "type": "rizzi_hero_section",
-      "disabled": true,
       "blocks": {
         "template--16152708219059__9a33c331-8a75-4ff9-a5d8-8aa7a3651013-1679519236077b5648-0": {
           "type": "image",
@@ -153,6 +152,7 @@
         "template--16152708219059__9a33c331-8a75-4ff9-a5d8-8aa7a3651013-1679519236077b5648-0",
         "template--16152708219059__9a33c331-8a75-4ff9-a5d8-8aa7a3651013-1679519236077b5648-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "width": "wrapper--full",
@@ -229,7 +229,6 @@
     },
     "c63e3db2-0b4b-43e4-8e7a-be9812801b76": {
       "type": "section-sidebar",
-      "disabled": true,
       "blocks": {
         "b79595ef-c5fb-44f3-8b3d-74ac0a2ce45b": {
           "type": "header",
@@ -288,6 +287,7 @@
         "f879164e-e396-45db-be25-3dd1f98f14dd",
         "a1891ab8-8912-4f8b-bcb9-b24ad677fbbc"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper",
         "bg_color": "",
