@@ -8,7 +8,7 @@
 {
 "@context": "https://schema.org/",
 "@type": "Product",
-"@id": "{{ canonical_url | default product.id }}",
+"@id": "{{ canonical_url | default }}",
 "name": "{{ product.title | strip_html | strip_newlines | strip | escape }}",
 "description": "{{ product.description | strip_html | strip_newlines | strip | escape }}",
 "brand": {
@@ -256,4 +256,13 @@
   }
   </script>
   <!-- Added by AVADA SEO Suite -->
-  {%- endif -%}
+  {%- endif -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{ canonical_url | default product.id }}"
+  to: "{{ canonical_url | default }}"
+  position: 320..349
+{%- endcomment -%}
